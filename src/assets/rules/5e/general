@@ -1,0 +1,17 @@
+{
+  "deathsaves": [
+    {
+      "name": "Death Saves",
+      "sections": [
+        {
+          "name": "Falling to 0 HP",
+          "body": "If you hit 0 HP you start dying."
+        },
+        {
+          "name": "Immediate Death",
+          "body": "You can immediately die if you drop to 0 HP and then any additional damage deals over your hit point maximum."
+        }
+      ]
+    }
+  ]
+}

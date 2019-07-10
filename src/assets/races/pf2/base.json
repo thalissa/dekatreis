@@ -1,0 +1,70 @@
+{
+  "race": [
+    {
+      "name": "Race",
+      "book": "PHB",
+      "sections": [
+        {
+          "name": "Background",
+          "book": "PHB",
+          "body": [
+            {
+              "name": "Background Details",
+              "body": ""
+            }
+          ]
+        },
+        {
+          "name": "Traits",
+          "book": "AGtD",
+          "body": [
+            {
+              "name": "Hit Points",
+              "body": ""
+            },
+            {
+              "name": "Size",
+              "body": "Medium"
+            },
+            {
+              "name": "Speed",
+              "body": "25 feet"
+            },
+            {
+              "name": "Ability Boosts",
+              "body": ""
+            },
+            {
+              "name": "Ability Flaw",
+              "body": ""
+            },
+            {
+              "name": "Languages",
+              "body": "Common"
+            },
+            {
+              "name": "Bonus Languages",
+              "body": "At 1st level, if your Intelligence score is 14 or higher, you can also select one of the following languages: ."
+            },
+            {
+              "name": "Darkvision",
+              "body": "You can see in darkness and dim light just as well as you can see in bright light, though your vision in darkness is in black and white."
+            }
+          ]
+        },
+        {
+          "name": "",
+          "book": "",
+          "body": [
+            {
+              
+            },
+            {
+              
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

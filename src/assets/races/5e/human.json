@@ -1,0 +1,132 @@
+{
+  "human": [
+    {
+      "name": "Kanae",
+      "book": "AGtD",
+      "sections": [
+        {
+          "name": "Background",
+          "book": "AGtD",
+          "body": [
+            {
+              "name": "The First Created",
+              "body": "The Kanae, or Dekatrian humans, were the first formed from the Book of Creation. As the resourceful, determined, adaptable people they were on Toril, Kavara the Creator kept the form of the humans mostly the same, with greater versatility in applying their skills. With this, humans among the lands of Dekatreis are still the most populous race."
+            },
+            {
+              "name": "Same Forms, New Additions",
+              "body": "While the Kanae themselves were kept mostly same as their human counterparts on Toril, many of the Demigods began to wonder what they could do to create their own representations of races. They began to pitch ideas to Kavara, who experimented with the Book of Creation until she formed two new subraces of human: The Petona, and the Magia. She attached wings to the Petona and bolstered their body, while on the other side, she imbued the Magia with magic and invigorated them with a desire for knowledge and to have expertise in social attributes. With the eventual success of these new breeds of humans, the two subraces prospered and integrated within the world rather quickly, much like their original renditions."
+            },
+            {
+              "name": "A Demigod's Children",
+              "body": "Finally, after the success of their initial developments of the human race, they decided to dabble into one more area of modification for the human race. While many of the Demigods were not human, they had learned quickly that they could not breed with each other nor their creations. Any children of the Demigods had to be made through the Book of Creation. As this realisation dawned on them, they decided to turn to Kavara and ask for her assistence, to give the Demigods children. Using two parents as a basis for this new race, Kavara melded their forms together, and after enough experimentation she arrived at what is now known as the \"Kathari,\" a race of humans with the innate magic of the Magia, the innate wings of the Petona, and the bolstered bloodline of the Demigods. The Queen of Dekatreis herself was one such born of this practice, and many more after her."
+            },
+            {
+              "name": "A New Name",
+              "body": "While the Demigods did try to classify their children close to how they were on Toril, the name \"Kanae\" actually came much later to differenciate the Dekatrian humans from their Toril counterparts. While each subrace had their own names, those without innate wings or magic were simply \"humans,\" until the name Kanae began to surface in Sarille under a law that established Kathari born outside of royalty would have their wings cut and their magic stifled, forcing them to appear and function the same as Kanae. This law, though very controversial, caused the name Kanae to become commonplace as reference to the Dekatrian humans without wings or innate magic."
+            }
+          ]
+        },
+        {
+          "name": "Traits",
+          "book": "AGtD",
+          "body": [
+            {
+              "name": "Ability Score Increase",
+              "body": "You can choose two of your ability scores to increase by 2, and the rest of your ability scores increases by 1 each."
+            },
+            {
+              "name": "Age",
+              "body": "Kanae reach adulthood in their late teens and live less than a century."
+            },
+            {
+              "name": "Alignment",
+              "body": "Kanae tend toward no particular alignment. The best and the worst are found among them."
+            },
+            {
+              "name": "Size",
+              "body": "Kanae vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
+            },
+            {
+              "name": "Speed",
+              "body": "Your base walking speed is 30 feet."
+            },
+            {
+              "name": "Languages",
+              "body": "You can speak, read, and write Common and one extra language of your choice. Kanae typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on."
+            },
+            {
+              "name": "Versatile",
+              "body": "You gain proficiency in two skills of your choice."
+            }
+          ]
+        },
+        {
+          "name": "Petona (Subrace)",
+          "book": "AGtD",
+          "body": [
+            {
+              "name": "Background",
+              "body": "While they might seem like humans, that quickly changes as their beautiful wings spread out from behind them. Large and feathered, with hints of magical energy around them, these wings allow them to fly high in the sky like a majestic angel or bird might."
+            },
+            {
+              "name": "Ability Score Increase",
+              "body": "Choose either your Strength or Dexterity to increase by 2, and your Wisdom increases by 1. This replaces the Kanae's usual ability score increase."
+            },
+            {
+              "name": "Flight",
+              "body": "The Petona are graced with the power of wings, allowing them to take flight. You gain a flight speed of 25 feet and can hover while not wearing heavy armour or armour that you are not proficient in. You cannot carry another creature that is a bigger size than Small while you are flying. This replaces the Kanae's Versatile trait."
+            }
+          ]
+        },
+        {
+          "name": "Magia (Subrace)",
+          "book": "AGtD",
+          "body": [
+            {
+              "name": "Background",
+              "body": "Much like the Petona, you might think that they are normal humans, but unlike Petona they do not seem to have any outwards distinction. However, their abilities are inwards, granting them the natural affinity to use magic."
+            },
+            {
+              "name": "Ability Score Increase",
+              "body": "Your Intelligence score increases by 2, and your Charisma score increases by 1. This replaces the Kanae's usual ability score increase."
+            },
+            {
+              "name": "Magical Affinity",
+              "body": "Due to magic in their blood, Magia gain an easily accessed supply to magic. You gain the properties of the Magic Initiate feat. You cannot gain the propreties of Magic Initiate again if you take this feat later. This replaces the Kanae's Versatile trait."
+            }
+          ]
+        },
+        {
+          "name": "Kathari (Subrace)",
+          "book": "AGtD",
+          "body": [
+            {
+              "name": "Noble Only",
+              "body": "A Kathari has the bloodline of one of the 13 Demigods. Much like the Queen and the twinned princesses of Dekatreis, a Kathari's innate magic and wings grants them intense worship among the common people, even those who hold no official noble titles. In order to use the Kathari player race, you must ask your Dungeon Master for approval first."
+            },
+            {
+              "name": "Background",
+              "body": "Kathari are a breed of humans that are distinct from the other variants of humans, coming from the bloodline of one of the original 13 Demigods. They take the best traits of the Petona and the Magia, and their divine blood boosts their usage of both of these powers."
+            },
+            {
+              "name": "Ability Score Increase",
+              "body": "Choose either your Charisma or Intelligence score to increase by 2, and increase your Dexterity score by 1. This replaces the Kanae's usual ability score increase."
+            },
+            {
+              "name": "Age",
+              "body": "The Kathari, with their divine, empowered blood running through their heart, live a signifigantly longer lifespan than a normal Kanae. While they age at the same rate as the Kanae to start, they appear to age signifigantly slower past age 30. One of the oldest known Kathari, The Queen herself, has lived for a millennium, and many other Kathari reach the same age."
+            },
+            {
+              "name": "Enhanced Flight",
+              "body": "Superior to the Petona, Kathari are born with stronger wings than the other human variant. You gain a flight speed of 35 feet and can hover while not wearing heavy armour or armour that you are not proficient in.  You cannot carry another creature that is a bigger size than Small while you are flying. This replaces the Kanae's Versatile trait."
+            },
+            {
+              "name": "Enhanced Magical Affinity",
+              "body": "Surpassing the Magia in their inate magical blood, Kathari can tap into a much stronger well than their lesser variant can. You gain the propreties of the Magic Initiate feat, but you may pick an additional cantrip and 1st-level spell in addition to the cantrips and spell you already gain. You cannot gain the propreties of Magic Initiate again if you take this feat later."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,34 +1,17 @@
 import Vue from 'vue'
-import VueRouter from 'vue-router'
+import Main from './components/main.vue'
+import router from './router'
+import * as Storage from './assets/logic/storage.ts'
 
-Vue.use(VueRouter)
+Vue.config.devtools = true
 
-// Import components here
-import MainComponent from './components/main.vue'
-import IndexComponent from './components/index.vue'
-
-// Import any logic here
-import './assets/logic/storage.ts'
-
-// Make routing happen.
-const router = new VueRouter({
-  mode: 'history',
-  routes: [
-    // Need one of these for each route
-    {
-      path: '/',
-      components: {
-        default: IndexComponent
-      }
-    }
-  ]
+Vue.filter('time', timestamp => {
+  return new Date(timestamp).toLocaleTimeString()
 })
 
-// Mount the Vue template and components to the app.
 new Vue({
+  el: '#app',
   router,
-  template: '<Main/>',
-  components: {
-    Main: MainComponent
-  }
-}).$mount('#app')
+  template: '</App>',
+  render: h => h(Main)
+})

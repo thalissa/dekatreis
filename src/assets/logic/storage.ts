@@ -4,7 +4,7 @@ const dbName = "Database";
 
 import * as workerPath from "jsstore/dist/jsstore.worker.js";
 
-// Ensure only one instance. 
+// Ensure only one instance.
 const idbCon = new JsStore.Instance(new Worker(workerPath));
 const connection = idbCon;
 
@@ -34,12 +34,12 @@ function getDbSchema() {
       }
     ]
   };
-  
+
   const Database = {
     name: dbName,
     tables: [Table]
   };
-  
+
   return Database;
 }
 
@@ -56,29 +56,31 @@ function initJsStore() {
   })
 }
 
-export class Storage {
-  DiscordStorage(content) {
-    // Datetime things
-    let date = new Date();
-    let month = date.getUTCMonth() + 1;
-    let day = date.getUTCDate();
-    let year = date.getUTCFullYear();
-    let hour = date.getHours();
-    let minute = date.getMinutes();
-  
-    let values = {
-      contents: content,
-      date: month + "-" + day + "-" + year,
-      time: hour + ":" + minute
-    }
-    
-    this.appendStorage(values);
+function DiscordStorage(content) {
+  // Datetime things
+  let date = new Date();
+  let month = date.getUTCMonth() + 1;
+  let day = date.getUTCDate();
+  let year = date.getUTCFullYear();
+  let hour = date.getHours();
+  let minute = date.getMinutes();
+
+  let values = {
+    contents: content,
+    date: month + "-" + day + "-" + year,
+    time: hour + ":" + minute
   }
-  
-  appendStorage(data) {
-    connection.insert({
-      into: "Database",
-      values: data
-    })
-  }
+
+  this.appendStorage(values);
 }
+
+function appendStorage(data) {
+  connection.insert({
+    into: "Database",
+    values: data
+  })
+
+  console.log("Data Inserted: " + data)
+}
+
+DiscordStorage("uwu");

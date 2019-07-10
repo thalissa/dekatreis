@@ -9,6 +9,7 @@ function resolve (dir) {
 
 module.exports = {
   entry: './src/main.ts',
+  target: 'node-webkit',
   output: {
     path: config.build.assetsRoot,
     filename: '[name].js',
@@ -33,7 +34,8 @@ module.exports = {
             'stylus': 'vue-style-loader!css-loader!stylus-loader',
             'scss': 'vue-style-loader!css-loader!sass-loader!stylus-loader',
             'sass': 'vue-style-loader!css-loader!sass-loader!stylus-loader?indentedSyntax',
-            'html': 'pug'
+            'html': 'pug',
+            'json': 'json-loader'
           }
         }
       },
@@ -59,6 +61,10 @@ module.exports = {
       {
         test: /\.styl$/,
         loader: 'stylus-loader'
+      },
+      {
+        test: /\.json$/,
+        loader: 'json-loader'
       },
       {
         test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,

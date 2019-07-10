@@ -1,8 +1,14 @@
 <template lang="pug">
-  body
+  .body
     .header
-      .mainLink
-        router-link(to="/") Hello World!
+      .top
+        .mainLink
+          router-link(to="/") Welcome to Dekatreis
+      .bottom
+        .link
+          router-link(to="/toc5e") D&D 5e
+        .link
+          router-link(to="tocpf2") Pathfinder 2
     .view
       router-view
 </template>
@@ -10,17 +16,38 @@
 <style lang="stylus">
   html
     width 100%
-    height 100%
-    background #212121
-    color #f5f5f5
+    height 100
+    background #efe4f5
+    font-family BookInsanity
+  
+  body
+    padding 20px
+    border-radius 25px
+    border 2px #f5f5f5 solid
+    background #ccc
+    color #3a3f51
+
+  @font-face
+    font-family BookInsanity
+    src url(../assets/Bookinsanity.otf)
+  
+  h1, h2, h3, h4, h5, h6
+    color #4E2A84
+  
+  h6
+    margin-top 0px
+    margin-bottom 0px
+  
+  h3
+    border-bottom 2px solid #c9ad6a
 
   a, a:visited
-    color #1bc4f2
+    color #813ce8
     cursor pointer
-    text-decoration underline
+    text-decoration none
 
   a:hover
-    color #94e8ff
+    text-decoration underline
 
   .app
     display flex
@@ -29,8 +56,6 @@
     flex-grow 1
 
   .mainLink a, .link a
-    border-radius 10px
-    background #707070
     padding 5px
 
   .header
@@ -45,6 +70,31 @@
 
   .header .mainLink
     font-size 18pt
+  
+  .header
+    display flex
+    flex-direction column
+    justify-content center
+
+  .top, .bottom
+    display flex
+    justify-content center
+    flex-direction row
+    margin 5px
+
+  tr:first-child
+    background-color #f5f5f5
+    font-size 17pt
+    text-align center
+  
+  tr, td
+    border 1px #4E2A84 solid
+    padding 3px
+    font-size 10pt
+  
+  table
+    margin-top 10px
+    white-space pre-line
 </style>
 
 <script>

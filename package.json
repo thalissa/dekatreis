@@ -1,7 +1,7 @@
 {
-  "name": "thaliboilerplate",
+  "name": "dekatreiscompendium",
   "version": "1.0.0",
-  "description": "Thalissa's Boilerplate - Making sites faster than ever!",
+  "description": "The Compendium of Dekatreis!",
   "author": "Thalissa <thalissaremnant@hotmail.com>",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "json-loader": "^0.5.7",
     "jsstore": "^2.1.2",
     "vue": "^2.2.2",
     "vue-router": "^3.0.1"

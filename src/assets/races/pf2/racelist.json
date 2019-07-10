@@ -1,0 +1,32 @@
+{
+  "races": [
+    {
+      "name": "Human",
+      "book": "Core",
+      "subraces": [
+        {
+          "name": "Petona",
+          "book": "AGtD"
+        },
+        {
+          "name": "Magia",
+          "book": "AGtD"
+        },
+        {
+          "name": "Kathari",
+          "book": "AGtD"
+        }
+      ]
+    },
+    {
+      "name": "Dragonborn",
+      "book": "AGtD",
+      "subraces": [
+        {
+          "name": "Elemental Blooded",
+          "book": "AGtD"
+        }
+      ]
+    }
+  ]  
+}

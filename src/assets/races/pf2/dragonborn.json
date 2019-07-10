@@ -1,0 +1,94 @@
+{
+  "dragonborn": [
+    {
+      "name": "Dragonborn",
+      "book": "AGtD",
+      "sections": [
+        {
+          "name": "Background",
+          "book": "AGtD",
+          "body": [
+            {
+              "name": "Background Details",
+              "body": "The Dragonborn were on the old world, before the Demigods came to Dekatreis. The wielder of the Book of Creation, Kavara, was a Dragonborn herself. When she made her people on Dekatreis, she granted them special boons as a token to her heritage, and expanded their bloodlines as well."
+            }
+          ]
+        },
+        {
+          "name": "Traits",
+          "book": "AGtD",
+          "body": [
+            {
+              "name": "Hit Points",
+              "body": "8"
+            },
+            {
+              "name": "Size",
+              "body": "Medium"
+            },
+            {
+              "name": "Speed",
+              "body": "25 feet"
+            },
+            {
+              "name": "Ability Boosts",
+              "body": "Strength, Constitution, Free"
+            },
+            {
+              "name": "Ability Flaw",
+              "body": "Intelligence"
+            },
+            {
+              "name": "Languages",
+              "body": "Common, Draconic"
+            },
+            {
+              "name": "Bonus Languages",
+              "body": "At 1st level, if your Intelligence score is 14 or higher, you can also select one of the following languages: Dwarven, Elven, Gnomish, Goblin, Jotun, or Orcish."
+            },
+            {
+              "name": "Darkvision",
+              "body": "You can see in darkness and dim light just as well as you can see in bright light, though your vision in darkness is in black and white."
+            }
+          ]
+        },
+        {
+          "name": "Draconic Heritages",
+          "book": "AGtD",
+          "body": [
+            {
+              "name": "Elemental Blood",
+              "body": "You were descended from a dragon that had the inherent magic of an element in their blood. Choose one of the following damage types: Fire, Cold, Electrcity, Poison, or Acid.\n\nYou gain a Breath Weapon arcane power according to the \"Heritage Powers\" list below related to the damage type you have chosen."
+            }
+          ]
+        },
+        {
+          "name": "Heritage Powers",
+          "book": "AGtD",
+          "body": [
+            {
+              "name": "Heritage Powers Table",
+              "style": "table",
+              "body": [
+                [
+                  "Damage Type",
+                  "Draconic Power",
+                  "Associated Dragon Types"
+                ],
+                [
+                  "Fire",
+                  "Fire Breath",
+                  "[Good] Gold, Brass\n[Neutral] Obsidian\n[Evil] Red"
+                ]
+              ]
+            },
+            {
+              "name": "Fire Breath",
+              "body": "Casting: Somatic Casting\nArea: 15-foot cone\nYou call upon the blood of your draconic ancestors and exhale fire from your mouth that deals 1d8 fire damage. Each creature in the area must attempt a Reflex saving throw.\nSuccess: The creature takes half damage.\nCritical Success: The creature takes no damage.\nFailure: The creature takes full damage and 1 persistent fire damage.\nCritical Failure: Double damage and double persistent damage.\nHeightened (5th) The damage increases by 1d8, and the persistent damage increases by 1."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

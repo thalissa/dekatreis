@@ -1,0 +1,254 @@
+{
+  "tiefling": [
+    {
+      "name": "Tiefling",
+      "book": "PHB",
+      "sections": [
+        {
+          "name": "Background",
+          "book": "AGtD",
+          "body": [
+            {
+              "name": "Dark Heritage",
+              "body": "Tieflings are derived from human bloodlines, and in the broadest possible sense, they still look human. However, their heritage has left a clear imprint on their appearance. Tieflings have large horns that take any of a variety of shapes: some have curling horns like a ram, others have straight and tall horns like a gazelle’s, and som e spiral upward like an antelopes’ horns. They have thick tails, four to five feet long, which lash or coil around their legs when they get upset or nervous. Their canine teeth are sharply pointed, and their eyes are solid colors—black, red, white, silver, or gold—with no visible sclera or pupil. Their skin tones cover the full range of human coloration, but also include various shades of red. Their hair, cascading down from behind their horns, is usually dark, from black or brown to dark red, blue, or purple."
+            },
+            {
+              "name": "Well-Adapted, But Dangerous",
+              "body": "In the world of Dekatreis, tieflings were born at the dawn of the world and blended in with society as it was built. Those there are suspicions that a tiefling would turn on humanity or be inherently evil, the prejudice is nowhere near widespread. Many tieflings hold high positions in law and do good deeds, yet, not uncommon from humans do tieflings similarly inhabit the lower end of morality and society. Seeking to embrace their infernal and demonic heritages, there is no shortage or surplus of those that seek out to only benefit themselves, as the common understanding is that, like humans, all ranges of personalities and alignments can be seen."
+            }
+          ]
+        },
+        {
+          "name": "Traits",
+          "book": "PHB",
+          "body": [
+            {
+              "name": "Ability Score Increase",
+              "body": "Your Charisma score increases by 2."
+            },
+            {
+              "name": "Age",
+              "body": "Tieflings mature at the same rate as `humans but live a few years longer."
+            },
+            {
+              "name": "Alignment",
+              "body": "With their respect in Dekatries being widely known, Tieflings can be found in all ranges on the alignment."
+            },
+            {
+              "name": "Size",
+              "body": "Tieflings are about the same size and build as humans. Your size is Medium."
+            },
+            {
+              "name": "Speed",
+              "body": "Your base walking speed is 30 feet."
+            },
+            {
+              "name": "Languages",
+              "body": "You can speak, read, and write Common and Infernal."
+            },
+            {
+              "name": "Darkvision",
+              "body": "Thanks to your heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+            },
+            {
+              "name": "Hellish Resistance",
+              "body": "You have resistance to fire damage."
+            }
+          ]
+        },
+        {
+          "name": "Asmodeus (Default)",
+          "book": "PHB",
+          "body": [
+            {
+              "name": "Background",
+              "body": "The tieflings connected to Nessus command the power of fire and darkness, guided by a keener than normal intellect, as befits those linked to Asmodeus himself."
+            },
+            {
+              "name": "Ability Score Increase",
+              "body": "Your Intelligence score increases by 1."
+            },
+            {
+              "name": "Infernal Legacy",
+              "body": "You know the Thaumaturgy cantrip. Once you reach 3rd level, you can cast the Hellish Rebuke spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the Darkness spell once. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells."
+            }
+          ]
+        },
+        {
+          "name": "Variant Tiefling",
+          "book": "SCAG",
+          "body": [
+            {
+              "name": "Description",
+              "body": "Since not all tieflings are of the blood of Asmodeus, some have traits that differ from those in the Player's Handbook. The Dungeon Master may permit the following variants for your tiefling character, although Devil's Tongue, Hellfire, and Winged are mutually exclusive."
+            },
+            {
+              "name": "Appearance",
+              "body": "Your tiefling might not look like other tieflings. Rather than having the physical characteristics described in the Player's Handbook, choose l d4 + l of the following features: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goatlike legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone."
+            },
+            {
+              "name": "Feral",
+              "body": "Your Dexterity score increases by 2. This trait replaces the Ability Score Increase trait."
+            },
+            {
+              "name": "Devil's Tongue",
+              "body": "You know the vicious mockery cantrip. When you reach 3rd level, you can cast the charm person spell as a 2nd-level spell once with this trait. When you reach 5th level, you can cast the enthrall spell once with this trait. You must finish a long rest to cast these spells once again with this trait. Charisma is your spellcasting ability for them. This trait replaces the Infernal Legacy trait."
+            },
+            {
+              "name": "Hellfire",
+              "body": "Once you reach 3rd level, you can cast the burning hands spell once per day as a 2nd-level spell. This trait replaces the hellish rebuke spell of the Infernal Legacy trait."
+            },
+            {
+              "name": "Winged",
+              "body": "You have bat-like wings sprouting from your shoulder blades. You have a flying speed of 30 feet. This trait replaces the Infernal Legacy trait."
+            }
+          ]
+        },
+        {
+          "name": "Baalzebul (Subrace)",
+          "book": "MToF",
+          "body": [
+            {
+              "name": "Background",
+              "body": "The crumbling realm of Maladomini is ruled by Baalzebul, who excels at corrupting those whose minor sins can be transformed into acts of damnation. Tieflings linked to this archdevil can corrupt others both physically and psychically."
+            },
+            {
+              "name": "Ability Score Increase",
+              "body": "Your Intelligence score increases by 1."
+            },
+            {
+              "name": "Legacy of Maladomini",
+              "body": "You know the thaumaturgy cantrip. When you reach 3rd level, you can cast the ray of sickness spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the crown of madness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells. This replaces the tiefling's Infernal Legacy trait."
+            }
+          ]
+        },
+        {
+          "name": "Dispater (Subrace)",
+          "book": "MToF",
+          "body": [
+            {
+              "name": "Background",
+              "body": "The great city of Dis occupies most of Hell's second layer. It is a place where secrets are uncovered and shared with the highest bidder, making tieflings tied to Dispater excellent spies and infiltrators."
+            },
+            {
+              "name": "Ability Score Increase",
+              "body": "Your Dexterity score increases by 1."
+            },
+            {
+              "name": "Legacy of ",
+              "body": ""
+            }
+          ]
+        },
+        {
+          "name": " (Subrace)",
+          "book": "MToF",
+          "body": [
+            {
+              "name": "Background",
+              "body": ""
+            },
+            {
+              "name": "Ability Score Increase",
+              "body": ""
+            },
+            {
+              "name": "Legacy of ",
+              "body": ""
+            }
+          ]
+        },
+        {
+          "name": " (Subrace)",
+          "book": "MToF",
+          "body": [
+            {
+              "name": "Background",
+              "body": ""
+            },
+            {
+              "name": "Ability Score Increase",
+              "body": ""
+            },
+            {
+              "name": "Legacy of ",
+              "body": ""
+            }
+          ]
+        },
+        {
+          "name": " (Subrace)",
+          "book": "MToF",
+          "body": [
+            {
+              "name": "Background",
+              "body": ""
+            },
+            {
+              "name": "Ability Score Increase",
+              "body": ""
+            },
+            {
+              "name": "Legacy of ",
+              "body": ""
+            }
+          ]
+        },
+        {
+          "name": " (Subrace)",
+          "book": "MToF",
+          "body": [
+            {
+              "name": "Background",
+              "body": ""
+            },
+            {
+              "name": "Ability Score Increase",
+              "body": ""
+            },
+            {
+              "name": "Legacy of ",
+              "body": ""
+            }
+          ]
+        },
+        {
+          "name": " (Subrace)",
+          "book": "MToF",
+          "body": [
+            {
+              "name": "Background",
+              "body": ""
+            },
+            {
+              "name": "Ability Score Increase",
+              "body": ""
+            },
+            {
+              "name": "Legacy of ",
+              "body": ""
+            }
+          ]
+        },
+        {
+          "name": " (Subrace)",
+          "book": "MToF",
+          "body": [
+            {
+              "name": "Background",
+              "body": ""
+            },
+            {
+              "name": "Ability Score Increase",
+              "body": ""
+            },
+            {
+              "name": "Legacy of ",
+              "body": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
