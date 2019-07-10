@@ -1,4 +1,4 @@
-# Thalissa-Boilerplate
+# Dekatreis Campaign Guide
 
 ## Build Setup
 
