@@ -7,7 +7,9 @@ Vue.use(Router)
 import IndexComponent from './components/index.vue'
 import DnD5eToCComponent from './components/toc5e.vue'
 import PF2ToCComponent from './components/tocpf2.vue'
+import LoreToCComponent from './components/toclore.vue'
 import RaceComponent from './components/race.vue'
+import LoreComponent from './components/lore.vue'
 import RCGComponent from './components/rcg.vue'
 
 // Routing
@@ -30,9 +32,19 @@ const router = new Router({
       component: PF2ToCComponent
     },
     {
+      path: '/toclore',
+      name: 'Dekatreis Lore',
+      component: LoreToCComponent
+    },
+    {
       path: '/races',
       name: 'Races',
       component: RaceComponent
+    },
+    {
+      path: '/lore',
+      name: 'Lore',
+      component: LoreComponent
     },
     {
       path: '/rcg',

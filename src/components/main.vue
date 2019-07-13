@@ -4,6 +4,9 @@
       .top
         .mainLink
           router-link(to="/") Welcome to Dekatreis
+      .middle
+        .link
+          router-link(to="/toclore") Dekatreis Lore
       .bottom
         .link
           router-link(to="/toc5e") D&D 5e
@@ -76,7 +79,7 @@
     flex-direction column
     justify-content center
 
-  .top, .bottom
+  .top, .middle, .bottom
     display flex
     justify-content center
     flex-direction row
