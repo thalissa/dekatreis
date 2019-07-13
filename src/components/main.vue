@@ -7,6 +7,8 @@
       .middle
         .link
           router-link(to="/toclore") Dekatreis Lore
+        .link
+          router-link(to="/map") World Map
       .bottom
         .link
           router-link(to="/toc5e") D&D 5e

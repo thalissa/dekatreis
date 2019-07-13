@@ -11,6 +11,7 @@ import LoreToCComponent from './components/toclore.vue'
 import RaceComponent from './components/race.vue'
 import LoreComponent from './components/lore.vue'
 import RCGComponent from './components/rcg.vue'
+import MapComponent from './components/map.vue'
 
 // Routing
 const router = new Router({
@@ -50,6 +51,11 @@ const router = new Router({
       path: '/rcg',
       name: 'Random Character Generator',
       component: RCGComponent
+    },
+    {
+      path: '/map',
+      name: 'Map of Dekatreis',
+      component: MapComponent
     }
   ]
 })
