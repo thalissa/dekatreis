@@ -1,0 +1,61 @@
+{
+  "thedemigods": [
+    {
+      "name": "The Demigods",
+      "sections": [
+        {
+          "name": "Alethra Stormchild",
+          "body": "Race: Human\nClass: Cleric"
+        },
+        {
+          "name": "Aurae Torran",
+          "body": "Race: Human\nClass: Sorcerer"
+        },
+        {
+          "name": "Bequirel",
+          "body": "Race: Zeletos\nClass: Cleric"
+        },
+        {
+          "name": "Cecelia",
+          "body": "Race: High Elf\nClass: Technomancer"
+        },
+        {
+          "name": "Fyrra Kelrae",
+          "body": "Race: Tiefling\nClass: Fighter"
+        },
+        {
+          "name": "Kavara",
+          "body": "Race: Dragonborn\nClass: Paladin"
+        },
+        {
+          "name": "Kaylessa",
+          "body": "Race: Half-Elf\nClass: Bard"
+        },
+        {
+          "name": "Keishara",
+          "body": "Race: Yuan-ti\nClass: Warlock"
+        },
+        {
+          "name": "Loriella",
+          "body": "Race: Gnome\nClass: Artificer"
+        },
+        {
+          "name": "Nasir Faemoss",
+          "body": "Race: Aasimar\nClass: Druid"
+        },
+        {
+          "name": "Rauvel Faemoss",
+          "body": "Race: Aasimar\nClass: Paladin"
+        },
+        {
+          "name": "Tyrae Valsh",
+          "body": "Race: Drow\nClass: Rogue"
+        },
+        {
+          "name": "Vondal",
+          "body": "Race: Dwarf\nClass: Sorcerer"
+        }
+      ]
+    }
+  ]
+}

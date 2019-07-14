@@ -22,7 +22,7 @@
         }
       },
       created() {
-          var loreJSON = require("../assets/lorelist.json")
+          var loreJSON = require("../assets/lore/lorelist.json")
           this.loreList = loreJSON["lore"]
       },
       methods: {
