@@ -1,156 +1,222 @@
 {
   "lore": [
     {
-      "name": "Creator's Prologue",
-      "sublist": [
+      "name": "History",
+      "sections": [
         {
-          "name": "Welcome to Dekatreis"
+          "name": "Creator's Prologue",
+          "sublist": [
+            {
+              "name": "Welcome to Dekatreis"
+            },
+            {
+              "name": "A Story Never Finished"
+            },
+            {
+              "name": "Dungeons & Dragons and Dekatreis"
+            },
+            {
+              "name": "Conception of the Demigods"
+            }
+          ]
         },
         {
-          "name": "A Story Never Finished"
+          "name": "History of Dekatreis",
+          "sublist": [
+            {
+              "name": "Races of Dekatreis"
+            },
+            {
+              "name": "Creation of the Continents"
+            },
+            {
+              "name": "Society Develops"
+            },
+            {
+              "name": "Departure of the Demigods"
+            },
+            {
+              "name": "The Queen's Years Begin"
+            },
+            {
+              "name": "New Order"
+            },
+            {
+              "name": "War of the Five Elves"
+            }
+          ]
         },
         {
-          "name": "Dungeons & Dragons and Dekatreis"
-        },
-        {
-          "name": "Conception of the Demigods"
-        }
-      ]
-    },
-    {
-      "name": "History of Dekatreis",
-      "sublist": [
-        {
-          "name": "Races of Dekatreis"
-        },
-        {
-          "name": "Creation of the Continents"
-        },
-        {
-          "name": "Society Develops"
-        },
-        {
-          "name": "Departure of the Demigods"
-        },
-        {
-          "name": "The Queen's Years Begin"
-        },
-        {
-          "name": "New Order"
-        },
-        {
-          "name": "War of the Five Elves"
-        }
-      ]
-    },
-    {
-      "name": "Present Days",
-      "sublist": [
-        {
-          "name": "The Queen"
-        },
-        {
-          "name": "The Azorian Empire and Azoranthium"
-        },
-        {
-          "name": "Sarille"
-        },
-        {
-          "name": "Totara Kingdom"
-        },
-        {
-          "name": "Akiira"
-        },
-        {
-          "name": "Dekatreis"
+          "name": "Present Days",
+          "sublist": [
+            {
+              "name": "The Queen"
+            },
+            {
+              "name": "The Azorian Empire and Azoranthium"
+            },
+            {
+              "name": "Sarille"
+            },
+            {
+              "name": "Totara Kingdom"
+            },
+            {
+              "name": "Akiira"
+            },
+            {
+              "name": "Dekatreis"
+            }
+          ]
         }
       ]
     },
     {
       "name": "The Demigods",
-      "sublist": [
+      "sections": [
         {
-          "name": "Alethra Stormchild"
+          "name": "Demigods",
+          "sublist": [
+            {
+              "name": "Alethra Stormchild"
+            },
+            {
+              "name": "Aurae Torran"
+            },
+            {
+              "name": "Bequirel"
+            },
+            {
+              "name": "Cecelia"
+            },
+            {
+              "name": "Fyrra Kelrae"
+            },
+            {
+              "name": "Kavara"
+            },
+            {
+              "name": "Kaylessa"
+            },
+            {
+              "name": "Keishara"
+            },
+            {
+              "name": "Loriella"
+            },
+            {
+              "name": "Nasir Faemoss"
+            },
+            {
+              "name": "Rauvel Faemoss"
+            },
+            {
+              "name": "Tyrae Valsh"
+            },
+            {
+              "name": "Vondal"
+            }
+          ]
         },
         {
-          "name": "Aurae Torran"
-        },
-        {
-          "name": "Bequirel"
-        },
-        {
-          "name": "Cecelia"
-        },
-        {
-          "name": "Fyrra Kelrae"
-        },
-        {
-          "name": "Kavara"
-        },
-        {
-          "name": "Kaylessa"
-        },
-        {
-          "name": "Keishara"
-        },
-        {
-          "name": "Loriella"
-        },
-        {
-          "name": "Nasir Faemoss"
-        },
-        {
-          "name": "Rauvel Faemoss"
-        },
-        {
-          "name": "Tyrae Valsh"
-        },
-        {
-          "name": "Vondal"
+          "name": "The Artefacts",
+          "sublist": [
+            {
+              "name": "Staff of Pure Order"
+            },
+            {
+              "name": "Amulet of True Teleprotation"
+            },
+            {
+              "name": "Mask of Life and Death"
+            },
+            {
+              "name": "Ring of the Technotheurge"
+            },
+            {
+              "name": "Rapier of Dispelling"
+            },
+            {
+              "name": "Book of Creation"
+            },
+            {
+              "name": "Ocarina of Healing and Protection"
+            },
+            {
+              "name": "Head of Medusa"
+            },
+            {
+              "name": "Talisman of True Transmutation"
+            },
+            {
+              "name": "Heavenly Robes"
+            },
+            {
+              "name": "Staff of Pure Destruction"
+            },
+            {
+              "name": "Apple of Discord"
+            },
+            {
+              "name": "Earthen Hand"
+            }
+          ]
         }
       ]
     },
     {
-      "name": "The Artefacts",
-      "sublist": [
+      "name": "Kingdoms of Dekatreis",
+      "sections": [
         {
-          "name": "Staff of Pure Order"
+          "name": "Dekatreis",
+          "sublist": [
+            {
+              "name": "Rasha Griffonblood"
+            },
+            {
+              "name": "Zella Griffonblood"
+            }
+          ]
         },
         {
-          "name": "Amulet of True Teleprotation"
+          "name": "Sarille",
+          "sublist": [
+            {
+              "name": "Thallan Presthana"
+            }
+          ]
         },
         {
-          "name": "Mask of Life and Death"
+          "name": "Totara Kingdom",
+          "sublist": [
+            {
+              "name": "Xythian Rarazydin"
+            }
+          ]
         },
         {
-          "name": "Ring of the Technotheurge"
+          "name": "Azorian Empire",
+          "sublist": [
+            {
+              "name": "Rosalia Azorblood IV"
+            }
+          ]
         },
         {
-          "name": "Rapier of Dispelling"
+          "name": "Azoranthium",
+          "sublist": [
+            {
+              "name": "Pavlos Azorblood"
+            }
+          ]
         },
         {
-          "name": "Book of Creation"
-        },
-        {
-          "name": "Ocarina of Healing and Protection"
-        },
-        {
-          "name": "Head of Medusa"
-        },
-        {
-          "name": "Talisman of True Transmutation"
-        },
-        {
-          "name": "Heavenly Robes"
-        },
-        {
-          "name": "Staff of Pure Destruction"
-        },
-        {
-          "name": "Apple of Discord"
-        },
-        {
-          "name": "Earthen Hand"
+          "name": "Akiira",
+          "sublist": [
+            {
+              "name": "Anarchy of Akiira"
+            }
+          ]
         }
       ]
     }
