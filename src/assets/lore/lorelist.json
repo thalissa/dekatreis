@@ -171,6 +171,9 @@
           "name": "Dekatreis",
           "sublist": [
             {
+              "name": "General Knowledge"
+            },
+            {
               "name": "Rasha Griffonblood"
             },
             {
@@ -182,6 +185,9 @@
           "name": "Sarille",
           "sublist": [
             {
+              "name": "General Knowledge"
+            },
+            {
               "name": "Thallan Presthana"
             }
           ]
@@ -189,6 +195,9 @@
         {
           "name": "Totara Kingdom",
           "sublist": [
+            {
+              "name": "General Knowledge"
+            },
             {
               "name": "Xythian Rarazydin"
             }
@@ -198,6 +207,9 @@
           "name": "Azorian Empire",
           "sublist": [
             {
+              "name": "General Knowledge"
+            },
+            {
               "name": "Rosalia Azorblood IV"
             }
           ]
@@ -206,6 +218,9 @@
           "name": "Azoranthium",
           "sublist": [
             {
+              "name": "General Knowledge"
+            },
+            {
               "name": "Pavlos Azorblood"
             }
           ]
@@ -213,6 +228,9 @@
         {
           "name": "Akiira",
           "sublist": [
+            {
+              "name": "General Knowledge"
+            },
             {
               "name": "Anarchy of Akiira"
             }

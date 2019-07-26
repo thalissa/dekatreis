@@ -24,6 +24,7 @@
     height 100
     background #efe4f5
     font-family BookInsanity
+    font-size 11pt
   
   body
     padding 20px

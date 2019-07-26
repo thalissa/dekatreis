@@ -1,0 +1,65 @@
+{
+  "abilityscores": [
+    {
+      "name": "Ability Scores",
+      "sections": [
+        {
+          "name": "Abilities",
+          "body": [
+            {
+              "name": "Basics of the Six Abilities",
+              "body": "Strength, measuring physical power; Used for weapons and skills that require strength. \nDexterity, measuring agility; Used for finesse and ranged weapons as well as calculating armour class and skills that require dexterity.\nConstitution, measuring endurance; Used for concentrating on spells when taking damage as well as calculating hitpoints.\nIntelligence, measuring reasoning and memory; Used to recall knowledge and for casting Wizard and Warlock spells.\nWisdom, measuring perception and insight; Used for skills that rely on wisdom as well as spellcasting classes such as the Druid and the Cleric.\nCharisma, measuring force of personality; Used as the casting ability for Sorcerers, Paladins, Bards, and "
+            },
+            {
+              "name": "Ability Scores",
+              "body": "Each of a creature’s Abilities has a score, a number that defines the magnitude of that ability. An ability score is not just a measure of innate capabilities, but also encompasses a creature’s Training and competence in activities related to that ability.\n\nA score of 10 or 11 is the normal human average, but adventurers and many Monsters are a cut above average in most Abilities. A score of 18 is the highest that a person usually reaches. Adventurers can have scores as high as 20, and Monsters and divine beings can have scores as high as 30.\n\nEach ability also has a modifier, derived from the score and ranging from −5 (for an ability score of 1) to +10 (for a score of 30).\n\nTo determine an ability modifier of an ability score, subtract 10 from the ability score total and then divide by 2 (round down)."
+            }
+          ]
+        },
+        {
+          "name": "Calculating Ability Scores",
+          "body": [
+            {
+              "name": "Rolling for stats",
+              "book": "MOD",
+              "body": "Dekatreis is a very high-powered world, where adventurers are expected to be stronger than usual. As such, when a player rolls for stats, they may roll 4d6, keeping only the highest 3 results. Additionally, they may reroll any dice that result in a 1 until the result of the dice being rerolled is at least 2. This is done six times and then distributed as the player wishes between their six ability scores: Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma.\n\nThis signifigantly bumps up the average ability scores of the players--so those used to running more low-powered games should be cautious at using this method."
+            },
+            {
+              "name": "Point Buy",
+              "book": "MOD",
+              "body": "If a character chooses to use point buy for their ability scores, all their ability scores start at 7. From there, they have 36 points to use to increase these scores. Increasing ability scores costs 1 point initially and the cost increases as follows: Increasing an ability score past 13 costs 2 points, and increasing an ability score past 15 costs 3 points. A person cannot increase an ability score past 17 using this method, and the total cost of all a person's ability scores may not pass 36.\n\nFor example, if a character wished to have 16 Charisma, they would need to spend 13 points and would have 17 leftover to calculate the rest of their ability scores. As such, they could put another 13 points in raising their Dexterity to 16, and then put 8 points into Constitution to reach 14. Their last 2 points would be used to bring their Intelligence and Wisdom to 8 with 1 point each, and then their Strength would stay at 7.."
+            },
+            {
+              "name": "Array",
+              "book": "MOD",
+              "body": "If you don't want to bother with adding up your scores, you could choose a pre-determined array of numbers to makeup your stats. These are equal to the sum of point buy's stats, but are spread out for simplicity. Your Dungeon Master may also provide his own array to use.\n\nBalanced: 16/14/14/10/10/8\nSpecialist: 17/17/8/8/7/7\nJack of All Trades: 13/13/13/13/13/13"
+            }
+          ]
+        },
+        {
+          "name": "Ability Checks",
+          "body": [
+            {
+              "name": "What is an ability check?",
+              "body": "An ability check tests a character’s or monster’s innate talent and training in an effort to overcome a challenge. The DM calls for an ability check when a character or monster attempts an action (other than an attack) that has a chance of failure. When the outcome is uncertain, the dice determine the results. For every ability check, the DM decides which of the six abilities is relevant to the task at hand and the difficulty of the task, represented by a Difficulty Class. The more difficult a task, the higher its DC. If completing task or avoiding something is impossible, then the ability check may be used to represent how far a character gets before realising their failure, or to lessen the overall impact of a failure.\n\nTo make an ability check, roll a d20 and add the relevant ability modifier. As with other d20 rolls, apply bonuses and penalties, and compare the total to the DC. If the total equals or exceeds the DC, the ability check is a success—the creature overcomes the challenge at hand. Otherwise, it’s a failure, which means the character or monster makes no progress toward the objective or makes progress combined with a setback determined by the Dungeon Master."
+            },
+            {
+              "name": "Ability Contests",
+              "body": "Sometimes one character’s or monster’s efforts are directly opposed to another’s. This can occur when both of them are trying to do the same thing and only one can succeed, such as attempting to snatch up a m agic ring that has fallen on the floor. This situation also applies when one of them is trying to prevent the other one from accom plishing a goal—for example, when a monster tries to force open a door that an adventurer is holding closed. In situations like these, the outcome is determined by a special form of ability check, called a contest.\n\nlled a contest. Both participants in a contest make ability checks appropriate to their efforts. They apply all appropriate bonuses and penalties, but instead o f com paring the total to a DC, they com pare the totals of their two checks. The participant with the higher check total wins the contest. That character or monster either succeeds at the action or prevents the other one from succeeding.\n\nIf the contest results in a tie, the situation remains the same as it was before the contest. Thus, one contestant might win the contest by default. If two characters tie in a contest to snatch a ring off the floor, neither character grabs it. In a contest between a monster trying to open a door and an adventurer trying to keep the door closed, a tie means that the door remains shut."
+            },
+            {
+              "name": "Working Together",
+              "body": "Sometimes two or more characters team up to attempt a task. The character who's leading the effort--or the one with the highest ability modifier--can make an ability check with advantage, reflecting the help provided by the other characters. In combat, his requires he Help Action.\n\nA character can only provide help if the task is one that he or she could attempt alone. For example, trying to open a lock requires proficiency with thieves' tools, so a character who lacks that proficiency can't help another character in that task. Moreover, a character can help only when two or more individuals working together would actually be productive. Some tasks, such as threading a needle, are no easier with help."
+            },
+            {
+              
+            },
+            {
+              
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

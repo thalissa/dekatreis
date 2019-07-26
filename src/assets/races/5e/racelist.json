@@ -62,13 +62,7 @@
     },
     {
       "name": "Dragonborn",
-      "book": "PHB",
-      "subraces": [
-        {
-          "name": "Dekatrian Dragonborn",
-          "book": "AGtD"
-        }
-      ]
+      "book": "AGtD"
     },
     {
       "name": "Dwarf",
