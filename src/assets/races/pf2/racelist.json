@@ -2,7 +2,6 @@
   "races": [
     {
       "name": "Human",
-      "book": "Core",
       "subraces": [
         {
           "name": "Petona"
@@ -20,7 +19,6 @@
     },
     {
       "name": "Dragonborn",
-      "book": "AGtD",
       "subraces": [
         {
           "name": "Elemental Blooded"
