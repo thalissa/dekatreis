@@ -5,16 +5,16 @@
       "book": "Core",
       "subraces": [
         {
-          "name": "Petona",
-          "book": "AGtD"
+          "name": "Petona"
         },
         {
-          "name": "Magia",
-          "book": "AGtD"
+          "name": "Magia"
         },
         {
-          "name": "Kathari",
-          "book": "AGtD"
+          "name": "Kathari"
+        },
+        {
+          "name": "Nekomimi"
         }
       ]
     },
@@ -23,10 +23,24 @@
       "book": "AGtD",
       "subraces": [
         {
-          "name": "Elemental Blooded",
-          "book": "AGtD"
+          "name": "Elemental Blooded"
+        },
+        {
+          "name": "Potent Blooded"
         }
       ]
+    },
+    {
+      "name": "Aasimar",
+      "book": "Universal"
+    },
+    {
+      "name": "Tiefling",
+      "book": "Universal"
+    },
+    {
+      "name": "Vampire",
+      "book": "Universal"
     }
   ]  
 }

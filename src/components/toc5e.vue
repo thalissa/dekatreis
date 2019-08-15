@@ -3,7 +3,7 @@
     h2 Table of Contents
     ul.toc
       li.rules
-        h3 Rules
+        h3 Houserules
         ul.section
           template(v-for="rule in rules")
             li.subsection

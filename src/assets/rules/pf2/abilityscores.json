@@ -1,0 +1,19 @@
+{
+  "abilityscores": [
+    {
+      "name": "Ability Scores",
+      "sections": [
+        {
+          "name": "Calculating Ability Scores",
+          "body": [
+            {
+              "name": "Rolling for stats",
+              "book": "MOD",
+              "body": "Dekatreis is a very high-powered world, where adventurers are expected to be stronger than usual. As such, when a player rolls for stats, they may roll 4d6, keeping only the highest 3 results. Additionally, they may reroll any dice that result in a 1 until the result of the dice being rerolled is at least 2. This is done six times and then distributed as the player wishes between their six ability scores: Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma.\n\nThis signifigantly bumps up the average ability scores of the players--so those used to running more low-powered games should be cautious at using this method."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

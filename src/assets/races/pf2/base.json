@@ -2,11 +2,9 @@
   "race": [
     {
       "name": "Race",
-      "book": "PHB",
       "sections": [
         {
           "name": "Background",
-          "book": "PHB",
           "body": [
             {
               "name": "Background Details",
@@ -16,51 +14,39 @@
         },
         {
           "name": "Traits",
-          "book": "AGtD",
           "body": [
             {
-              "name": "Hit Points",
+              "name": "Heritage",
               "body": ""
             },
             {
-              "name": "Size",
-              "body": "Medium"
-            },
-            {
-              "name": "Speed",
-              "body": "25 feet"
-            },
-            {
-              "name": "Ability Boosts",
+              "name": "Ancestry Feats",
               "body": ""
-            },
-            {
-              "name": "Ability Flaw",
-              "body": ""
-            },
-            {
-              "name": "Languages",
-              "body": "Common"
-            },
-            {
-              "name": "Bonus Languages",
-              "body": "At 1st level, if your Intelligence score is 14 or higher, you can also select one of the following languages: ."
-            },
-            {
-              "name": "Darkvision",
-              "body": "You can see in darkness and dim light just as well as you can see in bright light, though your vision in darkness is in black and white."
             }
           ]
         },
         {
-          "name": "",
-          "book": "",
+          "name": "Ancestry Feats",
           "body": [
             {
-              
+              "name": "Ancestry Feats",
+              "body": "At 1st level, you gain one ancestry feat, and you gain an additional ancestry feat every 4 levels thereafter (at 5th, 9th, 13th, and 17th level). As a Race, you select from among the following ancestry feats, in additional to all usual Human ancestry feats."
             },
             {
-              
+              "name": "Ancestry Feats Table",
+              "style": "table",
+              "body": [
+                [
+                  "Name",
+                  "Requirements",
+                  "Description"
+                ]
+              ]
+            },
+            {
+              "name": "Some Ability",
+              "book": "1 Action",
+              "body": "Description"
             }
           ]
         }

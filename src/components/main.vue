@@ -10,8 +10,8 @@
         .link
           router-link(to="/map") World Map
       .bottom
-        .link
-          router-link(to="/toc5e") D&D 5e
+        // .link
+          // router-link(to="/toc5e") D&D 5e
         .link
           router-link(to="tocpf2") Pathfinder 2
     .view

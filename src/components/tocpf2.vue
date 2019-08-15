@@ -2,16 +2,8 @@
   .content
     h2 Table of Contents
     ul.toc
-      li
-        h3 Basic Rules
-        ul.section
-          li.subsection
-            h5 Death Saving Throws
-            ul.sublist
-              router-link(:to="{ path: 'rules', query: { rule: 'deathsave', source: 'pf2' }}" tag="li") Death Saving Throws      
-
       li.races
-        h3 Races
+        h3 Ancestries & Heritages
         ul.section
           template(v-for="race in races")
             li.subsection

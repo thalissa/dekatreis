@@ -4,9 +4,6 @@
       "name": "Ability Scores",
       "sections": [
         {
-          "name": "Abilities"
-        },
-        {
           "name": "Calculating Ability Scores",
           "book": "MOD"
         },
@@ -17,54 +14,19 @@
         {
           "name": "Skills",
           "book": "MOD"
-        },
-        {
-          "name": "Initiative",
-          "book": "MOD"
-        },
-        {
-          "name": "Passive Checks"
-        },
-        {
-          "name": "Group Checks"
         }
       ]
     },
     {
       "name": "Environment",
-      "book": "MOD",
       "sections": [
         {
           "name": "Falling",
           "book": "MOD"
         },
         {
-          "name": "Suffocating"
-        },
-        {
-          "name": "Vision and Light"
-        },
-        {
-          "name": "Food and Water"
-        },
-        {
           "name": "Interacting with Objects",
           "book": "MOD"
-        },
-        {
-          "name": "Cover"
-        }
-      ]
-    },
-    {
-      "name": "Death Saving Throws",
-      "book": "MOD",
-      "sections": [
-        {
-          "name": "Falling to 0 HP"
-        },
-        {
-          "name": "Immediate Death"
         }
       ]
     }

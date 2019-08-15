@@ -1,0 +1,62 @@
+{
+  "aasimar": [
+    {
+      "name": "Aasimar",
+      "sections": [
+        {
+          "name": "Aasimar Background",
+          "body": [
+            {
+              "name": "Background Details",
+              "body": "Aasimar are humans with a significant amount of celestial or other good outsider blood in their ancestry. While not always benevolent, aasimar are more inclined toward acts of kindness rather than evil, and they gravitate toward faiths or organizations associated with celestials. Aasimar heritage can lie dormant for generations, only to appear suddenly in the child of two apparently human parents. Most societies interpret aasimar births as good omens, though it must be acknowledged that some aasimar take advantage of the reputation of their kind, brutally subverting the expectations of others with acts of terrifying cruelty or abject venality. “It’s always the one you least suspect” is the axiom these evil aasimar live by, and they often lead double lives as upstanding citizens or false heroes, keeping their corruption well hidden. Thankfully, these few are the exception and not the rule."
+            }
+          ]
+        },
+        {
+          "name": "Aasimar",
+          "book": "[Universal] [Heritage] [Aasimar]",
+          "body": [
+            {
+              "name": "Aasimar Traits",
+              "body": "You have been blessed, either by blood or through dealing with an angel, and now bare the resemblance of the Celestials. Growing wings, or perhaps your eyes shifting colour, people look upon you with awe and sometimes fear. You gain darkvision, though your vision appears golden-tinted while in pure darkness."
+            },
+            {
+              "name": "Aasimar Ancestry Feats",
+              "body": "Additionally, you may choose Ancestry feats from your ancestry or the list of Aasimar feats."
+            }
+          ]
+        },
+        {
+          "name": "Aasimar Ancestry Feats",
+          "body": [
+            {
+              "name": "Ancestry Feats",
+              "body": "At 1st level, you gain one ancestry feat, and you gain an additional ancestry feat every 4 levels thereafter (at 5th, 9th, 13th, and 17th level). As an Aasimar, you select from among the following ancestry feats, in additional to all usual ancestry feats from your ancestry."
+            },
+            {
+              "name": "Ancestry Feats Table",
+              "style": "table",
+              "body": [
+                [
+                  "Name",
+                  "Requirements",
+                  "Description"
+                ],
+                [
+                  "Armour of Virtue",
+                  "Aasimar Heritage, Level 1",
+                  "Your Celestial blood allows you to to defend yourself effectively from the harsh, negative energy associated with that which is undead. You gain resistance to negative damage equal to half your level (minimum 1)."
+                ],
+                [
+                  "Armour of Sin",
+                  "Aasimar Heritage, Level 1",
+                  "Your angelic ancestors fought often against others of their kind, leading you to be adept at defending yourself against other beings of great, holy power. You gain resistance to positive damage equal to half your level (minimum 1)."
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

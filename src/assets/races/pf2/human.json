@@ -1,12 +1,10 @@
 {
   "human": [
     {
-      "name": "Kanae",
-      "book": "AGtD",
+      "name": "Kanae (Dekatrian Human)",
       "sections": [
         {
-          "name": "Background",
-          "book": "AGtD",
+          "name": "Kanae Background",
           "body": [
             {
               "name": "The First Created",
@@ -18,7 +16,7 @@
             },
             {
               "name": "A Demigod's Children",
-              "body": "Finally, after the success of their initial developments of the human race, they decided to dabble into one more area of modification for the human race. While many of the Demigods were not human, they had learned quickly that they could not breed with each other nor their creations. Any children of the Demigods had to be made through the Book of Creation. As this realisation dawned on them, they decided to turn to Kavara and ask for her assistence, to give the Demigods children. Using two parents as a basis for this new race, Kavara melded their forms together, and after enough experimentation she arrived at what is now known as the \"Kathari,\" a race of humans with the innate magic of the Magia, the innate wings of the Petona, and the bolstered bloodline of the Demigods. The Queen of Dekatreis herself was one such born of this practice, and many more after her."
+              "body": "Finally, after the success of their initial developments of the human race, they decided to dabble into one more area of modification for the human race. While many of the Demigods were not human, they had learned quickly that they could not breed with each other nor their creations. Any children of the Demigods had to be made through the Book of Creation. As this realisation dawned on them, they decided to turn to Kavara and ask for her assistence, to give the Demigods children. Using two parents as a basis for this new race, Kavara melded their forms together, and after enough experimentation she arrived at what is now known as the \"Kathari,\" a race of humans with the innate magic of the Magia, the innate wings of the Petona, and the bolstered bloodline of the Demigods. The Queen of Dekatreis herself was one such born of this practice, and many more alongside her"
             },
             {
               "name": "A New Name",
@@ -27,81 +25,47 @@
           ]
         },
         {
-          "name": "Traits",
-          "book": "AGtD",
-          "body": [
-            {
-              "name": "Hit Points",
-              "body": ""
-            },
-            {
-              "name": "Size",
-              "body": "Medium"
-            },
-            {
-              "name": "Speed",
-              "body": "25 feet"
-            },
-            {
-              "name": "Ability Boosts",
-              "body": "Two free"
-            },
-            {
-              "name": "Ability Flaw",
-              "body": "None"
-            },
-            {
-              "name": "Languages",
-              "body": "Common"
-            },
-            {
-              "name": "Bonus Languages",
-              "body": "At 1st level, if your Intelligence score is 14 or higher, you can also select one of the following languages: ."
-            }
-          ]
-        },
-        {
-          "name": "Petona (Subrace)",
-          "book": "AGtD",
+          "name": "Petona",
+          "book": "[Heritage] [Human] [Petona]",
           "body": [
             {
               "name": "Background",
               "body": "While they might seem like humans, that quickly changes as their beautiful wings spread out from behind them. Large and feathered, with hints of magical energy around them, these wings allow them to fly high in the sky like a majestic angel or bird might."
             },
             {
-              "name": "Ability Score Increase",
-              "body": "Choose either your Strength or Dexterity to increase by 2, and your Wisdom increases by 1. This replaces the Kanae's usual ability score increase."
+              "name": "Petona Heritage",
+              "body": "Descended by the Petona, a type of human created by the legendary Kavara when the world first began. Strong and with large, beautiful wings, you are granted the natural ability to fly. You gain a Fly Speed of 20 and access to the Fly action. Read the details on Fly Speed on page 463 of the Core Rulebook."
             },
             {
-              "name": "Flight",
-              "body": "The Petona are graced with the power of wings, allowing them to take flight. You gain a flight speed of 25 feet and can hover while not wearing heavy armour or armour that you are not proficient in. You cannot carry another creature that is a bigger size than Small while you are flying. This replaces the Kanae's Versatile trait."
+              "name": "Petona Ancestry Feats",
+              "body": "Additionally, you may select ancestry feats with the Petona ancestry requirement."
             }
           ]
         },
         {
-          "name": "Magia (Subrace)",
-          "book": "AGtD",
+          "name": "Magia",
+          "book": "[Heritage] [Human] [Magia]",
           "body": [
             {
               "name": "Background",
               "body": "Much like the Petona, you might think that they are normal humans, but unlike Petona they do not seem to have any outwards distinction. However, their abilities are inwards, granting them the natural affinity to use magic."
             },
             {
-              "name": "Ability Score Increase",
-              "body": "Your Intelligence score increases by 2, and your Charisma score increases by 1. This replaces the Kanae's usual ability score increase."
+              "name": "Magia heritage",
+              "body": "Much like their cousins the Petona, the Magia were created as one of the first experiments in creating new races by Kavara, the Dragonborn Creator. Instead of being given wings, your ancestors were granted the innate power of magic. Choose one cantrip from the Arcane spell list (page 307). You can cast this cantrip as an arcane innate spell at will. A cantrip is heightened to a spell level equal to half your level rounded up."
             },
             {
-              "name": "Magical Affinity",
-              "body": "Due to magic in their blood, Magia gain an easily accessed supply to magic. You gain the properties of the Magic Initiate feat. You cannot gain the propreties of Magic Initiate again if you take this feat later. This replaces the Kanae's Versatile trait."
+              "name": "Magia Ancestry Feats",
+              "body": "Additionally, you may select ancestry feats with the Magia ancestry requirement."
             }
           ]
         },
         {
-          "name": "Kathari (Subrace)",
-          "book": "AGtD",
+          "name": "Kathari",
+          "book": "[Heritage] [Human] [Kathari] [Restricted]",
           "body": [
             {
-              "name": "Noble Only",
+              "name": "Restricted",
               "body": "A Kathari has the bloodline of one of the 13 Demigods. Much like the Queen and the twinned princesses of Dekatreis, a Kathari's innate magic and wings grants them intense worship among the common people, even those who hold no official noble titles. In order to use the Kathari player race, you must ask your Dungeon Master for approval first."
             },
             {
@@ -109,20 +73,89 @@
               "body": "Kathari are a breed of humans that are distinct from the other variants of humans, coming from the bloodline of one of the original 13 Demigods. They take the best traits of the Petona and the Magia, and their divine blood boosts their usage of both of these powers."
             },
             {
-              "name": "Ability Score Increase",
-              "body": "Choose either your Charisma or Intelligence score to increase by 2, and increase your Dexterity score by 1. This replaces the Kanae's usual ability score increase."
-            },
-            {
               "name": "Age",
               "body": "The Kathari, with their divine, empowered blood running through their heart, live a signifigantly longer lifespan than a normal Kanae. While they age at the same rate as the Kanae to start, they appear to age signifigantly slower past age 30. One of the oldest known Kathari, The Queen herself, has lived for a millennium, and many other Kathari reach the same age."
             },
             {
-              "name": "Enhanced Flight",
-              "body": "Superior to the Petona, Kathari are born with stronger wings than the other human variant. You gain a flight speed of 35 feet and can hover while not wearing heavy armour or armour that you are not proficient in.  You cannot carry another creature that is a bigger size than Small while you are flying. This replaces the Kanae's Versatile trait."
+              "name": "Kathari Heritage",
+              "body": "The rarest of the races of Dekatreis, though arguably the most famous, the Kathari were created long after the Petona and the Magia. Unable to create children naturally, Kavara was asked to take the blood of a Demigod and create a child from their essence while combining the best traits of both the Petona and the Magia while also enhancing them. You gain a Fly Speed of 25 feet (more details on page 463 of the Core Rulebook) and access to the Fly action. Additionally, you can choose two cantrips from the Arcane spell list (page 307). You can cast these cantrips as arcane innate spells at will. Cantrips are heightened to a spell level equal to half your level rounded up."
             },
             {
-              "name": "Enhanced Magical Affinity",
-              "body": "Surpassing the Magia in their inate magical blood, Kathari can tap into a much stronger well than their lesser variant can. You gain the propreties of the Magic Initiate feat, but you may pick an additional cantrip and 1st-level spell in addition to the cantrips and spell you already gain. You cannot gain the propreties of Magic Initiate again if you take this feat later."
+              "name": "Kathari Ancestry Feats",
+              "body": "Additionally, you may select ancestry feats with the Kathari ancestry requirement."
+            }
+          ]
+        },
+        {
+          "name": "Nekomimi",
+          "book": "[Heritage] [Human] [Nekomimi]",
+          "body": [
+            {
+              "name": "Background",
+              "body": "Unlike the Petona, Magia, and Kathari, the Nekomimi weren't an experiment but a recreation of the cat-like races from the old world. With sensitive, cat-like ears and tails to enhance their balance, they quickly became the hunting masters of the human race."
+            },
+            {
+              "name": "Nekomimi Heritage",
+              "body": "Your ancestors were remarkable hunters and had the feline grace of the greatest big cats. Adapting their traits, Nekomimi have cat-like eyes and various other features from their ancestors, which can include furred tails, ears, and sometimes claws. You gain low-light vision."
+            },
+            {
+              "name": "Nekomimi Ancestry Feats",
+              "body": "Additionally, you may select ancestry feats with the Nekomimi ancestry requirement."
+            }
+          ]
+        },
+        {
+          "name": "Human Ancestry Feats",
+          "body": [
+            {
+              "name": "Ancestry Feats",
+              "body": "At 1st level, you gain one ancestry feat, and you gain an additional ancestry feat every 4 levels thereafter (at 5th, 9th, 13th, and 17th level). As a Kanae, you select from among the following ancestry feats, in additional to all usual Human ancestry feats."
+            },
+            {
+              "name": "Human Ancestry Feats Table",
+              "style": "table",
+              "body": [
+                [
+                  "Name",
+                  "Requirements",
+                  "Description"
+                ],
+                [
+                  "Quick Movement",
+                  "Nekomimi Ancestry, 1st Level",
+                  "You're naturally fast-moving just as your ancestors were. Your Speed increses by 5 feet."
+                ],
+                [
+                  "Cat's Grace",
+                  "Nekomimi Ancestry, 1st Level",
+                  "Your ancestors were particularly adept at reacting with movement, allowing them the ability to better avoid attacks. You gain the Feline Reflexes reaction, listed below."
+                ],
+                [
+                  "Feline Claws",
+                  "Nekomimi Ancestry, 1st Level",
+                  "Gifted with claws, you have trained to use them effectively in combat. You gain the Claw action."
+                ],
+                [
+                  "Precise Hearing",
+                  "Nekomimi Ancestry, 5th Level",
+                  "Your feline ears are able to listen for even the slightest changes in movement with much better ease than others. Your Perception checks using hearing are treated as Expert proficiency. If you gain Expert proficiency in Perception from a separate feature, your Perception checks using hearing are treated as Master proficiency instead."
+                ],
+                [
+                  "Fast Flight",
+                  "Petona or Kathari Ancestry, 15th Level",
+                  "You've specialized in hastening your flight. Your Fly Speed increases by 5 feet."
+                ]
+              ]
+            },
+            {
+              "name": "Feline Reflexes",
+              "book": "Reaction",
+              "body": "Frequency: Once per round\nTrigger: Being targeted with an attack, ability, or spell that forces you to make a Reflex saving throw.\nYou gain a +2 Circumstance bonus to a Reflex saving throw that originates from a target or point that you can see."
+            },
+            {
+              "name": "Claw",
+              "book": "1 action",
+              "body": "Striking with your claws, you deal 1d6 Slashing damage. These claws have the agile, finesse, and unarmed traits."
             }
           ]
         }

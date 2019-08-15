@@ -20,6 +20,12 @@
                       tr
                         template(v-for="column in row")
                           td {{ column }}
+                template(v-else-if="subsection.style == 'details'")
+                  details
+                    summary
+                      h4.raceHeading {{ subsection.name }}
+                        .book {{ subsection.book }}
+                    .raceText {{ subsection.body }}
                 template(v-else)
                   h4.raceHeading {{ subsection.name }}
                     .book {{ subsection.book }}
@@ -42,9 +48,8 @@
     font-size 10pt
     
   .book
-    display inline-block
-    font-size 7pt
-    margin-left 5px
+    display block
+    font-size 9pt
   
   legend, fieldset
     display inline-block
