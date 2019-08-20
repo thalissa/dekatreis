@@ -38,7 +38,7 @@
             },
             {
               "name": "Petona Ancestry Feats",
-              "body": "Additionally, you may select ancestry feats with the Petona ancestry requirement."
+              "body": "Additionally, you may select ancestry feats with the Petona Heritage requirement."
             }
           ]
         },
@@ -56,7 +56,7 @@
             },
             {
               "name": "Magia Ancestry Feats",
-              "body": "Additionally, you may select ancestry feats with the Magia ancestry requirement."
+              "body": "Additionally, you may select ancestry feats with the Magia Heritage requirement."
             }
           ]
         },
@@ -82,7 +82,7 @@
             },
             {
               "name": "Kathari Ancestry Feats",
-              "body": "Additionally, you may select ancestry feats with the Kathari ancestry requirement."
+              "body": "Additionally, you may select ancestry feats with the Kathari Heritage requirement."
             }
           ]
         },
@@ -100,7 +100,7 @@
             },
             {
               "name": "Nekomimi Ancestry Feats",
-              "body": "Additionally, you may select ancestry feats with the Nekomimi ancestry requirement."
+              "body": "Additionally, you may select ancestry feats with the Nekomimi Heritage requirement."
             }
           ]
         },
@@ -122,27 +122,27 @@
                 ],
                 [
                   "Quick Movement",
-                  "Nekomimi Ancestry, 1st Level",
+                  "Nekomimi Heritage, 1st Level",
                   "You're naturally fast-moving just as your ancestors were. Your Speed increses by 5 feet."
                 ],
                 [
                   "Cat's Grace",
-                  "Nekomimi Ancestry, 1st Level",
+                  "Nekomimi Heritage, 1st Level",
                   "Your ancestors were particularly adept at reacting with movement, allowing them the ability to better avoid attacks. You gain the Feline Reflexes reaction, listed below."
                 ],
                 [
                   "Feline Claws",
-                  "Nekomimi Ancestry, 1st Level",
+                  "Nekomimi Heritage, 1st Level",
                   "Gifted with claws, you have trained to use them effectively in combat. You gain the Claw action."
                 ],
                 [
                   "Precise Hearing",
-                  "Nekomimi Ancestry, 5th Level",
+                  "Nekomimi Heritage, 5th Level",
                   "Your feline ears are able to listen for even the slightest changes in movement with much better ease than others. Your Perception checks using hearing are treated as Expert proficiency. If you gain Expert proficiency in Perception from a separate feature, your Perception checks using hearing are treated as Master proficiency instead."
                 ],
                 [
                   "Fast Flight",
-                  "Petona or Kathari Ancestry, 15th Level",
+                  "Petona or Kathari Heritage, 15th Level",
                   "You've specialized in hastening your flight. Your Fly Speed increases by 5 feet."
                 ]
               ]

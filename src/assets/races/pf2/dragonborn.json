@@ -59,7 +59,7 @@
             },
             {
               "name": "Elemental Ancestry Feats",
-              "body": "Additionally, you may select Dragonborn ancestry feats with the Elemental ancestry requirement."
+              "body": "Additionally, you may select Dragonborn ancestry feats with the Elemental Heritage requirement."
             }
           ]
         },
@@ -73,7 +73,21 @@
             },
             {
               "name": "Potent Ancestry Feats",
-              "body": "Additionally, you may select Dragonborn ancestry feats with the Potent ancestry requirement."
+              "body": "Additionally, you may select Dragonborn ancestry feats with the Potent Heritage requirement."
+            }
+          ]
+        },
+        {
+          "name": "Winged",
+          "book": "[Dragonborn] [Heritage] [Winged]",
+          "body": [
+            {
+              "name": "Winged Heritage",
+              "body": "Descended from dragons who were experts at moving through the air, you grew wings. You gain a Fly Speed of 10 feet."
+            },
+            {
+              "name": "Winged Ancestry Feats",
+              "body": "Additionally, you may select Dragonborn ancestry feats with the Winged Heritage requirement."
             }
           ]
         },
@@ -110,13 +124,43 @@
                 ],
                 [
                   "Elemental Breath",
-                  "Elemental Ancestry, 5th Level",
+                  "Elemental Heritage, 5th Level",
                   "Your draconic power manifests as a breath weapon that can harm your foes. You gain the Heritage Power associated with the damage type you selected as part of your Elemental ancestry from the Heritage Powers table. You can cast this power as a Primal innate spell once per day. This spell is automatically heightened to a spell level equal to half your level rounded up."
                 ],
                 [
                   "Potent Energy",
-                  "Potent Ancestry, 5th Level",
+                  "Potent Heritage, 5th Level",
                   "Your draconic power manifests as one of the defining traits of your ancestors. You gain the Heritage Power assocaited with the damage type you selected as part of your Potent ancestry from the Heritage Powers table. You can cast this power as an Arcane innate spell once per day. This spell is automatically heightened to a spell level equal to half your level rounded up."
+                ],
+                [
+                  "Illusion Sense",
+                  "5th Level",
+                  "Your ancestors spent their days crafting and piercing through illusions, and as a result, sensing illusion magic is second nature to you. You gain a +2 circumstance bonus to both Perception checks and Will saves against illusions."
+                ],
+                [
+                  "Draconic Toughness",
+                  "5th Level",
+                  "Your scales have adapted to be thicker than average. While unarmoured, you gain a +1 conditional bonus to AC."
+                ],
+                [
+                  "Fast Flight",
+                  "9th Level, Winged Heritage",
+                  "As your power expands and you strength your ancestral bond, your wings grow quicker. Your Fly Speed increases by 5 feet."
+                ],
+                [
+                  "Draconic Health",
+                  "9th Level",
+                  "Your innate dragon blood has become powerful enough to restore you with more ease. If you rest for 10 minutes, you gain Hit Points equal to your Constitution modifier × Half your level. This is cumulative with any healing you receive from Treat Wounds."
+                ],
+                [
+                  "Quick Winged",
+                  "13th Level, Winged Heritage",
+                  "Your adeptness towards flight has allowed you increased manuverability. Your Fly Speed increases by 5 feet, and after taking the Fly action on your turn you gain a +2 circumstance bonus to Acrobatics checks and Reflex saves until the start of your next turn."
+                ],
+                [
+                  "Shattering Gaze",
+                  "13th Level",
+                  "Upon failing a check to Make an Impression, you can use your reaction to attempt to Coerce the target using Intimidation."
                 ]
               ]
             },

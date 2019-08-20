@@ -14,7 +14,7 @@
         },
         {
           "name": "Daywalker Traits",
-          "book": "]Universal] [Heritage] [Vampire] [Daywalker] [Undead]",
+          "book": "[Universal] [Heritage] [Vampire] [Daywalker] [Undead]",
           "body": [
             {
               "name": "Daywalker Vampire Heritage",
@@ -22,13 +22,13 @@
             },
             {
               "name": "Vampire Ancestry Feats",
-              "body": "Additionally, you may choose Ancestry feats from your ancestry or the list of Vampire and Daywalker feats."
+              "body": "Additionally, you may choose Ancestry feats from your ancestry or the list of Vampire feats."
             }
           ]
         },
         {
           "name": "Nightwalker Traits",
-          "book": "]Universal] [Heritage] [Vampire] [Nightwalker] [Undead]",
+          "book": "[Universal] [Heritage] [Vampire] [Nightwalker] [Undead]",
           "body": [
             {
               "name": "Nightwalker Vampire Heritage",
@@ -36,7 +36,7 @@
             },
             {
               "name": "Vampire Ancestry Feats",
-              "body": "Additionally, you may choose Ancestry feats from your ancestry or the list of Vampire and Nightwalker feats."
+              "body": "Additionally, you may choose Ancestry feats from your ancestry or the list of Vampire feats."
             }
           ]
         },
