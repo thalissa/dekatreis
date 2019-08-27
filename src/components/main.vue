@@ -15,7 +15,7 @@
         .link
           router-link(to="tocpf2") Pathfinder 2
     .view
-      router-view
+      router-view(:key="$route.fullPath")
 </template>
 
 <style lang="stylus">
@@ -39,6 +39,7 @@
   
   h1, h2, h3, h4, h5, h6
     color #4E2A84
+    margin-block-end .2em
   
   h6
     margin-top 0px

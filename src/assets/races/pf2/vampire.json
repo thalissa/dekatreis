@@ -18,11 +18,15 @@
           "body": [
             {
               "name": "Daywalker Vampire Heritage",
-              "body": "Manipulated flesh and negative energy has allowed special breeds of vampires to roam the worlds of Dekatreis. Daywalkers gain an additional two ability boosts, only one of which must be Dexterity or Charisma.\n\nDaywalkers may march through the daylight, though they take 1d8 positive damage that cannot be negated by any means each time they start their turn in unobstructed moonlight.\n\nThese kinds of vampires rebuke many usual myths of traditional vampiric creatures. However, they must feed at least once a week on at least 2 pints of blood, or else they suffer 1 level of the fatigued condition that cannot be reduced except by drinking at least 2 points of blood. The creature the blood originates from does not matter, only that they feast from a living creature."
+              "body": "Manipulated flesh and negative energy has allowed special breeds of vampires to roam the worlds of Dekatreis. Daywalkers gain an additional two ability boosts, only one of which must be Dexterity or Charisma.\n\nDaywalkers may march through the daylight, though they take 1d8 positive damage that cannot be negated by any means each time they start their turn in unobstructed moonlight.\n\nThese kinds of vampires rebuke many usual myths of traditional vampiric creatures. However, they must feed at least once a week on at least 2 pints of blood, or else they suffer 1 level of the fatigued condition that cannot be reduced except by drinking at least 2 pints of blood. The creature the blood originates from does not matter, only that they feast from a living creature."
             },
             {
               "name": "Vampire Ancestry Feats",
               "body": "Additionally, you may choose Ancestry feats from your ancestry or the list of Vampire feats."
+            },
+            {
+              "name": "Blood Bite",
+              "body": "As a two-action activity, you may bite into a living creature's neck and take blood from them. The creature must be either willing or unable to resist, such as through the Stunned, Grabbed, or other conditions that prevent a creature from moving. Vampires of this heritage only need drink two pints of blood per week, but may take more. In either case, the creature gains 1 level of the Drained condition."
             }
           ]
         },
@@ -37,6 +41,10 @@
             {
               "name": "Vampire Ancestry Feats",
               "body": "Additionally, you may choose Ancestry feats from your ancestry or the list of Vampire feats."
+            },
+            {
+              "name": "Blood Bite",
+              "body": "As a two-action activity, you may bite into a living creature's neck and take blood from them. The creature must be either willing or unable to resist, such as through the Stunned, Grabbed, or other conditions that prevent a creature from moving. Vampires of this heritage only need drink two pints of blood per week, but may take more. In either case, the creature gains 1 level of the Drained condition."
             }
           ]
         },

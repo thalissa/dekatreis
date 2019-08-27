@@ -18,6 +18,12 @@
               template(v-else)
                 router-link(:to="{ path: 'races', query: { race: race.name, source: 'pf2' }}" tag="a" ) {{ race.name }}
                   .book {{ race.book }}
+      li.classes
+        h3 Classes
+        ul.section
+          template(v-for="tabletopClass in classes")
+            li.subsection
+              router-link(:to="{ path: 'classes', query: { tabletopClass: tabletopClass.name, source: 'pf2' }}" tag="a" ) {{ tabletopClass.name }}
 </template>
 
 <style lang="stylus" scoped>
@@ -28,12 +34,16 @@
   export default {
       data: function () {
         return {
-          races: ''
+          races: '',
+          classes: ''
         }
       },
       created() {
           var raceJSON = require("../assets/races/pf2/racelist.json")
           this.races = raceJSON["races"]
+          
+          var classJSON = require("../assets/classes/pf2/classlist.json")
+          this.classes = classJSON["classes"]
       },
       methods: {
 

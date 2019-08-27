@@ -10,6 +10,7 @@ import PF2ToCComponent from './components/tocpf2.vue'
 import LoreToCComponent from './components/toclore.vue'
 import RuleComponent from './components/rule.vue'
 import RaceComponent from './components/race.vue'
+import ClassComponent from './components/class.vue'
 import LoreComponent from './components/lore.vue'
 import MapComponent from './components/map.vue'
 
@@ -46,6 +47,11 @@ const router = new Router({
       path: '/races',
       name: 'Races',
       component: RaceComponent
+    },
+    {
+      path: '/classes',
+      name: 'Classes',
+      component: ClassComponent
     },
     {
       path: '/lore',

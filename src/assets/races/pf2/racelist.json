@@ -32,6 +32,23 @@
       ]
     },
     {
+      "name": "Kitsune",
+      "subraces": [
+        {
+          "name": "Skilled"
+        },
+        {
+          "name": "Desert"
+        },
+        {
+          "name": "Arctic"
+        },
+        {
+          "name": "Stone"
+        }
+      ]
+    },
+    {
       "name": "Aasimar",
       "book": "Universal"
     },
