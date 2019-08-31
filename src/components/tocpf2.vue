@@ -2,6 +2,21 @@
   .content
     h2 Table of Contents
     ul.toc
+      li.rules
+        h3 Houserules
+        ul.section
+          template(v-for="rule in rules")
+            li.subsection
+              template(v-if="rule.sections")
+                router-link(:to="{ path: 'rules', query: { rule: rule.name.replace(/[^a-z0-9]/gi,''), source: 'pf2' }}" tag="a" ) {{ rule.name }}
+                  .book(v-if="rule.book") {{ rule.book }}
+                ul.sublist(v-for="section in rule.sections")
+                  li {{ section.name }}
+                    .book(v-if="section.book") {{ section.book }}
+              template(v-else)
+                router-link(:to="{ path: 'rules', query: { rule: rule.name.replace(/[^a-z0-9]/gi,''), source: 'pf2' }}" tag="a" ) {{ rule.name }}
+                  .book(v-if="rule.book") {{ rule.book }}
+
       li.races
         h3 Ancestries & Heritages
         ul.section
@@ -35,7 +50,8 @@
       data: function () {
         return {
           races: '',
-          classes: ''
+          classes: '',
+          rules: ''
         }
       },
       created() {
@@ -44,6 +60,9 @@
           
           var classJSON = require("../assets/classes/pf2/classlist.json")
           this.classes = classJSON["classes"]
+          
+          var ruleJSON = require("../assets/rules/pf2/rulelist.json")
+          this.rules = ruleJSON["rules"]
       },
       methods: {
 

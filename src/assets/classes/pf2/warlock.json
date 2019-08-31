@@ -17,11 +17,11 @@
           "body": [
             {
               "name": "Key Ability",
-              "body": "Intelligence or Patron Determined.\nAt 1st level, your class gives you an ability boost to Intelligence or an option from your Patron."
+              "body": "Intelligence or determined by your Patron feature.\nAt 1st level, your class gives you an ability boost to Intelligence or an option from your Patron."
             },
             {
               "name": "Hit Points",
-              "body": "8 plus your Constitution Modifier\nYou increase your maximum number of hitpoints by this number at 1st level and every level thereafter."
+              "body": "8 plus your Constitution Modifier.\nYou increase your maximum number of hitpoints by this number at 1st level and every level thereafter."
             }
           ]
         },
@@ -30,11 +30,11 @@
           "body": [
             {
               "name": "Perception",
-              "body": "Trained in Perception"
+              "body": "Trained in Perception."
             },
             {
               "name": "Saving Throws",
-              "body": "Trained in Fortitude\nTrained in Reflex\nExpert in Will"
+              "body": "Trained in Fortitude.\nTrained in Reflex.\nExpert in Will."
             },
             {
               "name": "Skills",
@@ -122,7 +122,7 @@
                 ],
                 [
                   "10",
-                  "Skill Feat, Warlock Feat",
+                  "Ability Boosts, Skill Feat, Warlock Feat",
                   "12",
                   "5"
                 ],
@@ -152,7 +152,7 @@
                 ],
                 [
                   "15",
-                  "General Feat, Invocation Feat, 8th-level Spells",
+                  "Ability Boosts, General Feat, Invocation Feat, 8th-level Spells",
                   "17",
                   "8"
                 ],
@@ -182,7 +182,7 @@
                 ],
                 [
                   "20",
-                  "Skill Feat, Warlock Feat",
+                  "Ability Boosts, Skill Feat, Warlock Feat",
                   "22",
                   "10"
                 ]
@@ -199,7 +199,12 @@
               "body": "In addition to the abilities provided by your class at 1st level, you have the benefits of your selected ancestry and background, as described in Chapter 2."
             },
             {
-              "name": "Otherworldly Patron",
+              "name": "Initial Proficiencies",
+              "level": "1",
+              "body": "At 1st level, you gain a number of proficiencies that represent your basic training. These proficiencies are noted at the start of this class."
+            },
+            {
+              "name": "Patron",
               "level": "1",
               "body": "Your magic comes not from any conventional source, but from a greater being that you have a mutually beneficial relationship with. While they grant you various tools to strengthen yourself with, they often ask other things in return.\nChoose from the Otherworldly Patron Table. You gain the Patron, the skill proficiency, the arcane tradition, the bonus feat, and you may use the listed key ability associated with the Patron in place of your class ability. You also gain access to any Warlock class feat that has your chosen Patron as a prerequisite."
             },
@@ -250,9 +255,14 @@
               "body": "Your patron has granted you a small token of their power: The ability to conjure a beam of forceful energy from your body to take down your foes. You gain the Arcane Blast spell as an arcane innate spell that you may cast at will. This spell is automatically heightened to half your level.\n\nArcane Blast\nEvocation\nCasting: Somatic, Verbal\nRange: 120 feet; Target: One creature or object within range.\nA blast of energy projects from your body and strikes a creature you are aiming at, dealing 1d8 Force damage.\nHeightened (+1) The damage increases by 1d8."
             },
             {
-              "name": "Initial Proficiencies",
+              "name": "Warlock Spellcasting",
               "level": "1",
-              "body": "At 1st level, you gain a number of proficiencies that represent your basic training. These proficiencies are noted at the start of this class."
+              "body": "You gain spells from your Patron. Whoever they may be, they have granted you part of their power in exchange for your dedication to them. You can cast spells using the Cast a Spell activity, and you can supply material, somatic, and verbal components when casting spells (see Casting Spells on page 302). Because you're a Warlock, you can usually replace material components with the somatic component of accessing your Spell Tome, so you don't need to use a spell component pouch unless the material has a cost.\n\nEach day, you have a number of spell slots that allow you to cast your spells gained from the Spell Tome feature. You begin play with 2 spell slots. You gain additional spell slots as you increase in level, and your spell slots are always heightened to your maximum casting ability. For example, a 5th level Warlock would have 3 spell slots, all of which are of 3rd level, causing any 1st or 2nd level spells to be heightened as if they were being cast using 3rd level spell slots. Many spells have specific improvements when they are heightened to certain levels (page 299).\n\nSome of your spells require you to attempt a spell attack roll to see how effective they are, or have your enemies roll against your spell DC (typically by attempting a saving throw). As a Warlock, your spell attack rolls and spell DCs use either Intelligence or the modifier of your \"Key Ability\" that is listed for your Patron. Details on calculating these statistics appear on page 447.\n\nSome of your spells are cantrips. A cantrip is a special type of spell that doesn’t use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is automatically heightened to half your level rounded up, which equals the highest level of spell you can cast as a Warlock. For example, as a 1st level Warlock, your cantrips are 1st-level spells, and as a 5th level Warlock, your cantrips are 3rd-level spells."
+            },
+            {
+              "name": "Spell Tome",
+              "level": "1",
+              "body": "The spells that you can cast are stored within your Spell Tome. At 1st level, you learn three 1st level spells of your choice and five cantrips of your choice from the arcane tradition granted to you by your Patron. You can cast any spell in your Spell Tome by using a spell slot. Should you ever lose your Spell Tome, you are still able to cast cantrips, but in order to cast your spells again you must perform a ritual over the course of your daily preparations to retrieve your Spell Tome again.\n\nYou add to your Spell Tome as you increase in level. Each time you increase in level, you gain an addition spell for which you have the spell slots for. For example, a 5th level Warlock could choose a new 1st, 2nd, or 3rd level spell.\n\nShould you wish to change a spell in your Spell Tome, whenever you finish your Daily Preparations, you may replace up to three spells in your Spell Tome. The new spells needn't be of the same level as the olds spells, but your spell slots must be capable of casting the new spells. You can also replace cantrips, though only with other cantrips."
             },
             {
               "name": "Warlock Feats",
@@ -272,7 +282,7 @@
             {
               "name": "Invocation Feats",
               "level": "3",
-              "body": "At 3rd level and every 3 levels thereafter, you gain an invocation feat. Invocation feats are listed below."
+              "body": "At 3rd level and every 3 levels thereafter, you gain an invocation feat, allowing you to better flex your patron's power. Invocation feats are listed below."
             }
           ]
         },
@@ -291,6 +301,51 @@
                   "Name",
                   "Requirements",
                   "Description"
+                ]
+              ]
+            },
+            {
+              "name": "Some Ability",
+              "book": "1 Action",
+              "body": "Description"
+            }
+          ]
+        },
+        {
+          "name": "Invocation Feats",
+          "body": [
+            {
+              "name": "Invocation Feats",
+              "body": ""
+            },
+            {
+              "name": "Invocation Feats Table",
+              "style": "table",
+              "body": [
+                [
+                  "Name",
+                  "Requirements",
+                  "Description"
+                ],
+                [
+                  "Patron Weapon",
+                  "3rd Level",
+                  "You gain the ability to summon any weapon that you are proficient with as a single action. This weapon bares resemblance to your Patron, though the exact design is up to you. This weapon functions as a normal weapon and lasts until dismissed as a single action or until it spends a minute more than 30 feet away from you. Each time you summon your Patron Weapon, you can choose a new form, but the weapon keeps any runes that were inscribed into it even if you transform it.\n\nAdditionally, you may choose a weapon that wasn't created using this feature. Upon choosing a weapon, over the course of your daily preparations you may bond that weapon to be your Patron Weapon. Once bonded, you may summon and desummon it as normal using this feature, and it can be improved by other abilities."
+                ],
+                [
+                  "Patron's Edge",
+                  "6th Level, Patron Weapon",
+                  "Weapons summoned through your Patron are especially powerful in your hands. When you are wielding a Patron Weapon, increase the damage die size of that weapon by one step. If its damage die is smaller than d6, instead increase its damage die size to d6. Additionally, weapons summoned using your Patron Weapon feature are counted as magical for the purposes of overcoming damage resistance."
+                ],
+                [
+                  "Shadow Strike",
+                  "6th Level, Patron Weapon",
+                  "Using the magic of your Patron, you are able to teleport short distances. Using two actions, you may teleport up to a distance equal to your Speed and deliver a Strike to your opponent. You gain a +1 Circumstance bonus to the attack roll on this attack only."
+                ],
+                [
+                  "Twinned Weapons",
+                  "6th Level, Patron Weapon",
+                  "You may now summon two Patron weapons instead of one so long as both of your hands are free. These weapons must be of the same type and must be able to be wielded in one hand each. While you have these weapons in both hands, they have the Twin property."
                 ]
               ]
             },
