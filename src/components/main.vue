@@ -9,11 +9,13 @@
           router-link(to="/toclore") Dekatreis Lore
         .link
           router-link(to="/map") World Map
-      .bottom
-        // .link
-          // router-link(to="/toc5e") D&D 5e
         .link
           router-link(to="tocpf2") Pathfinder 2
+      .middle
+        .link
+          a(href="https://www.patreon.com/thalissa" target="_blank") Patreon
+        .link
+          a(href="https://github.com/thalissa/dekatreis" target="_blank") GitHub
     .view
       router-view(:key="$route.fullPath")
 </template>
