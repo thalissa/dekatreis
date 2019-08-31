@@ -15,7 +15,7 @@
 </template>
 
 <style lang="stylus" scoped>
-  @import "../assets/toc.styl"
+  @import "../assets/styling/toc.styl"
   
   .loreHeader
     display flex

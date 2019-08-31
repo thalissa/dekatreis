@@ -30,7 +30,7 @@
 </template>
 
 <style lang="stylus" scoped>
-  @import "../assets/display.styl"
+  @import "../assets/styling/display.styl"
 </style>
 
 <script>

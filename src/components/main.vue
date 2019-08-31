@@ -19,7 +19,7 @@
 </template>
 
 <style lang="stylus">
-  @import "../assets/main.styl"
+  @import "../assets/styling/main.styl"
 </style>
 
 <script>

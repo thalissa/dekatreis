@@ -37,12 +37,7 @@
 </template>
 
 <style lang="stylus" scoped>
-  @import "../assets/toc.styl"
-  
-  .subtext
-    margin-top 5px
-    font-size 9pt
-    text-align center
+  @import "../assets/styling/toc.styl"
 </style>
 
 <script>
