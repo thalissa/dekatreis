@@ -1,13 +1,13 @@
 <template lang="pug">
   .content
     template(v-if="query")
-      .lore(v-for="lore in loreContent")
+      .display(v-for="lore in loreContent")
         fieldset
             legend
               h1 {{ lore.name }}
             template(v-for="section in lore.sections")
-              h3.loreHeading {{ section.name }}
-              .loreText {{ section.body }}
+              h3.displayHeading {{ section.name }}
+              .displayText {{ section.body }}
 
     template(v-else)
       h2 Dekatreis Lore
@@ -15,35 +15,7 @@
 </template>
 
 <style lang="stylus" scoped>
-  .lore
-    margin-top 10px
-  
-  .loreHeading
-    margin-bottom 0
-    margin-top 10px
-  
-  .loreText
-    font-size 10pt
-  
-  legend, fieldset
-    display inline-block
-    margin 0px
-    white-space pre-line
-  
-  fieldset
-    margin-top 20px
-    display flex
-    flex-grow 1
-  
-  legend, h1
-    margin-bottom 0
-    margin-top -15px
-
-  details summary::-webkit-details-marker
-    display none
-  
-  details summary
-    cursor pointer
+  @import "../assets/display.styl"
 </style>
 
 <script>
