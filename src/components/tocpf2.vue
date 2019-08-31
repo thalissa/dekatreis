@@ -16,7 +16,6 @@
               template(v-else)
                 router-link(:to="{ path: 'rules', query: { rule: rule.name.replace(/[^a-z0-9]/gi,''), source: 'pf2' }}" tag="a" ) {{ rule.name }}
                   .book(v-if="rule.book") {{ rule.book }}
-
       li.races
         h3 Ancestries & Heritages
         ul.section
@@ -25,26 +24,26 @@
               template(v-if="race.subraces")
                 details
                   summary
-                    router-link(:to="{ path: 'races', query: { race: race.name, source: 'pf2' }}" tag="a" ) {{ race.name }}
+                    router-link(:to="{ path: 'races', query: { race: race.name.replace(/[^a-z0-9]/gi,''), source: 'pf2' }}" tag="a" ) {{ race.name }}
                       .book {{ race.book }}
                   ul.sublist(v-for="subrace in race.subraces")
                     li {{ subrace.name }}
                       .book {{ subrace.book }}
               template(v-else)
-                router-link(:to="{ path: 'races', query: { race: race.name, source: 'pf2' }}" tag="a" ) {{ race.name }}
+                router-link(:to="{ path: 'races', query: { race: race.name.replace(/[^a-z0-9]/gi,''), source: 'pf2' }}" tag="a" ) {{ race.name }}
                   .book {{ race.book }}
       li.backgrounds
         h3 Backgrounds
         ul.section
           template(v-for="background in backgrounds")
             li.subsection
-              router-link(:to="{ path: 'backgrounds', query: { background: background.name, source: 'pf2' }}" tag="a" ) {{ background.name }}
+              router-link(:to="{ path: 'backgrounds', query: { background: background.name.replace(/[^a-z0-9]/gi,''), source: 'pf2' }}" tag="a" ) {{ background.name }}
       li.classes
         h3 Classes
         ul.section
           template(v-for="tabletopClass in classes")
             li.subsection
-              router-link(:to="{ path: 'classes', query: { tabletopClass: tabletopClass.name, source: 'pf2' }}" tag="a" ) {{ tabletopClass.name }}
+              router-link(:to="{ path: 'classes', query: { tabletopClass: tabletopClass.name.replace(/[^a-z0-9]/gi,''), source: 'pf2' }}" tag="a" ) {{ tabletopClass.name }}
 </template>
 
 <style lang="stylus" scoped>

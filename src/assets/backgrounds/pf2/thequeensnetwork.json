@@ -1,0 +1,30 @@
+{
+  "thequeensnetwork": [
+    {
+      "name": "Background",
+      "sections": [
+        {
+          "name": "Details",
+          "body": [
+            {
+              "name": "Patron Deities",
+              "body": "Alethra Stormchild"
+            },
+            {
+              "name": "Beliefs",
+              "body": "The Queen is the rightful ruler, and the people should do everything to keep her in power, attacking and putting down those who may seek to destabilize the order of the world."
+            },
+            {
+              "name": "Background Benefits",
+              "body": "You learn to look out for signs of the Queen's Network in areas. By spending 1 hour surveying through a city, you learn where you can find the nearest Queen's Network faction building is, and you learn any passphrases associated with that particular building, if any.\n\nChoose two ability boosts, one of which must be to Charisma.\n\nYou're trained in the Intimidation skill, and you gain the Quick Coercion skill feat."
+            },
+            {
+              "name": "Common Members",
+              "body": "Royalty, corporations\nLeadership comes from mainly royals, but underground expansions of the Queen's Network allows anyone to become a leader with the right knowledge"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

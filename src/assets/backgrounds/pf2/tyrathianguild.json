@@ -1,0 +1,30 @@
+{
+  "tyrathianguild": [
+    {
+      "name": "Background",
+      "sections": [
+        {
+          "name": "Details",
+          "body": [
+            {
+              "name": "Patron Deities",
+              "body": "Mask"
+            },
+            {
+              "name": "Beliefs",
+              "body": "That freedom can only come through the coordinated, planned, methodical murder of those who do not deserve power. The Tyrathian guild is centred in Azoranthium, and much like the House of Tessera, acts as a place that budding adventurers and seasoned adventurers alike can take contracts to earn a living. However, in the grand scheme, they're intent on being a bigger force of change and seed that through the contracts they provide, offering higher tier adventurers the ability to invoke the ideals of freedom from tyranny and the corrupt."
+            },
+            {
+              "name": "Background Benefits",
+              "body": "While in Azoranthium, you gain a positive reputation with the Tyrathian Guild and may access contracts freely from the guild itself. Members of the Tyrathian Guild would also have an additional ally or enemy that they have met throughout their adventures.\n\nChoose two ability boosts, one of which must be to Wisdom or Intelligence.\n\nYou're trained in the Dungeon Lore skill, and gain the Experienced Professional skill feat."
+            },
+            {
+              "name": "Common Members",
+              "body": "Adventurers\nLeadership is dependent on the Tyrathian family line"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "theeclipsehouse": [
+    {
+      "name": "Background",
+      "sections": [
+        {
+          "name": "Details",
+          "body": [
+            {
+              "name": "Patron Deities",
+              "body": "Lolth, Lathander, Selune"
+            },
+            {
+              "name": "Beliefs",
+              "body": "That if they give their power unto Lolth, that one day she will have a battle which encompasses Lathander and Selune so that she can weaken them and merge all three of their souls together, forever becoming the Goddess of the Eclipse. Many Dark Elves believe that this is the only way to bring the Sun and Moon Elves back from genocide."
+            },
+            {
+              "name": "Background Benefits",
+              "body": "Free access to Eclipse House temples and open support from members of the Eclipse House.\n\nChoose two ability boosts, one of which must be to Wisdom or Charisma.\n\nYou're trained in the Religion skill, and you gain the Student of the Canon skill feat."
+            },
+            {
+              "name": "Common Members",
+              "body": "Dark Elves, Sun Elves (formerly), Moon Elves (formerly)\nLeadership is only found in priests of Lolth"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

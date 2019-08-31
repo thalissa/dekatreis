@@ -1,0 +1,30 @@
+{
+  "houseoftessera": [
+    {
+      "name": "Background",
+      "sections": [
+        {
+          "name": "Details",
+          "body": [
+            {
+              "name": "Patron Deities",
+              "body": "All Demigods"
+            },
+            {
+              "name": "Beliefs",
+              "body": "That adventuring is a right, looking up to the thirteen Demigods who were adventurers before they created the world as their prime inspiration. Common holdings of the House of Tessera provide various networks that assist people in going towards adventure. Whether someone is a seasoned adventurer or just starting, they strive to assure that all can find excitement and make their own legend."
+            },
+            {
+              "name": "Background Benefits",
+              "body": "A reputation with the House of Tessera and free access to their buildings and adventuring contracts. Members of the House of Tessera would also have an additional ally that they have met through their adventures.\n\nChoose two ability boosts that can be to any abilities.\n\nYou're trained in the Dungeon Lore skill, and you gain the Skill Training skill feat."
+            },
+            {
+              "name": "Common Members",
+              "body": "Any\nLeadership is passed through the Tessera family"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "godlessvalkyries": [
+    {
+      "name": "Background",
+      "sections": [
+        {
+          "name": "Details",
+          "body": [
+            {
+              "name": "Patron Deities",
+              "body": "None"
+            },
+            {
+              "name": "Beliefs",
+              "body": "None of the Demigods, nor the gods, are suitable to hand out power to their worshipers. They wish for magic to be earned through each individual's own access to the Weave or the Psirealm, rather than handed out by greater powers. Thus, they spread word that shifts blame for the happenings of the world to these greater powers, and attempts to rebuke temples and churches as needless in order to force followers away."
+            },
+            {
+              "name": "Background Benefits",
+              "body": "Whenever you pass by a temple or church, you may spend 1 hour speaking out against the faith that the holding represents. After doing so, you are contacted by a member of the Godless Valkyries who may offer you protection and supplies.\n\nChoose two ability boosts, one of which must be to Wisdom or Intelligence.\n\nYou're trained in the Diplomacy skill, and gain the Group Impression skill feat."
+            },
+            {
+              "name": "Common Members",
+              "body": "Any\nLeaders are commonly psions"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
