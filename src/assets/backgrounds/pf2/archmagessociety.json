@@ -1,0 +1,34 @@
+{
+  "archmagessociety": [
+    {
+      "name": "Archmage's Society",
+      "sections": [
+        {
+          "name": "Details",
+          "body": [
+            {
+              "name": "Patron Deities",
+              "body": "Mystra, Tyrae Valsh, Aurae Torran"
+            },
+            {
+              "name": "Kingdom Presence",
+              "body": "All Kingdoms"
+            },
+            {
+              "name": "Beliefs",
+              "body": "Magic is embedded within the world and is integral to every person's soul. Training people to use magic is of the absolute most importance, and facilitating safe magic practices even more so."
+            },
+            {
+              "name": "Background Benefits",
+              "body": "Whenever you are in a city, you may search out the nearest Arcane Library, if existing in that city, and you may ask for spellcasting services or seek to purchase magical items from other members of the Archmage's Society, potentially at a reduced price if you are well-known amongst the faction.\n\nChoose two ability boosts, one of which must be to Intelligence or Charisma.\n\nYou're trained in the Arcana skill, and gain the Arcane Sense skill feat."
+            },
+            {
+              "name": "Common Members",
+              "body": "All mages\nLeaders are commonly the most experienced mage in a city"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
