@@ -1,0 +1,18 @@
+{
+  "background": [
+    {
+      "name": "Background",
+      "sections": [
+        {
+          "name": "Details",
+          "body": [
+            {
+              "name": "Feature",
+              "body": "Text"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

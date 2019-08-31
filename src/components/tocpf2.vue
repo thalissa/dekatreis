@@ -33,6 +33,12 @@
               template(v-else)
                 router-link(:to="{ path: 'races', query: { race: race.name, source: 'pf2' }}" tag="a" ) {{ race.name }}
                   .book {{ race.book }}
+      li.backgrounds
+        h3 Backgrounds
+        ul.section
+          template(v-for="background in backgrounds")
+            li.subsection
+              router-link(:to="{ path: 'backgrounds', query: { background: background.name, source: 'pf2' }}" tag="a" ) {{ background.name }}
       li.classes
         h3 Classes
         ul.section
@@ -51,7 +57,8 @@
         return {
           races: '',
           classes: '',
-          rules: ''
+          rules: '',
+          backgrounds: ''
         }
       },
       created() {
@@ -63,6 +70,9 @@
           
           var ruleJSON = require("../assets/rules/pf2/rulelist.json")
           this.rules = ruleJSON["rules"]
+
+          var backgroundJSON = require("../assets/backgrounds/pf2/backgroundlist.json")
+          this.backgrounds = backgroundJSON["backgrounds"]
       },
       methods: {
 
