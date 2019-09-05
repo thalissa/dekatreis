@@ -1,0 +1,26 @@
+{
+  "dekatriannoble": [
+    {
+      "name": "Dekatrian Noble",
+      "sections": [
+        {
+          "name": "Details",
+          "body": [
+            {
+              "name": "A Position of Power",
+              "body": "You were born of one of the ruling noble families of Dekatreis. Whether it be the kingdom of Azoranthium, the Azorian Empire, Dekatreis, Sarille, or the Totara Kingdom, you have noble blood and may even be in line to heir the throne one day. Perhaps even you are one of the Kathari, a species renown for their presence and ability to sway the world with their inherently strong blood. In any case, people look upon you with awe and you draw the ire of many enemies."
+            },
+            {
+              "name": "Background Benefits",
+              "body": "You can always draw the attention of crowds. Whenever you present yourself, people immediately know your name and your title if you have one. Additionally, you gain one Enemy and one Ally of your choice. This could be another family member, another noble family, or a faction.\n\nChoose two ability boosts, one of which must be to Intelligence or Charisma.\n\nYou're trained in the Nobility Lore skill, and gain the Courtly Graces skill feat."
+            },
+            {
+              "name": "Common Members",
+              "body": "All mages\nLeaders are commonly the most experienced mage in a city"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

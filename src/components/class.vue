@@ -40,6 +40,17 @@
 
 <style lang="stylus" scoped>
   @import "../assets/styling/display.styl"
+  
+  .level
+    display inline-flex
+    margin-left 5px
+  
+  table
+    width 100%
+  
+  td
+    min-width 200px
+    text-align left
 </style>
 
 <script>
