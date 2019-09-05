@@ -252,7 +252,7 @@
             {
               "name": "Arcane Blast",
               "level": "1",
-              "body": "Your patron has granted you a small token of their power: The ability to conjure a beam of forceful energy from your body to take down your foes. You gain the Arcane Blast spell as an arcane innate spell that you may cast at will. This spell is automatically heightened to half your level.\n\nArcane Blast\nEvocation\nCasting: Somatic, Verbal\nRange: 120 feet; Target: One creature or object within range.\nA blast of energy projects from your body and strikes a creature you are aiming at, dealing 1d8 Force damage.\nHeightened (+1) The damage increases by 1d8."
+              "body": "Your patron has granted you a small token of their power: The ability to conjure a beam of forceful energy from your body to take down your foes. You gain the Arcane Blast spell as an arcane innate spell that you may cast at will. This spell is automatically heightened to half your level.\n\nArcane Blast\nEvocation\nCasting: Somatic\nRange: 120 feet; Target: One creature or object within range.\nA blast of energy projects from your body and strikes a creature you are aiming at, dealing 1d8 + your spellcasting ability modifier in Force damage.\nHeightened (+2) The damage increases by 1d8."
             },
             {
               "name": "Warlock Spellcasting",
@@ -391,34 +391,28 @@
                   "You become trained in medium armor and martial weapons. You gain the Shield Block general feat, a reaction to reduce damage with a shield. At 13th level, if you gain the Patron's Armor class feature, you also gain expert proficiency in medium armor."
                 ],
                 [
-                  "Powerful Blast",
-                  "",
-                  "Evocation",
-                  "You add your spellcasting ability modifier to the damage of your Arcane Blast."
-                ],
-                [
                   "Infernal Blast",
                   "Devil Patron",
                   "Divine, Evocation, Patron",
-                  "You channel your patron's energy through your blasts. You may choose to have your Arcane Blast spell do Fire damage instead of Force in addition to 1 Persistent Fire damage on a hit."
+                  "You channel your patron's energy through your blasts. You may choose to have your Arcane Blast spell do Fire damage instead of Force. In addition, on a critical success, you deal 1 Persistent Fire damage."
                 ],
                 [
                   "Sylvan Blast",
                   "Fey Patron",
                   "Arcane, Evocation, Patron",
-                  "You channel your patron's energy through your blasts. Spending an additional Verbal action, you force a creature hit by your Arcane Blast spell to make a Will saving throw. On a failure, the creature is Enfeebled 1."
+                  "You channel your patron's energy through your blasts. On a critical success with your Arcane Blast, the creature is Enfeebled 2."
                 ],
                 [
                   "Eldritch Blast",
                   "Eldritch Patron",
                   "Occult, Evocation, Patron",
-                  "You channel your patron's energy through your blasts. You may choose to have your Arcane Blast spell deal Psychic damage."
+                  "You channel your patron's energy through your blasts. You may choose to have your Arcane Blast spell deal Psychic damage. Additionally, on a critical success, the target gains Fleeing 2."
                 ],
                 [
                   "Celestial Blast",
                   "Celestial Patron",
                   "Divine, Evocation, Patron",
-                  "You channel your patron's energy through your blasts. You may choose to have your Arcane Blast spell deal Positive damage."
+                  "You channel your patron's energy through your blasts. You may choose to have your Arcane Blast spell deal Positive damage. Additionally, the creature is Dazzled 2."
                 ]
               ]
             },
@@ -442,7 +436,7 @@
                   "Mystic Enchantment",
                   "",
                   "Enchantment",
-                  "Using a Somatic and Verbal action, you may place an enchantment on an allied creature or yourself. When you choose the target of this ability, choose one ability score. The target gains a +2 Circumstance bonus to that ability score for 1 minute. A target cannot be affected by this enchantment more than once per 10 minutes."
+                  "Using a Somatic and Verbal action, you may place an enchantment on an allied creature or yourself. When you choose the target of this ability, choose one damage type. The target gains resistance to that damage type for 10 minutes. If you have Mystic Enchantment on a creature, you cannot place a new enchantment another creature."
                 ],
                 [
                   "Magic Sense",
@@ -532,25 +526,25 @@
                   "Chain Blast",
                   "",
                   "Evocation, Manipulate",
-                  "Instead of striking a single target, you may bounce your Arcane Blast to a number of targets equal to your spellcasting ability modifier, none of which may be more than 30 feet apart. All targets must make a basic Reflex save."
+                  "Instead of striking a single target, using an additional action you may bounce your Arcane Blast between two targets, neither of which may be more than 30 feet apart. All targets must make a basic Reflex save against the normal damage."
                 ],
                 [
                   "Widened Blast",
                   "",
                   "Manipulate",
-                  "Spending an additional Verbal action, you may alter your Arcane Blast to become a 15 foot cone."
+                  "Spending an additional Verbal action, you may alter your Arcane Blast to become a 15 foot cone. All creatures in the area must make a Basic Reflex save against the normal damage."
                 ],
                 [
-                  "Tracking Hex",
+                  "Debilitating Hex",
                   "Hex",
-                  "Detection, Divination",
-                  "When you Hex a creature, the duration of the Hex is increased to 1 hour. Additionally, you gain a +4 Circumstance bonus to Track the Hexed creature."
+                  "",
+                  "When you Hex a creature, the creature also becomes Clumsy 1."
                 ],
                 [
                   "Powerful Enchantment",
                   "Mystic Enchantment",
                   "",
-                  "The bonus given from your Mystic Enchantment increases to +4."
+                  "While your Mystic Enchantment is on a target, the target gains a +1 Status bonus to attack rolls."
                 ]
               ]
             },
@@ -602,21 +596,15 @@
                 ],
                 [
                   "Healing Enchantment",
-                  "Celestial Patron, Mystic Enchantment",
+                  "Mystic Enchantment",
                   "Necromancy, Healing, Positive, Patron",
-                  "When you first target an ally with Mystic Enchantment, that creature also gains Fast Healing equal to your spellcasting ability modifier until the enchantment fades."
+                  "While your Mystic Enchantment is on a target, as a reaction you may heal the target for a number of hitpoints equal to your level. The target cannot be healed by this effect more than once every 10 minutes."
                 ],
                 [
                   "Patron's Shield",
                   "",
                   "Abjuration",
                   "Your Patron's bond makes you more resistant to magic. You gain a +2 status bonus to saving throws against spells and magical effects."
-                ],
-                [
-                  "Quickened Blast",
-                  "",
-                  "",
-                  "You no longer need to provide a Verbal component for your Arcane Blast."
                 ]
               ]
             },
