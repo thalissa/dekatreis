@@ -394,7 +394,7 @@
                   "Infernal Blast",
                   "Devil Patron",
                   "Divine, Evocation, Patron",
-                  "You channel your patron's energy through your blasts. You may choose to have your Arcane Blast spell do Fire damage instead of Force. In addition, on a critical success, you deal 1 Persistent Fire damage."
+                  "You channel your patron's energy through your blasts. You may choose to have your Arcane Blast spell do Fire damage instead of Force. In addition, on a critical success, you deal 2 Persistent Fire damage."
                 ],
                 [
                   "Sylvan Blast",
@@ -661,10 +661,10 @@
                   "Benefits"
                 ],
                 [
-                  "Greater Arcanum (7th Level)",
+                  "Reflect Spell",
+                  "Counterspell",
                   "",
-                  "Mystic Arcanum",
-                  "You gain an additional 7th level Mystic Arcanum slot."
+                  "When you successfully use Counterspell to counteract a spell that affects targeted creatures or an area, you can turn that spell’s effect back on its caster. When reflected, the spell affects only the original caster, even if it’s an area spell or it would normally affect more than one creature. The original caster can attempt a save and use other defenses against the reflected spell as normal."
                 ],
                 [
                   "Twinned Hex",
@@ -677,6 +677,12 @@
                   "Mystic Enchantment",
                   "Manipulate",
                   "When you use Mystic Enchantment, you may target 1 additional creature to recieve either the same or a different enchantment."
+                ],
+                [
+                  "Greater Arcanum (7th Level)",
+                  "",
+                  "Mystic Arcanum",
+                  "You gain an additional 7th level Mystic Arcanum slot."
                 ]
               ]
             },
