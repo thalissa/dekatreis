@@ -730,19 +730,19 @@
                   "Infernal Savant",
                   "Infernal Patron",
                   "Divine, Patron",
-                  "You have proven yourself to be a valuable asset to your Patron, granting you limited powers from the devils themselves. You gain the Devil trait and resistance to Fire damage equal to half your level. Additionally, you gain Fast Healing 5."
+                  "You have proven yourself to be a valuable asset to your Patron, granting you limited powers from the devils themselves. You gain the Fiend trait and resistance to Fire damage equal to half your level. Additionally, you gain Fast Healing 5."
                 ],
                 [
                   "Eldritch Savant",
                   "Eldritch Patron",
                   "Occult, Patron",
-                  "You have proven yourself to be a valuable asset to your Patron, granting you a far-reaching grasp on mortals around you. You gain the Otherworldly trait and telepathy out to 120 feet. In addition, as an action while you are telepathically speaking to a creature, you may have them roll a Will save against your spellcasting DC. On a failure, the target becomes a minion under your control for 1 hour or until an ally attacks the target. On a critical failure, the duration increases to 8 hours. After using this feature, you cannot use it again until your next daily preparation."
+                  "You have proven yourself to be a valuable asset to your Patron, granting you a far-reaching grasp on mortals around you. You gain the Aberration trait and telepathy out to 120 feet. In addition, as an action while you are telepathically speaking to a creature, you may have them roll a Will save against your spellcasting DC. On a failure, the target becomes a minion under your control for 1 hour or until you or an ally attacks the target. On a critical failure, the duration increases to 8 hours. After using this feature, you cannot use it again until your next daily preparation."
                 ],
                 [
                   "Fey Savant",
                   "Fey Patron",
                   "Arcane, Patron",
-                  "You have proven yourself to be a valuable asset to your Patron, granting you protection from the Fey themselves. You gain the Fey trait and a Fly Speed of 15. If you already have a Fly Speed, you gain 10 feet to your original Fly Speed instead. Additionally, you may use an action to reduce your size, up to Tiny. This reduction lasts for up to 1 hour. After using this ability, you cannot use it again until your next daily preparation."
+                  "You have proven yourself to be a valuable asset to your Patron, granting you protection from the Fey themselves. You gain the Fey trait and a Fly Speed of 15. If you already have a Fly Speed, you gain 10 feet to your original Fly Speed instead. Additionally, you may use an action to reduce your size, up to Tiny. This reduction lasts for up to 1 hour or until you dismiss it as an action. After using this ability, you cannot use it again until your next daily preparation."
                 ],
                 [
                   "Celestial Savant",
