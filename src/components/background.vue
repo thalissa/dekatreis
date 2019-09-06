@@ -2,7 +2,7 @@
   .content
     .displayPage
       .displayList
-        fieldset
+        fieldset.displayContent
           legend
             h3 Backgrounds
           template(v-for="background in backgroundList")
@@ -10,7 +10,7 @@
 
       template(v-if="backgroundContent")
         .display(v-for="background in backgroundContent")
-          fieldset
+          fieldset.displayContent
             legend
               h1 {{ background.name }}
             div(v-for="section in background.sections")
@@ -30,7 +30,7 @@
                   .displayText {{ subsection.body }}
       template(v-else)
         .display
-          fieldset
+          fieldset.displayContent
             legend
               h2 This entry does not exist!
             | If you've found this page directly linked somewhere, please message Thalissa to fix it!

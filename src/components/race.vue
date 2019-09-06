@@ -2,7 +2,7 @@
   .content
     .displayPage
       .displayList
-        fieldset
+        fieldset.displayContent
           legend
             h3 Ancestries & Heritages
           template(v-for="race in raceList")
@@ -10,7 +10,7 @@
 
       template(v-if="raceContent")
         .display(v-for="race in raceContent")
-          fieldset
+          fieldset.displayContent
               legend
                 h1 {{ race.name }}
                   .book {{ race.book }}
@@ -40,7 +40,7 @@
                     .displayText {{ subsection.body }}
       template(v-else)
         .display
-          fieldset
+          fieldset.displayContent
             legend
               h2 This entry does not exist!
             | If you've found this page directly linked somewhere, please message Thalissa to fix it!

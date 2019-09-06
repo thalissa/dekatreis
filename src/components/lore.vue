@@ -2,7 +2,7 @@
   .content
     template(v-if="query")
       .display(v-for="lore in loreContent")
-        fieldset
+        fieldset.displayContent
             legend
               h1 {{ lore.name }}
             template(v-for="section in lore.sections")

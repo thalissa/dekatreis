@@ -2,7 +2,7 @@
   .content
     template(v-if="query")
       .display(v-for="rule in ruleContent")
-        fieldset
+        fieldset.displayContent
             legend
               h1 {{ rule.name }}
                 .book {{ rule.book }}

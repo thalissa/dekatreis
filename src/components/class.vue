@@ -2,7 +2,7 @@
   .content
     .displayPage
       .displayList
-        fieldset
+        fieldset.displayContent
           legend
             h3 Classes
           template(v-for="tabletopClass in classList")
@@ -10,7 +10,7 @@
 
       template(v-if="classContent")
         .display(v-for="tabletopClass in classContent")
-          fieldset
+          fieldset.displayContent
             legend
               h1 {{ tabletopClass.name }}
             div(v-for="section in tabletopClass.sections")
@@ -32,7 +32,7 @@
                     .displayText {{ subsection.body }}
       template(v-else)
         .display
-          fieldset
+          fieldset.displayContent
             legend
               h2 This entry does not exist!
             | If you've found this page directly linked somewhere, please message Thalissa to fix it!
