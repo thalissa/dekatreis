@@ -16,6 +16,8 @@
           a(href="https://www.patreon.com/thalissa" target="_blank") Patreon
         .link
           a(href="https://github.com/thalissa/dekatreis" target="_blank") GitHub
+        .link
+          a(href="https://twitter.com/ThalissaRemnant" target="_blank") Twitter
     .view
       router-view(:key="$route.fullPath")
 </template>
