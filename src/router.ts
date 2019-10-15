@@ -12,6 +12,7 @@ import RuleComponent from './components/rule.vue'
 import RaceComponent from './components/race.vue'
 import BackgroundComponent from './components/background.vue'
 import ClassComponent from './components/class.vue'
+import FeatComponent from './components/feats.vue'
 import LoreComponent from './components/lore.vue'
 import MapComponent from './components/map.vue'
 
@@ -59,6 +60,11 @@ const router = new Router({
       path: '/class/:class',
       name: 'Classes',
       component: ClassComponent
+    },
+    {
+      path: '/feats/:feat',
+      name: 'Feats',
+      component: FeatComponent
     },
     {
       path: '/lore',

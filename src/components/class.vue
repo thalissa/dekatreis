@@ -45,8 +45,8 @@
                   td Features
                 template(v-for="row in classdata.table")
                   tr
-                    template(v-for="column in row")
-                      td {{ column }}
+                    td {{ row.level }}
+                    td {{ row.body }}
             details
               summary
                 h3.displayHeading {{ classdata.name }} Class Features
@@ -84,11 +84,10 @@
       data: function () {
         return {
           classdata: {},
-          classlist: [],
-          client: ''
+          classlist: []
         }
       },
-      beforeCreate() {
+      created() {
         //Find the class to display on the page
         db.collection('classes').find({nameid: this.$route.params.class.toLowerCase()}).asArray().then(docs => {
           if(docs.length > 0){
@@ -104,7 +103,6 @@
         db.collection('classes').find({ }, { projection: { "name": 1 } }).toArray().then(classlist => {
           if(classlist.length > 0){
             this.classlist = classlist
-            console.log(classlist)
           } else {
             console.log("No documents found.")
           }

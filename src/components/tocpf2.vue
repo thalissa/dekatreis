@@ -57,8 +57,7 @@
           races: '',
           classes: '',
           rules: '',
-          backgrounds: '',
-          client: ''
+          backgrounds: ''
         }
       },
       created() {
