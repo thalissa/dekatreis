@@ -4,16 +4,21 @@
       .displayList
         fieldset.displayContent
           legend
-            h3 Classes
+            h3 Other Classes
           template(v-for="classes in classlist")
-            router-link(:to="{ path: '/class/' + classes.name}" tag="a" ) {{ classes.name }}
+            router-link(:to="{ path: '/class/' + classes.name.toLowerCase() }" tag="a") {{ classes.name }}
+        fieldset.displayContent
+          legend
+            h3 Additional Content
+          template(v-for="classes in classlist")
+            router-link(:to="{ path: '/feats/' + classes.name.toLowerCase() }" tag="a") {{ classes.name }} Feats
 
       template(v-if="classdata")
         .display
           fieldset.displayContent
             legend
               h1 {{ classdata.name }}
-            
+              
             .displayText {{ classdata.description }}
             
             details
@@ -23,6 +28,13 @@
               .displayText {{ classdata.keyability }}
               h4.displayHeading Hit Points
               .displayText {{ classdata.hitpoints }}
+            
+            details
+              summary
+                h3.displayHeading Initial Proficiencies
+              template(v-for="proficiency in classdata.proficiencies")
+                h4.displayHeading {{ proficiency.name }}
+                .displayText {{ proficiency.body }}
             
             details
               summary
@@ -72,15 +84,11 @@
       data: function () {
         return {
           classdata: {},
-          classlist: []
+          classlist: [],
+          client: ''
         }
       },
       beforeCreate() {
-        //Connect to mongodb with anonymous credential
-        const client = stitch.Stitch.initializeDefaultAppClient('dekatreis-kcvxl');
-        const db = client.getServiceClient(stitch.RemoteMongoClient.factory, 'mongodb-atlas').db('Dekatreis');
-        client.auth.loginWithCredential(new stitch.AnonymousCredential())
-        
         //Find the class to display on the page
         db.collection('classes').find({nameid: this.$route.params.class.toLowerCase()}).asArray().then(docs => {
           if(docs.length > 0){

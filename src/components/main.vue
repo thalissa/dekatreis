@@ -10,7 +10,7 @@
         .link
           router-link(to="/map") World Map
         .link
-          router-link(to="tocpf2") Pathfinder 2
+          router-link(to="/tocpf2") Pathfinder 2
       .middle
         .link
           a(href="https://www.patreon.com/thalissa" target="_blank") Patreon

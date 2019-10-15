@@ -43,7 +43,7 @@
         ul.section
           template(v-for="tabletopClass in classes")
             li.subsection
-              router-link(:to="{ path: 'classes', query: { tabletopClass: tabletopClass.name.replace(/[^a-z0-9]/gi,''), source: 'pf2' }}" tag="a" ) {{ tabletopClass.name }}
+              router-link(:to="{ path: '/class/' + tabletopClass.name.toLowerCase() }" tag="a") {{ tabletopClass.name }}
 </template>
 
 <style lang="stylus" scoped>
@@ -57,21 +57,32 @@
           races: '',
           classes: '',
           rules: '',
-          backgrounds: ''
+          backgrounds: '',
+          client: ''
         }
       },
       created() {
           var raceJSON = require("../assets/races/pf2/racelist.json")
           this.races = raceJSON["races"]
           
-          var classJSON = require("../assets/classes/pf2/classlist.json")
-          this.classes = classJSON["classes"]
-          
           var ruleJSON = require("../assets/rules/pf2/rulelist.json")
           this.rules = ruleJSON["rules"]
 
           var backgroundJSON = require("../assets/backgrounds/pf2/backgroundlist.json")
           this.backgrounds = backgroundJSON["backgrounds"]
+      },
+      beforeCreate() {
+        //Find classes
+        db.collection('classes').find({ }, { projection: { "name": 1 } }).toArray().then(classlist => {
+          if(classlist.length > 0){
+            this.classes = classlist
+            console.log(classlist)
+          } else {
+            console.log("No documents found.")
+          }
+        }).catch(err => {
+          console.error(err)
+        })
       },
       methods: {
 
