@@ -4,10 +4,6 @@ import router from './router'
 
 Vue.config.devtools = true
 
-Vue.filter('time', timestamp => {
-  return new Date(timestamp).toLocaleTimeString()
-})
-
 new Vue({
   el: '#app',
   router,

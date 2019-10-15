@@ -17,6 +17,7 @@ import MapComponent from './components/map.vue'
 
 // Routing
 const router = new Router({
+  mode: 'history',
   routes: [
     // Index (default page)
     {
@@ -55,7 +56,7 @@ const router = new Router({
       component: BackgroundComponent
     },
     {
-      path: '/classes',
+      path: '/class/:class',
       name: 'Classes',
       component: ClassComponent
     },

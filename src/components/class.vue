@@ -5,31 +5,45 @@
         fieldset.displayContent
           legend
             h3 Classes
-          template(v-for="tabletopClass in classList")
-            router-link(:to="{ path: 'classes', query: { tabletopClass: tabletopClass.name, source: 'pf2' }}" tag="a" ) {{ tabletopClass.name }}
+          template(v-for="classes in classlist")
+            router-link(:to="{ path: '/class/' + classes.name}" tag="a" ) {{ classes.name }}
 
-      template(v-if="classContent")
-        .display(v-for="tabletopClass in classContent")
+      template(v-if="classdata")
+        .display
           fieldset.displayContent
             legend
-              h1 {{ tabletopClass.name }}
-            div(v-for="section in tabletopClass.sections")
-              details
-                summary
-                  h3.displayHeading {{ section.name }}
-                div(v-for="subsection in section.body")
-                  template(v-if="subsection.style == 'table'")
-                    h4.displayHeading {{ subsection.name }}
-                      .level(v-if="subsection.level") [{{ subsection.level }}]
-                    table
-                      template(v-for="row in subsection.body")
-                        tr
-                          template(v-for="column in row")
-                            td {{ column }}
-                  template(v-else)
-                    h4.displayHeading {{ subsection.name }}
-                      .level(v-if="subsection.level") [{{ subsection.level }}]
-                    .displayText {{ subsection.body }}
+              h1 {{ classdata.name }}
+            
+            .displayText {{ classdata.description }}
+            
+            details
+              summary
+                h3.displayHeading Statistics
+              h4.displayHeading Key Ability
+              .displayText {{ classdata.keyability }}
+              h4.displayHeading Hit Points
+              .displayText {{ classdata.hitpoints }}
+            
+            details
+              summary
+                h3.displayHeading {{ classdata.name }} Class Table
+              table
+                tr
+                  td Level
+                  td Features
+                template(v-for="row in classdata.table")
+                  tr
+                    template(v-for="column in row")
+                      td {{ column }}
+            details
+              summary
+                h3.displayHeading {{ classdata.name }} Class Features
+              template(v-for="feature in classdata.features")
+                h4.displayHeading {{ feature.name }}
+                  .level [{{ feature.level }}]
+                .displayText {{ feature.body }}
+                
+                  
       template(v-else)
         .display
           fieldset.displayContent
@@ -57,27 +71,41 @@
   export default {
       data: function () {
         return {
-          query: '',
-          tabletopClass: '',
-          source: '',
-          classContent: '',
-          classList: ''
+          classdata: {},
+          classlist: []
         }
       },
-      created() {
-          this.query = this.$route.query.tabletopClass.toLowerCase()
-          this.source = this.$route.query.source.toLowerCase()
-          var classListJSON = require("../assets/classes/" + this.source + "/classlist.json")
-          var classJSON = require("../assets/classes/" + this.source + "/" + this.query + ".json")
-          
-          if(classListJSON) {
-            this.classList = classListJSON.classes
+      beforeCreate() {
+        //Connect to mongodb with anonymous credential
+        const client = stitch.Stitch.initializeDefaultAppClient('dekatreis-kcvxl');
+        const db = client.getServiceClient(stitch.RemoteMongoClient.factory, 'mongodb-atlas').db('Dekatreis');
+        client.auth.loginWithCredential(new stitch.AnonymousCredential())
+        
+        //Find the class to display on the page
+        db.collection('classes').find({nameid: this.$route.params.class.toLowerCase()}).asArray().then(docs => {
+          if(docs.length > 0){
+            this.classdata = docs[0]
+          } else {
+            console.log("No documents found.")
           }
-          
-          if(classJSON) {
-            this.tabletopClass = classJSON[this.query][0].name
-            this.classContent = classJSON[this.query]
+        }).catch(err => {
+          console.error(err)
+        })
+        
+        //Find all other classes
+        db.collection('classes').find({ }, { projection: { "name": 1 } }).toArray().then(classlist => {
+          if(classlist.length > 0){
+            this.classlist = classlist
+            console.log(classlist)
+          } else {
+            console.log("No documents found.")
           }
+        }).catch(err => {
+          console.error(err)
+        })
+      },
+      methods: {
+
       }
   }
 </script>
