@@ -7,13 +7,12 @@
             h3 Other Classes
           template(v-for="classes in classlist")
             router-link(:to="{ path: '/class/' + classes.name }" tag="a") {{ classes.name }}
-        fieldset.displayContent
+        fieldset.displayContent(v-if="dataloaded")
           legend
             h3 Additional Content
-          template(v-for="classes in classlist")
-            router-link(:to="{ path: '/feats/' + classes.name }" tag="a") {{ classes.name }} Feats
+          router-link(:to="{ path: '/feats/' + classdata.name }" tag="a") {{ classdata.name }} Feats
 
-      template(v-if="classdata")
+      template(v-if="dataloaded")
         .display
           fieldset.displayContent
             legend
@@ -84,7 +83,8 @@
       data: function () {
         return {
           classdata: {},
-          classlist: []
+          classlist: [],
+          dataloaded: false
         }
       },
       created() {
@@ -96,6 +96,7 @@
           db.collection('classes').find({name: this.$route.params.class}).asArray().then(docs => {
             if(docs.length > 0){
               this.classdata = docs[0]
+              this.dataloaded = true
             } else {
               console.log("No documents found.")
             }

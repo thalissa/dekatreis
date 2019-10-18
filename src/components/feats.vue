@@ -55,7 +55,7 @@
       methods: {
         fetchdata: function(){
           //Find the class to display on the page
-          db.collection('feats').find({type: this.$route.params.feat}).asArray().then(docs => {
+          db.collection('feats').find({traits: this.$route.params.feat }).asArray().then(docs => {
             if(docs.length > 0){
               this.featdata = docs
             } else {
