@@ -43,7 +43,7 @@
         ul.section
           template(v-for="tabletopClass in classes")
             li.subsection
-              router-link(:to="{ path: '/class/' + tabletopClass.name.toLowerCase() }" tag="a") {{ tabletopClass.name }}
+              router-link(:to="{ path: '/class/' + tabletopClass.name }" tag="a") {{ tabletopClass.name }}
 </template>
 
 <style lang="stylus" scoped>

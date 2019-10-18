@@ -19,7 +19,9 @@
         .link
           a(href="https://twitter.com/ThalissaRemnant" target="_blank") Twitter
     .view
-      router-view(:key="$route.fullPath")
+      keep-alive
+        router-view(:key="$route.fullPath")
+      
 </template>
 
 <style lang="stylus">

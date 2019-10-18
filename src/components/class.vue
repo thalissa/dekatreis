@@ -6,12 +6,12 @@
           legend
             h3 Other Classes
           template(v-for="classes in classlist")
-            router-link(:to="{ path: '/class/' + classes.name.toLowerCase() }" tag="a") {{ classes.name }}
+            router-link(:to="{ path: '/class/' + classes.name }" tag="a") {{ classes.name }}
         fieldset.displayContent
           legend
             h3 Additional Content
           template(v-for="classes in classlist")
-            router-link(:to="{ path: '/feats/' + classes.name.toLowerCase() }" tag="a") {{ classes.name }} Feats
+            router-link(:to="{ path: '/feats/' + classes.name }" tag="a") {{ classes.name }} Feats
 
       template(v-if="classdata")
         .display
@@ -88,30 +88,32 @@
         }
       },
       created() {
-        //Find the class to display on the page
-        db.collection('classes').find({nameid: this.$route.params.class.toLowerCase()}).asArray().then(docs => {
-          if(docs.length > 0){
-            this.classdata = docs[0]
-          } else {
-            console.log("No documents found.")
-          }
-        }).catch(err => {
-          console.error(err)
-        })
-        
-        //Find all other classes
-        db.collection('classes').find({ }, { projection: { "name": 1 } }).toArray().then(classlist => {
-          if(classlist.length > 0){
-            this.classlist = classlist
-          } else {
-            console.log("No documents found.")
-          }
-        }).catch(err => {
-          console.error(err)
-        })
+        this.fetchdata()
       },
       methods: {
-
+        fetchdata: function(){
+          //Find the class to display on the page
+          db.collection('classes').find({name: this.$route.params.class}).asArray().then(docs => {
+            if(docs.length > 0){
+              this.classdata = docs[0]
+            } else {
+              console.log("No documents found.")
+            }
+          }).catch(err => {
+            console.error(err)
+          })
+          
+          //Find all other classes
+          db.collection('classes').find({ }, { projection: { "name": 1 } }).toArray().then(classlist => {
+            if(classlist.length > 0){
+              this.classlist = classlist
+            } else {
+              console.log("No documents found.")
+            }
+          }).catch(err => {
+            console.error(err)
+          })
+        }
       }
   }
 </script>

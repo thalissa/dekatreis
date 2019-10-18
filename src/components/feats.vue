@@ -5,7 +5,7 @@
         .display
           fieldset.displayContent
             legend
-              h1 {{ featdata.name }} Feats
+              h1 {{ this.$route.params.feat }} Feats
             table
               tr
                 td Level
@@ -49,20 +49,29 @@
           featdata: {}
         }
       },
-      beforeCreate() {
-        //Find the class to display on the page
-        db.collection('feats').find({type: this.$route.params.feat.toLowerCase()}).asArray().then(docs => {
-          if(docs.length > 0){
-            this.featdata = docs
-          } else {
-            console.log("No documents found.")
-          }
-        }).catch(err => {
-          console.error(err)
-        })
+      created() {
+        this.fetchdata()
       },
       methods: {
-
+        fetchdata: function(){
+          //Find the class to display on the page
+          db.collection('feats').find({type: this.$route.params.feat}).asArray().then(docs => {
+            if(docs.length > 0){
+              this.featdata = docs
+            } else {
+              console.log("No documents found.")
+            }
+          }).catch(err => {
+            console.error(err)
+          })
+        },
+        capitalize: function(str){
+          if (typeof str !== 'string'){
+            return ''
+          }
+          
+          return str.charAt(0).toUpperCase() + str.slice(1)
+        }
       }
   }
 </script>
