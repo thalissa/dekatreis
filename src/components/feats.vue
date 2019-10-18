@@ -1,7 +1,7 @@
 <template lang="pug">
   .content
     .displayPage
-      template(v-if="featdata")
+      template(v-if="this.dataloaded")
         .display
           fieldset.displayContent
             legend
@@ -46,7 +46,8 @@
   export default {
       data: function () {
         return {
-          featdata: {}
+          featdata: {},
+          dataloaded: false
         }
       },
       created() {
@@ -58,6 +59,7 @@
           db.collection('feats').find({traits: this.$route.params.feat }).asArray().then(docs => {
             if(docs.length > 0){
               this.featdata = docs
+              this.dataloaded = true
             } else {
               console.log("No documents found.")
             }
