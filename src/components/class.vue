@@ -30,14 +30,7 @@
             
             details
               summary
-                h3.displayHeading Initial Proficiencies
-              template(v-for="proficiency in classdata.proficiencies")
-                h4.displayHeading {{ proficiency.name }}
-                .displayText {{ proficiency.body }}
-            
-            details
-              summary
-                h3.displayHeading {{ classdata.name }} Class Table
+                h3.displayHeading Class Table
               table
                 tr
                   td Level
@@ -46,9 +39,17 @@
                   tr
                     td {{ row.level }}
                     td {{ row.body }}
+
             details
               summary
-                h3.displayHeading {{ classdata.name }} Class Features
+                h3.displayHeading Initial Proficiencies
+              template(v-for="proficiency in classdata.proficiencies")
+                h4.displayHeading {{ proficiency.name }}
+                .displayText {{ proficiency.body }}
+
+            details
+              summary
+                h3.displayHeading Class Features
               template(v-for="feature in classdata.features")
                 h4.displayHeading {{ feature.name }}
                   .level [{{ feature.level }}]
