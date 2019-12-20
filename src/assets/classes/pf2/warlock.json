@@ -436,7 +436,7 @@
                   "Mystic Enchantment",
                   "",
                   "Enchantment",
-                  "Using a Somatic and Verbal action, you may place an enchantment on an allied creature or yourself. When you choose the target of this ability, choose one damage type. The target gains resistance to that damage type for 10 minutes. If you have Mystic Enchantment on a creature, you cannot place a new enchantment another creature."
+                  "Using a Somatic and Verbal action, you may place an enchantment on an allied creature or yourself. When you choose the target of this ability, choose one damage type. The target gains resistance equal to half your level to that damage type for 10 minutes. If you have Mystic Enchantment on a creature, you cannot place a new enchantment another creature."
                 ],
                 [
                   "Magic Sense",

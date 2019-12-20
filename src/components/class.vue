@@ -24,9 +24,9 @@
               summary
                 h3.displayHeading Statistics
               h4.displayHeading Key Ability
-              .displayText {{ classdata.keyability }}
+              .displayText(v-html="classdata.keyability")
               h4.displayHeading Hit Points
-              .displayText {{ classdata.hitpoints }}
+              .displayText(v-html="classdata.hitpoints")
             
             details
               summary
@@ -37,23 +37,23 @@
                   td Features
                 template(v-for="row in classdata.table")
                   tr
-                    td {{ row.level }}
-                    td {{ row.body }}
+                    td(v-html="row.level")
+                    td(v-html="row.body")
 
             details
               summary
                 h3.displayHeading Initial Proficiencies
               template(v-for="proficiency in classdata.proficiencies")
-                h4.displayHeading {{ proficiency.name }}
-                .displayText {{ proficiency.body }}
+                h4.displayHeading(v-html="proficiency.name")
+                .displayText(v-html="proficiency.body")
 
             details
               summary
                 h3.displayHeading Class Features
               template(v-for="feature in classdata.features")
-                h4.displayHeading {{ feature.name }}
+                h4.displayHeading(v-html="feature.name")
                   .level [{{ feature.level }}]
-                .displayText {{ feature.body }}
+                .displayText(v-html="feature.body")
                 
                   
       template(v-else)
