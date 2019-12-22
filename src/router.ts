@@ -17,7 +17,6 @@ import MapComponent from './components/map.vue'
 
 // Routing
 const router = new Router({
-  mode: 'history',
   routes: [
     // Index (default page)
     {
