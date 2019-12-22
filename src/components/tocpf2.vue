@@ -75,7 +75,6 @@
         db.collection('classes').find({ }, { projection: { "name": 1 } }).toArray().then(classlist => {
           if(classlist.length > 0){
             this.classes = classlist
-            console.log(classlist)
           } else {
             console.log("No documents found.")
           }

@@ -26,6 +26,15 @@
 
 <style lang="stylus">
   @import "../assets/styling/main.styl"
+  
+  if(!client){
+    //Connect to database through Stitch on load; speeds up rendering if the user is already connected.
+    client = stitch.Stitch.initializeDefaultAppClient('dekatreis-kcvxl');
+    const db = client.getServiceClient(stitch.RemoteMongoClient.factory, 'mongodb-atlas').db('Dekatreis');
+    client.auth.loginWithCredential(new stitch.AnonymousCredential())
+    
+    console.log("Had to re-fetch database connection.")
+  }
 </style>
 
 <script>
