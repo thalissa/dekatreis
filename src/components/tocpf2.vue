@@ -50,27 +50,22 @@
   @import "../assets/styling/toc.styl"
 </style>
 
-<script>
+<script>  
   export default {
-      data: function () {
-        return {
-          races: '',
-          classes: '',
-          rules: '',
-          backgrounds: ''
-        }
-      },
-      created() {
-          var raceJSON = require("../assets/races/pf2/racelist.json")
-          this.races = raceJSON["races"]
-          
-          var ruleJSON = require("../assets/rules/pf2/rulelist.json")
-          this.rules = ruleJSON["rules"]
-
-          var backgroundJSON = require("../assets/backgrounds/pf2/backgroundlist.json")
-          this.backgrounds = backgroundJSON["backgrounds"]
-      },
-      beforeCreate() {
+    props: [ ],
+    data: function () {
+      return {
+        races: '',
+        classes: '',
+        rules: '',
+        backgrounds: ''
+      }
+    },
+    mounted() {
+      this.fetchdata()
+    },
+    methods: {
+      fetchdata: function(){
         //Find classes
         db.collection('classes').find({ }, { projection: { "name": 1 } }).toArray().then(classlist => {
           if(classlist.length > 0){
@@ -81,9 +76,16 @@
         }).catch(err => {
           console.error(err)
         })
-      },
-      methods: {
+        
+        var raceJSON = require("../assets/races/pf2/racelist.json")
+        this.races = raceJSON["races"]
+        
+        var ruleJSON = require("../assets/rules/pf2/rulelist.json")
+        this.rules = ruleJSON["rules"]
 
+        var backgroundJSON = require("../assets/backgrounds/pf2/backgroundlist.json")
+        this.backgrounds = backgroundJSON["backgrounds"]
       }
+    }
   }
 </script>

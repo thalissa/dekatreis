@@ -42,29 +42,29 @@
 
 <script>
   export default {
-      data: function () {
-        return {
-          query: '',
-          background: '',
-          source: '',
-          backgroundContent: '',
-          backgroundList: ''
-        }
-      },
-      created() {
-          this.query = this.$route.query.background.toLowerCase()
-          this.source = this.$route.query.source.toLowerCase()
-          var backgroundListJSON = require("../assets/backgrounds/" + this.source + "/backgroundlist.json")
-          var backgroundJSON = require("../assets/backgrounds/" + this.source + "/" + this.query + ".json")
-          
-          if(backgroundListJSON) {
-            this.backgroundList = backgroundListJSON.backgrounds
-          }
-          
-          if(backgroundJSON) {
-            this.background = backgroundJSON[this.query][0].name
-            this.backgroundContent = backgroundJSON[this.query]
-          }
+    data: function () {
+      return {
+        query: '',
+        background: '',
+        source: '',
+        backgroundContent: '',
+        backgroundList: ''
       }
+    },
+    created() {
+      this.query = this.$route.query.background.toLowerCase()
+      this.source = this.$route.query.source.toLowerCase()
+      var backgroundListJSON = require("../assets/backgrounds/" + this.source + "/backgroundlist.json")
+      var backgroundJSON = require("../assets/backgrounds/" + this.source + "/" + this.query + ".json")
+      
+      if(backgroundListJSON) {
+        this.backgroundList = backgroundListJSON.backgrounds
+      }
+      
+      if(backgroundJSON) {
+        this.background = backgroundJSON[this.query][0].name
+        this.backgroundContent = backgroundJSON[this.query]
+      }
+    }
   }
 </script>

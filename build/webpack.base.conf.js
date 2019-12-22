@@ -9,7 +9,7 @@ function resolve (dir) {
 
 module.exports = {
   entry: './src/main.ts',
-  target: 'node-webkit',
+  target: 'web',
   output: {
     path: config.build.assetsRoot,
     filename: '[name].js',
@@ -21,7 +21,8 @@ module.exports = {
     extensions: ['.ts', '.js', '.vue', '.pug', '.json'],
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
-      '@': resolve('src')
+      '@': resolve('src'),
+      'node-fetch$': 'node-fetch/lib/index.js'
     }
   },
   module: {

@@ -88,41 +88,42 @@
 
 <script>
   export default {
-      data: function () {
-        return {
-          classdata: {},
-          classlist: [],
-          dataloaded: false
-        }
-      },
-      created() {
-        this.fetchdata()
-      },
-      methods: {
-        fetchdata: function(){
-          //Find the class to display on the page
-          db.collection('classes').find({name: this.$route.params.class}).asArray().then(docs => {
-            if(docs.length > 0){
-              this.classdata = docs[0]
-              this.dataloaded = true
-            } else {
-              console.log("No documents found.")
-            }
-          }).catch(err => {
-            console.error(err)
-          })
-          
-          //Find all other classes
-          db.collection('classes').find({ }, { projection: { "name": 1 } }).toArray().then(classlist => {
-            if(classlist.length > 0){
-              this.classlist = classlist
-            } else {
-              console.log("No documents found.")
-            }
-          }).catch(err => {
-            console.error(err)
-          })
-        }
+    props: [ ],
+    data: function () {
+      return {
+        classdata: {},
+        classlist: [],
+        dataloaded: false
       }
+    },
+    beforeMount() {
+      this.fetchdata()
+    },
+    methods: {
+      fetchdata: function(){
+        //Find the class to display on the page
+        db.collection('classes').find({name: this.$route.params.class}).asArray().then(docs => {
+          if(docs.length > 0){
+            this.classdata = docs[0]
+            this.dataloaded = true
+          } else {
+            console.log("No documents found.")
+          }
+        }).catch(err => {
+          console.error(err)
+        })
+        
+        //Find all other classes
+        db.collection('classes').find({ }, { projection: { "name": 1 } }).toArray().then(classlist => {
+          if(classlist.length > 0){
+            this.classlist = classlist
+          } else {
+            console.log("No documents found.")
+          }
+        }).catch(err => {
+          console.error(err)
+        })
+      }
+    }
   }
 </script>

@@ -34,18 +34,15 @@
 
 <script>
   export default {
-      data: function () {
-        return {
-          loreList: '',
-          section: ''
-        }
-      },
-      created() {
-          var loreJSON = require("../assets/lore/lorelist.json")
-          this.loreList = loreJSON["lore"]
-      },
-      methods: {
-
+    data: function () {
+      return {
+        loreList: '',
+        section: ''
       }
+    },
+    created() {
+      var loreJSON = require("../assets/lore/lorelist.json")
+      this.loreList = loreJSON["lore"]
+    }
   }
 </script>

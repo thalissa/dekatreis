@@ -35,26 +35,26 @@
 
 <script>
   export default {
-      data: function () {
-        return {
-          query: '',
-          rule: '',
-          source: '',
-          ruleContent: ''
-        }
-      },
-      created() {
-          this.query = this.$route.query.rule.toLowerCase()
-          this.source = this.$route.query.source.toLowerCase()
-          var ruleJSON = require("../assets/rules/" + this.source + "/" + this.query + ".json")
-          
-          if(ruleJSON) {
-            this.rule = ruleJSON[this.query][0].name
-            this.ruleContent = ruleJSON[this.query]
-          } else {
-            this.rule = "rule not found!"
-            this.body = "We couldn't find the rule you wanted. Maybe go back to the index?"
-          }
+    data: function () {
+      return {
+        query: '',
+        rule: '',
+        source: '',
+        ruleContent: ''
       }
+    },
+    created() {
+      this.query = this.$route.query.rule.toLowerCase()
+      this.source = this.$route.query.source.toLowerCase()
+      var ruleJSON = require("../assets/rules/" + this.source + "/" + this.query + ".json")
+      
+      if(ruleJSON) {
+        this.rule = ruleJSON[this.query][0].name
+        this.ruleContent = ruleJSON[this.query]
+      } else {
+        this.rule = "rule not found!"
+        this.body = "We couldn't find the rule you wanted. Maybe go back to the index?"
+      }
+    }
   }
 </script>

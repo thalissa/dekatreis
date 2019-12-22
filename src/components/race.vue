@@ -52,29 +52,29 @@
 
 <script>
   export default {
-      data: function () {
-        return {
-          query: '',
-          race: '',
-          source: '',
-          raceContent: '',
-          raceList: ''
-        }
-      },
-      created() {
-          this.query = this.$route.query.race.toLowerCase()
-          this.source = this.$route.query.source.toLowerCase()
-          var raceListJSON = require("../assets/races/" + this.source + "/racelist.json")
-          var raceJSON = require("../assets/races/" + this.source + "/" + this.query + ".json")
-          
-          if(raceListJSON) {
-            this.raceList = raceListJSON.races
-          }
-          
-          if(raceJSON) {
-            this.race = raceJSON[this.query][0].name
-            this.raceContent = raceJSON[this.query]
-          }
+    data: function () {
+      return {
+        query: '',
+        race: '',
+        source: '',
+        raceContent: '',
+        raceList: ''
       }
+    },
+    created() {
+      this.query = this.$route.query.race.toLowerCase()
+      this.source = this.$route.query.source.toLowerCase()
+      var raceListJSON = require("../assets/races/" + this.source + "/racelist.json")
+      var raceJSON = require("../assets/races/" + this.source + "/" + this.query + ".json")
+      
+      if(raceListJSON) {
+        this.raceList = raceListJSON.races
+      }
+      
+      if(raceJSON) {
+        this.race = raceJSON[this.query][0].name
+        this.raceContent = raceJSON[this.query]
+      }
+    }
   }
 </script>

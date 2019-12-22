@@ -5,7 +5,6 @@ Vue.use(Router)
 
 // Import components here
 import IndexComponent from './components/index.vue'
-import DnD5eToCComponent from './components/toc5e.vue'
 import PF2ToCComponent from './components/tocpf2.vue'
 import LoreToCComponent from './components/toclore.vue'
 import RuleComponent from './components/rule.vue'
@@ -25,11 +24,6 @@ const router = new Router({
       path: '/',
       name: 'Index',
       component: IndexComponent
-    },
-    {
-      path: '/toc5e',
-      name: 'D&D 5e Table of Contents',
-      component: DnD5eToCComponent
     },
     {
       path: '/tocpf2',

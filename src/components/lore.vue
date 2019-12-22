@@ -20,24 +20,24 @@
 
 <script>
   export default {
-      data: function () {
-        return {
-          query: '',
-          lore: '',
-          loreContent: ''
-        }
-      },
-      created() {
-          this.query = this.$route.query.lore.toLowerCase()
-          var loreJSON = require("../assets/lore/" + this.query + ".json")
-          
-          if(loreJSON) {
-            this.lore = loreJSON[this.query][0].name
-            this.loreContent = loreJSON[this.query]
-          } else {
-            this.lore = "Lore not found!"
-            this.body = "We couldn't find the lore you wanted. Maybe go back to the index?"
-          }
+    data: function () {
+      return {
+        query: '',
+        lore: '',
+        loreContent: ''
       }
+    },
+    created() {
+        this.query = this.$route.query.lore.toLowerCase()
+        var loreJSON = require("../assets/lore/" + this.query + ".json")
+        
+        if(loreJSON) {
+          this.lore = loreJSON[this.query][0].name
+          this.loreContent = loreJSON[this.query]
+        } else {
+          this.lore = "Lore not found!"
+          this.body = "We couldn't find the lore you wanted. Maybe go back to the index?"
+        }
+    }
   }
 </script>
