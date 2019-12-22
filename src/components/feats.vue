@@ -8,16 +8,18 @@
               h1 {{ this.$route.params.feat }} Feats
             table
               tr
+                td Name
                 td Level
                 td Traits
                 td Prerequisites
                 td Details
               template(v-for="row in featdata")
                 tr
+                  td {{ row.name }}
                   td {{ row.level }}
                   td {{ row.traits.join(", ") }}
                   td {{ row.prerequisites.join(", ") }}
-                  td {{ row.body }}
+                  td(v-html="row.body")
                     
       template(v-else)
         .display
@@ -38,8 +40,12 @@
     width 100%
   
   td
-    min-width 200px
+    min-width 150px
     text-align left
+  
+  table td:nth-child(2)
+    min-width 50px
+    text-align center
 </style>
 
 <script>

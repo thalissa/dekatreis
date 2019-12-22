@@ -35,10 +35,14 @@
                 tr
                   td Level
                   td Features
+                  td Spells Known
+                  td Spell Slots
                 template(v-for="row in classdata.table")
                   tr
                     td(v-html="row.level")
                     td(v-html="row.body")
+                    td(v-html="row.spellsknown")
+                    td(v-html="row.spellslots")
 
             details
               summary
@@ -51,8 +55,9 @@
               summary
                 h3.displayHeading Class Features
               template(v-for="feature in classdata.features")
-                h4.displayHeading(v-html="feature.name")
+                h4.displayHeading
                   .level [{{ feature.level }}]
+                  div(v-html="feature.name")
                 .displayText(v-html="feature.body")
                 
                   
@@ -69,14 +74,16 @@
   
   .level
     display inline-flex
-    margin-left 5px
   
   table
     width 100%
   
   td
-    min-width 200px
     text-align left
+  
+  table td:first-child
+    min-width 50px
+    text-align center
 </style>
 
 <script>
