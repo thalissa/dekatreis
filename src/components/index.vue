@@ -5,7 +5,7 @@
     br
     br
     | A good starting point would be going to the 
-    a(href="/toclore") Dekatreis Lore
+    a(href="/#/toclore") Dekatreis Lore
     |  page and then picking a place you want to go from there. The world is full of lore that I will be gradually adding over time--and please give feedback via my 
     a(href="https://twitter.com/ThalissaRemnant" target="_blank") Twitter
     | !
