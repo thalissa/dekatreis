@@ -59,7 +59,12 @@
                   .level [{{ feature.level }}]
                   div(v-html="feature.name")
                 .displayText(v-html="feature.body")
-                
+            
+            div(v-for="misc in classdata.misc")
+              details
+                summary
+                  h3.displayHeading(v-html="misc.name")
+                .displayText(v-html="misc.body")
                   
       template(v-else)
         .display
