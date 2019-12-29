@@ -46,16 +46,14 @@
       return {
         query: '',
         background: '',
-        source: '',
         backgroundContent: '',
         backgroundList: ''
       }
     },
     created() {
       this.query = this.$route.query.background.toLowerCase()
-      this.source = this.$route.query.source.toLowerCase()
-      var backgroundListJSON = require("../assets/backgrounds/" + this.source + "/backgroundlist.json")
-      var backgroundJSON = require("../assets/backgrounds/" + this.source + "/" + this.query + ".json")
+      var backgroundListJSON = require("../assets/backgrounds/backgroundlist.json")
+      var backgroundJSON = require("../assets/backgrounds/" + this.query + ".json")
       
       if(backgroundListJSON) {
         this.backgroundList = backgroundListJSON.backgrounds

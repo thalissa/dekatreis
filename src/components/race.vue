@@ -56,16 +56,14 @@
       return {
         query: '',
         race: '',
-        source: '',
         raceContent: '',
         raceList: ''
       }
     },
     created() {
       this.query = this.$route.query.race.toLowerCase()
-      this.source = this.$route.query.source.toLowerCase()
-      var raceListJSON = require("../assets/races/" + this.source + "/racelist.json")
-      var raceJSON = require("../assets/races/" + this.source + "/" + this.query + ".json")
+      var raceListJSON = require("../assets/races/racelist.json")
+      var raceJSON = require("../assets/races/" + this.query + ".json")
       
       if(raceListJSON) {
         this.raceList = raceListJSON.races

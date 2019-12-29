@@ -39,14 +39,12 @@
       return {
         query: '',
         rule: '',
-        source: '',
         ruleContent: ''
       }
     },
     created() {
       this.query = this.$route.query.rule.toLowerCase()
-      this.source = this.$route.query.source.toLowerCase()
-      var ruleJSON = require("../assets/rules/" + this.source + "/" + this.query + ".json")
+      var ruleJSON = require("../assets/rules/" + this.query + ".json")
       
       if(ruleJSON) {
         this.rule = ruleJSON[this.query][0].name
