@@ -6,7 +6,7 @@
           legend
             h3 Backgrounds
           template(v-for="background in backgroundList")
-            router-link(:to="{ path: 'backgrounds', query: { background: background.name.replace(/[^a-z0-9]/gi,''), source: 'pf2' }}" tag="a" ) {{ background.name }}
+            router-link(:to="{ path: 'backgrounds', query: { background: background.name.replace(/[^a-z0-9]/gi,'') }}" tag="a" ) {{ background.name }}
 
       template(v-if="backgroundContent")
         .display(v-for="background in backgroundContent")

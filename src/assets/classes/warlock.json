@@ -1,15 +1,7 @@
 {
   "name": "Warlock",
+  "description": "A Warlock makes pacts with otherworldly creatures in exchange for power.",
   "sections": [
-    {
-      "name": "Background",
-      "body": [
-        {
-          "name": "Background Details",
-          "body": "A Warlock makes pacts with otherworldly creatures in exchange for power."
-        }
-      ]
-    },
     {
       "name": "Statistics",
       "body": [
@@ -24,36 +16,7 @@
       ]
     },
     {
-      "name": "Initial Proficiencies",
-      "body": [
-        {
-          "name": "Perception",
-          "body": "Trained in Perception."
-        },
-        {
-          "name": "Saving Throws",
-          "body": "Trained in Fortitude.\nTrained in Reflex.\nExpert in Will."
-        },
-        {
-          "name": "Skills",
-          "body": "Trained in one skill listed with your Patron.\nTrained in a number of additional skills equal to 3 plus your Intelligence modifier."
-        },
-        {
-          "name": "Attacks",
-          "body": "Trained in simple weapons.\nTrained in unarmed attacks."
-        },
-        {
-          "name": "Defenses",
-          "body": "Trained in light armour.\nTrained in unarmoured defense."
-        },
-        {
-          "name": "Spells",
-          "body": "Trained in spell attack rolls of your spellcasting tradition, as indicated by your Patron.\nTrained in spell DCs of your spellcasting tradition, as indicated by your Patron."
-        }
-      ]
-    },
-    {
-      "name": "Class Features Table",
+      "name": "Class Table",
       "body": [
         {
           "style": "table",
@@ -189,6 +152,35 @@
       ]
     },
     {
+      "name": "Initial Proficiencies",
+      "body": [
+        {
+          "name": "Perception",
+          "body": "Trained in Perception."
+        },
+        {
+          "name": "Saving Throws",
+          "body": "Trained in Fortitude.\nTrained in Reflex.\nExpert in Will."
+        },
+        {
+          "name": "Skills",
+          "body": "Trained in one skill listed with your Patron.\nTrained in a number of additional skills equal to 3 plus your Intelligence modifier."
+        },
+        {
+          "name": "Attacks",
+          "body": "Trained in simple weapons.\nTrained in unarmed attacks."
+        },
+        {
+          "name": "Defenses",
+          "body": "Trained in light armour.\nTrained in unarmoured defense."
+        },
+        {
+          "name": "Spells",
+          "body": "Trained in spell attack rolls of your spellcasting tradition, as indicated by your Patron.\nTrained in spell DCs of your spellcasting tradition, as indicated by your Patron."
+        }
+      ]
+    },
+    {
       "name": "Class Features",
       "body": [
         {
@@ -205,47 +197,6 @@
           "name": "Patron",
           "level": "1",
           "body": "Your magic comes not from any conventional source, but from a greater being that you have a mutually beneficial relationship with. While they grant you various tools to strengthen yourself with, they often ask other things in return.\nChoose from the Otherworldly Patron Table. You gain the Patron, the skill proficiency, the arcane tradition, the bonus feat, and you may use the listed key ability associated with the Patron in place of your class ability. You also gain access to any Warlock class feat that has your chosen Patron as a prerequisite."
-        },
-        {
-          "name": "Otherworldly Patron Table",
-          "style": "table",
-          "body": [
-            [
-              "Patron",
-              "Trained Skill",
-              "Arcane Tradition",
-              "Bonus Feat",
-              "Key Ability"
-            ],
-            [
-              "Devil",
-              "Religion",
-              "Divine",
-              "Infernal Blast",
-              "Charisma"
-            ],
-            [
-              "Fey",
-              "Nature",
-              "Primal",
-              "Sylvan Blast",
-              "Charisma"
-            ],
-            [
-              "Eldritch",
-              "Occultism",
-              "Occult",
-              "Abyssal Blast",
-              "Intelligence"
-            ],
-            [
-              "Celestial",
-              "Religion",
-              "Divine",
-              "Celestial Blast",
-              "Wisdom"
-            ]
-          ]
         },
         {
           "name": "Arcane Blast",
@@ -358,439 +309,382 @@
           "body": "You gain the greatest Arcanum of power from your Patron. Add two 10th level spells of your Patron's arcane tradition to your Spell Tome. You gain a single 10th level Mystic Arcanum you can use to cast these spells, using Warlock spellcasting. Unlike other spell slots, you don’t gain more 10th-level spells as you level up, and they can’t be used for abilities that let you cast spells without expending spell slots or abilities that give you more spell slots. You can take the Greater Legendary Arcanum Warlock feat to gain a second slot."
         }
       ]
-    }
-  ],
-  "feats": [
+    },
     {
-      "name": "Warlock Feats",
+      "name": "Otherworldly Patron Table",
       "body": [
         {
-          "name": "1st Level",
           "style": "table",
           "body": [
             [
-              "Feat Name",
-              "Requirements",
-              "Traits",
-              "Benefits"
+              "Patron",
+              "Trained Skill",
+              "Arcane Tradition",
+              "Bonus Feat",
+              "Key Ability"
             ],
             [
-              "Counterspell",
-              "",
-              "Abjuration",
-              "When a foe Casts a Spell you know and you can see its manifestations, you can use your own magic to disrupt it. You expend one of your spell slots to counter the triggering creature’s casting of a spell that you have in your repertoire. You lose your spell slot as if you had cast the triggering spell. You then attempt to counteract the triggering spell (page 458)."
-            ],
-            [
-              "Martial Specialist",
-              "",
-              "",
-              "You become trained in medium armor and martial weapons. You gain the Shield Block general feat, a reaction to reduce damage with a shield. At 13th level, if you gain the Patron's Armor class feature, you also gain expert proficiency in medium armor."
-            ],
-            [
+              "Devil",
+              "Religion",
+              "Divine",
               "Infernal Blast",
-              "Devil Patron",
-              "Divine, Evocation, Patron",
-              "You channel your patron's energy through your blasts. You may choose to have your Arcane Blast spell do Fire damage instead of Force. In addition, on a critical success, you deal 2 Persistent Fire damage."
+              "Charisma"
             ],
             [
+              "Fey",
+              "Nature",
+              "Primal",
               "Sylvan Blast",
-              "Fey Patron",
-              "Arcane, Evocation, Patron",
-              "You channel your patron's energy through your blasts. On a critical success with your Arcane Blast, the creature is Enfeebled 2."
+              "Charisma"
             ],
             [
-              "Eldritch Blast",
-              "Eldritch Patron",
-              "Occult, Evocation, Patron",
-              "You channel your patron's energy through your blasts. You may choose to have your Arcane Blast spell deal Psychic damage. Additionally, on a critical success, the target gains Fleeing 2."
+              "Eldritch",
+              "Occultism",
+              "Occult",
+              "Abyssal Blast",
+              "Intelligence"
             ],
             [
+              "Celestial",
+              "Religion",
+              "Divine",
               "Celestial Blast",
-              "Celestial Patron",
-              "Divine, Evocation, Patron",
-              "You channel your patron's energy through your blasts. You may choose to have your Arcane Blast spell deal Positive damage. Additionally, the creature is Dazzled 2."
-            ]
-          ]
-        },
-        {
-          "name": "2nd Level",
-          "style": "table",
-          "body": [
-            [
-              "Feat Name",
-              "Requirements",
-              "Traits",
-              "Benefits"
-            ],
-            [
-              "Hex",
-              "",
-              "Enchantment",
-              "As an action, you may place a Hex on a creature. When you or a creature under your command deals damage to a Hexed creature, the target takes an additional 1d6 Precision damage. If you have a Hex on a creature, you may not place a Hex on another creature. The Hex dissipates after 10 minutes or once the target dies."
-            ],
-            [
-              "Mystic Enchantment",
-              "",
-              "Enchantment",
-              "Using a Somatic and Verbal action, you may place an enchantment on an allied creature or yourself. When you choose the target of this ability, choose one damage type. The target gains resistance equal to half your level to that damage type for 10 minutes. If you have Mystic Enchantment on a creature, you cannot place a new enchantment another creature."
-            ],
-            [
-              "Magic Sense",
-              "",
-              "Detection, Divination",
-              "You have a literal sixth sense for magic. You can sense the presence of magic auras as though you were always using a 1st-level detect magic spell. This detects magic in your field of vision only. You can turn this sense off and on with a free action at the start or the end of your turn."
-            ]
-          ]
-        },
-        {
-          "name": "3rd Level",
-          "style": "table",
-          "body": [
-            [
-              "Feat Name",
-              "Requirements",
-              "Traits",
-              "Benefits"
-            ],
-            [
-              "Patron Familiar",
-              "Pact Animal",
-              "Pact Boon",
-              "You gain a unique familiar that is gifted to you by your Patron, giving them unique traits. You gain a familiar, a Tiny creature that embodies the power of your Patron. Other than as noted below, this familiar uses all the same rules as other familiars, which are detailed on page 217.\n\nWhen you summon your familiar, it gains the trait of your Arcane Tradition. Additionally, instead of taking a week to resummon your familiar in case it dies, you instead may resummon it over the course of your daily preparations."
-            ],
-            [
-              "Patron Weapon",
-              "Pact Weapon",
-              "Pact Boon",
-              "You gain the ability to summon any weapon that you are proficient with as a single action. This weapon bares resemblance to your Patron, though the exact design is up to you. This weapon functions as a normal weapon and lasts until dismissed as a single action or until it spends a minute more than 30 feet away from you. Each time you summon your Patron Weapon, you can choose a new form, but the weapon keeps any runes that were inscribed into it even if you transform it.\n\nAdditionally, you may choose a weapon that wasn't created using this feature. Upon choosing a weapon, over the course of your daily preparations you may bond that weapon to be your Patron Weapon. Once bonded, you may summon and desummon it as normal using this feature, and it can be improved by other abilities."
-            ],
-            [
-              "Patron Staff",
-              "Pact Staff",
-              "Pact Boon",
-              "Your Patron transforms your Spell Tome into a Staff in the likeness of your Patron choice. This functions the exact same as your Spell Tome, in addition to a few unique qualities. When attacking with this staff, you may use your spellcasting ability in place of strength or dexterity for attack rolls. Additionally, you gain 3 additional cantrips which can be from any arcane tradition to cast as long as this staff is in your hands. If you lose this staff or it is destroyed by any means, you may resummon it over the course of your daily preparations."
-            ]
-          ]
-        },
-        {
-          "name": "4th Level",
-          "style": "table",
-          "body": [
-            [
-              "Feat Name",
-              "Requirements",
-              "Traits",
-              "Benefits"
-            ],
-            [
-              "Patron's Edge",
-              "Patron Weapon",
-              "Pact Boon",
-              "Weapons summoned through your Patron are especially powerful in your hands. When you are wielding a Patron Weapon, increase the damage die size of that weapon by one step. If its damage die is smaller than d6, instead increase its damage die size to d6. Additionally, weapons summoned using your Patron Weapon feature are counted as magical for the purposes of overcoming damage resistance."
-            ],
-            [
-              "Twinned Weapons",
-              "Patron Weapon",
-              "Pact Boon",
-              "You may now summon two Patron weapons instead of one so long as both of your hands are free. These weapons must be of the same type and must be able to be wielded in one hand each. While you have these weapons in both hands, they have the Twin property."
-            ],
-            [
-              "Enhanced Familiar",
-              "Patron Familiar",
-              "Pact Boon",
-              "You infuse your familiar with additional magical energy. You can select four familiar or master abilities each day, instead of two."
-            ],
-            [
-              "Flexible Casting",
-              "Patron Staff",
-              "Pact Boon",
-              "Choose one 1st level spell from any arcane tradition. You infuse that spell into your staff and may cast it once without using a spell slot. You may choose a new spell the same way during each of your daily preparations."
-            ]
-          ]
-        },
-        {
-          "name": "6th Level",
-          "style": "table",
-          "body": [
-            [
-              "Feat Name",
-              "Requirements",
-              "Traits",
-              "Benefits"
-            ],
-            [
-              "Chain Blast",
-              "",
-              "Evocation, Manipulate",
-              "Instead of striking a single target, using an additional action you may bounce your Arcane Blast between two targets, neither of which may be more than 30 feet apart. All targets must make a basic Reflex save against the normal damage."
-            ],
-            [
-              "Widened Blast",
-              "",
-              "Manipulate",
-              "Spending an additional Verbal action, you may alter your Arcane Blast to become a 15 foot cone. All creatures in the area must make a Basic Reflex save against the normal damage."
-            ],
-            [
-              "Debilitating Hex",
-              "Hex",
-              "",
-              "When you Hex a creature, the creature also becomes Clumsy 1."
-            ],
-            [
-              "Powerful Enchantment",
-              "Mystic Enchantment",
-              "",
-              "While your Mystic Enchantment is on a target, the target gains a +1 Status bonus to attack rolls."
-            ]
-          ]
-        },
-        {
-          "name": "8th Level",
-          "style": "table",
-          "body": [
-            [
-              "Feat Name",
-              "Requirements",
-              "Traits",
-              "Benefits"
-            ],
-            [
-              "Precise Strike",
-              "Patron Weapon",
-              "Pact Boon",
-              "When you strike with your Patron weapon, the multiple attack penalty is decreased by 1."
-            ],
-            [
-              "Expert Familiar",
-              "Patron Familiar, Enhanced Familiar",
-              "Pact Boon",
-              "You infuse your familiar with additional magical energy. You can select six familiar or master abilities each day, instead of four."
-            ],
-            [
-              "Arcane Shield",
-              "Patron Staff",
-              "Abjuration, Arcane, Pact Boon",
-              "You may project the power of your staff around your body to defend yourself with. You gain temporary hitpoints equal to your spellcasting ability modifier times your level. This lasts for 10 minutes, and after using this ability, you may not use it again until your next daily preparations."
-            ]
-          ]
-        },
-        {
-          "name": "10th Level",
-          "style": "table",
-          "body": [
-            [
-              "Feat Name",
-              "Requirements",
-              "Traits",
-              "Benefits"
-            ],
-            [
-              "Invoked Hex",
-              "Hex",
-              "Evocation, Patron",
-              "Whenever you deal damage with your Hex feature, you may change the damage type of the Hex to the one associated with your Patron. Fire for Devil, Force for Fey, Psychic for Eldrtich, and Positive for Celestial."
-            ],
-            [
-              "Healing Enchantment",
-              "Mystic Enchantment",
-              "Necromancy, Healing, Positive, Patron",
-              "While your Mystic Enchantment is on a target, as a reaction you may heal the target for a number of hitpoints equal to your level. The target cannot be healed by this effect more than once every 10 minutes."
-            ],
-            [
-              "Patron's Shield",
-              "",
-              "Abjuration",
-              "Your Patron's bond makes you more resistant to magic. You gain a +2 status bonus to saving throws against spells and magical effects."
-            ]
-          ]
-        },
-        {
-          "name": "12th Level",
-          "style": "table",
-          "body": [
-            [
-              "Feat Name",
-              "Requirements",
-              "Traits",
-              "Benefits"
-            ],
-            [
-              "Dual Patron",
-              "",
-              "Patron",
-              "You have made a second pact with an entity also willing to bestow you power. Choose one Patron other than your own, and you gain one Patron feat for which you meet the requirements. Additionally, you now count as having that Patron for any future class feats."
-            ],
-            [
-              "Shadow Strike",
-              "Patron Weapon",
-              "Conjuration, Teleportation, Pact Boon",
-              "Using the magic of your Patron, you are able to teleport short distances. Using two actions, you may teleport up to a distance equal to your Speed and deliver a Strike to your opponent. You gain a +1 Circumstance bonus to the attack roll on this attack only."
-            ],
-            [
-              "Familiar Autonomy",
-              "Patron Familiar",
-              "Pact Boon",
-              "Your familiar gains an additional action, and you no longer need to use your action to command your familiar. You may telepathically communicate with your familiar to give it commands so long as it is within 100 feet of you. If given no commands, it will return to you or stay within 5 feet."
-            ],
-            [
-              "Staff of Power",
-              "Patron Staff, Flexible Casting",
-              "Pact Boon",
-              "Your power increases to greater lengths while wielding the staff. You may now choose two spells during your daily preparations to infuse into your staff, and these spells may be of any spell level between 1st level and 5th level."
-            ],
-            [
-              "Greater Arcanum (6th Level)",
-              "",
-              "Mystic Arcanum",
-              "You gain an additional 6th level Mystic Arcanum slot."
-            ]
-          ]
-        },
-        {
-          "name": "14th Level",
-          "style": "table",
-          "body": [
-            [
-              "Feat Name",
-              "Requirements",
-              "Traits",
-              "Benefits"
-            ],
-            [
-              "Reflect Spell",
-              "Counterspell",
-              "",
-              "When you successfully use Counterspell to counteract a spell that affects targeted creatures or an area, you can turn that spell’s effect back on its caster. When reflected, the spell affects only the original caster, even if it’s an area spell or it would normally affect more than one creature. The original caster can attempt a save and use other defenses against the reflected spell as normal."
-            ],
-            [
-              "Twinned Hex",
-              "Hex",
-              "Manipulate",
-              "When you use Hex, you may target 1 additional creature."
-            ],
-            [
-              "Twinned Enchantment",
-              "Mystic Enchantment",
-              "Manipulate",
-              "When you use Mystic Enchantment, you may target 1 additional creature to recieve either the same or a different enchantment."
-            ],
-            [
-              "Greater Arcanum (7th Level)",
-              "",
-              "Mystic Arcanum",
-              "You gain an additional 7th level Mystic Arcanum slot."
-            ]
-          ]
-        },
-        {
-          "name": "16th Level",
-          "style": "table",
-          "body": [
-            [
-              "Feat Name",
-              "Requirements",
-              "Traits",
-              "Benefits"
-            ],
-            [
-              "Blade Dance",
-              "Patron Weapon",
-              "Pact Boon, Manipulate, Arcane",
-              "Spending a spell slot of any level while wielding a melee Patron Weapon, you begin to dance in a way that is both beautiful and deadly. You gain a +2 Status bonus to your AC for one minute. Additionally, when you Strike with a melee weapon during this dance, you may expend a spell slot of 5th level or lower to deal 1d8 damage per level of the spell slot expended."
-            ],
-            [
-              "Familiar Concentration",
-              "Patron Familiar",
-              "Arcane, Abjuration, Pact Boon",
-              "As a reaction when your Patron Familiar is within 30 feet of you and you cast a spell with the Concentration trait, you may allow your familiar to concentrate on the spell for you. Your familiar may Sustain a Spell as a free action at the start of each of their turns."
-            ],
-            [
-              "True Magical Force",
-              "Patron Staff",
-              "Pact Boon",
-              "Upon striking a foe with your staff, you may force them to make a Will saving throw. On a failed save, the creature becomes a conduit for all spells that you cast for one minute. Any time you cast a spell while this ability is active, you may treat the point of origin as either yourself or the target of this ability. Whenever you successfully cast a spell like this, the target must succeed a Fortitude saving throw or take Negative damage equal to half your level."
-            ],
-            [
-              "Greater Arcanum (8th Level)",
-              "",
-              "Mystic Arcanum",
-              "You gain an additional 8th level Mystic Arcanum slot."
-            ]
-          ]
-        },
-        {
-          "name": "18th Level",
-          "style": "table",
-          "body": [
-            [
-              "Feat Name",
-              "Requirements",
-              "Traits",
-              "Benefits"
-            ],
-            [
-              "Infernal Savant",
-              "Infernal Patron",
-              "Divine, Patron",
-              "You have proven yourself to be a valuable asset to your Patron, granting you limited powers from the devils themselves. You gain the Fiend trait and resistance to Fire damage equal to half your level. Additionally, you gain Fast Healing 5."
-            ],
-            [
-              "Eldritch Savant",
-              "Eldritch Patron",
-              "Occult, Patron",
-              "You have proven yourself to be a valuable asset to your Patron, granting you a far-reaching grasp on mortals around you. You gain the Aberration trait and telepathy out to 120 feet. In addition, as an action while you are telepathically speaking to a creature, you may have them roll a Will save against your spellcasting DC. On a failure, the target becomes a minion under your control for 1 hour or until you or an ally attacks the target. On a critical failure, the duration increases to 8 hours. After using this feature, you cannot use it again until your next daily preparation."
-            ],
-            [
-              "Fey Savant",
-              "Fey Patron",
-              "Arcane, Patron",
-              "You have proven yourself to be a valuable asset to your Patron, granting you protection from the Fey themselves. You gain the Fey trait and a Fly Speed of 15. If you already have a Fly Speed, you gain 10 feet to your original Fly Speed instead. Additionally, you may use an action to reduce your size, up to Tiny. This reduction lasts for up to 1 hour or until you dismiss it as an action. After using this ability, you cannot use it again until your next daily preparation."
-            ],
-            [
-              "Celestial Savant",
-              "Celestial Patron",
-              "Divine, Patron",
-              "You have proven yourself to be a valuable asset to your Patron, granting you limited immortality. You gain the Celestial trait, and you cease aging except by magical means. Additionally, you gain Fast Healing 5."
-            ],
-            [
-              "Greater Arcanum (9th Level)",
-              "",
-              "Mystic Arcanum",
-              "You gain an additional 9th level Mystic Arcanum slot."
-            ]
-          ]
-        },
-        {
-          "name": "20th Level",
-          "style": "table",
-          "body": [
-            [
-              "Feat Name",
-              "Requirements",
-              "Traits",
-              "Benefits"
-            ],
-            [
-              "Patron's Faithful",
-              "",
-              "Conjuration, Teleportation, Patron",
-              "Your extensive service has made you a lesser herald of your Patron, which affords you certain privileges. First, any creature you encounter knows instinctively that you speak and are a great power for your Patron. Second, if you conduct the commune ritual to contact your Patron, you don’t have to pay any cost and you automatically get a critical success. Third, once per day, you can cast plane shift as an Occult innate spell, but only to travel to the realm of your Patron. When you cast it this way, its casting time is 1 minute, your Spell Tome is a sufficient tuning fork for this spell, and you appear exactly where you want to be. If you’re in your Patron’s realm due to this spell, you can return to the point you left when you cast it by spending a single action, which has the concentrate and Occult traits."
-            ],
-            [
-              "Deitific Duality",
-              "Dual Patron",
-              "Patron",
-              "You gain bountiful benefits of your second Patron's power. Select up to five additional spells from your second Patron's arcane tradition and add them to your Spell Tome. Additionally, you gain an additional two cantrips of the same arcane tradition. If you choose to swap these spells out for other spells, you can only choose new spells from the original tradition."
-            ],
-            [
-              "Greater Legendary Arcanum",
-              "",
-              "Mystic Arcanum",
-              "You gain an additional 10th level Mystic Arcanum slot."
+              "Wisdom"
             ]
           ]
         }
       ]
+    }
+  ],
+  "feats": [
+    {
+      "name": "Counterspell",
+      "level": 1,
+      "traits": ["Abjuration"],
+      "prerequisites": [],
+      "body": "When a foe Casts a Spell you know and you can see its manifestations, you can use your own magic to disrupt it. You expend one of your spell slots to counter the triggering creature’s casting of a spell that you have in your repertoire. You lose your spell slot as if you had cast the triggering spell. You then attempt to counteract the triggering spell (page 458)."
+    },
+    {
+      "name": "Martial Specialist",
+      "level": 1,
+      "traits": [],
+      "prerequisites": [],
+      "body": "You become trained in medium armor and martial weapons. You gain the Shield Block general feat, a reaction to reduce damage with a shield. At 13th level, if you gain the Patron's Armor class feature, you also gain expert proficiency in medium armor."
+    },
+    {
+      "name": "Infernal Blast",
+      "level": 1,
+      "traits": ["Divine", "Evocation", "Patron"],
+      "prerequisites": ["Devil Patron"],
+      "body": "You channel your patron's energy through your blasts. You may choose to have your Arcane Blast spell do Fire damage instead of Force. In addition, on a critical success, you deal 2 Persistent Fire damage."
+    },
+    {
+      "name": "Sylvan Blast",
+      "level": 1,
+      "traits": ["Arcane", "Evocation", "Patron"],
+      "prerequisites": ["Fey Patron"],
+      "body": "You channel your patron's energy through your blasts. On a critical success with your Arcane Blast, the creature is Enfeebled 2."
+    },
+    {
+      "name": "Eldritch Blast",
+      "level": 1,
+      "traits": ["Occult", "Evocation", "Patron"],
+      "prerequisites": ["Eldritch Patron"],
+      "body": "You channel your patron's energy through your blasts. You may choose to have your Arcane Blast spell deal Psychic damage. Additionally, on a critical success, the target gains Fleeing 2."
+    },
+    {
+      "name": "Celestial Blast",
+      "level": 1,
+      "traits": ["Divine", "Evocation", "Patron"],
+      "prerequisites": ["Celestial Patron"],
+      "body": "You channel your patron's energy through your blasts. You may choose to have your Arcane Blast spell deal Positive damage. Additionally, the creature is Dazzled 2."
+    },
+    {
+      "name": "Hex",
+      "level": 2,
+      "traits": ["Enchantment"],
+      "prerequisites": [],
+      "body": "As an action, you may place a Hex on a creature. When you or a creature under your command deals damage to a Hexed creature, the target takes an additional 1d6 Precision damage. If you have a Hex on a creature, you may not place a Hex on another creature. The Hex dissipates after 10 minutes or once the target dies."
+    },
+    {
+      "name": "Mystic Enchantment",
+      "level": 2,
+      "traits": ["Enchantment"],
+      "prerequisites": [],
+      "body": "Using two actions, you may place an enchantment on an allied creature or yourself. When you choose the target of this ability, choose one damage type. The target gains resistance equal to half your level to that damage type for 10 minutes. If you have Mystic Enchantment on a creature, you cannot place a new enchantment another creature."
+    },
+    {
+      "name": "Magic Sense",
+      "level": 2,
+      "traits": ["Detection", "Divination"],
+      "prerequisites": [],
+      "body": "You have a literal sixth sense for magic. You can sense the presence of magic auras as though you were always using a 1st-level detect magic spell. This detects magic in your field of vision only. You can turn this sense off and on with a free action at the start or the end of your turn."
+    },
+    {
+      "name": "Patron Familiar",
+      "level": 3,
+      "traits": ["Pact Boon"],
+      "prerequisites": ["Pact Animal"],
+      "body": "You gain a unique familiar that is gifted to you by your Patron, giving them unique traits. You gain a familiar, a Tiny creature that embodies the power of your Patron. Other than as noted below, this familiar uses all the same rules as other familiars, which are detailed on page 217.\n\nWhen you summon your familiar, it gains the trait of your Arcane Tradition. Additionally, instead of taking a week to resummon your familiar in case it dies, you instead may resummon it over the course of your daily preparations."
+    },
+    {
+      "name": "Patron Weapon",
+      "level": 3,
+      "traits": ["Pact Boon"],
+      "prerequisites": ["Pact Weapon"],
+      "body": "You gain the ability to summon any weapon that you are proficient with as a single action. This weapon bares resemblance to your Patron, though the exact design is up to you. This weapon functions as a normal weapon and lasts until dismissed as a single action or until it spends a minute more than 30 feet away from you. Each time you summon your Patron Weapon, you can choose a new form, but the weapon keeps any runes that were inscribed into it even if you transform it.\n\nAdditionally, you may choose a weapon that wasn't created using this feature. Upon choosing a weapon, over the course of your daily preparations you may bond that weapon to be your Patron Weapon. Once bonded, you may summon and desummon it as normal using this feature, and it can be improved by other abilities."
+    },
+    {
+      "name": "Patron Staff",
+      "level": 3,
+      "traits": ["Pact Boon"],
+      "prerequisites": ["Pact Staff"],
+      "body": "Your Patron transforms your Spell Tome into a Staff in the likeness of your Patron choice. This functions the exact same as your Spell Tome, in addition to a few unique qualities. When attacking with this staff, you may use your spellcasting ability in place of strength or dexterity for attack rolls. Additionally, you gain 3 additional cantrips which can be from any arcane tradition to cast as long as this staff is in your hands. If you lose this staff or it is destroyed by any means, you may resummon it over the course of your daily preparations."
+    },
+    {
+      "name": "Patron's Edge",
+      "level": 4,
+      "traits": ["Pact Boon"],
+      "prerequisites": ["Patron Weapon"],
+      "body": "Weapons summoned through your Patron are especially powerful in your hands. When you are wielding a Patron Weapon, increase the damage die size of that weapon by one step. If its damage die is smaller than d6, instead increase its damage die size to d6. Additionally, weapons summoned using your Patron Weapon feature are counted as magical for the purposes of overcoming damage resistance."
+    },
+    {
+      "name": "Twinned Weapons",
+      "level": 4,
+      "traits": ["Pact Boon"],
+      "prerequisites": ["Patron Weapon"],
+      "body": "You may now summon two Patron weapons instead of one so long as both of your hands are free. These weapons must be of the same type and must be able to be wielded in one hand each. While you have these weapons in both hands, they have the Twin property."
+    },
+    {
+      "name": "Enhanced Familiar",
+      "level": 4,
+      "traits": ["Pact Boon"],
+      "prerequisites": ["Patron Familiar"],
+      "body": "You infuse your familiar with additional magical energy. You can select four familiar or master abilities each day, instead of two."
+    },
+    {
+      "name": "Flexible Casting",
+      "level": 4,
+      "traits": ["Pact Boon"],
+      "prerequisites": ["Patron Staff"],
+      "body": "Choose one 1st level spell from any arcane tradition. You infuse that spell into your staff and may cast it once without using a spell slot. You may choose a new spell the same way during each of your daily preparations."
+    },
+    {
+      "name": "Chain Blast",
+      "level": 6,
+      "traits": [],
+      "prerequisites": [],
+      "body": "Instead of striking a single target, using an additional action you may bounce your Arcane Blast between two targets, neither of which may be more than 30 feet apart. All targets must make a basic Reflex save against the normal damage."
+    },
+    {
+      "name": "Widened Blast",
+      "level": 6,
+      "traits": [],
+      "prerequisites": [],
+      "body": "Spending an additional action, you may alter your Arcane Blast to become a 15 foot cone. All creatures in the area must make a Basic Reflex save against the normal damage."
+    },
+    {
+      "name": "Debilitating Hex",
+      "level": 6,
+      "traits": ["Enchantment"],
+      "prerequisites": ["Hex"],
+      "body": "While your Hex is on a target, the creature also becomes Clumsy 1."
+    },
+    {
+      "name": "Powerful Enchantment",
+      "level": 6,
+      "traits": ["Enchantment"],
+      "prerequisites": ["Mystic Enchantment"],
+      "body": "While your Mystic Enchantment is on a target, the target gains a +1 Status bonus to attack rolls."
+    },
+    {
+      "name": "Precise Strike",
+      "level": 8,
+      "traits": ["Pact Boon"],
+      "prerequisites": ["Patron Weapon"],
+      "body": "When you strike with your Patron weapon, the multiple attack penalty is decreased by 1."
+    },
+    {
+      "name": "Expert Familiar",
+      "level": 8,
+      "traits": ["Pact Boon"],
+      "prerequisites": ["Patron Familiar", "Enhanced Familiar"],
+      "body": "You infuse your familiar with additional magical energy. You can select six familiar or master abilities each day, instead of four."
+    },
+    {
+      "name": "Arcane Shield",
+      "level": 8,
+      "traits": ["Abjuration", "Arcane", "Pact Boon"],
+      "prerequisites": ["Patron Staff"],
+      "body": "You may project the power of your staff around your body to defend yourself with. You gain temporary hitpoints equal to your spellcasting ability modifier times your level. This lasts for 10 minutes, and after using this ability, you may not use it again until your next daily preparations."
+    },
+    {
+      "name": "Invoked Hex",
+      "level": 10,
+      "traits": ["Evocation", "Patron"],
+      "prerequisites": ["Hex"],
+      "body": "Whenever you deal damage with your Hex feature, you may change the damage type of the Hex to the one associated with your Patron. Fire for Devil, Force for Fey, Psychic for Eldrtich, and Positive for Celestial."
+    },
+    {
+      "name": "Healing Enchantment",
+      "level": 10,
+      "traits": ["Necromancy", "Healing", "Positive"],
+      "prerequisites": ["Mystic Enchantment"],
+      "body": "While your Mystic Enchantment is on a target, as a reaction you may heal the target for a number of hitpoints equal to twice your level. The target cannot be healed by this effect more than once every 10 minutes."
+    },
+    {
+      "name": "Patron's Shield",
+      "level": 10,
+      "traits": ["Abjuration"],
+      "prerequisites": [],
+      "body": "Your Patron's bond makes you more resistant to magic. You gain a +2 status bonus to saving throws against spells and magical effects."
+    },
+    {
+      "name": "Dual Patron",
+      "level": 12,
+      "traits": ["Patron"],
+      "prerequisites": [],
+      "body": "You have made a second pact with an entity also willing to bestow you power. Choose one Patron other than your own, and you gain one Patron feat for which you meet the requirements. Additionally, you now count as having that Patron for any future class feats."
+    },
+    {
+      "name": "Shadow Strike",
+      "level": 12,
+      "traits": ["Conjuration", "Teleportation", "Pact Boon"],
+      "prerequisites": ["Patron Weapon"],
+      "body": "Using the magic of your Patron, you are able to teleport short distances. Using two actions, you may teleport up to a distance equal to your Speed and deliver a Strike to your opponent. You gain a +1 Circumstance bonus to the attack roll on this attack only."
+    },
+    {
+      "name": "Familiar Autonomy",
+      "level": 12,
+      "traits": ["Pact Boon"],
+      "prerequisites": ["Patron Familiar"],
+      "body": "Your familiar gains an additional action, and you no longer need to use your action to command your familiar. You may telepathically communicate with your familiar to give it commands so long as it is within 100 feet of you. If given no commands, it will return to you or stay within 5 feet."
+    },
+    {
+      "name": "Staff of Power",
+      "level": 12,
+      "traits": ["Pact Boon"],
+      "prerequisites": ["Patron Staff", "Flexible Casting"],
+      "body": "Your power increases to greater lengths while wielding your staff. You may now choose two additional spells during your daily preparations to infuse into your staff, and these spells may be of any spell level between 1st level and 5th level. Like your spells from Flexible Casting, you become able to cast each spell once without using a spell slot."
+    },
+    {
+      "name": "Greater Arcanum (6th Level)",
+      "level": 12,
+      "traits": ["Mystic Arcanum"],
+      "prerequisites": ["Mystic Arcanum (6th Level)"],
+      "body": "You gain an additional 6th level Mystic Arcanum slot."
+    },
+    {
+      "name": "Reflect Spell",
+      "level": 14,
+      "traits": [],
+      "prerequisites": ["Counterspell"],
+      "body": "When you successfully use Counterspell to counteract a spell that affects targeted creatures or an area, you can turn that spell’s effect back on its caster. When reflected, the spell affects only the original caster, even if it’s an area spell or it would normally affect more than one creature. The original caster can attempt a save and use other defenses against the reflected spell as normal."
+    },
+    {
+      "name": "Twinned Hex",
+      "level": 14,
+      "traits": ["Manipulate"],
+      "prerequisites": ["Hex"],
+      "body": "When you use Hex, you may use an additional action to target 1 additional creature for the same duration."
+    },
+    {
+      "name": "Twinned Enchantment",
+      "level": 14,
+      "traits": ["Manipulate"],
+      "prerequisites": ["Mystic Enchantment"],
+      "body": "When you use Mystic Enchantment, you may spend an additional action to target 1 additional creature to recieve the same enchantment for the same duration."
+    },
+    {
+      "name": "Greater Arcanum (7th Level)",
+      "level": 14,
+      "traits": ["Mystic Arcanum"],
+      "prerequisites": ["Mystic Arcanum (7th Level)"],
+      "body": "You gain an additional 7th level Mystic Arcanum slot."
+    },
+    {
+      "name": "Blade Dance",
+      "level": 16,
+      "traits": ["Pact Boon", "Manipulate", "Arcane"],
+      "prerequisites": ["Patron Weapon"],
+      "body": "Using an action to spend a spell slot of any level while wielding a melee Patron Weapon, you begin to dance in a way that is both beautiful and deadly. You gain a +2 Status bonus to your AC for one minute. Additionally, when you Strike with a melee weapon during Blade Dance, you may expend a spell slot to deal an additional 1d8 Precision damage per level of the spell slot expended. Spell slots gained frm Mystic Arcanums cannot be expended in this way."
+    },
+    {
+      "name": "Familiar Concentration",
+      "level": 16,
+      "traits": ["Pact Boon", "Abjuration", "Arcane"],
+      "prerequisites": ["Patron Familiar"],
+      "body": "As a reaction when your Patron Familiar is within 30 feet of you and you cast a spell with the Concentrate trait, you may allow your familiar to concentrate on the spell for you. Your familiar may Sustain a Spell as a free action at the start of each of their turns."
+    },
+    {
+      "name": "True Magical Force",
+      "level": 16,
+      "traits": ["Pact Boon", "Arcane"],
+      "prerequisites": ["Patron Staff"],
+      "body": "Upon striking a foe with your staff, you may force them to make a Will saving throw. On a failed save, the creature becomes a conduit for all spells that you cast for one minute. Any time you cast a spell while this ability is active, you may treat the point of origin as either yourself or the target of this ability. Whenever you successfully cast a spell using the target as the point of origin, the target must succeed a Fortitude saving throw or take Negative damage equal to half your level."
+    },
+    {
+      "name": "Greater Arcanum (8th Level)",
+      "level": 16,
+      "traits": ["Mystic Arcanum"],
+      "prerequisites": ["Mystic Arcanum (8th Level)"],
+      "body": "You gain an additional 8th level Mystic Arcanum slot."
+    },
+    {
+      "name": "Infernal Savant",
+      "level": 18,
+      "traits": ["Divine", "Patron"],
+      "prerequisites": ["Infernal Patron"],
+      "body": "You have proven yourself to be a valuable asset to your Patron, granting you limited powers from the devils themselves. You gain the Fiend trait and resistance to Fire damage equal to half your level. Additionally, you gain Fast Healing 5."
+    },
+    {
+      "name": "Eldritch Savant",
+      "level": 18,
+      "traits": ["Occult", "Patron"],
+      "prerequisites": ["Eldritch Patron"],
+      "body": "You have proven yourself to be a valuable asset to your Patron, granting you a far-reaching grasp on mortals around you. You gain the Aberration trait and telepathy out to 120 feet. In addition, as an action while you are telepathically speaking to a creature, you may have them roll a Will save against your spellcasting DC. On a failure, the target becomes a minion under your control for 1 hour or until you or an ally attacks the target. On a critical failure, the duration increases to 8 hours. After using this feature, you cannot use it again until your next daily preparation."
+    },
+    {
+      "name": "Fey Savant",
+      "level": 18,
+      "traits": ["Arcane", "Patron"],
+      "prerequisites": ["Fey Patron"],
+      "body": "You have proven yourself to be a valuable asset to your Patron, granting you raw power from the Fey themselves. You gain the Fey trait and a Fly Speed of 15. If you already have a Fly Speed, you gain 10 feet to your original Fly Speed instead. Additionally, you may use an action to reduce your size, up to Tiny. This reduction lasts for up to 1 hour or until you dismiss it as an action. After using this ability, you cannot use it again until your next daily preparation."
+    },
+    {
+      "name": "Celestial Savant",
+      "level": 18,
+      "traits": ["Divine", "Patron"],
+      "prerequisites": ["Celestial Patron"],
+      "body": "You have proven yourself to be a valuable asset to your Patron, granting you limited immortality. You gain the Celestial trait, and you cease aging except by magical means. Additionally, you gain the ability to call upon the raw power of the divines. As a three-action activity, you force all non-Good creatures of your choice within 60 feet of you to make a Will save against your spellcasting DC. On a failure, the target gains the Frightened 3 condition. On a critical failure, the target gains the Frightened 5 condition."
+    },
+    {
+      "name": "Greater Arcanum (9th Level)",
+      "level": 18,
+      "traits": ["Mystic Arcanum"],
+      "prerequisites": ["Mystic Arcanum (9th Level)"],
+      "body": "You gain an additional 9th level Mystic Arcanum slot."
+    },
+    {
+      "name": "Patron's Faithful",
+      "level": 20,
+      "traits": ["Conjuration", "Teleportation", "Patron"],
+      "prerequisites": [],
+      "body": "Your extensive service has made you a lesser herald of your Patron, which affords you certain privileges. First, any creature you encounter knows instinctively that you speak for and are a great power for your Patron. Second, if you conduct the commune ritual to contact your Patron, you don’t have to pay any cost and you automatically get a critical success. Third, once per day, you can cast plane shift as an Occult innate spell, but only to travel to the realm of your Patron. When you cast it this way, its casting time is 1 minute, your Spell Tome is a sufficient tuning fork for this spell, and you appear exactly where you want to be. If you’re in your Patron’s realm due to this spell, you can return to the point you left when you cast it by spending a single action, which has the concentrate and Occult traits.\n\nIf you have multiple Patrons, you gain the benefits for both."
+    },
+    {
+      "name": "Deitific Duality",
+      "level": 20,
+      "traits": ["Patron"],
+      "prerequisites": ["Dual Patron"],
+      "body": "You gain bountiful benefits of your second Patron's power. Select up to five additional spells from your second Patron's arcane tradition and add them to your Spell Tome. Additionally, you gain an additional two cantrips of the same arcane tradition. If you choose to swap these spells out for other spells, you can only choose new spells from the original tradition."
+    },
+    {
+      "name": "Greater Legendary Arcanum",
+      "level": 20,
+      "traits": ["Mystic Arcanum"],
+      "prerequisites": ["Legendary Arcanum"],
+      "body": "You gain an additional 10th level Mystic Arcanum slot."
     }
   ]
 }

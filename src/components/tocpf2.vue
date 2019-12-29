@@ -8,13 +8,13 @@
           template(v-for="rule in rules")
             li.subsection
               template(v-if="rule.sections")
-                router-link(:to="{ path: 'rules', query: { rule: rule.name.replace(/[^a-z0-9]/gi,'')}}" tag="a" ) {{ rule.name }}
+                router-link(:to="{ path: 'rules', query: { rule: rule.name.replace(/[^a-z0-9]/gi,'') }}" tag="a" ) {{ rule.name }}
                   .book(v-if="rule.book") {{ rule.book }}
                 ul.sublist(v-for="section in rule.sections")
                   li {{ section.name }}
                     .book(v-if="section.book") {{ section.book }}
               template(v-else)
-                router-link(:to="{ path: 'rules', query: { rule: rule.name.replace(/[^a-z0-9]/gi,'')}}" tag="a" ) {{ rule.name }}
+                router-link(:to="{ path: 'rules', query: { rule: rule.name.replace(/[^a-z0-9]/gi,'') }}" tag="a" ) {{ rule.name }}
                   .book(v-if="rule.book") {{ rule.book }}
       li.races
         h3 Ancestries & Heritages
@@ -24,20 +24,20 @@
               template(v-if="race.subraces")
                 details
                   summary
-                    router-link(:to="{ path: 'races', query: { race: race.name.replace(/[^a-z0-9]/gi,'')}}" tag="a" ) {{ race.name }}
+                    router-link(:to="{ path: 'races', query: { race: race.name.replace(/[^a-z0-9]/gi,'') }}" tag="a" ) {{ race.name }}
                       .book {{ race.book }}
                   ul.sublist(v-for="subrace in race.subraces")
                     li {{ subrace.name }}
                       .book {{ subrace.book }}
               template(v-else)
-                router-link(:to="{ path: 'races', query: { race: race.name.replace(/[^a-z0-9]/gi,'')}}" tag="a" ) {{ race.name }}
+                router-link(:to="{ path: 'races', query: { race: race.name.replace(/[^a-z0-9]/gi,'') }}" tag="a" ) {{ race.name }}
                   .book {{ race.book }}
       li.backgrounds
         h3 Backgrounds
         ul.section
           template(v-for="background in backgrounds")
             li.subsection
-              router-link(:to="{ path: 'backgrounds', query: { background: background.name.replace(/[^a-z0-9]/gi,'')}}" tag="a" ) {{ background.name }}
+              router-link(:to="{ path: 'backgrounds', query: { background: background.name.replace(/[^a-z0-9]/gi,'') }}" tag="a" ) {{ background.name }}
       li.classes
         h3 Classes
         ul.section
@@ -66,16 +66,8 @@
     },
     methods: {
       fetchdata: function(){
-        //Find classes
-        db.collection('classes').find({ }, { projection: { "name": 1 } }).toArray().then(classlist => {
-          if(classlist.length > 0){
-            this.classes = classlist
-          } else {
-            console.log("No documents found.")
-          }
-        }).catch(err => {
-          console.error(err)
-        })
+        var classJSON = require("../assets/classes/classlist.json")
+        this.classes = classJSON["classes"]
         
         var raceJSON = require("../assets/races/racelist.json")
         this.races = raceJSON["races"]

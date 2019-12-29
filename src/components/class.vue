@@ -5,66 +5,45 @@
         fieldset.displayContent
           legend
             h3 Other Classes
-          template(v-for="classes in classlist")
-            router-link(:to="{ path: '/class/' + classes.name }" tag="a") {{ classes.name }}
-        fieldset.displayContent(v-if="dataloaded")
+          template(v-for="tabletopClasses in tabletopClassList")
+            router-link(:to="{ path: '/class/' + tabletopClasses.name }" tag="a") {{ tabletopClasses.name }}
+        fieldset.displayContent
           legend
             h3 Additional Content
-          router-link(:to="{ path: '/feats/' + classdata.name }" tag="a") {{ classdata.name }} Feats
+          router-link(:to="{ path: '/feats/' + tabletopClass.name }" tag="a") {{ tabletopClass.name }} Feats
 
-      template(v-if="dataloaded")
+      template(v-if="tabletopClass")
         .display
           fieldset.displayContent
             legend
-              h1 {{ classdata.name }}
+              h1 {{ tabletopClass.name }}
               
-            .displayText {{ classdata.description }}
+            .displayText {{ tabletopClass.description }}
             
-            details
+            details(v-for="section in tabletopClass.sections")
               summary
-                h3.displayHeading Statistics
-              h4.displayHeading Key Ability
-              .displayText(v-html="classdata.keyability")
-              h4.displayHeading Hit Points
-              .displayText(v-html="classdata.hitpoints")
-            
-            details
-              summary
-                h3.displayHeading Class Table
-              table
-                tr
-                  td Level
-                  td Features
-                  td Spells Known
-                  td Spell Slots
-                template(v-for="row in classdata.table")
-                  tr
-                    td(v-html="row.level")
-                    td(v-html="row.body")
-                    td(v-html="row.spellsknown")
-                    td(v-html="row.spellslots")
-
-            details
-              summary
-                h3.displayHeading Initial Proficiencies
-              template(v-for="proficiency in classdata.proficiencies")
-                h4.displayHeading(v-html="proficiency.name")
-                .displayText(v-html="proficiency.body")
-
-            details
-              summary
-                h3.displayHeading Class Features
-              template(v-for="feature in classdata.features")
-                h4.displayHeading
-                  .level [{{ feature.level }}]
-                  div(v-html="feature.name")
-                .displayText(v-html="feature.body")
-            
-            div(v-for="misc in classdata.misc")
-              details
-                summary
-                  h3.displayHeading(v-html="misc.name")
-                .displayText(v-html="misc.body")
+                h3.displayHeading {{ section.name }}
+                  .book {{ section.book }}
+              div(v-for="subsection in section.body")
+                template(v-if="subsection.style == 'table'")
+                  summary
+                    h4.displayHeading {{ subsection.name }}
+                      .book {{ subsection.book }}
+                  table
+                    template(v-for="row in subsection.body")
+                      tr
+                        template(v-for="column in row")
+                          td {{ column }}
+                template(v-else-if="subsection.style == 'details'")
+                  details
+                    summary
+                      h4.displayHeading {{ subsection.name }}
+                        .book {{ subsection.book }}
+                    .displayText {{ subsection.body }}
+                template(v-else)
+                  h4.displayHeading {{ subsection.name }}
+                    .book {{ subsection.book }}
+                  .displayText {{ subsection.body }}
                   
       template(v-else)
         .display
@@ -96,9 +75,9 @@
     props: [ ],
     data: function () {
       return {
-        classdata: {},
-        classlist: [],
-        dataloaded: false
+        query: '',
+        tabletopClass: {},
+        tabletopClassList: []
       }
     },
     beforeMount() {
@@ -106,28 +85,13 @@
     },
     methods: {
       fetchdata: function(){
-        //Find the class to display on the page
-        db.collection('classes').find({name: this.$route.params.class}).asArray().then(docs => {
-          if(docs.length > 0){
-            this.classdata = docs[0]
-            this.dataloaded = true
-          } else {
-            console.log("No documents found.")
-          }
-        }).catch(err => {
-          console.error(err)
-        })
+        this.query = this.$route.params.class.toLowerCase()
+        var tabletopClassListJSON = require("../assets/classes/classlist.json")
+        this.tabletopClass = require("../assets/classes/" + this.query + ".json")
         
-        //Find all other classes
-        db.collection('classes').find({ }, { projection: { "name": 1 } }).toArray().then(classlist => {
-          if(classlist.length > 0){
-            this.classlist = classlist
-          } else {
-            console.log("No documents found.")
-          }
-        }).catch(err => {
-          console.error(err)
-        })
+        if(tabletopClassListJSON) {
+          this.tabletopClassList = tabletopClassListJSON.classes
+        }
       }
     }
   }

@@ -1,11 +1,13 @@
 <template lang="pug">
   .content
     .displayPage
-      template(v-if="this.dataloaded")
+      template(v-if="featJSON")
         .display
           fieldset.displayContent
             legend
-              h1 {{ this.$route.params.feat }} Feats
+              h1
+                router-link(:to="{ path: '/class/' + featJSON.name }" tag="a") {{ featJSON.name }}
+                |  Feats
             table
               tr
                 td Name
@@ -13,13 +15,13 @@
                 td Traits
                 td Prerequisites
                 td Details
-              template(v-for="row in featdata")
+              template(v-for="row in featJSON.feats")
                 tr
                   td {{ row.name }}
                   td {{ row.level }}
                   td {{ row.traits.join(", ") }}
                   td {{ row.prerequisites.join(", ") }}
-                  td(v-html="row.body")
+                  td {{ row.body }}
                     
       template(v-else)
         .display
@@ -52,33 +54,17 @@
   export default {
     data: function () {
       return {
-        featdata: {},
-        dataloaded: false
+        featJSON: {},
+        query: ''
       }
     },
-    created() {
+    beforeMount() {
       this.fetchdata()
     },
     methods: {
       fetchdata: function(){
-        //Find the class to display on the page
-        db.collection('feats').find({traits: this.$route.params.feat }).asArray().then(docs => {
-          if(docs.length > 0){
-            this.featdata = docs
-            this.dataloaded = true
-          } else {
-            console.log("No documents found.")
-          }
-        }).catch(err => {
-          console.error(err)
-        })
-      },
-      capitalize: function(str){
-        if (typeof str !== 'string'){
-          return ''
-        }
-        
-        return str.charAt(0).toUpperCase() + str.slice(1)
+        this.query = this.$route.params.feat.toLowerCase()
+        this.featJSON = require("../assets/classes/" + this.query + ".json")
       }
     }
   }

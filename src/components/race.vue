@@ -6,7 +6,7 @@
           legend
             h3 Ancestries & Heritages
           template(v-for="race in raceList")
-            router-link(:to="{ path: 'races', query: { race: race.name, source: 'pf2' }}" tag="a" ) {{ race.name }}
+            router-link(:to="{ path: 'races', query: { race: race.name }}" tag="a" ) {{ race.name }}
 
       template(v-if="raceContent")
         .display(v-for="race in raceContent")
