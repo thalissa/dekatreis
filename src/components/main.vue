@@ -29,6 +29,8 @@
 </style>
 
 <script>
+  require('../assets/img/favicon.ico')
+  
   export default {
     props: [ ]
   };
