@@ -1,12 +1,12 @@
 <template lang="pug">
   .content
     .displayPage
-      template(v-if="featJSON")
+      template(v-if="feats")
         .display
           fieldset.displayContent
             legend
               h1
-                router-link(:to="{ path: '/class/' + featJSON.name }" tag="a") {{ featJSON.name }}
+                router-link(:to="{ path: '/class/' + name }" tag="a") {{ name }}
                 |  Feats
             table
               tr
@@ -15,7 +15,7 @@
                 td Traits
                 td Prerequisites
                 td Details
-              template(v-for="row in featJSON.feats")
+              template(v-for="row in feats")
                 tr
                   td {{ row.name }}
                   td {{ row.level }}
@@ -54,17 +54,30 @@
   export default {
     data: function () {
       return {
-        featJSON: {},
-        query: ''
+        feats: {},
+        query: '',
+        name: ''
       }
     },
-    beforeMount() {
+    mounted() {
       this.fetchdata()
     },
     methods: {
       fetchdata: function(){
+        // Get the query and render it
         this.query = this.$route.params.feat.toLowerCase()
-        this.featJSON = require("../assets/classes/" + this.query + ".json")
+        var featJSON = require("../assets/classes/" + this.query + ".json")
+        
+        // Check if there's a JSON file obtained from the query
+        if(featJSON) {
+          // Render the query onto the page
+          this.name = featJSON.name
+          this.feats = featJSON.feats
+        } else {
+          // Not found rendering
+          this.lore = "Lore not found!"
+          this.body = "We couldn't find the lore you wanted. Maybe go back to the index?"
+        }
       }
     }
   }

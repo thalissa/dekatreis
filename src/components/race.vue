@@ -8,7 +8,7 @@
           template(v-for="race in raceList")
             router-link(:to="{ path: 'races', query: { race: race.name }}" tag="a" ) {{ race.name }}
 
-      template(v-if="raceContent")
+      template(v-if="race")
         .display(v-for="race in raceContent")
           fieldset.displayContent
               legend
@@ -60,18 +60,29 @@
         raceList: ''
       }
     },
-    created() {
-      this.query = this.$route.query.race.toLowerCase()
-      var raceListJSON = require("../assets/races/racelist.json")
-      var raceJSON = require("../assets/races/" + this.query + ".json")
-      
-      if(raceListJSON) {
-        this.raceList = raceListJSON.races
-      }
-      
-      if(raceJSON) {
-        this.race = raceJSON[this.query][0].name
-        this.raceContent = raceJSON[this.query]
+    mounted() {
+      this.fetchdata()
+    },
+    methods: {
+      fetchdata: function(){
+        // Get the query
+        this.query = this.$route.query.race.toLowerCase()
+        var raceJSON = require("../assets/races/" + this.query + ".json")
+        var raceListJSON = require("../assets/races/racelist.json")
+        
+        // Check if there's JSON files obtained from the query
+        if(raceListJSON && raceJSON) {
+          // Render the list of races on the sidebar
+          this.raceList = raceListJSON.races
+          
+          // Render the query onto the page
+          this.race = raceJSON[this.query][0].name
+          this.raceContent = raceJSON[this.query]
+        } else {
+          // Not found rendering
+          this.race = "Sorry, race not found!"
+          this.raceContent = "We couldn't find the race you wanted. Maybe go back to the index?"
+        }
       }
     }
   }

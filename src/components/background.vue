@@ -8,8 +8,8 @@
           template(v-for="background in backgroundList")
             router-link(:to="{ path: 'backgrounds', query: { background: background.name.replace(/[^a-z0-9]/gi,'') }}" tag="a" ) {{ background.name }}
 
-      template(v-if="backgroundContent")
-        .display(v-for="background in backgroundContent")
+      template(v-if="body")
+        .display(v-for="background in body")
           fieldset.displayContent
             legend
               h1 {{ background.name }}
@@ -46,22 +46,33 @@
       return {
         query: '',
         background: '',
-        backgroundContent: '',
+        body: '',
         backgroundList: ''
       }
     },
-    created() {
-      this.query = this.$route.query.background.toLowerCase()
-      var backgroundListJSON = require("../assets/backgrounds/backgroundlist.json")
-      var backgroundJSON = require("../assets/backgrounds/" + this.query + ".json")
-      
-      if(backgroundListJSON) {
-        this.backgroundList = backgroundListJSON.backgrounds
-      }
-      
-      if(backgroundJSON) {
-        this.background = backgroundJSON[this.query][0].name
-        this.backgroundContent = backgroundJSON[this.query]
+    mounted() {
+      this.fetchdata()
+    },
+    methods: {
+      fetchdata: function(){
+        // Get the query and render it
+        this.query = this.$route.query.background.toLowerCase()
+        var backgroundListJSON = require("../assets/backgrounds/backgroundlist.json")
+        var backgroundJSON = require("../assets/backgrounds/" + this.query + ".json")
+        
+        // Check if there's a JSON file obtained from the query
+        if(backgroundListJSON && backgroundJSON) {
+          // Render the list of classes onto the page
+          this.backgroundList = backgroundListJSON.backgrounds
+          
+          // Render the query onto the page
+          this.background = backgroundJSON[this.query][0].name
+          this.body = backgroundJSON[this.query]
+        } else {
+          // Not found rendering
+          this.background = "Background not found!"
+          this.body = "We couldn't find the background you wanted. Maybe go back to the index?"
+        }
       }
     }
   }

@@ -1,6 +1,6 @@
 <template lang="pug">
   .content
-    template(v-if="query")
+    template(v-if="rule")
       .display(v-for="rule in ruleContent")
         fieldset.displayContent
             legend
@@ -42,16 +42,25 @@
         ruleContent: ''
       }
     },
-    created() {
-      this.query = this.$route.query.rule.toLowerCase()
-      var ruleJSON = require("../assets/rules/" + this.query + ".json")
-      
-      if(ruleJSON) {
-        this.rule = ruleJSON[this.query][0].name
-        this.ruleContent = ruleJSON[this.query]
-      } else {
-        this.rule = "rule not found!"
-        this.body = "We couldn't find the rule you wanted. Maybe go back to the index?"
+    mounted() {
+      this.fetchdata()
+    },
+    methods: {
+      fetchdata: function(){
+        // Get the query
+        this.query = this.$route.query.rule.toLowerCase()
+        var ruleJSON = require("../assets/rules/" + this.query + ".json")
+        
+        // Check if there's a JSON file obtained from the query
+        if(ruleJSON) {
+          // Render the query onto the page
+          this.rule = ruleJSON[this.query][0].name
+          this.ruleContent = ruleJSON[this.query]
+        } else {
+          // Not found rendering
+          this.rule = "Rule not found!"
+          this.body = "We couldn't find the rule you wanted.?"
+        }
       }
     }
   }

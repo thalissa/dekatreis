@@ -80,17 +80,27 @@
         tabletopClassList: []
       }
     },
-    beforeMount() {
+    mounted() {
       this.fetchdata()
     },
     methods: {
       fetchdata: function(){
+        // Get the query and render it
         this.query = this.$route.params.class.toLowerCase()
+        var tabletopClassJSON = require("../assets/classes/" + this.query + ".json")
         var tabletopClassListJSON = require("../assets/classes/classlist.json")
-        this.tabletopClass = require("../assets/classes/" + this.query + ".json")
         
-        if(tabletopClassListJSON) {
+        // Check if there's a JSON file obtained from the query
+        if(tabletopClassListJSON && tabletopClassJSON) {
+          // Render the list of classes onto the page
           this.tabletopClassList = tabletopClassListJSON.classes
+          
+          // Render the query onto the page
+          this.tabletopClass = require("../assets/classes/" + this.query + ".json")
+        } else {
+          // Not found rendering
+          this.tabletopClass = "Class not found!"
+          this.body = "We couldn't find the class you wanted. Maybe go back to the index?"
         }
       }
     }

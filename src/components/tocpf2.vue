@@ -66,15 +66,19 @@
     },
     methods: {
       fetchdata: function(){
+        // Get classes and render them in the page's variable
         var classJSON = require("../assets/classes/classlist.json")
         this.classes = classJSON["classes"]
         
+        // Get races and render them in the page's variable
         var raceJSON = require("../assets/races/racelist.json")
         this.races = raceJSON["races"]
         
+        // Get rules and render them in the page's variable
         var ruleJSON = require("../assets/rules/rulelist.json")
         this.rules = ruleJSON["rules"]
-
+        
+        // Get backgrounds and render them in the page's variable
         var backgroundJSON = require("../assets/backgrounds/backgroundlist.json")
         this.backgrounds = backgroundJSON["backgrounds"]
       }
