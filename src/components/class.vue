@@ -20,11 +20,10 @@
           fieldset.displayContent
             <!-- Render name -->
             legend
-              h1 {{ race.name }}
-                .book {{ race.book }}
+              h1 {{ tabletopClass.name }}
             
             <!-- Go through every section -->
-            details(v-for="section in race.sections")
+            details(v-for="section in tabletopClass.sections")
               <!-- Topmost field for the summary -->
               summary
                 h3.displayHeading {{ section.name }}
