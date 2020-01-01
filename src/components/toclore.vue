@@ -4,9 +4,13 @@
     ul.toc
       ul.section
         template(v-for="lore in loreData")
+          <!-- Render lore name -->
           .loreHeader
             h3 {{ lore.name }}
+            
+            <!-- Render lore body -->
             .loreBody
+              <!-- Go through each section -->
               template(v-for="section in lore")
                 li.subsection
                   router-link(:to="{ path: 'lore', query: { lore: section.name.replace(/[^a-z0-9]/gi,'') }}" tag="a" ) {{ section.name }}

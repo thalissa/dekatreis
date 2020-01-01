@@ -1,20 +1,27 @@
 <template lang="pug">
   .content
     .displayPage
+      <!-- List of backgrounds -->
       .displayList
         fieldset.displayContent
           legend
             h3 Backgrounds
           template(v-for="background in backgroundList")
             router-link(:to="{ path: 'backgrounds', query: { background: background.name.replace(/[^a-z0-9]/gi,'') }}" tag="a" ) {{ background.name }}
-
+      
+      <!-- Render content -->
       template(v-if="body")
         .display(v-for="background in body")
           fieldset.displayContent
+            <!-- Render name -->
             legend
               h1 {{ background.name }}
+            
+            <!-- Go through each section -->
             div(v-for="section in background.sections")
               h3.displayHeading {{ section.name }}
+              
+              <!-- Go through each subsection -->
               div(v-for="subsection in section.body")
                 template(v-if="subsection.style == 'table'")
                   h4.displayHeading {{ subsection.name }}
@@ -24,10 +31,14 @@
                       tr
                         template(v-for="column in row")
                           td {{ column }}
+                
+                <!-- Simple render -->
                 template(v-else)
                   h4.displayHeading {{ subsection.name }}
                     .level(v-if="subsection.level") [{{ subsection.level }}]
                   .displayText {{ subsection.body }}
+      
+      <!-- Error template -->
       template(v-else)
         .display
           fieldset.displayContent

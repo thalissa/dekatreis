@@ -1,30 +1,39 @@
 <template lang="pug">
   .content
     .displayPage
+      <!-- List of classes -->
       .displayList
         fieldset.displayContent
           legend
             h3 Other Classes
           template(v-for="tabletopClasses in tabletopClassList")
             router-link(:to="{ path: '/class/' + tabletopClasses.name }" tag="a") {{ tabletopClasses.name }}
+        <!-- Other content -->
         fieldset.displayContent
           legend
             h3 Additional Content
           router-link(:to="{ path: '/feats/' + tabletopClass.name }" tag="a") {{ tabletopClass.name }} Feats
-
+      
+      <!-- Render content -->
       template(v-if="tabletopClass")
         .display
           fieldset.displayContent
+            <!-- Render name -->
             legend
-              h1 {{ tabletopClass.name }}
-              
-            .displayText {{ tabletopClass.description }}
+              h1 {{ race.name }}
+                .book {{ race.book }}
             
-            details(v-for="section in tabletopClass.sections")
+            <!-- Go through every section -->
+            details(v-for="section in race.sections")
+              <!-- Topmost field for the summary -->
               summary
                 h3.displayHeading {{ section.name }}
                   .book {{ section.book }}
+              
+              <!-- Render each section -->
               div(v-for="subsection in section.body")
+                
+                <!-- Rendering tables -->
                 template(v-if="subsection.style == 'table'")
                   summary
                     h4.displayHeading {{ subsection.name }}
@@ -34,17 +43,22 @@
                       tr
                         template(v-for="column in row")
                           td {{ column }}
+                
+                <!-- Rendering content with "details" -->
                 template(v-else-if="subsection.style == 'details'")
                   details
                     summary
                       h4.displayHeading {{ subsection.name }}
                         .book {{ subsection.book }}
                     .displayText {{ subsection.body }}
+                
+                <!-- Simple render -->
                 template(v-else)
                   h4.displayHeading {{ subsection.name }}
                     .book {{ subsection.book }}
                   .displayText {{ subsection.body }}
-                  
+      
+      <!-- Error template -->
       template(v-else)
         .display
           fieldset.displayContent

@@ -4,10 +4,13 @@
       template(v-if="feats")
         .display
           fieldset.displayContent
+            <!-- Render name & link back to original class -->
             legend
               h1
                 router-link(:to="{ path: '/class/' + name }" tag="a") {{ name }}
                 |  Feats
+            
+            <!-- Render content -->
             table
               tr
                 td Name
@@ -22,7 +25,8 @@
                   td {{ row.traits.join(", ") }}
                   td {{ row.prerequisites.join(", ") }}
                   td {{ row.body }}
-                    
+      
+      <!-- Error template -->
       template(v-else)
         .display
           fieldset.displayContent

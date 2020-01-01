@@ -1,17 +1,26 @@
 <template lang="pug">
   .content
+    <!-- Render content -->
     template(v-if="lore")
       .display(v-for="lore in loreContent")
         fieldset.displayContent
+            
+            <!-- Render name -->
             legend
               h1 {{ lore.name }}
+            
+            <!-- Go through each section -->
             template(v-for="section in lore.sections")
               h3.displayHeading {{ section.name }}
               .displayText {{ section.body }}
-
+              
+    <!-- Error template -->
     template(v-else)
-      h2 Dekatreis Lore
-      | Uwu!
+      .display
+        fieldset.displayContent
+          legend
+            h2 This entry does not exist!
+          | If you've found this page directly linked somewhere, please message Thalissa to fix it!
 </template>
 
 <style lang="stylus" scoped>
