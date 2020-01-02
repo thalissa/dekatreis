@@ -35,7 +35,7 @@ module.exports = {
             'stylus': 'vue-style-loader!css-loader!stylus-loader',
             'scss': 'vue-style-loader!css-loader!sass-loader!stylus-loader',
             'sass': 'vue-style-loader!css-loader!sass-loader!stylus-loader?indentedSyntax',
-            'html': 'pug',
+            'html': 'pug-plain-loader',
             'json': 'json-loader'
           }
         }

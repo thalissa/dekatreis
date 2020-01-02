@@ -1,4 +1,4 @@
-<template lang="pug">
+<template>
   .body
     .header
       .top

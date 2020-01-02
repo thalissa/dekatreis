@@ -1,4 +1,4 @@
-<template lang="pug">
+<template>
   .content
     <!-- Render content -->
     template(v-if="rule")

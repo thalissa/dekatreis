@@ -1,4 +1,4 @@
-<template lang="pug">
+<template>
   .content
     .displayPage
       <!-- List of backgrounds -->

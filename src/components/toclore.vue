@@ -1,4 +1,4 @@
-<template lang="pug">
+<template>
   .content
     h2 Table of Contents
     ul.toc

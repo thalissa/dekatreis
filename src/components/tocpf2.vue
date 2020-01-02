@@ -1,4 +1,4 @@
-<template lang="pug">
+<template>
   .content
     h2 Table of Contents
     ul.toc
@@ -22,7 +22,7 @@
       
       <!-- Race ToC -->
       li.races
-        h3 Ancestries & Heritages
+        h3 Ancestries and Heritages
         
         <!-- Render content -->
         ul.section

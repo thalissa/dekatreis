@@ -1,11 +1,11 @@
-<template lang="pug">
+<template>
   .content
     .displayPage
       <!-- List of races -->
       .displayList
         fieldset.displayContent
           legend
-            h3 Ancestries & Heritages
+            h3 Ancestries and Heritages
           template(v-for="race in raceList")
             router-link(:to="{ path: 'races', query: { race: race.name }}" tag="a" ) {{ race.name }}
       
