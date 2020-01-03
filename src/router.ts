@@ -13,6 +13,7 @@ import BackgroundComponent from './components/background.vue'
 import ClassComponent from './components/class.vue'
 import FeatComponent from './components/feats.vue'
 import LoreComponent from './components/lore.vue'
+import EquipmentComponent from './components/equipment.vue'
 import MapComponent from './components/map.vue'
 
 // Routing
@@ -60,9 +61,14 @@ const router = new Router({
       component: FeatComponent
     },
     {
-      path: '/lore',
+      path: '/lore/:lore',
       name: 'Lore',
       component: LoreComponent
+    },
+    {
+      path: '/equipment/:itemset',
+      name: 'Equipment',
+      component: EquipmentComponent
     },
     {
       path: '/map',

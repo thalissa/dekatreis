@@ -42,7 +42,7 @@
     methods: {
       fetchdata: function(){
         // Get the query
-        this.query = this.$route.query.lore.toLowerCase()
+        this.query = this.$route.params.lore.toLowerCase()
         var loreJSON = require("../assets/lore/" + this.query + ".json")
         
         // Check if there's a JSON file obtained from the query

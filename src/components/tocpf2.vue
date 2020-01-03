@@ -59,6 +59,16 @@
           template(v-for="tabletopClass in classes")
             li.subsection
               router-link(:to="{ path: '/class/' + tabletopClass.name }" tag="a") {{ tabletopClass.name }}
+      
+      <!-- Classes ToC -->
+      li.items
+        h3 Equipment
+        
+        <!-- Render content -->
+        ul.section
+          template(v-for="itemset in equipment")
+            li.subsection
+              router-link(:to="{ path: '/equipment/' + itemset.name }" tag="a") {{ itemset.name }}
 </template>
 
 <style lang="stylus" scoped>
@@ -73,7 +83,8 @@
         races: '',
         classes: '',
         rules: '',
-        backgrounds: ''
+        backgrounds: '',
+        equipment: ''
       }
     },
     mounted() {
@@ -96,6 +107,10 @@
         // Get backgrounds and render them in the page's variable
         var backgroundJSON = require("../assets/backgrounds/backgroundlist.json")
         this.backgrounds = backgroundJSON["backgrounds"]
+        
+        // Get backgrounds and render them in the page's variable
+        var equipmentJSON = require("../assets/equipment/equipmentlist.json")
+        this.equipment = equipmentJSON["equipment"]
       }
     }
   }
