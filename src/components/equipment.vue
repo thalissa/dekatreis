@@ -7,24 +7,40 @@
             <!-- Render name and description -->
             legend
               h1
-                | {{ name }} Equipment
-            .description {{ description }}
+                | {{ name }}
+            .description(v-for="row in description")
+              display.markdownRender {{ row }}
             
             <!-- Render content -->
             table
               tr
-                td Name
-                td Level
-                td Price
+                td Basic Information
+                td Traits
                 td Details
-                td Bulk
               template(v-for="row in equipment")
                 tr
-                  td {{ row.name }}
-                  td {{ row.level }}
-                  td {{ row.price }}
+                  td.info
+                    .title {{ row.name}}
+                    .details
+                      .row(v-if="row.price")
+                        .cell Price
+                        .cell {{ row.price }}
+                      .row(v-if="row.damage")
+                        .cell Damage
+                        .cell {{ row.damage }}
+                      .row(v-if="row.bulk")
+                        .cell Bulk
+                        .cell {{ row.bulk }}
+                      .row(v-if="row.level")
+                        .cell Level
+                        .cell {{ row.level }}
+                      .row(v-if="row.usage")
+                        .cell Usage
+                        .cell {{ row.usage }}
+                  td(v-if="row.traits")
+                    .row(v-for="trait in row.traits")
+                      .trait {{ trait }}
                   td {{ row.body }}
-                  td {{ row.bulk }}
       
       <!-- Error template -->
       template(v-else)
@@ -38,20 +54,38 @@
 <style lang="stylus" scoped>
   @import "../assets/styling/display.styl"
   
-  .level
-    display inline-flex
-    margin-left 5px
-  
   table
     width 100%
+  
+  tr
+    vertical-align top
   
   td
     min-width 150px
     text-align left
+
+  .row
+    display table-row
   
-  table td:nth-child(2)
+  .trait
+    display table-cell
+    width 100%
+    margin 0
     min-width 50px
-    text-align center
+    
+  .cell
+    display table-cell
+    width 100%
+    margin 0
+    min-width 50px
+    white-space nowrap
+  
+  .title
+      background-color #f5f5f5
+      text-align center
+      white-space nowrap
+      padding-left 5px
+      padding-right 5px
 </style>
 
 <script>

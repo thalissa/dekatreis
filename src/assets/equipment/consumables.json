@@ -1,0 +1,16 @@
+{
+  "name": "Consumables",
+  "description": [
+    "Items that don't fit anywhere else.",
+    "**Alcohol:** Acts like a poison and is able to mask poisons that are mixed with it. If a creature consumes a number of drinks with the *Alcoholic* trait above their Constitution modifier, each new drink will require a DC 13 Fortitude save or gain the Clumsy 1 condition which can progress with further consumption. The Clumsy condition ends after an 8 hour rest."
+  ],
+  "equipment": [
+    {
+      "name": "Dekatrian Wine (1 bottle)",
+      "level": 1,
+      "price": "2 gp",
+      "traits": ["Consumable", "Ingested", "Alcohol"],
+      "body": "Dekatrian Wine is one of the most famous drinks in the world and is the main export of Sweetrose, a city on the eastern border of Dekatreis. Upon drinking Dekatrian Wine, you gain a +1 Status bonus on skill checks made with Charsima or Strength for the next minute."
+    }
+  ]
+}

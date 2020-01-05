@@ -1,13 +1,14 @@
 {
   "name": "Misc",
-  "description": "Items that don't fit anywhere else.",
+  "description": ["Items that don't fit anywhere else."],
   "equipment": [
     {
-      "name": "Dekatrian Wine",
+      "name": "Spellshard",
       "level": 1,
-      "price": "4 gp",
+      "price": "10 gp",
       "bulk": "Light",
-      "body": "Dekatrian Wine is one of the most famous drinks in the world and is the main export of Sweetrose, a city on the eastern border of Dekatreis. Upon drinking Dekatrian Wine, you gain a +1 Status bonus on skill checks made with Charsima or Strength for the next minute."
+      "traits": ["Arcane", "Invested"],
+      "body": "Mass-produced within Sarille, this gemstone is traded amongst all kingdoms that have a strong magical influence for its adept accessability and security benefits. While Invested to a Spellshard, only you can access its contents, and you can mentally recall its contents to your mind using an Interact action. You can add new information into the Spellshard as you would normally do with a book. For Wizards, this item can function like a spellbook and spells can be scribed into the Spellshard using the same rules. For Warlocks, this item can function like a pact tome in the same way."
     }
   ]
 }

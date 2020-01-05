@@ -58,7 +58,7 @@
         ul.section
           template(v-for="tabletopClass in classes")
             li.subsection
-              router-link(:to="{ path: '/class/' + tabletopClass.name }" tag="a") {{ tabletopClass.name }}
+              router-link(:to="{ path: '/class/' + tabletopClass.name.replace(/[^a-z0-9]/gi,'') }" tag="a") {{ tabletopClass.name }}
       
       <!-- Classes ToC -->
       li.items
@@ -68,7 +68,7 @@
         ul.section
           template(v-for="itemset in equipment")
             li.subsection
-              router-link(:to="{ path: '/equipment/' + itemset.name }" tag="a") {{ itemset.name }}
+              router-link(:to="{ path: '/equipment/' + itemset.name.replace(/[^a-z0-9]/gi,'') }" tag="a") {{ itemset.name }}
 </template>
 
 <style lang="stylus" scoped>
