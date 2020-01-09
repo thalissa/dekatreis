@@ -1,0 +1,28 @@
+{
+  "equipment": [
+    {
+      "name": "Adventuring Gear"
+    },
+    {
+      "name": "Armor"
+    },
+    {
+      "name": "Consumables"
+    },
+    {
+      "name": "Drugs"
+    },
+    {
+      "name": "Tattoos"
+    },
+    {
+      "name": "Upgrades"
+    },
+    {
+      "name": "Weapons"
+    },
+    {
+      "name": "Misc"
+    }
+  ]  
+}

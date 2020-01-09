@@ -1,4 +1,4 @@
-<template lang="pug">
+<template>
   .content
     h2 Map of Dekatreis
     .map

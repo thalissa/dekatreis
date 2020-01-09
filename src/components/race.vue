@@ -1,24 +1,35 @@
-<template lang="pug">
+<template>
   .content
     .displayPage
+      <!-- List of races -->
       .displayList
         fieldset.displayContent
           legend
-            h3 Ancestries & Heritages
+            h3 Ancestries and Heritages
           template(v-for="race in raceList")
             router-link(:to="{ path: 'races', query: { race: race.name }}" tag="a" ) {{ race.name }}
-
-      template(v-if="raceContent")
+      
+      <!-- Render content -->
+      template(v-if="race")
         .display(v-for="race in raceContent")
           fieldset.displayContent
+          
+              <!-- Render name -->
               legend
                 h1 {{ race.name }}
                   .book {{ race.book }}
+              
+              <!-- Go through every section -->
               details(v-for="section in race.sections")
+                <!-- Topmost field for the summary -->
                 summary
                   h3.displayHeading {{ section.name }}
                     .book {{ section.book }}
+                
+                <!-- Render each section -->
                 div(v-for="subsection in section.body")
+                  
+                  <!-- Rendering tables -->
                   template(v-if="subsection.style == 'table'")
                     summary
                       h4.displayHeading {{ subsection.name }}
@@ -28,16 +39,22 @@
                         tr
                           template(v-for="column in row")
                             td {{ column }}
+                  
+                  <!-- Rendering content with "details" -->
                   template(v-else-if="subsection.style == 'details'")
                     details
                       summary
                         h4.displayHeading {{ subsection.name }}
                           .book {{ subsection.book }}
                       .displayText {{ subsection.body }}
+                  
+                  <!-- Simple render -->
                   template(v-else)
                     h4.displayHeading {{ subsection.name }}
                       .book {{ subsection.book }}
                     .displayText {{ subsection.body }}
+      
+      <!-- Error template -->
       template(v-else)
         .display
           fieldset.displayContent
@@ -60,18 +77,29 @@
         raceList: ''
       }
     },
-    created() {
-      this.query = this.$route.query.race.toLowerCase()
-      var raceListJSON = require("../assets/races/racelist.json")
-      var raceJSON = require("../assets/races/" + this.query + ".json")
-      
-      if(raceListJSON) {
-        this.raceList = raceListJSON.races
-      }
-      
-      if(raceJSON) {
-        this.race = raceJSON[this.query][0].name
-        this.raceContent = raceJSON[this.query]
+    mounted() {
+      this.fetchdata()
+    },
+    methods: {
+      fetchdata: function(){
+        // Get the query
+        this.query = this.$route.query.race.toLowerCase()
+        var raceJSON = require("../assets/races/" + this.query + ".json")
+        var raceListJSON = require("../assets/races/racelist.json")
+        
+        // Check if there's JSON files obtained from the query
+        if(raceListJSON && raceJSON) {
+          // Render the list of races on the sidebar
+          this.raceList = raceListJSON.races
+          
+          // Render the query onto the page
+          this.race = raceJSON[this.query][0].name
+          this.raceContent = raceJSON[this.query]
+        } else {
+          // Not found rendering
+          this.race = "Sorry, race not found!"
+          this.raceContent = "We couldn't find the race you wanted. Maybe go back to the index?"
+        }
       }
     }
   }
