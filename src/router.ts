@@ -60,7 +60,7 @@ const router = new Router({
       component: FeatComponent
     },
     {
-      path: '/lore/:lore',
+      path: '/lore',
       name: 'Lore',
       component: LoreComponent
     },

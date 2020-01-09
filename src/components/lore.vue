@@ -28,7 +28,7 @@
       }
     },
     created() {
-        this.query = this.$route.params.lore.toLowerCase()
+        this.query = this.$route.query.lore.toLowerCase()
         var loreJSON = require("../assets/lore/" + this.query + ".json")
         
         if(loreJSON) {
