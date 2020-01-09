@@ -24,18 +24,21 @@
             [
               "Your Level",
               "Class Features",
+              "Cantrips",
               "Spells Known",
               "Spell Slots"
             ],
             [
               "1",
               "Ancestry, Background, Initial Proficiencies, Patron, Arcane Blast, Warlock Spellcasting, 1st-level Spells, Spell Tome",
+              "5",
               "3",
               "2"
             ],
             [
               "2",
               "Skill Feat, Warlock Feat",
+              "5",
               "4",
               "2"
             ],
@@ -43,107 +46,125 @@
               "3",
               "General Feat, Pact Boon, Skill Increase, 2nd-level Spells",
               "5",
+              "5",
               "2"
             ],
             [
               "4",
               "Skill Feat, Warlock Feat",
+              "5",
               "6",
               "2"
             ],
             [
               "5",
               "Ability Boosts, Ancestry Feat, Skill Increase, Magical Fortitude, 3rd-level Spells",
+              "5",
               "7",
               "3"
             ],
             [
               "6",
               "Skill Feat, Warlock Feat",
+              "5",
               "8",
               "3"
             ],
             [
               "7",
               "General Feat, Skill Increase, Expert Spellcaster, 4th-level Spells",
+              "5",
               "9",
               "4"
             ],
             [
               "8",
               "Skill Feat, Warlock Feat",
+              "5",
               "10",
               "4"
             ],
             [
               "9",
               "Skill Increase, Lightning Reflexes, 5th-level Spells",
+              "5",
               "11",
               "5"
             ],
             [
               "10",
               "Ability Boosts, Skill Feat, Warlock Feat",
+              "5",
               "12",
               "5"
             ],
             [
               "11",
               "General Feat, Skill Increase, Alertness, Mystic Arcanum (6th Level)",
+              "5",
               "13",
               "6"
             ],
             [
               "12",
               "Skill Feat, Warlock Feat",
+              "5",
               "14",
               "6"
             ],
             [
               "13",
               "Skill Increase, Weapon Specialization, Patron's Armor, Mystic Arcanum (7th Level)",
+              "5",
               "15",
               "7"
             ],
             [
               "14",
               "Skill Feat, Warlock Feat",
+              "5",
               "16",
               "7"
             ],
             [
               "15",
               "Ability Boosts, General Feat, Skill Increase, Master Spellcaster, Mystic Arcanum (8th Level)",
+              "5",
               "17",
               "8"
             ],
             [
               "16",
               "Skill Feat, Warlock Feat",
+              "5",
               "18",
               "8"
             ],
             [
               "17",
               "Skill Increase, Resolve, Mystic Arcanum (9th Level)",
+              "5",
               "19",
               "9"
             ],
             [
               "18",
               "Skill Feat, Warlock Feat",
+              "5",
               "20",
               "9"
             ],
             [
               "19",
               "General Feat, Skill Increase, Legendary Spellcaster, Legendary Arcanum",
+              "5",
               "21",
               "10"
             ],
             [
               "20",
               "Ability Boosts, Skill Feat, Warlock Feat",
+              "5",
               "22",
               "10"
             ]
