@@ -7,7 +7,7 @@
           legend
             h3 Ancestries and Heritages
           template(v-for="race in raceList")
-            router-link(:to="{ path: 'races', query: { race: race.name }}" tag="a" ) {{ race.name }}
+            router-link(:to="{ path: '/race/' + race.name.replace(/[^a-z0-9]/gi,'') }" tag="a" ) {{ race.name }}
       
       <!-- Render content -->
       template(v-if="race")
@@ -83,7 +83,7 @@
     methods: {
       fetchdata: function(){
         // Get the query
-        this.query = this.$route.query.race.toLowerCase()
+        this.query = this.$route.params.race.toLowerCase()
         var raceJSON = require("../assets/races/" + this.query + ".json")
         var raceListJSON = require("../assets/races/racelist.json")
         

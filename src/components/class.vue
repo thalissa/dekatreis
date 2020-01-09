@@ -12,7 +12,7 @@
         fieldset.displayContent
           legend
             h3 Additional Content
-          router-link(:to="{ path: '/feats/' + tabletopClass.name }" tag="a") {{ tabletopClass.name }} Feats
+          router-link(:to="{ path: '/feat/' + tabletopClass.name }" tag="a") {{ tabletopClass.name }} Feats
       
       <!-- Render content -->
       template(v-if="tabletopClass")

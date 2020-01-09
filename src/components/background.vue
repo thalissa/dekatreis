@@ -7,7 +7,7 @@
           legend
             h3 Backgrounds
           template(v-for="background in backgroundList")
-            router-link(:to="{ path: 'backgrounds', query: { background: background.name.replace(/[^a-z0-9]/gi,'') }}" tag="a" ) {{ background.name }}
+            router-link(:to="{ path: '/background/' + background.name.replace(/[^a-z0-9]/gi,'') }" tag="a" ) {{ background.name }}
       
       <!-- Render content -->
       template(v-if="body")
@@ -67,7 +67,7 @@
     methods: {
       fetchdata: function(){
         // Get the query and render it
-        this.query = this.$route.query.background.toLowerCase()
+        this.query = this.$route.params.background.toLowerCase()
         var backgroundListJSON = require("../assets/backgrounds/backgroundlist.json")
         var backgroundJSON = require("../assets/backgrounds/" + this.query + ".json")
         

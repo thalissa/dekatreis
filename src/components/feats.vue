@@ -7,7 +7,7 @@
             <!-- Render name & link back to original class -->
             legend
               h1
-                router-link(:to="{ path: '/class/' + name }" tag="a") {{ name }}
+                router-link(:to="{ path: '/class/' + name.replace(/[^a-z0-9]/gi,'') }" tag="a") {{ name }}
                 |  Feats
             
             <!-- Render content -->

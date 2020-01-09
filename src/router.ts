@@ -36,17 +36,17 @@ const router = new Router({
       component: LoreToCComponent
     },
     {
-      path: '/rules',
+      path: '/rule/:rule',
       name: 'Rules',
       component: RuleComponent
     },
     {
-      path: '/races',
+      path: '/race/:race',
       name: 'Races',
       component: RaceComponent
     },
     {
-      path: '/backgrounds',
+      path: '/background/:background',
       name: 'Backgrounds',
       component: BackgroundComponent
     },
@@ -56,7 +56,7 @@ const router = new Router({
       component: ClassComponent
     },
     {
-      path: '/feats/:feat',
+      path: '/feat/:feat',
       name: 'Feats',
       component: FeatComponent
     },
