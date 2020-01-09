@@ -13,7 +13,7 @@
               <!-- Go through each section -->
               template(v-for="section in lore")
                 li.subsection
-                  router-link(:to="{ path: 'lore', query: { lore: section.name.replace(/[^a-z0-9]/gi,'') }}" tag="a" ) {{ section.name }}
+                  router-link(:to="{ path: '/lore/' + section.name.replace(/[^a-z0-9]/gi,'') }" tag="a" ) {{ section.name }}
                   ul.sublist(v-for="subsection in section.body")
                     li {{ subsection.name }}
 </template>
