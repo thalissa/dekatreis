@@ -13,7 +13,7 @@
           router-link(to="/tocpf2") Pathfinder 2
       .middle
         .link
-          a(href="https://www.patreon.com/thalissa" target="_blank") Patreon
+          a(href="https://ko-fi.com/thalissa" target="_blank") Ko-Fi
         .link
           a(href="https://github.com/thalissa/dekatreis" target="_blank") GitHub
         .link
