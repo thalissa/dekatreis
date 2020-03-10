@@ -44,7 +44,7 @@
 </template>
 
 <style lang="stylus" scoped>
-  @import "../assets/styling/display.styl"
+  @import "../assets/styling/components/display.styl"
 </style>
 
 <script>

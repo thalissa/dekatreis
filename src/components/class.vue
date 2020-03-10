@@ -18,9 +18,11 @@
       template(v-if="tabletopClass")
         .display
           fieldset.displayContent
-            <!-- Render name -->
+            <!-- Render class name -->
             legend
               h1 {{ tabletopClass.name }}
+            <!-- Render class description -->
+            | {{ tabletopClass.description }}
             
             <!-- Go through every section -->
             details(v-for="section in tabletopClass.sections")
@@ -67,7 +69,7 @@
 </template>
 
 <style lang="stylus" scoped>
-  @import "../assets/styling/display.styl"
+  @import "../assets/styling/components/display.styl"
   
   .level
     display inline-flex
