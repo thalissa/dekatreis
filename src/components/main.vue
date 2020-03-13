@@ -23,7 +23,7 @@
           a(href="https://twitter.com/ThalissaRemnant" target="_blank") Twitter
       
     #sidebarToggle
-      .arrowOpen#arrow
+      #arrow
 
     .view
       keep-alive
@@ -47,14 +47,14 @@
     methods: {
       toggleSidebar: function(){
         var sidebar = document.getElementById("sidebar")
-        var sidebarToggle = document.getElementById("arrow")
+        var sidebarToggle = document.getElementById("sidebarToggle")
         
         if (sidebar.style.display === "none") {
           sidebar.style.display = "flex"
-          sidebarToggle.className = "arrowOpen"
+          sidebarToggle.className = ""
         } else {
           sidebar.style.display = "none"
-          sidebarToggle.className = "arrowClosed"
+          sidebarToggle.className = "closed"
         }
       }
     }
