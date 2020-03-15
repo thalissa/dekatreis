@@ -24,6 +24,12 @@
         .link
           a(href="https://twitter.com/ThalissaRemnant" target="_blank") Twitter
       
+      .license
+        .smallerhead License
+        .link
+          a(href="https://github.com/thalissa/dekatreis/blob/master/LICENSE" target="_blank") GNU GPL v3.0
+        .smalltext TL;DR You can use my homebrew and modify it as you like, just don't sell it!
+      
     #sidebarToggle
       #arrow
 
@@ -37,6 +43,9 @@
   @import "../assets/styling/main.styl"
   @import "../assets/styling/themes/default.styl"
   @import "../assets/styling/components/sidebar.styl"
+  
+  .smalltext
+    font-size 8pt
 </style>
 
 <script>
