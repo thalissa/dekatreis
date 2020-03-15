@@ -1,0 +1,34 @@
+{
+  "houseoftessera": [
+    {
+      "name": "House of Tessera",
+      "sections": [
+        {
+          "name": "Details",
+          "body": [
+            {
+              "name": "Patron Deities",
+              "body": "All Demigods"
+            },
+            {
+              "name": "Kingdom Presence",
+              "body": "Dekatreis"
+            },
+            {
+              "name": "Beliefs",
+              "body": "That adventuring is a right, looking up to the thirteen Demigods who were adventurers before they created the world as their prime inspiration. Common holdings of the House of Tessera provide various networks that assist people in going towards adventure. Whether someone is a seasoned adventurer or just starting, they strive to assure that all can find excitement and make their own legend."
+            },
+            {
+              "name": "Background Benefits",
+              "body": "A reputation with the House of Tessera and free access to their buildings and adventuring contracts. Members of the House of Tessera would also have an additional ally that they have met through their adventures.\nYou gain proficiency in any two skills of your choice.\nYou gain proficiency in one type of weapon of your choice.\n\nEquipment: A pouch containing 10gp earned from adventuring contracts as well as a Scroll and a pendant marking you as a member of the House of Tessera."
+            },
+            {
+              "name": "Common Members",
+              "body": "Any\nLeadership is passed through the Tessera family"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

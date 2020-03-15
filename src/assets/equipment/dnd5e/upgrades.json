@@ -1,0 +1,11 @@
+{
+  "name": "Upgrades",
+  "description": ["These are upgrades that can be applied to most things with the \"Technology\" trait."],
+  "equipment": [
+    {
+      "name": "Artifical Intelligence",
+      "price": "5 gp",
+      "body": "Artifical Intelligence upgrades allow a device to be communicated with and controlled using one's voice or telepathy, as well as supply the device with a variety of complex functions such as routine procedures that control normally out-of-bounds applications and connected devices. Having this upgrade increases any DC made to hack the device by 2."
+    }
+  ]
+}

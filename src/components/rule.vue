@@ -52,6 +52,7 @@
     data: function () {
       return {
         query: '',
+        system: '',
         rule: '',
         ruleContent: ''
       }
@@ -63,7 +64,8 @@
       fetchdata: function(){
         // Get the query
         this.query = this.$route.params.rule.toLowerCase()
-        var ruleJSON = require("../assets/rules/" + this.query + ".json")
+        this.system = this.$route.params.system.toLowerCase()
+        var ruleJSON = require("../assets/rules/" + this.system + "/" + this.query + ".json")
         
         // Check if there's a JSON file obtained from the query
         if(ruleJSON) {

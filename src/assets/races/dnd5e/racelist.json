@@ -1,0 +1,21 @@
+{
+  "races": [
+    {
+      "name": "Human",
+      "subraces": [
+        {
+          "name": "Petona"
+        },
+        {
+          "name": "Magia"
+        },
+        {
+          "name": "Kathari"
+        },
+        {
+          "name": "Nekomimi"
+        }
+      ]
+    }
+  ]
+}

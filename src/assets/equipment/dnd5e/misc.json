@@ -1,0 +1,11 @@
+{
+  "name": "Misc",
+  "description": ["Items that don't fit anywhere else."],
+  "equipment": [
+    {
+      "name": "Spellshard",
+      "price": "10 gp",
+      "body": "Mass-produced within Sarille, this gemstone is traded amongst all kingdoms that have a strong magical influence for its adept accessability and security benefits. While Invested to a Spellshard, only you can access its contents, and you can mentally recall its contents to your mind using an Interact action. You can add new information into the Spellshard as you would normally do with a book. For Wizards, this item can function like a spellbook and spells can be scribed into the Spellshard using the same rules. For Warlocks, this item can function like a pact tome in the same way."
+    }
+  ]
+}

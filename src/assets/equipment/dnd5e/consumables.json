@@ -1,0 +1,15 @@
+{
+  "name": "Consumables",
+  "description": [
+    "Items that can be consumed.",
+    "**Alcoholic:** Acts like a poison and is able to mask poisons that are mixed with it. If a creature consumes a number of drinks with the *Alcoholic* trait above their Constitution modifier, each new drink will require a DC 13 Constitution save or gain 1 level of the Exhausted condition which can progress with further consumption. All levels of Exhaustion gained this way end after 10 hours."
+  ],
+  "equipment": [
+    {
+      "name": "Dekatrian Wine (1 bottle)",
+      "price": "2 gp",
+      "traits": ["Alcoholic"],
+      "body": "Dekatrian Wine is one of the most famous drinks in the world and is the main export of Sweetrose, a city on the eastern border of Dekatreis. Upon drinking a glass of Dekatrian Wine, you gain advantage on skill checks made with Charsima or Strength for the next minute."
+    }
+  ]
+}

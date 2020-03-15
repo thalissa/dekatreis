@@ -1,7 +1,7 @@
 {
   "name": "Consumables",
   "description": [
-    "Items that don't fit anywhere else.",
+    "Items that can be consumed",
     "**Alcohol:** Acts like a poison and is able to mask poisons that are mixed with it. If a creature consumes a number of drinks with the *Alcoholic* trait above their Constitution modifier, each new drink will require a DC 13 Fortitude save or gain the Clumsy 1 condition which can progress with further consumption. The Clumsy condition ends after an 8 hour rest."
   ],
   "equipment": [

@@ -1,30 +1,22 @@
 <template>
   .content
     .displayPage
-      template(v-if="feats")
+      template(v-if="items")
         .display
           fieldset.displayContent
             <!-- Render name & link back to original class -->
             legend
               h1
-                router-link(:to="{ path: '/class/' + name.replace(/[^a-z0-9]/gi,'') }" tag="a") {{ name }}
-                |  Feats
+                | {{ featureName }} (
+                router-link(:to="{ path: '/class/' + system + '/' + className.replace(/[^a-z0-9]/gi,'') }" tag="a") {{ className }}
+                | )
             
             <!-- Render content -->
             table
-              tr
-                td Name
-                td Level
-                td Traits
-                td Prerequisites
-                td Details
-              template(v-for="row in feats")
+              template(v-for="row in items")
                 tr
-                  td {{ row.name }}
-                  td {{ row.level }}
-                  td {{ row.traits.join(", ") }}
-                  td {{ row.prerequisites.join(", ") }}
-                  td {{ row.body }}
+                  template(v-for="item in row")
+                    td {{ item }}
       
       <!-- Error template -->
       template(v-else)
@@ -58,8 +50,12 @@
   export default {
     data: function () {
       return {
-        feats: {},
+        items: {},
         query: '',
+        system: '',
+        feature: '',
+        featureName: '',
+        className: '',
         name: ''
       }
     },
@@ -69,18 +65,21 @@
     methods: {
       fetchdata: function(){
         // Get the query and render it
-        this.query = this.$route.params.feat.toLowerCase()
-        var featJSON = require("../assets/classes/" + this.query + ".json")
+        this.query = this.$route.params.class.toLowerCase().replace(/[^a-z0-9]/gi,'')
+        this.feature = this.$route.params.feature
+        this.system = this.$route.params.system.toLowerCase()
+        var featureJSON = require("../assets/classes/" + this.system + "/" + this.query + ".json")
         
         // Check if there's a JSON file obtained from the query
-        if(featJSON) {
+        if(featureJSON) {
           // Render the query onto the page
-          this.name = featJSON.name
-          this.feats = featJSON.feats
+          this.className = featureJSON.name
+          this.featureName = featureJSON.additionalContent[0].name
+          this.items = featureJSON.additionalContent[0].items
         } else {
           // Not found rendering
-          this.lore = "Lore not found!"
-          this.body = "We couldn't find the lore you wanted. Maybe go back to the index?"
+          this.feature = "Feature not found!"
+          this.body = "We couldn't find the feature you wanted. Maybe go back to the index?"
         }
       }
     }

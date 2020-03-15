@@ -15,7 +15,6 @@
             table
               tr
                 td Basic Information
-                td Traits
                 td Details
               template(v-for="row in equipment")
                 tr
@@ -37,10 +36,11 @@
                       .row(v-if="row.usage")
                         .cell Usage
                         .cell {{ row.usage }}
-                  td(v-if="row.traits")
-                    .row(v-for="trait in row.traits")
-                      .trait {{ trait }}
                   td {{ row.body }}
+                    template(v-if="row.traits")
+                      br
+                      b Traits: 
+                      | {{ row.traits.join(", ") }}
       
       <!-- Error template -->
       template(v-else)
@@ -95,6 +95,7 @@
         equipment: {},
         description: '',
         query: '',
+        system: '',
         name: ''
       }
     },
@@ -105,7 +106,8 @@
       fetchdata: function(){
         // Get the query and render it
         this.query = this.$route.params.itemset.toLowerCase()
-        var equipmentJSON = require("../assets/equipment/" + this.query + ".json")
+        this.system = this.$route.params.system.toLowerCase()
+        var equipmentJSON = require("../assets/equipment/" + this.system + "/" + this.query + ".json")
         
         // Check if there's a JSON file obtained from the query
         if(equipmentJSON) {

@@ -7,12 +7,14 @@
           legend
             h3 Other Classes
           template(v-for="tabletopClasses in tabletopClassList")
-            router-link(:to="{ path: '/class/' + tabletopClasses.name }" tag="a") {{ tabletopClasses.name }}
+            router-link(:to="{ path: '/class/' + system + '/' + tabletopClasses.name }" tag="a") {{ tabletopClasses.name }}
         <!-- Other content -->
-        fieldset.displayContent
-          legend
-            h3 Additional Content
-          router-link(:to="{ path: '/feat/' + tabletopClass.name }" tag="a") {{ tabletopClass.name }} Feats
+        template(v-if="tabletopClass.additionalContent")
+          fieldset.displayContent
+            legend
+              h3 Additional Content
+            template(v-for="(section, key) in tabletopClass.additionalContent")
+              router-link(:to="{ path: '/features/' + system + '/' + tabletopClass.name + '/' + key }" tag="a") {{ section.name }}
       
       <!-- Render content -->
       template(v-if="tabletopClass")
@@ -91,6 +93,7 @@
     data: function () {
       return {
         query: '',
+        system: '',
         tabletopClass: {},
         tabletopClassList: []
       }
@@ -102,8 +105,9 @@
       fetchdata: function(){
         // Get the query and render it
         this.query = this.$route.params.class.toLowerCase()
-        var tabletopClassJSON = require("../assets/classes/" + this.query + ".json")
-        var tabletopClassListJSON = require("../assets/classes/classlist.json")
+        this.system = this.$route.params.system.toLowerCase()
+        var tabletopClassJSON = require("../assets/classes/" + this.system + "/" + this.query + ".json")
+        var tabletopClassListJSON = require("../assets/classes/" + this.system + "/" + "classlist.json")
         
         // Check if there's a JSON file obtained from the query
         if(tabletopClassListJSON && tabletopClassJSON) {
@@ -111,7 +115,7 @@
           this.tabletopClassList = tabletopClassListJSON.classes
           
           // Render the query onto the page
-          this.tabletopClass = require("../assets/classes/" + this.query + ".json")
+          this.tabletopClass = require("../assets/classes/" + this.system + "/" + this.query + ".json")
         } else {
           // Not found rendering
           this.tabletopClass = "Class not found!"

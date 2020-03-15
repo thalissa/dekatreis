@@ -1,0 +1,89 @@
+{
+  "vampire": [
+    {
+      "name": "Vampire",
+      "sections": [
+        {
+          "name": "Vampire Background",
+          "body": [
+            {
+              "name": "Background Details",
+              "body": "Vampires are undead humanoid creatures that feed on the blood of the living. On Dekatreis, they were created through a gruesome mixture of undeath and living flesh and organs, allowing them a mixture of the benefits of humanity and the undead. They look much like normal kinds of their race, often becoming more attractive, though some have a hardened, feral look instead."
+            }
+          ]
+        },
+        {
+          "name": "Daywalker Traits",
+          "book": "[Universal] [Heritage] [Vampire] [Daywalker] [Undead]",
+          "body": [
+            {
+              "name": "Daywalker Vampire Heritage",
+              "body": "Manipulated flesh and negative energy has allowed special breeds of vampires to roam the worlds of Dekatreis. Daywalkers gain an additional two ability boosts, only one of which must be Dexterity or Charisma.\n\nDaywalkers may march through the daylight, though they take 1d8 positive damage that cannot be negated by any means each time they start their turn in unobstructed moonlight.\n\nThese kinds of vampires rebuke many usual myths of traditional vampiric creatures. However, they must feed at least once a week on at least 2 pints of blood, or else they suffer 1 level of the fatigued condition that cannot be reduced except by drinking at least 2 pints of blood. The creature the blood originates from does not matter, only that they feast from a living creature."
+            },
+            {
+              "name": "Vampire Ancestry Feats",
+              "body": "Additionally, you may choose Ancestry feats from your ancestry or the list of Vampire feats."
+            },
+            {
+              "name": "Blood Bite",
+              "body": "As a two-action activity, you may bite into a living creature's neck and take blood from them. The creature must be either willing or unable to resist, such as through the Stunned, Grabbed, or other conditions that prevent a creature from moving. Vampires of this heritage only need drink two pints of blood per week, but may take more. In either case, the creature gains 1 level of the Drained condition."
+            }
+          ]
+        },
+        {
+          "name": "Nightwalker Traits",
+          "book": "[Universal] [Heritage] [Vampire] [Nightwalker] [Undead]",
+          "body": [
+            {
+              "name": "Nightwalker Vampire Heritage",
+              "body": "Manipulated flesh and negative energy has allowed special breeds of vampires to roam the worlds of Dekatreis. Nightwalkers gain an additional two ability boosts, only one of which must be Dexterity or Charisma.\n\nNightwalkers may march through the moonlight, though they take 1d8 positive damage that cannot be negated by any means each time they start their turn in unobstructed sunlight.\n\nThese kinds of vampires rebuke many usual myths of traditional vampiric creatures. However, they must feed at least once a week on at least 2 pints of blood, or else they suffer 1 level of the fatigued condition that cannot be reduced except by drinking at least 2 points of blood. The creature the blood originates from does not matter, only that they feast from a living creature."
+            },
+            {
+              "name": "Vampire Ancestry Feats",
+              "body": "Additionally, you may choose Ancestry feats from your ancestry or the list of Vampire feats."
+            },
+            {
+              "name": "Blood Bite",
+              "body": "As a two-action activity, you may bite into a living creature's neck and take blood from them. The creature must be either willing or unable to resist, such as through the Stunned, Grabbed, or other conditions that prevent a creature from moving. Vampires of this heritage only need drink two pints of blood per week, but may take more. In either case, the creature gains 1 level of the Drained condition."
+            }
+          ]
+        },
+        {
+          "name": "Ancestry Feats",
+          "body": [
+            {
+              "name": "Ancestry Feats",
+              "body": "At 1st level, you gain one ancestry feat, and you gain an additional ancestry feat every 4 levels thereafter (at 5th, 9th, 13th, and 17th level). As a Race, you select from among the following ancestry feats, in additional to all usual Human ancestry feats."
+            },
+            {
+              "name": "Ancestry Feats Table",
+              "style": "table",
+              "body": [
+                [
+                  "Name",
+                  "Requirements",
+                  "Description"
+                ],
+                [
+                  "Vampiric Bite",
+                  "Vampire Heritage, Level 1",
+                  "Your fangs are specially adept at being used during combat. You gain the Bite action."
+                ],
+                [
+                  "Leech Life",
+                  "Vampire Heritage, Vampiric Bite feat, Level 5",
+                  "While fighting with your fangs, you've began to allow yourself to indulge on the blood of your enemies. As an additional action when you make a Bite attack and hit, you may deal an additional 2d6 Negative damage and heal for the damage dealt."
+                ]
+              ]
+            },
+            {
+              "name": "Bite",
+              "book": "1 Action",
+              "body": "Striking with your fangs, you deal 1d6 Piercing damage. This attack has the agile, finesse, and unarmed traits."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

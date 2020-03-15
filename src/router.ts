@@ -6,6 +6,7 @@ Vue.use(Router)
 // Import components here
 import IndexComponent from './components/index.vue'
 import PF2ToCComponent from './components/tocpf2.vue'
+import DnD5eToCComponent from './components/tocdnd5e.vue'
 import LoreToCComponent from './components/toclore.vue'
 import RuleComponent from './components/rule.vue'
 import RaceComponent from './components/race.vue'
@@ -31,33 +32,38 @@ const router = new Router({
       component: PF2ToCComponent
     },
     {
+      path: '/tocdnd5e',
+      name: '5e Table of Contents',
+      component: DnD5eToCComponent
+    },
+    {
       path: '/toclore',
       name: 'Dekatreis Lore',
       component: LoreToCComponent
     },
     {
-      path: '/rule/:rule',
+      path: '/rule/:system/:rule',
       name: 'Rules',
       component: RuleComponent
     },
     {
-      path: '/race/:race',
+      path: '/race/:system/:race',
       name: 'Races',
       component: RaceComponent
     },
     {
-      path: '/background/:background',
+      path: '/background/:system/:background',
       name: 'Backgrounds',
       component: BackgroundComponent
     },
     {
-      path: '/class/:class',
+      path: '/class/:system/:class',
       name: 'Classes',
       component: ClassComponent
     },
     {
-      path: '/feat/:feat',
-      name: 'Feats',
+      path: '/features/:system/:class/:feature',
+      name: 'Additional Content',
       component: FeatComponent
     },
     {
@@ -66,7 +72,7 @@ const router = new Router({
       component: LoreComponent
     },
     {
-      path: '/equipment/:itemset',
+      path: '/equipment/:system/:itemset',
       name: 'Equipment',
       component: EquipmentComponent
     },

@@ -1,0 +1,255 @@
+{
+  "dragonborn": [
+    {
+      "name": "Dragonborn",
+      "sections": [
+        {
+          "name": "Dragonborn Background",
+          "body": [
+            {
+              "name": "Background Details",
+              "body": "The Dragonborn were on the old world, before the Demigods came to Dekatreis. The wielder of the Book of Creation, Kavara, was a Dragonborn herself. When she made her people on Dekatreis, she granted them special boons as a token to her heritage, and expanded their bloodlines as well."
+            }
+          ]
+        },
+        {
+          "name": "Dragonborn Traits",
+          "body": [
+            {
+              "name": "Hit Points",
+              "body": "8"
+            },
+            {
+              "name": "Size",
+              "body": "Medium"
+            },
+            {
+              "name": "Speed",
+              "body": "25 feet"
+            },
+            {
+              "name": "Ability Boosts",
+              "body": "Constitution, Free"
+            },
+            {
+              "name": "Ability Flaw",
+              "body": "None"
+            },
+            {
+              "name": "Languages",
+              "body": "Common, Draconic"
+            },
+            {
+              "name": "Bonus Languages",
+              "body": "At 1st level, if your Intelligence score is 14 or higher, you can also select one of the following languages: Dwarven, Elven, Gnomish, Goblin, Jotun, or Orcish."
+            },
+            {
+              "name": "Darkvision",
+              "body": "You can see in darkness and dim light just as well as you can see in bright light, though your vision in darkness is in black and white."
+            }
+          ]
+        },
+        {
+          "name": "Elemental Blood",
+          "book": "[Dragonborn] [Heritage] [Elemental]",
+          "body": [
+            {
+              "name": "Elemental Heritage",
+              "body": "You were descended from a dragon that had the inherent magic of an element in their blood. Choose one of the following damage types: Fire, Cold, Electrcity, Poison, or Acid. You gain resistance to the damage type chosen equal to half your level."
+            },
+            {
+              "name": "Elemental Ancestry Feats",
+              "body": "Additionally, you may select Dragonborn ancestry feats with the Elemental Heritage requirement."
+            }
+          ]
+        },
+        {
+          "name": "Potent Blood",
+          "book": "[Dragonborn] [Heritage] [Potent]",
+          "body": [
+            {
+              "name": "Potent Heritage",
+              "body": "Descended from dragons much greater than the average of their species, your powers manifest in much more powerful ways. Choose one of the following damage types: Psychic, Negative, Positive. You gain resistance to the damage type chosen equal to your level."
+            },
+            {
+              "name": "Potent Ancestry Feats",
+              "body": "Additionally, you may select Dragonborn ancestry feats with the Potent Heritage requirement."
+            }
+          ]
+        },
+        {
+          "name": "Winged",
+          "book": "[Dragonborn] [Heritage] [Winged]",
+          "body": [
+            {
+              "name": "Winged Heritage",
+              "body": "Descended from dragons who were experts at moving through the air, you grew wings. You gain a Fly Speed of 10 feet."
+            },
+            {
+              "name": "Winged Ancestry Feats",
+              "body": "Additionally, you may select Dragonborn ancestry feats with the Winged Heritage requirement."
+            }
+          ]
+        },
+        {
+          "name": "Dragonborn Ancestry Feats",
+          "body": [
+            {
+              "name": "Ancestry Feats",
+              "body": "At 1st level, you gain one ancestry feat, and you gain an additional ancestry feat every 4 levels thereafter (at 5th, 9th, 13th, and 17th level). As a Dragonborn, you select from among the following ancestry feats."
+            },
+            {
+              "name": "Dragonborn Ancestry Feats Table",
+              "style": "table",
+              "body": [
+                [
+                  "Name",
+                  "Requirements",
+                  "Description"
+                ],
+                [
+                  "Spiritual Companion",
+                  "1st Level",
+                  "You build a spiritual connection with an animal, which becomes magically bonded to you. You gain a familiar using the rules on page 217. The type of animal is up to you, but most Dragonborn choose animals with a Fly Speed."
+                ],
+                [
+                  "Dragon Lore",
+                  "1st Level",
+                  "You've learned a great deal about your Draconic ancestors. You become trained in the Dragon Lore skill. Additionally, when you Make an Impression with creatures that have the Draconic tag, you gain a +1 Circumstance bonus to Diplomacy checks by recalling specific knowledge that would flatter them or praise their species. At 7th level you gain Master proficiency with your Dragon Lore skill while your Diplomacy bonus increases to +2, and at 15th level you gain Legendary proficiency with your Dragon Lore skill while your Diplomacy bonus increases to +3."
+                ],
+                [
+                  "Ancestral Adoration",
+                  "1st Level",
+                  "Your special connection with the blood of dragons allows them to act more favourably towards you. You gain a +2 Circumstance bonus to all Charisma-based skills when interacting with dragons. Additionally, whenever you meet a creature with the Draconic tag, you can immediately attempt a Diplomacy check to Make an Impression on that creature rather than needing to converse for 1 minute. You take a –5 penalty to the check. If you fail, you can engage in 1 minute of conversation and attempt a new check at the end of that time rather than accepting the failure or critical failure result.\nSpecial: If you have the Glad-Hand skill feat, you don’t take the penalty on your immediate Diplomacy check if the target has the Draconic tag."
+                ],
+                [
+                  "Elemental Breath",
+                  "Elemental Heritage, 5th Level",
+                  "Your draconic power manifests as a breath weapon that can harm your foes. You gain the Heritage Power associated with the damage type you selected as part of your Elemental ancestry from the Heritage Powers table. You can cast this power as a Primal innate spell once per day. This spell is automatically heightened to a spell level equal to half your level rounded up."
+                ],
+                [
+                  "Potent Energy",
+                  "Potent Heritage, 5th Level",
+                  "Your draconic power manifests as one of the defining traits of your ancestors. You gain the Heritage Power assocaited with the damage type you selected as part of your Potent ancestry from the Heritage Powers table. You can cast this power as an Arcane innate spell once per day. This spell is automatically heightened to a spell level equal to half your level rounded up."
+                ],
+                [
+                  "Illusion Sense",
+                  "5th Level",
+                  "Your ancestors spent their days crafting and piercing through illusions, and as a result, sensing illusion magic is second nature to you. You gain a +2 circumstance bonus to both Perception checks and Will saves against illusions."
+                ],
+                [
+                  "Draconic Toughness",
+                  "5th Level",
+                  "Your scales have adapted to be thicker than average. While unarmoured, you gain a +1 conditional bonus to AC."
+                ],
+                [
+                  "Fast Flight",
+                  "9th Level, Winged Heritage",
+                  "As your power expands and you strength your ancestral bond, your wings grow quicker. Your Fly Speed increases by 5 feet."
+                ],
+                [
+                  "Draconic Health",
+                  "9th Level",
+                  "Your innate dragon blood has become powerful enough to restore you with more ease. If you rest for 10 minutes, you gain Hit Points equal to your Constitution modifier × Half your level. This is cumulative with any healing you receive from Treat Wounds."
+                ],
+                [
+                  "Quick Winged",
+                  "13th Level, Winged Heritage",
+                  "Your adeptness towards flight has allowed you increased manuverability. Your Fly Speed increases by 5 feet, and after taking the Fly action on your turn you gain a +2 circumstance bonus to Acrobatics checks and Reflex saves until the start of your next turn."
+                ],
+                [
+                  "Shattering Gaze",
+                  "13th Level",
+                  "Upon failing a check to Make an Impression, you can use your reaction to attempt to Coerce the target using Intimidation."
+                ]
+              ]
+            },
+            {
+              "name": "Heritage Powers Table",
+              "style": "table",
+              "body": [
+                [
+                  "Damage Type",
+                  "Draconic Power",
+                  "Associated Dragon Types"
+                ],
+                [
+                  "Fire",
+                  "Fiery Breath",
+                  "[Good] Gold, Brass\n[Neutral] Obsidian\n[Evil] Red"
+                ],
+                [
+                  "Cold",
+                  "Chilling Breath",
+                  "[Good] Silver\n[Evil] White"
+                ],
+                [
+                  "Lightning",
+                  "Shattering Breath",
+                  "[Good] Bronze\n[Evil] Blue"
+                ],
+                [
+                  "Poison",
+                  "Toxic Breath",
+                  "[Good] Electrum\n[Evil] Green"
+                ],
+                [
+                  "Acid",
+                  "Corrosive Breath",
+                  "[Good] Copper\n[Evil] Black"
+                ],
+                [
+                  "Psychic",
+                  "Terrifying Domination",
+                  "[Neutral] Sapphire\n[Evil] Purple"
+                ],
+                [
+                  "Negative",
+                  "Decaying Scream",
+                  "[Neutral] Topaz"
+                ],
+                [
+                  "Positive",
+                  "Purifying Light",
+                  "[Neutral] Crystal"
+                ]
+              ]
+            },
+            {
+              "name": "Fiery Breath",
+              "body": "Casting: Somatic Casting\nArea: 15-foot cone\nYou call upon the blood of your draconic ancestors and exhale fire from your mouth that deals 1d8 fire damage. Each creature in the area must attempt a Reflex saving throw.\nSuccess: Half damage.\nCritical Success: No damage.\nFailure: Full damage and 1 persistent fire damage.\nCritical Failure: Double damage and double persistent damage.\nHeightened (1st) The damage increases by 1d8, and the persistent damage increases by 1."
+            },
+            {
+              "name": "Chilling Breath",
+              "body": "Casting: Somatic Casting\nArea: 15-foot cone\nYou call upon the blood of your draconic ancestors and exhale freezing shards of ice from your mouth that deals 1d8 cold damage. Each creature in the area must attempt a Fortitude saving throw.\nSuccess: Half damage.\nCritical Success: No damage.\nFailure: Full damage.\nCritical Failure: Double damage and speed is slowed by 10.\nHeightened (1st) The damage increases by 1d8."
+            },
+            {
+              "name": "Shattering Breath",
+              "body": "Casting: Somatic Casting\nArea: 10-foot cone\nYou summon the power of your ancestors to let out a booming wave of sparks that deals 1d8 lightning damage. Each creature in the area must attempt a Fortitude saving throw.\nSuccess: Half damage.\nCritical Success: No damage.\nFailure: Full damage and gains the flat footed condition.\nCritical Failure: Double damage, knocked back 5 feet, and gains the proned condition.\nHeightened (1st) The damage increases by 1d8."
+            },
+            {
+              "name": "Toxic Breath",
+              "body": "Casting: Somatic Casting\nArea: 20-foot cone\nYour ancestors' magic allows you to summon a plume of toxins that deals 1d8 poison damage. Each creature in the area must attempt a Fortitude saving throw.\nSuccess: Half damage.\nCritical Success: No damage.\nFailure: Full damage.\nCritical Failure: Double damage and gains the Sickened 1 condition.\nHeightened (1st) The damage increases by 1d8."
+            },
+            {
+              "name": "Corrosive Breath",
+              "body": "Casting: Somatic Casting\nArea: 10-foot cone\nYou summon the ancestral breath that begins corroding everything in its path, dealing 1d8 acid damage. Each creature in the area must attempt a Reflex saving throw.\nSuccess: Half damage.\nCritical Success: No damage.\nFailure: Full damage.\nCritical Failure: Double damage and gain the Wounded 1 condition.\nHeightened (1st) The damage increases by 1d8."
+            },
+            {
+              "name": "Terrifying Domination",
+              "body": "Casting: Somatic, Verbal Casting\nArea: 10 foot radius\nYou scream and summon the power of ancestral dragons that were able to manipulate and terrorize the minds of mortals, dealing 1d8 psychic damage. Each creature in the area must attempt a Will saving throw.\nSuccess: Half damage.\nCritical Success: No damage.\nFailure: Full damage and gains the Frightened 1 condition.\nCritical Failure: Double damage and gains the Frightened 2 condition.\nHeightened (1st): The damage increases by 1d8."
+            },
+            {
+              "name": "Decaying Scream",
+              "body": "Casting: Somatic, Verbal Casting\nArea: 10 foot cone\nYou release a cone of necrotic energy that decays all life that it comes into contact with, dealing 1d10 negative damage. Creatures in the area must attempt a Basic Fortitude saving throw.\nHeightened (1st): The healing and damage increase by 1d10."
+            },
+            {
+              "name": "Purifying Light",
+              "body": "Casting: Somatic, Verbal Casting\nArea: 15 foot radius\nAll allies within the area regain 2d6 hitpoints, and all enemies within the area take 1d6 positive damage. Enemies in the area must attempt a Basic Reflex saving throw.\nHeightened (1st): The healing and damage increase by 1d6."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

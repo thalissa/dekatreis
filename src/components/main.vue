@@ -12,6 +12,8 @@
           router-link(to="/map") World Map
         .link
           router-link(to="/tocpf2") Pathfinder 2
+        .link
+          router-link(to="/tocdnd5e") Dungeons & Dragons 5e
       
       .support
         .smallerhead Supportive Links
