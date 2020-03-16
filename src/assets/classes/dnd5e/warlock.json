@@ -1,0 +1,47 @@
+{
+  "name": "Warlock",
+  "description": "A Warlock makes pacts with otherworldly creatures in exchange for power.",
+  "sections": [
+    {
+      "name": "Dekatreis-Specific Changes",
+      "body": [
+        {
+          "name": "Ability Proficiencies",
+          "level": "1",
+          "body": "In Dekatreis, Warlocks are more common than in other settings due to the ease at which other creatures can influence the world. As such, people from all walks of life can dip into pacts with such creatures.\n\nWhen you gain your 1st level in Warlock, you may choose Intelligence or Wisdom, instead of Charisma, to use for all your class abilities. In addition, the multiclass requirement changes from 13 Charisma to whichever ability score you chose. Once this option has been chosen, it cannot be changed at later levels."
+        },
+        {
+          "name": "Eldritch Blast",
+          "level": "1",
+          "body": "Warlocks can innately cast Eldritch Blast at will, and the multiple beam scaling is based on their Warlock level only, not their total level.\n\nSpecial Note: Eldritch Blast has been removed from the Warlock spell list, making it inaccessable from feats such as Magic Initiate."
+        },
+        {
+          "name": "Hex",
+          "level": "1",
+          "body": "Warlocks can innately cast Hex once per short rest, and the spell scaling is based on their Warlock level only, not their total level.\n\nSpecial Note: Hex has been removed from the Warlock spell list, making it inaccessable from feats such as Magic Initiate."
+        }
+      ]
+    }
+  ],
+  "additionalContent": [
+    {
+      "name": "Pact Boons",
+      "items": [
+        [
+          "Name",
+          "Benefit"
+        ]
+      ]
+    },
+    {
+      "name": "Eldritch Invocations",
+      "items": [
+        [
+          "Name",
+          "Prerequisites",
+          "Content"
+        ]
+      ]
+    }
+  ]
+}

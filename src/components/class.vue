@@ -27,7 +27,7 @@
             | {{ tabletopClass.description }}
             
             <!-- Go through every section -->
-            details(v-for="section in tabletopClass.sections")
+            template(v-for="section in tabletopClass.sections")
               <!-- Topmost field for the summary -->
               summary
                 h3.displayHeading {{ section.name }}

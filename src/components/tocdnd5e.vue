@@ -1,6 +1,8 @@
 <template>
   .content
-    h2 Table of Contents
+    .tocHead
+      h2 Table of Contents
+      h3 Dungeons and Dragons 5e
     ul.toc
       <!-- Rules ToC -->
       li.rules
@@ -50,14 +52,14 @@
               router-link(:to="{ path: '/background/dnd5e/' + background.name.replace(/[^a-z0-9]/gi,'') }" tag="a" ) {{ background.name }}
       
       <!-- Classes ToC -->
-      <!-- li.classes
-        h3 Classes -->
+      li.classes
+        h3 Classes
         
         <!-- Render content -->
-        <!--ul.section
+        ul.section
           template(v-for="tabletopClass in classes")
             li.subsection
-              router-link(:to="{ path: '/class/dnd5e/' + tabletopClass.name.replace(/[^a-z0-9]/gi,'') }" tag="a") {{ tabletopClass.name }} -->
+              router-link(:to="{ path: '/class/dnd5e/' + tabletopClass.name.replace(/[^a-z0-9]/gi,'') }" tag="a") {{ tabletopClass.name }}
       
       <!-- Equipment ToC -->
       li.items
@@ -92,8 +94,8 @@
     methods: {
       fetchdata: function(){
         // Get classes and render them in the page's variable
-        //var classJSON = require("../assets/classes/dnd5e/classlist.json")
-        //this.classes = classJSON["classes"]
+        var classJSON = require("../assets/classes/dnd5e/classlist.json")
+        this.classes = classJSON["classes"]
         
         // Get races and render them in the page's variable
         var raceJSON = require("../assets/races/dnd5e/racelist.json")

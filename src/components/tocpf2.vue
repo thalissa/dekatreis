@@ -1,6 +1,8 @@
 <template>
   .content
-    h2 Table of Contents
+    .tocHead
+      h2 Table of Contents
+      h3 Pathfinder 2
     ul.toc
       <!-- Rules ToC -->
       li.rules
