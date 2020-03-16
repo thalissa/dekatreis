@@ -314,6 +314,7 @@
   "additionalContent": [
     {
       "name": "Warlock Patrons",
+      "style": "table",
       "items": [
         [
           "Patron",
@@ -354,6 +355,7 @@
     },
     {
       "name": "Warlock Feats",
+      "style": "table",
       "items": [
         [
           "Name",

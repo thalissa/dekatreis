@@ -12,11 +12,32 @@
                 | )
             
             <!-- Render content -->
-            table
+                      
+            <!-- Rendering tables -->
+            template(v-if="featureStyle == 'table'")
+              table
+                template(v-for="row in items")
+                  tr
+                    template(v-for="item in row")
+                      td {{ item }}
+            
+            <!-- Rendering content with "details" -->
+            template(v-else-if="featureStyle == 'details'")
               template(v-for="row in items")
-                tr
-                  template(v-for="item in row")
-                    td {{ item }}
+                details
+                  summary
+                    h3.displayHeading {{ row.name }}
+                      .book {{ row.book }}
+                  template(v-for="section in row.sections")
+                    h4 {{ section.name }}
+                    .displayText {{ section.body }}
+            
+            <!-- Simple render -->
+            template(v-else)
+              template(v-for="row in items")
+                h4.displayHeading {{ row.name }}
+                  .book {{ row.book }}
+                .displayText {{ row.body }}
       
       <!-- Error template -->
       template(v-else)
@@ -55,6 +76,7 @@
         system: '',
         feature: '',
         featureName: '',
+        featureStyle: '',
         className: '',
         name: ''
       }
@@ -74,8 +96,9 @@
         if(featureJSON) {
           // Render the query onto the page
           this.className = featureJSON.name
-          this.featureName = featureJSON.additionalContent[0].name
-          this.items = featureJSON.additionalContent[0].items
+          this.featureName = featureJSON.additionalContent[this.feature].name
+          this.featureStyle = featureJSON.additionalContent[this.feature].style
+          this.items = featureJSON.additionalContent[this.feature].items
         } else {
           // Not found rendering
           this.feature = "Feature not found!"
