@@ -26,9 +26,13 @@
       
       .license
         .smallerhead License
-        .link
-          a(href="https://github.com/thalissa/dekatreis/blob/master/LICENSE" target="_blank") GNU GPL v3.0
-        .smalltext TL;DR You can use my homebrew and modify it as you like, just don't sell it!
+        .link.smalltext
+          a(rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/")
+          span(xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type") Dekatreis
+          |  and all content on this site is licensed under the 
+          a(rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/") CCBY-NC 4.0 License
+          br
+          | TL;DR You can use my homebrew and modify it as you like, just don't sell it!
       
     #sidebarToggle
       #arrow
