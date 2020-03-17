@@ -1,13 +1,14 @@
 <template>
   .content
     .tocHead
-      h2 Table of Contents
-      h3 Dungeons and Dragons 5e
+      h2 Dungeons and Dragons 5e
+    
     ul.toc
       <!-- Rules ToC -->
-      li.rules
+      li.tocHeader
         h3 Houserules
         
+        <!-- Render content -->
         ul.section
           template(v-for="rule in rules")
             li.subsection
@@ -22,27 +23,18 @@
                   .book(v-if="rule.book") {{ rule.book }}
       
       <!-- Race ToC -->
-      li.races
+      li.tocHeader
         h3 Ancestries and Heritages
         
         <!-- Render content -->
         ul.section
           template(v-for="race in races")
             li.subsection
-              template(v-if="race.subraces")
-                details
-                  summary
-                    router-link(:to="{ path: '/race/dnd5e/' + race.name.replace(/[^a-z0-9]/gi,'') }" tag="a" ) {{ race.name }}
-                      .book {{ race.book }}
-                  ul.sublist(v-for="subrace in race.subraces")
-                    li {{ subrace.name }}
-                      .book {{ subrace.book }}
-              template(v-else)
-                router-link(:to="{ path: '/race/dnd5e/' + race.name.replace(/[^a-z0-9]/gi,'') }" tag="a" ) {{ race.name }}
-                  .book {{ race.book }}
+              router-link(:to="{ path: '/race/dnd5e/' + race.name.replace(/[^a-z0-9]/gi,'') }" tag="a" ) {{ race.name }}
+                .book {{ race.book }}
       
       <!-- Backgrounds ToC -->
-      li.backgrounds
+      li.tocHeader
         h3 Backgrounds
         
         <!-- Render content -->
@@ -52,7 +44,7 @@
               router-link(:to="{ path: '/background/dnd5e/' + background.name.replace(/[^a-z0-9]/gi,'') }" tag="a" ) {{ background.name }}
       
       <!-- Classes ToC -->
-      li.classes
+      li.tocHeader
         h3 Classes
         
         <!-- Render content -->
@@ -62,7 +54,7 @@
               router-link(:to="{ path: '/class/dnd5e/' + tabletopClass.name.replace(/[^a-z0-9]/gi,'') }" tag="a") {{ tabletopClass.name }}
       
       <!-- Equipment ToC -->
-      li.items
+      li.tocHeader
         h3 Equipment
         
         <!-- Render content -->

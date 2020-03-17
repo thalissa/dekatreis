@@ -1,27 +1,31 @@
-.tocHead
-  text-align center
-
-.tocHead h3
+.tocHead h2
   margin 0
 
 .toc
   flex-direction row
   flex-grow 1
-  align-items center top
   padding-inline-start 0
+  margin-top 0
+  margin-left auto
+  margin-right auto
+  justify-content space-between
+
+.tocHeader
+  margin 10px
+  display inline-block
+  flex-grow 1
   
 .section
   display flex
+  flex-direction column
   flex-wrap wrap
-  justify-content center
   border 2px #CDC solid
   padding 10px
 
 .subsection
-  display flex
   flex-wrap wrap
   flex-direction column
-  margin 10px
+  margin 5px
 
 .toc a
   color inherit !important
@@ -41,8 +45,6 @@
   text-align center
 
 .toc li h5, .toc li a
-  margin-bottom 0.5px !important
-  margin-top 2px !important
   line-height initial !important
   cursor pointer
   display inline-block
@@ -51,10 +53,9 @@
   font-weight 700
   
 .toc ul
-  padding-left: 0.3em;
-  line-height: 1.3em;
-  list-style-type: none;
-  margin-left 10px !important
+  padding-left 0.3em
+  line-height 1.3em
+  list-style-type none
 
 .toc>ul>li
   margin-bottom initial !important

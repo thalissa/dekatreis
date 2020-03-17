@@ -1,39 +1,26 @@
 <template>
   .content
-    h2 Table of Contents
+    .tocHead
+      h2 Lore
+    
     ul.toc
-      ul.section
-        template(v-for="lore in loreData")
-          <!-- Render lore name -->
-          .loreHeader
-            h3 {{ lore.name }}
-            
-            <!-- Render lore body -->
-            .loreBody
-              <!-- Go through each section -->
-              template(v-for="section in lore")
-                li.subsection
-                  router-link(:to="{ path: '/lore/' + section.name.replace(/[^a-z0-9]/gi,'') }" tag="a" ) {{ section.name }}
-                  ul.sublist(v-for="subsection in section.body")
-                    li {{ subsection.name }}
+      template(v-for="lore in loreData")
+        <!-- Render lore name -->
+        .tocHeader
+          h3 {{ lore.name }}
+          
+          <!-- Render lore body -->
+          ul.section
+            <!-- Go through each section -->
+            template(v-for="section in lore")
+              li.subsection
+                router-link(:to="{ path: '/lore/' + section.name.replace(/[^a-z0-9]/gi,'') }" tag="a" ) {{ section.name }}
+                ul.sublist(v-for="subsection in section.body")
+                  li {{ subsection.name }}
 </template>
 
 <style lang="stylus" scoped>
   @import "../assets/styling/components/toc.styl"
-  
-  .loreHeader
-    display flex
-    flex-direction column
-    text-align center
-    margin 15px
-    margin-left auto
-    margin-right auto
-  
-  .loreBody
-    display flex
-    flex-direction row
-    text-align left
-    flex-wrap wrap
 </style>
 
 <script>
