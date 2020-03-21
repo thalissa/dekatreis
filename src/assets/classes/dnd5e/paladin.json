@@ -1,0 +1,53 @@
+{
+  "name": "Paladin",
+  "description": "Whether motivated by their own personal loyalty to an ideal or a deity of their choice, paladins roam with a deep connection to the divine power of the world around them. By tapping into this, they can bring about great forces of change, for the better or the worse.",
+  "sections": [
+    {
+      "name": "Dekatreis-Specific Changes",
+      "body": [
+        {
+          "name": "Lay on Hands (Altered)",
+          "level": "1",
+          "body": "Your blessed touch can heal wounds or rip apart the unholy. You have a pool of power that replenishes when you take a long rest, equal to 5 times your Paladin level.\n\nAs an action, you can touch a creature and draw power from the pool, up to half your maximum number of points. If the target creature is undead, roll a melee attack roll. On a hit, the target takes the amount of expended points in radiant damage. Otherwise, if the target is not undead, you restore a number of hitpoints to the creature equal to the expended number of points.\n\nAlternatively, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of Lay on Hands, expending hitpoints separately for each one.\n\nThis feature has no effect on nonliving constructs, but functions normally on living constructs, such as Warforged."
+        }
+      ]
+    }
+  ],
+  "additionalContent": [
+    {
+      "name": "Paladin Oaths",
+      "style": "details",
+      "items": [
+        {
+          "name": "Oath of the Dreamers",
+          "sections": [
+            {
+              "name": "Tenets of the Dreamers",
+              "body": "• Freedom: Law is meant to keep order, but it can just as easily be used to break down a population's free will. Above all, pursuit of one's own happiness should come before all else.\n• Help Those Who Are Repressed: If a person is oppressed or prevented from following what they truly seek in life, it is your duty to help them break their chains and proceed towards their goals. By allowing another to be stopped by abstract regulations, you become just as bad as the rulers you seek to rebuke.\n• Death to Tyrants: Never should you allow a tyrant to oppress their people, nor any in a place of power who seeks to steal away the natural rights of those underneath them.\n• Law Is Not Absolute: Even as freedom comes above all else to the Dreamers, they still acknowledge the law. It is only when that law becomes a weapon used to control, should you seek to break the law to maintain your faith."
+            },
+            {
+              "name": "Oath Spells",
+              "body": "You gain oath spells at the paladin levels listed.\n3rd: Heroism, Longstrider\n5th: Misty Step, Rope Trick\n9th: Beacon of Hope, Counterspell\n13th: Guardian of Faith, Freedom of Movement\n17th: Passwall, Greater Restoration"
+            },
+            {
+              "name": "Channel Divinity",
+              "body": "When you take this oath at 3rd level, you gain the following two Channel Divinity options.\n• Free the Unwilling. As a reaction when you or an ally is charmed, frightened, grappled, paralyzed, petrified, restrained, stunned, or possessed, you may use your Channel Divinity feature in order to nullify one of those effects on the creature.\n• Break the Lawful. As an action, you may use your Channel Divinity to hold out your holy symbol and shout a rebuke of those that would seek to control others. A number of humanoids that you specify (up to your Charisma modifier) within 60 feet must make a Constitution saving throw or take 3d6 Radiant damage. In addition, creatures that fail are frightened for 1 minute, and cannot concentrate on spells for the duration."
+            },
+            {
+              "name": "Aura of Liberation",
+              "body": "Starting at 7th level, you and allies within 15 feet gain a bonus equal to your proficiency bonus against unwilling spells and effects made by a creature casted on them. This does not apply to effects that are damage only, such as the spell Fireball. You must be conscious to grant this bonus.\nThis bonus is in addition to the one granted by Aura of Protection.\nAt 18th level, the range of this aura increases to 30 feet."
+            },
+            {
+              "name": "Spirit of the Saviour",
+              "body": "Starting at 15th level, when you start your turn while charmed, frightened, paralyzed, petrified, or stunned, you may spend 5 points of Lay on Hands in order to break free of any effects listed, no action required."
+            },
+            {
+              "name": "Champion of Dreams",
+              "body": "At 20th level, you can use your action to gain the following benefits for 1 minute:\n• You may cast the Etherealness spell at will without expending a spell slot. This spell can also be cast on other creatures within 30 feet of you. All castings of the spell are dispelled when this feature ends.\n• You and your allies have advantage on Wisdom and Charisma saving throws while within 30 feet of you.\nOnce you use this feature, you can't use it again until you finish a long rest."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

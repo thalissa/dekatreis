@@ -24,7 +24,7 @@
       
       <!-- Race ToC -->
       li.tocHeader
-        h3 Ancestries and Heritages
+        h3 Races
         
         <!-- Render content -->
         ul.section

@@ -1,0 +1,55 @@
+{
+  "name": "Ranger",
+  "description": "Rangers keep their unending watch over large areas, ensuring that whatever cause they dedicate themselves to, their attunement to the land assists them in ensuring stability is maintained.",
+  "sections": [
+    {
+      "name": "Dekatreis-Specific Changes",
+      "body": [
+        {
+          "name": "Hunter's Mark (New)",
+          "level": "1",
+          "body": "Rangers can innately cast Hunter's Mark once per short rest, and the spell scaling is based on their Ranger level only.\n\nSpecial Note: Hunter's Mark has been removed from the Ranger spell list, making it inaccessable from feats such as Magic Initiate."
+        },
+        {
+          "name": "Favored Enemy (Altered)",
+          "level": "1",
+          "body": "Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy commonly encountered in the wilds.\n\nChoose a type of favored enemy: beasts, fey, humanoids, monstrosities, or undead. You gain a +2 bonus to damage rolls with weapon attacks against creatures of the chosen type. This bonus increases to +4 when you reach 8th level. Additionally, you have advantage on Survival checks to track your favored enemies, as well as on Intelligence checks to recall information about them.\n\nWhen you gain this feature, you also learn one language of your choice spoken by your favored enemy or creatures associated with it.\n\nAt 6th level, you gain the ability to choose another favored enemy from the following list: aberrations, celestials, constructs, dragons, elementals, fiends, or giants. You gain all the benefits against the chosen enemy that you normally gain from your favored enemy."
+        },
+        {
+          "name": "Primeval Awareness (Altered)",
+          "level": "3",
+          "body": "Beginning at 3rd level, your mastery of ranger lore allows you to establish a powerful link to beasts and to the land around you.\n\nYou have an innate ability to communicate with beasts, and they recognize you as a kindred spirit. Through sounds and gestures, you can communicate simple ideas to a beast as an action, and can read its basic mood and intent. You learn its emotional state, whether it is affected by magic of any sort, its short-term needs (such as food or safety), and actions you can take (if any) to persuade it to not attack.\n\nYou cannot use this ability against a creature that you have attacked within the past 10 minutes."
+        }
+      ]
+    }
+  ],
+  "additionalContent": [
+    {
+      "name": "Ranger Conclaves",
+      "style": "details",
+      "items": [
+        {
+          "name": "Beastmaster (Revised)",
+          "sections": [
+            {
+              "name": "The Beastmaster Conclave",
+              "body": "Many rangers are more at home in the wilds than in civilization, to the point where animals consider them kin. Rangers of the Beast Conclave develop a close bond with a beast, then further strengthen that bond through the use of magic."
+            },
+            {
+              "name": "Ranger's Companion (Altered)",
+              "body": "At 3rd level, you learn to use your magic to create a powerful bond with a creature of the natural world.\n\nOver the course of 8 hours, you call forth an animal from the wilderness to serve as your faithful companion. You normally select your companion from among the following animals: an ape, a black bear, a boar, a giant badger, a giant weasel, a mule, a panther, or a wolf. However, your DM might allow a different animal of your choice.\n\nAt the end of the 8 hours, your animal companion appears and gains all the benefits of your Companion’s Bond ability. You can have only one animal companion at a time.\n\nIf your animal companion is ever slain, the magical bond you share allows you to return it to life. With 8 hours of work and the expenditure of 25 gp worth of rare herbs and fine food, you call forth your companion’s spirit and use your magic to create a new body for it. You can return an animal companion to life in this manner even if you do not possess any part of its body.\n\nIf you use this ability to return a former animal companion to life while you have a current animal companion, your current companion leaves you and is replaced by the restored companion."
+            },
+            {
+              "name": "Companion's Bond (New)",
+              "body": "Your animal companion gains a variety of benefits while it is linked to you.\n• The animal companion loses its Multiattack action, if it has one.\n• The companion obeys your commands as best it can. It rolls for initiative like any other creature, but you determine its actions, decisions, attitudes, and so on. If you are incapacitated or absent, your companion acts on its own.\n• When using your Natural Explorer feature, you and your animal companion can both move stealthily at a normal pace.\n• Your animal companion has abilities and game statistics determined in part by your level. Your companion uses your proficiency bonus rather than its own. In addition to the areas where it normally uses its proficiency bonus, an animal companion also adds its proficiency bonus to its AC and to its damage rolls.\n• For each level you gain after 3rd, your animal companion gains an additional hit die and increases its hit points accordingly.\n• Whenever you gain the Ability Score Improvement class feature, your companion’s abilities also improve. Your companion can increase one ability score of your choice by 2, or it can increase two ability scores of your choice by 1. As normal, your companion can’t increase an ability score above 20 using this feature unless its description specifies otherwise.\n• Whenever you gain a feat, your animal companion also gains this feat."
+            },
+            {
+              "name": "Exceptional Training (Altered)",
+              "body": "Beginning at 7th level, your companion gains the ability to provide the Help action to you as a bonus action, so long as it is within 5 feet of you while trying to help you on a skill check, or within 5 feet of your enemy while trying to help you on an attack roll."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

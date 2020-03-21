@@ -5,7 +5,10 @@
       .displayList
         fieldset.displayContent
           legend
-            h3 Ancestries and Heritages
+            template(v-if="system == 'dnd5e'")
+              h3 Races
+            template(v-else)
+              h3 Ancestries and Heritages
           template(v-for="race in raceList")
             router-link(:to="{ path: '/race/' + system + '/' + race.name.replace(/[^a-z0-9]/gi,'') }" tag="a" ) {{ race.name }}
       

@@ -2,6 +2,15 @@
   "classes": [
     {
       "name": "Warlock"
+    },
+    {
+      "name": "Ranger"
+    },
+    {
+      "name": "Paladin"
+    },
+    {
+      "name": "Sorcerer"
     }
   ]  
 }

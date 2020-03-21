@@ -6,17 +6,17 @@
       "name": "Dekatreis-Specific Changes",
       "body": [
         {
-          "name": "Ability Proficiencies",
+          "name": "Ability Proficiencies (New)",
           "level": "1",
           "body": "In Dekatreis, Warlocks are more common than in other settings due to the ease at which other creatures can influence the world. As such, people from all walks of life can dip into pacts with such creatures.\n\nWhen you gain your 1st level in Warlock, you may choose Intelligence or Wisdom, instead of Charisma, to use for all your class abilities. In addition, the multiclass requirement changes from 13 Charisma to whichever ability score you chose. Once this option has been chosen, it cannot be changed at later levels."
         },
         {
-          "name": "Eldritch Blast",
+          "name": "Eldritch Blast (New)",
           "level": "1",
           "body": "Warlocks can innately cast Eldritch Blast at will, and the multiple beam scaling is based on their Warlock level only, not their total level.\n\nSpecial Note: Eldritch Blast has been removed from the Warlock spell list, making it inaccessable from feats such as Magic Initiate."
         },
         {
-          "name": "Hex",
+          "name": "Hex (New)",
           "level": "1",
           "body": "Warlocks can innately cast Hex once per short rest, and the spell scaling is based on their Warlock level only, not their total level.\n\nSpecial Note: Hex has been removed from the Warlock spell list, making it inaccessable from feats such as Magic Initiate."
         }
@@ -33,8 +33,8 @@
           "Benefit"
         ],
         [
-          "Pact of the Chain (Revised)",
-          "You learn the find familiar spell and can cast it as a ritual without material components. The spell doesn’t count against your number of spells known.\nWhen you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, sprite, or tressym.\nAdditionally, this familiar gains the benefit of being able to attack on your command, no action required, but it loses its multiattack action if it has one."
+          "Pact of the Chain (Altered)",
+          "You learn the find familiar spell and can cast it as a ritual without material components. The spell doesn’t count against your number of spells known.\nWhen you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, sprite, or tressym.\nAdditionally, this familiar gains the benefit of being able to attack on its turn, but it loses its multiattack action if it has one."
         ]
       ]
     },
@@ -75,7 +75,7 @@
         [
           "Chain of Command",
           "Pact of the Chain, Warlock Level 5th",
-          "You gain a deeper command of your familiar. As an action on your turn, you may command your familiar to move up to its speed and attack a creature twice, instead of once."
+          "Your familiar gains additional speed in their strikes. When they take the attack action on their turn, they may attack twice, instead of only once. Additionally, they gain 10 feet to their speed. If they have a flying speed or a climbing speed, they add this bonus to those as well."
         ],
         [
           "Pact Bolstering",

@@ -1,0 +1,82 @@
+{
+  "name": "Sorcerer",
+  "description": "Blood corrupted by strong magic, whether from their lineage or a blessing by another entity, sorcerers innately draw upon this power in their bodies to alter the world to their whim. While their magic is potent, often times they can be seen as a harbinger of either creation or destruction. Which direction they choose to bring about change, however, is wildly dependent on the individual.",
+  "sections": [
+    {
+      "name": "Dekatreis-Specific Changes",
+      "body": [
+        {
+          "name": "Self Focus (New)",
+          "level": "1",
+          "body": "When you cast spells that require a material component, you can ignore that component unless it has a value or the used components are consumed with the casting of the spell, in which case the materials for the spell are required."
+        },
+        {
+          "name": "Sorcery Points (Altered)",
+          "level": "2",
+          "body": "You have 2 sorcery points, and you gain more as you reach higher levels, as shown in the Sorcery Points column of the Sorcerer table. You can never have more sorcery points than shown on the table for your level.\n\nYou regain a number of sorcery points equal to your Charisma modifier when you finish a short rest, and you regain all spent sorcery points when you finish a long rest."
+        },
+        {
+          "name": "Metamagic (Altered)",
+          "level": "3",
+          "body": "At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two Metamagic options of your choice. You gain two more at 6th, 10th, and 14th level.\n\nYou can only use one Metamagic option on a spell when you cast it, unless otherwise noted."
+        },
+        {
+          "name": "Unlocked Sorcery (Replaces Sorcerous Restoration)",
+          "level": "20",
+          "body": "Beginning at 20th level, you have become such a master of the power within your blood that you can bend the weave to your will.\n\nWhen you cast a spell, you may use any number of metamagic on that spell.\n\nAdditionally, when you cast a spell of 1st level or higher with a casting time of 1 action, you may choose to cast a spell of 5th level or lower as part of the same action, expending a spell slot as normal. Once you have done so, you become unable to use this feature again until you finish a long rest."
+        }
+      ]
+    }
+  ],
+  "additionalContent": [
+    {
+      "name": "Metamagic Options",
+      "style": "table",
+      "items": [
+        [
+          "Name",
+          "Benefit"
+        ],
+        [
+          "Augmented Spell",
+          "When you cast a spell that deals Acid, Cold, Fire, Lightning, Necrotic, Poison, Psychic, Radiant, or Thunder damage, you can alter the damage type of the spell by expending 2 sorcery points. The new damage type must be one of the following: Acid, Cold, Fire, Lightning, Necrotic, Poison, Psychic, Radiant, Thunder.\n\nAdditionally, if the spell forces a creature to make a saving throw to resist its effects, you can spend an additional 3 sorcery points to change the first saving throw required for one target of the spell."
+        ]
+      ]
+    },
+    {
+      "name": "Sorcerous Origins",
+      "style": "details",
+      "items": [
+        {
+          "name": "Eclipse Bloodline",
+          "sections": [
+            {
+              "name": "The Eclipse Bloodline",
+              "body": "You were born during a rare sight: The moon might have overshadowed the sun, or the moon might have become a deep, red tint due to an alignmnet between the celesital bodies. Nonetheless, during an eclipse, magic surges through the air, and a rare few of those born during this time become infused with the very power that the celestial bodies possess. With this power, they are naturally gifted with the ability to manipulate the world around them, either with the force of the solar eclipse in their heart, or the lunar eclipse."
+            },
+            {
+              "name": "Heavenly Alignment",
+              "body": "The origin of your powers fully depends on what type of eclipse you were born into. Were you infused with the raw energy of a lunar eclipse, or were you granted power through the sun making its temporary departure, during a solar eclipse? In either case, the special powers granted give you a mark to represent your blessed abilities, granting you a birthmark either representing a solar eclipse, or a lunar eclipse, somewhere on your body.\n\nStarting at 1st level, you pick either Solar Eclipse or Lunar Eclipse as your birthmark, and this will grant you other powers from this class as listed below."
+            },
+            {
+              "name": "Unnatural Blessing",
+              "body": "Your powers have manifested in such a way that you gain great amounts of untapped power quickly. At 1st level, depending on your birthmark, you gain either the Blessing of the Sun (Solar Eclipse) or the Blessing of the Moon (Lunar Eclipse) as described below.\n\nBlessing of the Sun: As the sun takes departure behind the moon, you gain a feeling of weariness that proceeds to surge you with the darkness that overcomes the lands. When you gain access to this feature, you gain Eclipse Spells, as presented below. These come directly from the celestial event itself, meaning you do not need to learn these yourself. They are automatically added to your spells known list at the levels listed below, and do not count against the total number of spells you may learn.\nEclipse Spells\n1st: Dissonant Whispers, Armor of Agathys\n5th: Hunger of Hadar, Nondetection\n9th: Contact Other Plane, Legend Lore\n13th: Plane Shift, Simulacrum\n\nBlessing of the Moon: Given access to the raw power that the lunar eclipse gives, you gain the ability to harness the power of the moon and create a protective barrier around yourself. Whenever you finish a short or long rest, you gain temporary hitpoints equal to your Charisma modifier + half your Sorcerer level (rounded down, minimum of 1). These temporary hitpoints refill upon using any metamagic option."
+            },
+            {
+              "name": "Star's Guidance",
+              "body": "As your very body becomes empowered with the celestial bodies that your powers were born from, you begin to learn how to bend the world to your very will. Starting at 6th level, you gain either the Sun's Guidance (Solar Eclipse) or the Moon's Guidance (Lunar Eclipse), depending on your birthmark.\n\nSun's Guidance: Your birthmark glows with a spectral darkness that seems to draw your enemies closer to their eventual demise. Expending 2 Sorcery points, you can gain advantage on one spell attack roll or give a target disadvantage on one of your spell saving throws.\n\nMoon's Guidance: The shifting of your powers causes your birthmark to glow a bright white whenever you expend a spell slot, and you can feel your power strengthen with every spell you cast. Whenever you cast a damaging spell, that spell gains additional damage equal to your Charisma modifier."
+            },
+            {
+              "name": "Celestial Displacement",
+              "body": "Starting at 14th level, you may call upon the very light of the sun or the moon in order to summon beams of radiant light upon the land. You gain either the Solar Displacement (Solar Eclipse) feature or the Lunar Displacement (Lunar Eclipse) feature, depending on your birthmark.\n\nSolar Displacement: The sun shines bright wherever you go, even when you cannot see the sky and even when it is night. Once per day, you may cast*Sunbeam as a 6th-level spell, without expending a spell slot. If an eclipse is currently in the sky, all targets make the saving throw with disadvantage. You regain the use of this feature after a long rest.\n\nLunar Displacement: Though the moon may not always linger above you, you can summon its power from the ends of the earth. You gain the ability to cast *Moonbeam* as a 6th-level spell, without expending a spell slot. If an eclipse is currently in the sky, all targets make the saving throw with disadvantage. You regain the use of this feature after a long rest."
+            },
+            {
+              "name": "Body of the Eclipse",
+              "body": "Reaching the brink of your power, whether you were born of a solar eclipse or a lunar eclipse, you feel your very body start to become one with the celestials. At 18th level, you become resistant to radiant and force damage, and as a bonus action on your turn, you may vanish into the astral plane and reappear at a point within 10 feet that you can see from where you vanished at the start of your next turn. This does not affect you if you are already in the astral plane.\n\nYou have a number of uses of this up to your Charisma modifier, and regain expended uses at the end of a long rest."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
