@@ -39,7 +39,7 @@
         ],
         [
           "Augmented Spell",
-          "When you cast a spell that deals Acid, Cold, Fire, Lightning, Necrotic, Poison, Psychic, Radiant, or Thunder damage, you can alter the damage type of the spell by expending 2 sorcery points. The new damage type must be one of the following: Acid, Cold, Fire, Lightning, Necrotic, Poison, Psychic, Radiant, Thunder.\n\nAdditionally, if the spell forces a creature to make a saving throw to resist its effects, you can spend an additional 3 sorcery points to change the first saving throw required for one target of the spell."
+          "When you cast a spell that deals Acid, Cold, Fire, Lightning, Necrotic, Poison, Psychic, Radiant, or Thunder damage, you can alter the damage type of the spell by expending 2 sorcery points. The new damage type must be one of the following: Acid, Cold, Fire, Lightning, Necrotic, Poison, Psychic, Radiant, Thunder.\n\nAdditionally, if the spell forces a creature to make a saving throw to resist its effects, you can spend an additional 3 sorcery points to change the first saving throw required for each target of the spell."
         ]
       ]
     },
