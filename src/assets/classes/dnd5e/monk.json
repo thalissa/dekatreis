@@ -1,0 +1,213 @@
+{
+  "name": "Monk",
+  "description": "Whether self-trained or taught in temples, monks find their footing with a distinct desire to maintain a sense of order and balance across the world, though one monk's methods may differ ideology from one another, they are all progressing towards one goal: Stability.",
+  "sections": [
+    {
+      "name": "Dekatreis-Specific Changes",
+      "body": [
+        {
+          "name": "Perfect Self (Altered)",
+          "level": "20",
+          "body": "Starting at 20th level, you become innately charged with ki. You no longer need to expend ki to use your monk abilities, and when you finish a short or long rest, you gain temporary hitpoints equal to the number of points shown on the Ki Points column of the Monk table."
+        }
+      ]
+    }
+  ],
+  "additionalContent": [
+    {
+      "name": "Monastic Disciplines",
+      "style": "details",
+      "items": [
+        {
+          "name": "Way of the Elements",
+          "sections": [
+            {
+              "name": "The Elements Discipline",
+              "body": "You follow a monastic tradition that teaches you to attune to and harness. When you channel your ki, you align yourself with the forces of creation and bend the four natural elements to your will, using them as an extension of your body."
+            },
+            {
+              "name": "Elemental Ki",
+              "body": "When you select this tradition at 3rd level, you learn how to expand your ki that enables you to bend the natural world around you. You gain a second ki pool, named Elemental Ki, that has the same number of points as your natural ki pool. You can only use Elemental Ki to power the abilities from this monastic tradition. Your Elemental Ki is refilled at the end of a short or long rest as you take the time to re-align yourself with the world."
+            },
+            {
+              "name": "Elemental Bending",
+              "body": "Starting at 3rd level, you unlock an array of powers that you can summon forth using your Elemental Ki. Choose two abilities from the Elemental Bending table to learn that you meet the requirements for. You become able to expend Elemental Ki to use these abilities. In addition, at every odd Monk level, you gain another power from the same table.\n\nEach time you finish a long rest, you may re-attune to the elements and swap one Elemental Bending power in exchange for another that you meet the requirements for."
+            },
+            {
+              "name": "Nautral Alignment",
+              "body": "While all monks of the elements can channel all four elements, at the very beginning, they were taught how each individual is predispositioned to a particular element. At 3rd level, choose between fire, water, air, or earth. Whenever you channel Elemental Bending, if the ability has that disposition, it costs 1 less Elemental Ki point for you to use."
+            },
+            {
+              "name": "Magical Attunement",
+              "body": "Starting at 6th level, any damage from your Elemental Bending powers count as magical for the purposes of overcoming resistances and immunities to nonmagical damage."
+            },
+            {
+              "name": "Greater Disposition",
+              "body": "Starting at 11th level, you become so attuned to the elements that they begin to innately protect you. You gain immunity to one damage type, as determined by your elemental disposition. Fire immunity for Fire disposition, Piercing immunity for Water disposition, Slashing immunity for Air disposition, and Bludgeoning immunity for Earth disposition."
+            },
+            {
+              "name": "True Attunement",
+              "body": "Upon reaching 17th level, you have attuned so well to the elements that you have gained the knowledge of how to hit the key spots on a creature's body. A creature gains vulnerability to any damage dealt by Elemental Bending powers that share your disposition."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elemental Bending",
+      "style": "table",
+      "items": [
+        [
+          "Name",
+          "Requirements",
+          "Disposition",
+          "Benefit"
+        ],
+        [
+          "Ring of Fire",
+          "",
+          "Fire",
+          "As an action, you spend 2 Elemental Ki points to summon a flaming chakram around your hands. Whenever you hit with your unarmed strikes, you deal fire damage instead of bludgeoning damage. The target must succeed on a Dexterity saving throw or be set on fire for a number of rounds equal to your Wisdom mmodifier, taking your Martial Arts die in fire damage at the start of each of their turn."
+        ],
+        [
+          "Spiritual Healing",
+          "",
+          "Water",
+          "As an action, you may touch a creature and spend 2 Elemental Ki points to summon water into your hands to mend a creature's wounds. The creature regains hitpoints equal to your Martial Arts die."
+        ],
+        [
+          "Wind Step",
+          "",
+          "Air",
+          "As a bonus action, you channel air around your feet by spending 2 Elemental Ki points. For a number of rounds equal to your Wisdom modifier, you gain a fly speed equal to your natural speed. If you are still in the air at the end of your turn, you fall to the ground.\n\nStarting at 11th level, you can stay in the air even after the end of your turn."
+        ],
+        [
+          "Stone Block",
+          "",
+          "Earth",
+          "As a reaction, you may expend 2 Elemental Ki points to raise stone from the ground and sheild yourself or an ally within 15 feet from an attack. The attack gains disadvantage against the target, and then the stone crumbles to dust."
+        ],
+        [
+          "Firewrap",
+          "5th Level",
+          "Fire",
+          "Spending 3 Elemental Ki points as an action, you can cover yourself and up to 7 allies within 30 feet in a protective coating of fire for 1 hour. Each creature affected becomes immune to the effects of extreme cold, gains resistance to cold damage, and any melee attacks that strike them causes the attacker to take 1d4 Fire damage."
+        ],
+        [
+          "Water Whip",
+          "5th Level",
+          "Water",
+          "As an action, you can spend 3 Elemental Ki points to summon forth a stream of water from your hands that you can manipulate. This remains for a number of rounds equal to your Wisdom modifier, and extends your reach for unarmed strikes and touch-based Elemental Bending powers by 10 feet."
+        ],
+        [
+          "Breath of Air",
+          "5th Level",
+          "Air",
+          "Whenever you hit with your unarmed strikes, you may use a bonus action to spend 3 Elemental Ki and push the creature up to 30 feet away from you."
+        ],
+        [
+          "Rock Slide",
+          "5th Level",
+          "Earth",
+          "As an action, you can spend 3 Elemental Ki points in order to crumble and shake the earth underneath enemies near you. Each enemy within 15 feet of you must make a Dexterity saving throw or be knocked prone and pushed 10 feet either away or towards you, your choice for each creature affected."
+        ],
+        [
+          "Magma Snake",
+          "7th Level",
+          "Fire",
+          "Summoning the forces of the elements, you can call forth a Fire Snake as an action by spending 4 Elemental Ki points. It lasts for 1 minute or until slain."
+        ],
+        [
+          "Ebb and Flow",
+          "7th Level",
+          "Water",
+          "Spending an action and using 4 Elemental Ki points, you create a special link between yourself and up to 5 other creatures within 30 feet using droplets of water across the ground. At the start of each of your turns, creatures connected to you in this way regain your Martial Arts die in hitpoints. If a creature moves beyond 30 feet from you, this connection ends for that creature but remians for youreslf and all others. Otherwise, this connection is maintained for 1 minute."
+        ],
+        [
+          "Disrupting Wind",
+          "7th Level",
+          "Air",
+          "Spending 4 Elemental Ki points as an action, you can warp the air around you to make it harder for ranged attacks to strike you and your allies. Whenever an enemy tries to shoot through any area that is within 15 feet of you, they gain disadvantage on the attack."
+        ],
+        [
+          "Earth Mannequin",
+          "7th Level",
+          "Earth",
+          "Spending 4 Elemental Ki points, as an action you can sculpt an exact replica of a creature you have seen before out of stone. While obvious in bright light that it is made of stone, creatures in dim light or darkness must succeed on a Wisdom saving throw or be convinced that it is the creature. Additionally, you may use this Earth Mannequin as a conduit for your Elemental Bending, treating it as the source of your powers.\n\nThe mannequin lasts for 1 minute, and can be moved up to 30 feet as a bonus action on each of your turns. Taking 10 or more damage destorys the mannequin early."
+        ],
+        [
+          "Fire Step",
+          "9th Level",
+          "Fire",
+          "Spending 5 Elemental Ki points as a bonus action, you kick your feet and propulse yourself using a wave of fire. You can then land anywhere within 120 feet of you. Each creature within 5 feet of you when you do this must make a Dexterity saving throw or take your Martial Arts die in damage, taking half on a successful saving throw."
+        ],
+        [
+          "Ice Blade",
+          "9th Level",
+          "Water",
+          "You spend an action and 5 Elemental Ki points to create a large weapon made of ice. It counts as a monk weapon for you, deals your Martial Arts die in damage, and lasts for 1 hour. Additionally, as a bonus action, you can throw a weapon and cause it to shatter. Choose a 10-foot radius sphere within 30 feet of you when throwing it. Each creature in the radius when it shatters takes three times your Martial Arts die in damage."
+        ],
+        [
+          "Tornado",
+          "9th Level",
+          "Air",
+          "You can conjure a small tornado using an action and 5 Elemental Ki within 60 feet of you. The tornado acts as a 5-foot radius, 2-foot-high cylinder and can be moved up to 30 feet in a new direction as an action on each of your turns. Each creature that enters its area for the first time or starts its turn there must make a Constitution saving throw or take 2d10 Bludgeoning damage, half as much on a successful save."
+        ],
+        [
+          "Earth Tunneling",
+          "9th Level",
+          "Earth",
+          "Spending 5 Elemental Ki and a bonus action, for 1 minute you gain a burrowing speed equal to your speed. While tunneling through the ground, you gain blindsense out to a range of 60 feet, and can attack a creature freely with your unarmed strikes if you are 5 feet underneath them."
+        ],
+        [
+          "Lightning Strike",
+          "11th Level",
+          "Fire",
+          "You channel your body's energy to create lightning that ripples through your body. Spending 6 Elemental Ki and an action, choose one creature within 120 feet and make a ranged attack roll. The creature takes 5 times your Martial Arts die in damage on a hit."
+        ],
+        [
+          "Blood Manipulation",
+          "11th Level",
+          "Water",
+          "As an action, spend 6 Elemental Ki and choose one creature within 60 feet. For the next minute, the target must make a Constitution saving throw at the start of each of its turns or else you get to choose the action it takes. Otherwise, it takes its turn as normal."
+        ],
+        [
+          "Spiritual Projection",
+          "11th Level",
+          "Air",
+          "Projecting your spirit as an action and spending 6 Elemental Ki, you reach out to a creature you are familiar with. An invisible form that you can see and hear through appears at that creature's location for up to 10 minutes. You cannot communicate or manipulate anything through this form except for the creature you are projecting towards, who can hear and speak to you telepathically, but cannot see you. If the chosen creature is sleeping, you instead appear in their dreams, and they can speak and see you as normal."
+        ],
+        [
+          "Lava Creation",
+          "11th Level",
+          "Earth",
+          "Choosing up to a 20-foot radius circle on the ground as an action and spending 6 Elemental Ki, you can melt the chosen area's surface. The surface becomes difficult terrain and stays manipulated in this way for a number of rounds equal to your Wisdom modifier. Additionally, each creature that starts its turn in this area or enters the area for the first time must make a Constitution saving throw, taking 4d8 Fire damage on a failed saving throw, or half as much on a successful saving throw. Creatures prone in the area take double damage."
+        ],
+        [
+          "Dancing Dragon",
+          "19th Level, Fire Disposition",
+          "Fire",
+          "As an action, you spend 10 Elemental Ki points to enwrap yourself in a deadly and beautiful firestorm that takes on the form of a dragon. For 1 minute, your size becomes huge, and you gain a breath weapon attack that can be used to melt creatures in your path. Once on each round after your transformation, as an action you can target a 120-foot line. Each creature in its path must make a Constitution saving throw or take 10d10 Fire damage. Creatures that succeed take half damage."
+        ],
+        [
+          "True Spirituality",
+          "19th Level, Air Disposition",
+          "Air",
+          "Spending 10 Elemental Ki points, you reach for total enlightenment, becoming one with the air around you. For 1 minute, you disappear, become untargetable, and able to manipulate the wind in ways never thought before. As an action on each turn after transforming, you can choose to either begin or stop a windstorm. Each time you start the storm, you can choose any number of the following effects for it to have:\n• At the end of each of your turns, creatures that you choose within 120 feet of where you were must succeed on a Dexterity saving throw or take your Martial Arts die in damage, taking half on a successful save, as strikes of wind lash out across the area.\n• Ranged attacks that you choose have disadvantage against their targets, as sweeping gusts of air attempt to thrash in front of their pathways.\n• Allied creatures gain a bonus to their movement speed equal to your Unarmored Movement speed as air wraps around their limbs and surges them forward."
+        ],
+        [
+          "Rise of the Kraken",
+          "19th Level, Water Disposition",
+          "Water",
+          "Expending 10 Elemental Ki as an action, for 1 minute you manipulate a great amount of water around yourself to represent the form of a mighty Kraken. Your size becomes huge, you gain temporary hitpoints equal to twice your Monk level, and your reach with unarmed strikes becomes 20 feet with your newfound tentacles that sprout from you. Each time you hit with your unarmed strikes, the target must succeed on a Strength saving throw or be grappled. You cannot grapple more than 3 creatures at once in this way."
+        ],
+        [
+          "Stone Giant",
+          "19th Level, Earth Disposition",
+          "Earth",
+          "Expending 10 Elemental Ki as an action, for 1 minute you take on a monsterous form of a giant construct made of stone. Your size becomes huge, you gain additional AC equal to your Wisdom modifier, and the ability to throw chunks of your stone form. These count as a thrown weapon attack that have a range of 60 feet, and deal 4d10 Bludgeoning damage on a hit. Creatures that are hit must also make a Constitution saving throw, falling prone on a failed save."
+        ]
+      ]
+    }
+  ]
+}

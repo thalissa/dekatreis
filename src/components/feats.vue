@@ -58,13 +58,12 @@
   table
     width 100%
   
-  td
+  td:nth-child(1)
     min-width 150px
     text-align left
   
-  table td:nth-child(2)
-    min-width 50px
-    text-align center
+  table td
+    padding 5px
 </style>
 
 <script>
