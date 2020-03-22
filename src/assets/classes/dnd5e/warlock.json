@@ -24,18 +24,40 @@
     }
   ],
   "additionalContent": [
+    
     {
-      "name": "Pact Boons",
-      "style": "table",
+      "name": "Otherworldly Patrons",
+      "style": "details",
       "items": [
-        [
-          "Name",
-          "Benefit"
-        ],
-        [
-          "Pact of the Chain (Altered)",
-          "You learn the find familiar spell and can cast it as a ritual without material components. The spell doesn’t count against your number of spells known.\nWhen you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, sprite, or tressym.\nAdditionally, this familiar gains the benefit of being able to attack on its turn, but it loses its multiattack action if it has one."
-        ]
+        {
+          "name": "Medusa",
+          "sections": [
+            {
+              "name": "The Medusa Patron",
+              "body": "Your patron is the monstrous Medusa, a powerful half-snake, half-human who has the ability to turn mortals into stone with a simple gaze. Unattached from legends that some might tell and the mortal beings that might take on her name, you know the truth about the part-snake goddess that resides in the plane of Shadowfell. Residing in the negative plane of the world, Medusa reaches out to budding, easily-manipulated adventurers that show potential to her, and over time manipulates them for her own cause, giving mortals a variety of whispers from the other plane and quests of questionable morality.\n\nMedusa's followers may belong to a larger cult, or perhaps they may find themselves better off alone, knowing just what Medusa herself desires of her Warlocks. Most prominently, Medusa seems to call on her cultists in bouts of blood-boiling vengeance and jealousy. She subtly monitors the mortal plane from her residence in Shadowfell, and once she sets her serpent gaze on something, she sends an augury to mortals to deal with. This could be destroying the beauty of a fae forest, or it could perhaps be slaying a former follower of Medusa for turning their back on her power. Nonetheless, Medusa's followers should be wary of their patron, for once they're loyal to her, a lapse in loyalty could mean their own head."
+            },
+            {
+              "name": "Expanded Spell List",
+              "body": "Medusa allows you to choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n1st Level: Inflict Wounds, Ray of Sickness\n2nd Level: Alter Self, Maximilian's Earthen Grasp\n3rd Level: Bestow Curse, Meld into Stone\n4th Level: Stoneskin, Phantasmal Killer\n5th Level: Creation, Contagion"
+            },
+            {
+              "name": "Serpent Servant",
+              "body": "Starting at 1st level, Medusa graces you with a poisonous snake to aid you in your journey, and make sure that you are performing her will as obligated. This poisonous snake always obeys your commands, which you can give telepathically while it is within 100 feet of you. While on your person, the snake can't be targeted by any attack or other harmful effect; only you can cast spells on it; it can't take damage; and it is incapacitated.\n\nAdditionally, you and the snake have the following benefits:\n• As an action, you can see through the snake's eyes and hear what it hears while it is within 100 feet of you.\n• In combat, you roll initiative for the snake if it is not on your person. Otherwise, it remains incapacitated until otherwise given instructions to do so. Your snake cannot attack, but it can use all other actions as normal if it is capable of doing so. If it is slain by a creature, your attacks do an additional 1d6 poison damage to the killer for the next 1 minute.\n• The snake doesn't require sleep. While it is within 100 feet of you, it can awaken you from sleep as a bonus action.\n• The snake vanishes when it dies, if you die, or if the two of you are separated by more than 5 miles. At the end of a short or long rest, you can perform a 5 minute ritual calling upon Medusa to bring your snake back to you--no matter where it is or whether it died--and it reappears within 5 feet of you.\n\nIf you later gain the Pact of the Chain boon, you may make this snake your pact animal and it maintains all the above benefits as well as any benefits of the pact boon itself. In addition, while it is touching you, you gain blindsight with a range of 10 feet and proficiency in Intimidation and Persuasion checks. If you already have proficiency in these abilities, you gain expertise in them instead."
+            },
+            {
+              "name": "Medusa's Gaze",
+              "body": "At 6th level, you have inherited Medusa's signature ability to turn flesh into stone. As an action when your snake is on your shoulder, you can morph your face into a twisted, disgusting resemblance of Medusa herself. Each creature that has attacked you in the last or current round must succeed on a Constitution saving throw against your spell save DC or else be petrified for a number of rounds up to your Charisma modifier. This has no effect on constructs or undead, and non-humanoids have advantage on this saving throw. After using this feature, you become unable to use it again until the end of a long rest.\n\nOnce you have used this feature, your face morphs back into the shape it once was, but your eyes remain serpentine and your hair sprouts snake-like appendages. You then automatically fail all Charisma based checks except for Intimidation until you take a long rest, at which point your appearance returns to normal."
+            },
+            {
+              "name": "Snake Poison",
+              "body": "At 10th level, Medusa grants your spells and weapons a toxic benefit. Whenever you hit with a melee spell attack or melee weapon attack while your snake is within 5 feet of you, the attack deals an additional 1d8 + your Charisma modifier in poison damage."
+            },
+            {
+              "name": "Medusa's Underling",
+              "body": "When you reach 14th level, Medusa has permanently taken possession of your soul and enchanted it with Shadowfell protection. You have resistance to poison damage, and whenever you use your Medusa's Gaze feature, you gain temporary hitpoints equal to your Charisma modifier + your Warlock level."
+            }
+          ]
+        }
       ]
     },
     {
@@ -85,38 +107,17 @@
       ]
     },
     {
-      "name": "Otherworldly Patrons",
-      "style": "details",
+      "name": "Pact Boons",
+      "style": "table",
       "items": [
-        {
-          "name": "Medusa",
-          "sections": [
-            {
-              "name": "The Medusa Patron",
-              "body": "Your patron is the monstrous Medusa, a powerful half-snake, half-human who has the ability to turn mortals into stone with a simple gaze. Unattached from legends that some might tell and the mortal beings that might take on her name, you know the truth about the part-snake goddess that resides in the plane of Shadowfell. Residing in the negative plane of the world, Medusa reaches out to budding, easily-manipulated adventurers that show potential to her, and over time manipulates them for her own cause, giving mortals a variety of whispers from the other plane and quests of questionable morality.\n\nMedusa's followers may belong to a larger cult, or perhaps they may find themselves better off alone, knowing just what Medusa herself desires of her Warlocks. Most prominently, Medusa seems to call on her cultists in bouts of blood-boiling vengeance and jealousy. She subtly monitors the mortal plane from her residence in Shadowfell, and once she sets her serpent gaze on something, she sends an augury to mortals to deal with. This could be destroying the beauty of a fae forest, or it could perhaps be slaying a former follower of Medusa for turning their back on her power. Nonetheless, Medusa's followers should be wary of their patron, for once they're loyal to her, a lapse in loyalty could mean their own head."
-            },
-            {
-              "name": "Expanded Spell List",
-              "body": "Medusa allows you to choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n1st Level: Inflict Wounds, Ray of Sickness\n2nd Level: Alter Self, Maximilian's Earthen Grasp\n3rd Level: Bestow Curse, Meld into Stone\n4th Level: Stoneskin, Phantasmal Killer\n5th Level: Creation, Contagion"
-            },
-            {
-              "name": "Serpent Servant",
-              "body": "Starting at 1st level, Medusa graces you with a poisonous snake to aid you in your journey, and make sure that you are performing her will as obligated. This poisonous snake always obeys your commands, which you can give telepathically while it is within 100 feet of you. While on your person, the snake can't be targeted by any attack or other harmful effect; only you can cast spells on it; it can't take damage; and it is incapacitated.\n\nAdditionally, you and the snake have the following benefits:\n• As an action, you can see through the snake's eyes and hear what it hears while it is within 100 feet of you.\n• In combat, you roll initiative for the snake if it is not on your person. Otherwise, it remains incapacitated until otherwise given instructions to do so. Your snake cannot attack, but it can use all other actions as normal if it is capable of doing so. If it is slain by a creature, your attacks do an additional 1d6 poison damage to the killer for the next 1 minute.\n• The snake doesn't require sleep. While it is within 100 feet of you, it can awaken you from sleep as a bonus action.\n• The snake vanishes when it dies, if you die, or if the two of you are separated by more than 5 miles. At the end of a short or long rest, you can perform a 5 minute ritual calling upon Medusa to bring your snake back to you--no matter where it is or whether it died--and it reappears within 5 feet of you.\n\nIf you later gain the Pact of the Chain boon, you may make this snake your pact animal and it maintains all the above benefits as well as any benefits of the pact boon itself. In addition, while it is touching you, you gain blindsight with a range of 10 feet and proficiency in Intimidation and Persuasion checks. If you already have proficiency in these abilities, you gain expertise in them instead."
-            },
-            {
-              "name": "Medusa's Gaze",
-              "body": "At 6th level, you have inherited Medusa's signature ability to turn flesh into stone. As an action when your snake is on your shoulder, you can morph your face into a twisted, disgusting resemblance of Medusa herself. Each creature that has attacked you in the last or current round must succeed on a Constitution saving throw against your spell save DC or else be petrified for a number of rounds up to your Charisma modifier. This has no effect on constructs or undead, and non-humanoids have advantage on this saving throw. After using this feature, you become unable to use it again until the end of a long rest.\n\nOnce you have used this feature, your face morphs back into the shape it once was, but your eyes remain serpentine and your hair sprouts snake-like appendages. You then automatically fail all Charisma based checks except for Intimidation until you take a long rest, at which point your appearance returns to normal."
-            },
-            {
-              "name": "Snake Poison",
-              "body": "At 10th level, Medusa grants your spells and weapons a toxic benefit. Whenever you hit with a melee spell attack or melee weapon attack while your snake is within 5 feet of you, the attack deals an additional 1d8 + your Charisma modifier in poison damage."
-            },
-            {
-              "name": "Medusa's Underling",
-              "body": "When you reach 14th level, Medusa has permanently taken possession of your soul and enchanted it with Shadowfell protection. You have resistance to poison damage, and whenever you use your Medusa's Gaze feature, you gain temporary hitpoints equal to your Charisma modifier + your Warlock level."
-            }
-          ]
-        }
+        [
+          "Name",
+          "Benefit"
+        ],
+        [
+          "Pact of the Chain (Altered)",
+          "You learn the find familiar spell and can cast it as a ritual without material components. The spell doesn’t count against your number of spells known.\nWhen you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, sprite, or tressym.\nAdditionally, this familiar gains the benefit of being able to attack on its turn, but it loses its multiattack action if it has one."
+        ]
       ]
     }
   ]
