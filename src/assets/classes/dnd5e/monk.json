@@ -73,7 +73,7 @@
           "Spiritual Healing",
           "",
           "Water",
-          "As an action, you may touch a creature and spend 2 Elemental Ki points to summon water into your hands to mend a creature's wounds. The creature regains hitpoints equal to your Martial Arts die."
+          "As a bonus action, you may choose a creature that you can see within 60 feet and spend 2 Elemental Ki points to summon water into your hands to mend their wounds. The creature regains hitpoints equal to your Martial Arts die plus your Wisdom modifier."
         ],
         [
           "Wind Step",
@@ -85,7 +85,7 @@
           "Stone Block",
           "",
           "Earth",
-          "As a reaction, you may expend 2 Elemental Ki points to raise stone from the ground and sheild yourself or an ally within 15 feet that you can see from an attack. The triggering attack gains disadvantage against its original target, and then the stone crumbles to dust."
+          "As a reaction, you may expend 2 Elemental Ki points to raise stone from the ground and shield yourself or an ally within 15 feet that you can see from an attack. The triggering attack gains disadvantage against its original target, and then the stone crumbles to dust."
         ],
         [
           "Firewrap",
@@ -121,7 +121,7 @@
           "Ebb and Flow",
           "7th Level",
           "Water",
-          "Spending an action and using 4 Elemental Ki points, you create a special link between yourself and up to 5 other creatures within 30 feet that you can see using droplets of water across the ground. At the start of each of your turns, creatures connected to you in this way regain your Martial Arts die in hitpoints. If a creature moves beyond 30 feet from you, this connection ends for that creature but remians for youreslf and all others. Otherwise, this connection is maintained for 1 minute."
+          "Spending an action and using 4 Elemental Ki points, you create a special link between yourself and up to 3 other creatures within 30 feet that you can see using droplets of water across the ground. While in combat, at the start of each of your turns, creatures connected to you in this way regain your Martial Arts die in hitpoints. If a creature moves beyond 30 feet from you, this connection ends for that creature but remains for yourself and all others. Otherwise, this connection is maintained for a number of rounds equal to your Wisdom modifier."
         ],
         [
           "Disrupting Wind",
@@ -145,7 +145,7 @@
           "Ice Blade",
           "9th Level",
           "Water",
-          "You spend an action and 5 Elemental Ki points to create a large weapon made of ice. It counts as a monk weapon for you, deals your Martial Arts die in damage, and lasts for 1 hour. Additionally, as a bonus action, you can throw a weapon and cause it to shatter. Choose a 10-foot radius sphere within 30 feet of you when throwing it. Each creature in the radius when it shatters takes three times your Martial Arts die in damage."
+          "You spend an action and 5 Elemental Ki points to create a large weapon made of ice. It counts as a monk weapon for you, deals your Martial Arts die in Cold damage, and lasts for 1 hour. Additionally, as a bonus action, you can throw the weapon and cause it to shatter. Choose a 10-foot radius sphere within 30 feet of you when throwing it. Each creature in the radius when it shatters takes three times your Martial Arts die in Piercing damage."
         ],
         [
           "Tornado",
@@ -157,7 +157,7 @@
           "Earth Tunneling",
           "9th Level",
           "Earth",
-          "Spending 5 Elemental Ki and a bonus action, for 1 minute you gain a burrowing speed equal to your speed. While tunneling through the ground, you gain blindsense out to a range of 30 feet, and can target a creature freely if you are 10 feet underneath them."
+          "Spending 5 Elemental Ki and a bonus action, for 1 minute you gain a burrowing speed equal to your speed. While tunneling through the ground, you gain blindsense out to a range of 30 feet."
         ],
         [
           "Lightning Strike",
@@ -175,7 +175,7 @@
           "Spiritual Projection",
           "11th Level",
           "Air",
-          "Projecting your spirit as an action and spending 6 Elemental Ki, you reach out to a creature you are familiar with. An invisible form that you can see and hear through appears at that creature's location for up to 10 minutes. You cannot communicate or manipulate anything through this form except for the creature you are projecting towards, who can hear and speak to you telepathically, but cannot see you. If the chosen creature is sleeping, you instead appear in their dreams, and they can speak and see you as normal."
+          "Projecting your spirit as an action and spending 6 Elemental Ki, you reach out to a creature you are familiar with. An invisible form that you can see and hear through appears at that creature's location for up to 10 minutes. You cannot communicate or manipulate anything through this form except for the creature you are projecting towards, who can hear and speak to you telepathically, but cannot see you. If the chosen creature is sleeping, you instead appear in their dreams, and they can speak with and see you as normal."
         ],
         [
           "Lava Creation",
@@ -223,7 +223,7 @@
           "Anahata",
           "15th Level",
           "Air",
-          "Connecting to the air around you, you learn to channel the other elements through each other to achieve balance amongst them. Spending an action and 8 Elemental Ki, your Elemental Bending powers and unarmed strikes gain a range of 120 feet."
+          "Connecting to the air around you, you learn to channel the other elements through each other to achieve balance amongst them. Spending an action and 8 Elemental Ki, your Elemental Bending powers and unarmed strikes gain a range of 120 feet for 1 minute."
         ],
         [
           "Muladhara",
