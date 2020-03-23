@@ -97,19 +97,19 @@
           "Water Whip",
           "5th Level",
           "Water",
-          "As an action, you can spend 3 Elemental Ki points to summon forth a stream of water from your hands that you can manipulate. This remains for a number of rounds equal to your Wisdom modifier, and extends your reach for unarmed strikes and touch-based Elemental Bending powers by 10 feet."
+          "As a bonus action, you can spend 3 Elemental Ki points to summon forth a stream of water from your hands that you can manipulate. This remains for 1 minute, and extends your reach for unarmed strikes and touch-based Elemental Bending powers by 10 feet."
         ],
         [
           "Breath of Air",
           "5th Level",
           "Air",
-          "Whenever you hit with your unarmed strikes, you may use a bonus action to spend 3 Elemental Ki and push the creature up to 30 feet away from you."
+          "Whenever you hit with your unarmed strikes, you may use a bonus action to spend 3 Elemental Ki and push the creature up to 30 feet away from you. Upon landing, the creature must succeed on a Dexterity saving throw or take 2d6 Bludgeoning damage."
         ],
         [
           "Rock Slide",
           "5th Level",
           "Earth",
-          "As an action, you can spend 3 Elemental Ki points in order to crumble and shake the earth underneath enemies near you. Each enemy within 15 feet of you must make a Dexterity saving throw or be knocked prone and pushed 10 feet either away or towards you, your choice for each creature affected."
+          "As an action, you can spend 3 Elemental Ki points in order to crumble and shake the earth underneath enemies near you. Each enemy within 15 feet of you must make a Dexterity saving throw or be knocked prone and pushed 10 feet either away or towards you, your choice for each creature affected. In addition, each creature that failed the save takes Bludgeoning damage equal to your Martial Arts die."
         ],
         [
           "Magma Snake",
@@ -139,7 +139,7 @@
           "Fire Step",
           "9th Level",
           "Fire",
-          "Spending 5 Elemental Ki points as a bonus action, you kick your feet and propulse yourself using a wave of fire. You can then land anywhere within 120 feet of you that you can see. Each creature within 5 feet of you when you do this and when you land must make a Dexterity saving throw or take your Martial Arts die in Fire damage, taking half as much on a successful saving throw."
+          "Spending 5 Elemental Ki points as a bonus action, you kick your feet and propulse yourself using a wave of fire. You can then land anywhere within 120 feet of you that you can see. Each creature within 5 feet of you when you do this and when you land must make a Dexterity saving throw or take twice your Martial Arts die in Fire damage, or only half as much on a successful saving throw."
         ],
         [
           "Ice Blade",
@@ -163,7 +163,7 @@
           "Lightning Strike",
           "11th Level",
           "Fire",
-          "You channel your body's energy to create lightning that ripples through your body. Spending 6 Elemental Ki and an action, choose one creature that you can see within 120 feet and make a ranged . The creature takes 5 times your Martial Arts die in Lightning damage on a hit."
+          "You channel your body's energy to create lightning that ripples through your body. Spending 6 Elemental Ki and an action, choose one creature that you can see within 120 feet and make a ranged attack. The creature takes ten times your Martial Arts die in Lightning damage on a hit."
         ],
         [
           "Blood Manipulation",
@@ -181,7 +181,7 @@
           "Lava Creation",
           "11th Level",
           "Earth",
-          "Choosing up to a 20-foot radius circle on the ground within 60 feet as an action and spending 6 Elemental Ki, you can melt the chosen area's surface. The surface becomes difficult terrain and stays manipulated in this way for a number of rounds equal to your Wisdom modifier. Additionally, each creature that starts its turn in this area or enters the area for the first time must make a Constitution saving throw, taking 4d8 Fire damage on a failed saving throw, or half as much on a successful saving throw. Creatures prone in the area take double damage."
+          "Choosing up to a 20-foot radius circle on the ground within 60 feet as an action and spending 6 Elemental Ki, you can melt the chosen area's surface. The surface becomes difficult terrain and stays manipulated in this way for a number of rounds equal to your Wisdom modifier. Additionally, each creature that starts its turn in this area or enters the area for the first time must make a Constitution saving throw, taking 4d8 Fire damage on a failed saving throw, or half as much on a successful saving throw. Creatures prone in the affected area take double damage."
         ],
         [
           "Fire Marble",
