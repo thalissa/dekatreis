@@ -43,7 +43,7 @@
             },
             {
               "name": "Champion of Dreams",
-              "body": "At 20th level, you can use your action to gain the following benefits for 1 minute:\n• You may cast the Etherealness spell at will without expending a spell slot. This spell can also be cast on other creatures within 30 feet of you. All castings of the spell are dispelled when this feature ends.\n• You and your allies have advantage on Wisdom and Charisma saving throws while within 30 feet of you.\nOnce you use this feature, you can't use it again until you finish a long rest."
+              "body": "At 20th level, you can use your action to gain the following benefits for 1 minute:\n• You may cast the Etherealness spell at will as a bonus action without expending a spell slot. This spell can also be cast on other creatures within 30 feet of you. All castings of the spell are dispelled when this feature ends.\n• You and your allies have advantage on Wisdom and Charisma saving throws while within 30 feet of you.\nOnce you use this feature, you can't use it again until you finish a long rest."
             }
           ]
         }
