@@ -67,7 +67,7 @@
           "Ring of Fire",
           "",
           "Fire",
-          "As an action, you spend 2 Elemental Ki points to summon a flaming chakram around your hands. Whenever you hit with your unarmed strikes, you deal fire damage instead of bludgeoning damage. The target must succeed on a Dexterity saving throw or be set on fire for a number of rounds equal to your Wisdom modifier, taking your Martial Arts die in fire damage at the start of each of their turn."
+          "As an action, you spend 2 Elemental Ki points to summon a flaming chakram around your hands. Whenever you hit with your unarmed strikes, you deal Fire damage instead of Bludgeoning damage. The target must succeed on a Dexterity saving throw or be set on fire for a number of rounds equal to your Wisdom modifier, taking your Martial Arts die in Fire damage at the start of each of their turn."
         ],
         [
           "Spiritual Healing",
@@ -91,7 +91,7 @@
           "Firewrap",
           "5th Level",
           "Fire",
-          "Spending 3 Elemental Ki points as an action, you can cover yourself and up to 7 allies within 30 feet in a protective coating of fire for a number of hours equal to your Wisdom modifier. Each creature affected becomes immune to the effects of extreme cold, gains resistance to cold damage, and any melee attacks that strike them causes the attacker to take 1d4 Fire damage."
+          "Spending 3 Elemental Ki points as an action, you can cover yourself and up to 7 allies within 30 feet in a protective coating of fire for a number of hours equal to your Wisdom modifier. Each creature affected becomes immune to the effects of extreme cold, gains resistance to Cold damage, and any melee attacks that strike them causes the attacker to take 1d4 Fire damage."
         ],
         [
           "Water Whip",
@@ -139,7 +139,7 @@
           "Fire Step",
           "9th Level",
           "Fire",
-          "Spending 5 Elemental Ki points as a bonus action, you kick your feet and propulse yourself using a wave of fire. You can then land anywhere within 120 feet of you that you can see. Each creature within 5 feet of you when you do this and when you land must make a Dexterity saving throw or take your Martial Arts die in damage, taking half as much on a successful saving throw."
+          "Spending 5 Elemental Ki points as a bonus action, you kick your feet and propulse yourself using a wave of fire. You can then land anywhere within 120 feet of you that you can see. Each creature within 5 feet of you when you do this and when you land must make a Dexterity saving throw or take your Martial Arts die in Fire damage, taking half as much on a successful saving throw."
         ],
         [
           "Ice Blade",
@@ -271,7 +271,7 @@
           "True Spirituality",
           "19th Level, Air Disposition",
           "Air",
-          "Spending 10 Elemental Ki points, you reach for total enlightenment, becoming one with the air around you. For 1 minute, you disappear, become untargetable, and able to manipulate the wind in ways never thought before. As an action on each turn after transforming, you can choose to either begin or stop a windstorm. Each time you start the storm, you can choose any number of the following effects for it to have:\n• At the end of each of your turns, creatures that you choose within 120 feet of where you were must succeed on a Dexterity saving throw or take your Martial Arts die in damage, taking half on a successful save, as strikes of wind lash out across the area.\n• Ranged attacks that you choose have disadvantage against their targets, as sweeping gusts of air attempt to thrash in front of their pathways.\n• Allied creatures gain a bonus to their movement speed equal to your Unarmored Movement speed as air wraps around their limbs and surges them forward."
+          "Spending 10 Elemental Ki points, you reach for total enlightenment, becoming one with the air around you. For 1 minute, you disappear, become untargetable, and able to manipulate the wind in ways never thought before. As an action on each turn after transforming, you can choose to either begin or stop a windstorm. Each time you start the storm, you can choose any number of the following effects for it to have:\n• At the end of each of your turns, creatures that you choose within 120 feet of where you were must succeed on a Dexterity saving throw or take your Martial Arts die in Bludgeoning damage, taking half on a successful save, as strikes of wind lash out across the area.\n• Ranged attacks that you choose have disadvantage against their targets, as sweeping gusts of air attempt to thrash in front of their pathways.\n• Allied creatures gain a bonus to their movement speed equal to your Unarmored Movement speed as air wraps around their limbs and surges them forward."
         ],
         [
           "Stone Giant",
