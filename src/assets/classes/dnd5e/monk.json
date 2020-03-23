@@ -64,10 +64,10 @@
           "Benefit"
         ],
         [
-          "Ring of Fire",
+          "Rings of Fire",
           "",
           "Fire",
-          "As an action, you spend 2 Elemental Ki points to summon a flaming chakram around your hands. Whenever you hit with your unarmed strikes, you deal Fire damage instead of Bludgeoning damage. The target must succeed on a Dexterity saving throw or be set on fire for a number of rounds equal to your Wisdom modifier, taking your Martial Arts die in Fire damage at the start of each of their turn."
+          "As a bonus action, you spend 2 Elemental Ki points to summon flaming chakrams around your hands. For the next minute, whenever you hit with your unarmed strikes, you deal Fire damage instead of Bludgeoning damage. When a target takes damage in this way, you may spend an additional Elemental Ki point to force them to make a Dexterity saving throw. On a failed save, the target is set on fire for a number of rounds equal to your Wisdom modifier, taking your Martial Arts die in Fire damage at the start of each of their turn. At the end of each of their turns, they may attempt a new saving throw to end the effect early."
         ],
         [
           "Spiritual Healing",
