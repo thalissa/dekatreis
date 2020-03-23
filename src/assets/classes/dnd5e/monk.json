@@ -163,7 +163,7 @@
           "Lightning Strike",
           "11th Level",
           "Fire",
-          "You channel your body's energy to create lightning that ripples through your body. Spending 6 Elemental Ki and an action, choose one creature that you can see within 120 feet and make a ranged attack roll. The creature takes 5 times your Martial Arts die in Lightning damage on a hit."
+          "You channel your body's energy to create lightning that ripples through your body. Spending 6 Elemental Ki and an action, choose one creature that you can see within 120 feet and make a ranged . The creature takes 5 times your Martial Arts die in Lightning damage on a hit."
         ],
         [
           "Blood Manipulation",
@@ -187,7 +187,7 @@
           "Fire Marble",
           "13th Level",
           "Fire",
-          "As an action, you can spend 7 Elemental Ki to conjure a marble made of pure elemental fire spirits and then throw it at a creature that you can see within 60 feet. Make a ranged attack roll, and on a hit the target takes 3d10 Fire damage as it burrows into their body. Once on each of your turns for the next minute, you may use an action to channel your Elemental Ki within the marble and make a new attack roll against a new target within the same range."
+          "As an action, you can spend 7 Elemental Ki to conjure a marble made of pure elemental fire spirits and then throw it at a creature that you can see within 60 feet. Make a ranged , and on a hit the target takes 3d10 Fire damage as it burrows into their body. Once on each of your turns for the next minute, you may use an action to channel your Elemental Ki within the marble and make a new  against a new target within the same range."
         ],
         [
           "Flowing River Spirits",
@@ -205,7 +205,7 @@
           "Destroyers of Earth",
           "13th Level",
           "Earth",
-          "You call forth gigantic earth spirits that can devastate structures in your path. Using an action and spending 7 Elemental Ki, for the next minute, you may command these Huge elemental spirits to strike at a structure within 300 feet that you can see. They use your proficiency bonus and Wisdom modifier for the attack roll, and deal 4d10 Bludgeoning damage on a successful strike. They will not target creatures, but may cause the structure to break in a way that will harm those in the way."
+          "You call upon gigantic earth spirits that can devastate structures in your path. Using an action and spending 7 Elemental Ki, for the next minute, you may command these Huge elemental spirits to perform a single combined melee strike at a structure within 300 feet that you can see. They use your proficiency bonus and Wisdom modifier for the attack roll, and deal 4d10 Bludgeoning damage on a successful strike. They will not target creatures, but may cause the structure to break in a way that will harm those in the way."
         ],
         [
           "Manipura",
@@ -259,13 +259,13 @@
           "Dancing Dragon",
           "19th Level, Fire Disposition",
           "Fire",
-          "As an action, you spend 10 Elemental Ki points to enwrap yourself in a deadly and beautiful firestorm that takes on the form of a dragon. For 1 minute, your size becomes huge, and you gain a breath weapon attack that can be used to melt creatures in your path. Once on each round after your transformation, as an action you can target a 120-foot line. Each creature in its path must make a Constitution saving throw or take 10d10 Fire damage. Creatures that succeed take half as much damage."
+          "As an action, you spend 10 Elemental Ki points to enwrap yourself in a deadly and beautiful firestorm that takes on the form of a dragon. For 1 minute, your size becomes Huge, and you gain a breath weapon attack that can be used to melt creatures in your path. Once on each round after your transformation, as an action you can target a 120-foot line. Each creature in its path must make a Constitution saving throw or take 10d10 Fire damage. Creatures that succeed take half as much damage."
         ],
         [
           "Rise of the Kraken",
           "19th Level, Water Disposition",
           "Water",
-          "Expending 10 Elemental Ki as an action, for 1 minute you manipulate a great amount of water around yourself to represent the form of a mighty Kraken. Your size becomes huge, you gain temporary hitpoints equal to twice your Monk level, and your reach with unarmed strikes becomes 20 feet with your newfound tentacles that sprout from you. Each time you hit with your unarmed strikes, the target must succeed on a Strength saving throw or be grappled. You cannot grapple more than 3 creatures at once in this way."
+          "Expending 10 Elemental Ki as an action, for 1 minute you manipulate a great amount of water around yourself to represent the form of a mighty kraken. Your size becomes Huge, you gain temporary hitpoints equal to twice your Monk level, and your reach with unarmed strikes becomes 20 feet with your newfound tentacles that sprout from you. Each time you hit with your unarmed strikes, the target must succeed on a Strength saving throw or be grappled. You cannot grapple more than 3 creatures at once in this way."
         ],
         [
           "True Spirituality",
@@ -277,7 +277,7 @@
           "Stone Giant",
           "19th Level, Earth Disposition",
           "Earth",
-          "Expending 10 Elemental Ki as an action, for 1 minute you take on a monsterous form of a giant construct made of stone. Your size becomes huge, you gain additional AC equal to your Wisdom modifier, and the ability to throw chunks of your stone form. These count as a thrown weapon attack that have a range of 60 feet, and deal 4d10 Bludgeoning damage on a hit. Creatures that are hit must also make a Constitution saving throw, falling prone on a failed save."
+          "Expending 10 Elemental Ki as an action, for 1 minute you take on a monsterous form of a giant construct made of stone. Your size becomes Huge, you gain additional AC equal to your Wisdom modifier, and the ability to throw chunks of your stone form. These count as a thrown weapon attack that have a range of 60 feet, and deal 4d10 Bludgeoning damage on a hit. Creatures that are hit must also make a Constitution saving throw, falling prone on a failed save."
         ]
       ]
     }
