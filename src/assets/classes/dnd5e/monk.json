@@ -163,13 +163,13 @@
           "Lightning Strike",
           "11th Level",
           "Fire",
-          "You channel your body's energy to create lightning that ripples through your body. Spending 6 Elemental Ki and an action, choose one creature that you can see within 120 feet and make a ranged attack roll. The creature takes 5 times your Martial Arts die in damage on a hit."
+          "You channel your body's energy to create lightning that ripples through your body. Spending 6 Elemental Ki and an action, choose one creature that you can see within 120 feet and make a ranged attack roll. The creature takes 5 times your Martial Arts die in Lightning damage on a hit."
         ],
         [
           "Blood Manipulation",
           "11th Level",
           "Water",
-          "As an action, spend 6 Elemental Ki and choose one creature that you can see within 60 feet. For the next minute, the target must make a Constitution saving throw at the start of each of its turns or else you get to choose the action it takes. Otherwise, it takes its turn as normal."
+          "As an action, spend 6 Elemental Ki and choose one creature that you can see within 60 feet. For the next minute, the target must make a Constitution saving throw at the start of each of its turns or else you get to choose the action it takes. On its first successful save, this effect ends."
         ],
         [
           "Spiritual Projection",
@@ -193,7 +193,7 @@
           "Flowing River Spirits",
           "13th Level",
           "Water",
-          "You call forth spirits from the Elemental Plane of Water to create a river. As an action and spending 7 Elemental Ki, choose up to a 300-foot line or 120-foot diameter area originating from you. At the start of your next turn, the spirits finish transforming the land and the ground becomes water, sinking 30 feet deep. The transformation lasts for 10 minutes, and for the duration you gain a Swim speed equal to your speed."
+          "You call forth spirits from the Elemental Plane of Water to create a river or lake. As an action and spending 7 Elemental Ki, choose up to a 300-foot, 15-foot wide line or 120-foot diameter area originating from you. At the start of your next turn, the spirits finish transforming the land and the ground becomes water, sinking 30 feet deep. The transformation lasts for 10 minutes, and for the duration you gain a Swim speed equal to your speed."
         ],
         [
           "Winds of Creation",
@@ -205,7 +205,7 @@
           "Destroyers of Earth",
           "13th Level",
           "Earth",
-          "You call forth gigantic earth spirits that can devastate structures in your path. For the next minute, you may command these Huge elemental spirits to strike at a structure within 300 feet that you can see. They use your proficiency bonus and Wisdom modifier for the attack roll, and deal 4d10 Bludgeoning damage on a successful strike. They will not target creatures, but may cause the structure to break in a way that will harm those in the way."
+          "You call forth gigantic earth spirits that can devastate structures in your path. Using an action and spending 7 Elemental Ki, for the next minute, you may command these Huge elemental spirits to strike at a structure within 300 feet that you can see. They use your proficiency bonus and Wisdom modifier for the attack roll, and deal 4d10 Bludgeoning damage on a successful strike. They will not target creatures, but may cause the structure to break in a way that will harm those in the way."
         ],
         [
           "Manipura",
