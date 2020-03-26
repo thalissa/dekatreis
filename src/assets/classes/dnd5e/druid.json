@@ -1,0 +1,33 @@
+{
+  "name": "Druid",
+  "description": "Flavourtext",
+  "sections": [
+    {
+      "name": "Dekatreis-Specific Changes",
+      "body": [
+        {
+          "name": "Wild Shape (Altered)",
+          "level": "2",
+          "body": "All Druids can use Wild Shape as a bonus action, rather than an action."
+        }
+      ]
+    }
+  ],
+  "additionalContent": [
+    {
+      "name": "Druidic Circles",
+      "style": "details",
+      "items": [
+        {
+          "name": "Text",
+          "sections": [
+            {
+              "name": "Text",
+              "body": "Text"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

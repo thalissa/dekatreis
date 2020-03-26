@@ -1,0 +1,33 @@
+{
+  "name": "Rogue",
+  "description": "Flavourtext",
+  "sections": [
+    {
+      "name": "Dekatreis-Specific Changes",
+      "body": [
+        {
+          "name": "Cunning Action (Altered)",
+          "level": "2",
+          "body": "You gain an additional way to use your Cunning Action, \"Callout.\" Choose an ally that you can see and an enemy within 10 feet of that ally. The next attack made by that ally against that enemy before the start of your next turn gains advantage."
+        }
+      ]
+    }
+  ],
+  "additionalContent": [
+    {
+      "name": "Roguish Archetypes",
+      "style": "details",
+      "items": [
+        {
+          "name": "Text",
+          "sections": [
+            {
+              "name": "Text",
+              "body": "Text"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

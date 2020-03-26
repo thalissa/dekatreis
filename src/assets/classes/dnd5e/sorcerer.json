@@ -6,6 +6,11 @@
       "name": "Dekatreis-Specific Changes",
       "body": [
         {
+          "name": "Ability Proficiencies (New)",
+          "level": "1",
+          "body": "Sorcerous origins can be found throughout Dekatreis in plentiful ways, through unlocking their true potential after mixing their flesh with that of a stronger creature's or being granted a boon by an ancient being.\n\nWhen you gain your 1st level in Sorcerer, you may choose Intelligence or Wisdom, instead of Charisma, to use for all your class abilities. In addition, the multiclass requirement changes from 13 Charisma to whichever ability score you chose. Once this option has been chosen, it cannot be changed at later levels."
+        },
+        {
           "name": "Self Focus (New)",
           "level": "1",
           "body": "When you cast spells that require a material component, you can ignore that component unless it has a value or the used components are consumed with the casting of the spell, in which case the materials for the spell are required."

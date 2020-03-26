@@ -1,0 +1,33 @@
+{
+  "name": "Cleric",
+  "description": "Flavourtext",
+  "sections": [
+    {
+      "name": "Dekatreis-Specific Changes",
+      "body": [
+        {
+          "name": "Ability Proficiencies (New)",
+          "level": "1",
+          "body": "In Dekatreis, Clerics attune to magic in many distinct ways due to the nature of deities within the world. Whether following a set of teachings or serving their faith through extensive teaching, Clerics can find ways to channel such higher powers without being gifted it.\n\nWhen you gain your 1st level in Cleric, you may choose Intelligence or Charisma, instead of Wisdom, to use for all your class abilities. In addition, the multiclass requirement changes from 13 Wisdom to whichever ability score you chose. Once this option has been chosen, it cannot be changed at later levels."
+        }
+      ]
+    }
+  ],
+  "additionalContent": [
+    {
+      "name": "Cleric Domains",
+      "style": "details",
+      "items": [
+        {
+          "name": "Text",
+          "sections": [
+            {
+              "name": "Text",
+              "body": "Text"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
