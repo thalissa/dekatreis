@@ -3,49 +3,37 @@
     {
       "name": "History",
       "sections": [
-        {
-          "name": "Creator's Prologue"
-        },
-        {
-          "name": "History of Dekatreis"
-        },
-        {
-          "name": "Present Days"
-        }
+        "Creator's Prologue",
+        "History of Dekatreis",
+        "Present Days"
       ]
     },
     {
       "name": "The Demigods",
       "sections": [
-        {
-          "name": "Demigods"
-        },
-        {
-          "name": "Artefacts"
-        }
+        "Demigods",
+        "Artefacts"
       ]
     },
     {
       "name": "Kingdoms of Dekatreis",
       "sections": [
-        {
-          "name": "Dekatreis"
-        },
-        {
-          "name": "Sarille"
-        },
-        {
-          "name": "Totara"
-        },
-        {
-          "name": "Azorian Empire"
-        },
-        {
-          "name": "Azoranthium"
-        },
-        {
-          "name": "Akiira"
-        }
+        "Dekatreis",
+        "Sarille",
+        "Totara",
+        "Azorian Empire",
+        "Azoranthium",
+        "Akiira"
+      ]
+    },
+    {
+      "name": "Pantheons of Dekatreis",
+      "sections": [
+        "The Thirteen Demigods",
+        "Major Deities",
+        "Minor Deities",
+        "Court of Sin",
+        "Court of Virtue"
       ]
     }
   ]  

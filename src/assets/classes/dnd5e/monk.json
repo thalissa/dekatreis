@@ -16,7 +16,7 @@
   "additionalContent": [
     {
       "name": "Monastic Disciplines",
-      "style": "details",
+      "style": "subclass",
       "items": [
         {
           "name": "Way of the Elements",

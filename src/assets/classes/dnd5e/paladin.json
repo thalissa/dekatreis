@@ -21,7 +21,7 @@
   "additionalContent": [
     {
       "name": "Paladin Oaths",
-      "style": "details",
+      "style": "subclass",
       "items": [
         {
           "name": "Oath of the Dreamers",

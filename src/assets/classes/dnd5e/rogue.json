@@ -1,6 +1,6 @@
 {
   "name": "Rogue",
-  "description": "Flavourtext",
+  "description": "Many circumstances breed the precision and cunning that befits a rogue. From the mistreated to the corrupt, the good-hearted pushed over the edge and those that take matters into thier own hands, rogues are in no shortage in Dekatreis and rank high in the powerful list of organizations that interweave themselves throughout the many cities in each kingdom.",
   "sections": [
     {
       "name": "Dekatreis-Specific Changes",
@@ -16,14 +16,34 @@
   "additionalContent": [
     {
       "name": "Roguish Archetypes",
-      "style": "details",
+      "style": "subclass",
       "items": [
         {
-          "name": "Text",
+          "name": "Kingslayer",
           "sections": [
             {
-              "name": "Text",
-              "body": "Text"
+              "name": "The Kingslayer Rogue",
+              "body": "A master of deception and assassination, Kingslayer rogues rely on their wit to take down those in power that they believe are incapable of properly ruling."
+            },
+            {
+              "name": "In High Places",
+              "body": "At 3rd level when you choose this archetype, you know how to get into many places that you wouldn't otherwise be able to get. So long as you can dress appropriately, you and your companions have advantage on all social checks to deceive people into thinking you belong.\n\nAdditionally, you add double your proficiency bonus to your initiative."
+            },
+            {
+              "name": "Noble's Court",
+              "body": "At 3rd level, you gain the ability to forge documents to make it appear that you belong to a court of nobility. The DC to recognize this forgery is equal to 10 + half your Rogue level (rounded down) + your Intelligence modifier."
+            },
+            {
+              "name": "Let Them Eat Cake",
+              "body": "At 9th level, you become a master of poisons. You are able to expend 25gp per level worth of materials over the course of a long rest in order to create a vial of poison that can be applied to a food, drink, weapon, or three pieces of ammunition as an action. The poison remains potent on the food for 1 hour, and on weapons and ammunitions until injuring a creature. Anyone affected by this poison takes poison damage equal to your sneak attack die and gains the poisoned condition for 24 hours."
+            },
+            {
+              "name": "Blackmail",
+              "body": "At 13th level, you have ways of pulling strings like no one else. Whenever you make an Intimidation or Persuasion check, you may use Intelligence instead of Charisma and your proficiency bonus is doubled when you do an Intimidation or Persuasion check."
+            },
+            {
+              "name": "Coup de Grace",
+              "body": "At 17th level, you've gained the ability to swiftly take down your foes. When you perform a sneak attack using a melee weapon on a creature below half their maximum hitpoints, you may choose to do a Coup de Grace, doubling the amount of sneak attack rolls for that attack. If the attack is a critical strike, you roll your sneak attack dice four times. After using this feature, you may not perform a Coup de Grace again until you finish a short or long rest."
             }
           ]
         }

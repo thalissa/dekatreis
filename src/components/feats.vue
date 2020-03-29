@@ -32,6 +32,19 @@
                     h4 {{ section.name }}
                     .displayText {{ section.body }}
             
+            <!-- Rendering subclasses -->
+            template(v-else-if="featureStyle == 'subclass'")
+              .buttons
+                template(v-for="(row, key) in items")
+                  button(@click="setSubclass(key)") {{ row.name }}
+              
+              h2.displayHeading {{ subclass.name }}
+                .book {{ subclass.book }}
+              
+              template(v-for="row in subclass.sections")
+                h3.displayHeading {{ row.name }}
+                .displayText {{ row.body }}
+            
             <!-- Simple render -->
             template(v-else)
               template(v-for="row in items")
@@ -64,6 +77,19 @@
   
   table td
     padding 5px
+  
+  .buttons
+    display flex
+    flex-direction col
+  
+  button
+    padding 5px 10px
+    outline none
+    border none
+    border-radius 5px
+    cursor pointer
+    margin-left 6px
+    margin-right 6px
 </style>
 
 <script>
@@ -77,7 +103,8 @@
         featureName: '',
         featureStyle: '',
         className: '',
-        name: ''
+        name: '',
+        subclass: {}
       }
     },
     mounted() {
@@ -98,10 +125,21 @@
           this.featureName = featureJSON.additionalContent[this.feature].name
           this.featureStyle = featureJSON.additionalContent[this.feature].style
           this.items = featureJSON.additionalContent[this.feature].items
+          
+          if(this.featureStyle == "subclass"){
+            this.subclass = this.items[0]
+          }
         } else {
           // Not found rendering
           this.feature = "Feature not found!"
           this.body = "We couldn't find the feature you wanted. Maybe go back to the index?"
+        }
+      },
+      setSubclass: function(id){
+        if(this.items){
+          this.subclass = this.items[id]
+        } else {
+          console.log("No items set. Is this an error?")
         }
       }
     }
