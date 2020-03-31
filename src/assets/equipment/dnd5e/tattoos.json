@@ -5,7 +5,7 @@
     {
       "name": "Mark of Bequirel",
       "price": "-",
-      "body": "An adventurer falls at some point in their life, whether it be to a blade or disease. It's commonly whispered that occasionally, those who meet an untimely fate will be saved, earning his marking in the process.\n\nUpon obtaining the Mark of Bequirel, you are given one of the following abilities of the GM's choice:\nLife of the Wind. You no longer take damage falling from great heights.\nLife of the Fire. You gain resistance to Fire damage equal to half your level.\nLife of the Water. You no longer need to eat or drink.\nLife of the Earth. You can no longer be knocked prone."
+      "body": "An adventurer falls at some point in their life, whether it be to a blade or disease. It's commonly whispered that occasionally, those who meet an untimely fate will be saved, earning his marking in the process.\n\nUpon obtaining the Mark of Bequirel, you are given one of the following abilities of the GM's choice:\nLife of the Wind. You no longer take damage falling from great heights.\nLife of the Fire. You gain resistance to Fire damage. If you already have Fire resistance, you instead gain immunity to Fire damage.\nLife of the Water. You no longer need to eat or drink.\nLife of the Earth. You can no longer be knocked prone."
     }
   ]
 }
