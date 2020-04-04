@@ -16,7 +16,6 @@
               
               <!-- Render each subsection -->
               div(v-for="subsection in section.body")
-                
                 <!-- Render tables -->
                 template(v-if="subsection.style == 'table'")
                   summary

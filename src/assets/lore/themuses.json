@@ -1,0 +1,17 @@
+{
+  "themuses": [
+    {
+      "name": "The Muses",
+      "sections": [
+        {
+          "name": "General Knowledge",
+          "body": "Unlike The Three Fates, there are The Nine Muses who have many cults dedicated to their domains of art.\n\nAll nine muses work separately, though occasionally can be seen in small groups, using their various specialties in tandem to put on a performance for the people around Dekatreis. Unlike many of Dekatreis' other deities, the Muses appear around the world often."
+        },
+        {
+          "name": "List of Muses",
+          "body": "Astra is the overarching Muse of Artistry. Her symbol is a paintbrush with a compass tipped on its handle.\nAlis is the Muse of Love, whose symbol is a dragon's breath forming a heart.\nLyria is the Muse of Tragedy. Her symbol is a smiling mask, cracked along its edge.\nEiri is the Muse of Peace. Her symbol is a bottle of alcohol being poured.\nGalia is the Muse of Comedy, and her symbol is a frowning mask with cracks along its edges.\nMonaia is the Muse of Song. Her symbol is a music note rising from a body of water.\nKinisa is the Muse of Performance, whose symbol is a pair of children.\nIrios is the Muse of Heroism. Her symbol is a dragon rising from a pile of weaponry.\nLibra is the Muse of History, and her symbol is a scroll, inscribed upon it the first word the wearer spoke."
+        }
+      ]
+    }
+  ]
+}

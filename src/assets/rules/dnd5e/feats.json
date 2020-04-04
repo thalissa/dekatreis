@@ -1,0 +1,38 @@
+{
+  "feats": [
+    {
+      "name": "Feats",
+      "sections": [
+        {
+          "name": "Basic Information",
+          "body": [
+            {
+              "name": "Starting Feat",
+              "body": "Every character gets a starting feat at 1st level from the list below. These feats are utility based and may not add a lot to combat, but add to the character.\n\nVariant humans who already take a feat at 1st level do not get an additional feat, but may instead choose any feat instead of being limited to this list.\n\nStarting Feats: Actor, Dungeon Delver, Keen Mind, Linguist, Healer, Inspiring Leader, Observant, Skilled, Skulker\n\nIn addition, at the discretion of your Game Master, you may choose a feat from the Unearthed Arcana Feats for Skills or Feats for Races."
+            }
+          ]
+        },
+        {
+          "name": "New Feats",
+          "body": [
+            {
+              "style": "table",
+              "body": [
+                [
+                  "Name",
+                  "Prerequisites",
+                  "Body"
+                ],
+                [  
+                  "Erudite Scholar",
+                  "Intelligence 13",
+                  "Increase your Intelligence score by 1, to a maximum of 20.\n\nYou have trained to recall information in great detail. Whenever you would roll an Arcana, History, Religion, or Nature check, you can choose to instead forego the roll and use 10 + the modifiers of the skill check as the result.\n\nAdditionally, you gain the Encode Thoughts cantrip and can cast the spell Identify once per long rest without expending a spell slot or material components."
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

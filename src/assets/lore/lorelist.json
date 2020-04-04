@@ -33,7 +33,16 @@
         "Major Deities",
         "Minor Deities",
         "Court of Sin",
-        "Court of Virtue"
+        "Court of Virtue",
+        "The Fates",
+        "The Muses"
+      ]
+    },
+    {
+      "name": "Miscellaneous Information",
+      "sections": [
+        "Celestial Bodies",
+        "Times and Dates"
       ]
     }
   ]  

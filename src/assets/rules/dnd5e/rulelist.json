@@ -1,7 +1,6 @@
 {
   "rules": [
-    {
-      "name": "Hero Points"
-    }
+    "Hero Points",
+    "Feats"
   ]  
 }
