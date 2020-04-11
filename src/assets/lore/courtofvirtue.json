@@ -5,7 +5,11 @@
       "sections": [
         {
           "name": "General Knowledge",
-          "body": "The Court of Virtue is directly opposed to the Court of Sin, the two in an endless battle for the souls of mortals among Dekatreis. While the Court of Sin thrives off the evil in everyone's souls, the Court of Virtue wishes to draw out the good in every creature's hearts to ensure that they reach the Virtuous Planes.\n\nAlthough not all may know it, many of a person's daily rites and common courtesies can be attributed to the Court of Virtue, from the blessings to the divines to minor aspects of friendship itself. The seven deities that make up the Court of Virtue use their loyal followers and creatures bound to them in order to prove that no matter how dark one's aura may tint, that light can last. So long as there is a piece of virtue within, redemption is possible."
+          "body": "The Court of Virtue is directly opposed to the Court of Sin, the two in an endless battle for the souls of mortals among Dekatreis. While the Court of Sin thrives off the evil in everyone's souls, the Court of Virtue wishes to draw out the good in every creature's hearts to ensure that they reach the Virtuous Planes.\n\nAlthough not all may know it, many of a person's daily rites and common courtesies can be attributed to the Court of Virtue, from the blessings to the divines to minor aspects of friendship itself. The four deities that make up the Court of Virtue use their loyal followers and creatures bound to them in order to prove that no matter how dark one's aura may tint, that light can last. So long as there is a piece of virtue within, redemption is possible."
+        },
+        {
+          "name": "The Virtuous Gods",
+          "body": "Sophrosyne, Goddess of Temperance (N)\nPhronesis, God of Prudence (LG)\nAndreia, Goddess of Courage (CG)\nDikaiosyne, God of Justice (LG)"
         }
       ]
     }
