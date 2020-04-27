@@ -18,7 +18,7 @@
         {
           "name": "Hex (New)",
           "level": "1",
-          "body": "Warlocks can innately cast Hex once per short rest, and the spell scaling is based on their Warlock level only, not their total level.\n\nSpecial Note: Hex has been removed from the Warlock spell list, making it inaccessable from feats such as Magic Initiate."
+          "body": "Warlocks can innately cast Hex once per short rest, and the spell scaling is based on their Warlock level only.\n\nSpecial Note: Hex has been removed from the Warlock spell list, making it inaccessable from feats such as Magic Initiate."
         }
       ]
     }
