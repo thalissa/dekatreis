@@ -1,0 +1,48 @@
+{
+  "elf": [
+    {
+      "name": "Elf",
+      "sections": [
+        {
+          "name": "Elf Background",
+          "body": [
+            {
+              "name": "To Come Soon",
+              "body": "Soon (tm)"
+            }
+          ]
+        },
+        {
+          "name": "Dark Elf",
+          "book": "Subrace",
+          "body": [
+            {
+              "name": "Background",
+              "body": "Drow do not exist in the traditional sense in Dekatreis, being born of the Book of Creation as Dark Elves. After the War of the Five Elves, they were outcast from society and hid away using dark magic and access to the Underdark caverns of Dekatreis. As such, they are much younger and much less influenced by Lolth in the lands of Dekatreis, though her influence still has managed to slip in to Dark Elf society, leaving them vulnerable to her whim."
+            },
+            {
+              "name": "Ability Score Increase",
+              "body": "Your Charisma score increases by 1."
+            },
+            {
+              "name": "Superior Darkvision",
+              "body": "The Dark Elves have slowly began to adapt to their new, outcast lives. Your darkvision has a radius of 90 feet."
+            },
+            {
+              "name": "Sunlight Irritation",
+              "body": "The Dark Elves of Dekatreis have only been in seclusion of a few hundred years. Their eyes have adjusted to be more adept to the dark, but haven't fully forgotten how to withstand the brightness of the surface. You have disadvantage on ability checks that require sight while you or whatever you are trying to perceive is in direct sunlight."
+            },
+            {
+              "name": "Dark Elf Magic",
+              "body": "Kavara gave the Dark Elves magic, just as their Drow counterparts had. You know the Dancing Lights cantrip. When you reach 3rd level, you can cast the Faerie Fire spell once per day. When you reach 5th level, you can also cast the Darkness spell once per day. Charisma is your spellcasting ability for these spells."
+            },
+            {
+              "name": "Dark Elf Weapon Training",
+              "body": "You have proficiency with rapiers, shortswords, whips, and hand crossbows."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

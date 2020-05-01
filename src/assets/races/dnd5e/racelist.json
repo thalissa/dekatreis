@@ -27,6 +27,14 @@
           "name": "Nightwalker"
         }
       ]
+    },
+    {
+      "name": "Elf",
+      "subraces": [
+        {
+          "name": "Dark Elf"
+        }
+      ]
     }
   ]
 }
