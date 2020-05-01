@@ -4,11 +4,36 @@
       "name": "Feats",
       "sections": [
         {
-          "name": "Basic Information",
+          "name": "New Feat Rules",
           "body": [
             {
-              "name": "Starting Feat",
-              "body": "Every character gets a starting feat at 1st level from the list below. These feats are utility based and may not add a lot to combat, but add to the character.\n\nVariant humans who already take a feat at 1st level do not get an additional feat, but may instead choose any feat instead of being limited to this list.\n\nStarting Feats: Actor, Dungeon Delver, Keen Mind, Linguist, Healer, Inspiring Leader, Observant, Skilled, Skulker\n\nIn addition, at the discretion of your Game Master, you may choose a feat from the Unearthed Arcana Feats for Skills or Feats for Races."
+              "name": "Feats By Level",
+              "body": "Whenever your class grants you an ability score increase, you must take it, you cannot swap it out for a feat. However, your characters gain feats at level 1, 5, 9, 13, and 17. Your 1st level feat (starting feat) must be chosen from the list below. These feats are utility based and may not add a lot to combat, but add to the character. Variant humans who already take a feat at 1st level do not get an additional feat, but may instead choose any feat instead of being limited to this list.\n**Starting Feats:** Actor, Dungeon Delver, Keen Mind, Linguist, Healer, Inspiring Leader, Observant, Skilled, Skulker\n\nIn addition, at the discretion of your Game Master, you may choose a feat from the Unearthed Arcana Feats for Skills or Feats for Races."
+            }
+          ]
+        },
+        {
+          "name": "Modified Feats",
+          "body": [
+            {
+              "style": "table",
+              "body": [
+                [
+                  "Name",
+                  "Prerequisites",
+                  "Body"
+                ],
+                [
+                  "Sharpshooter",
+                  "",
+                  "You have mastered ranged weapons and can make shots that others find im possible. You gain the following benefits:\n• Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls.\n• Your ranged weapon attacks ignore half cover and three-quarters cover.\n• Before you make an attack with a ranged weapon that you are proficient with, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add a 1d6 to the attack’s damage. This damage increases when you reach 5th Level (1d10), 11th level (2d10) and 17th level (3d10)."
+                ],
+                [
+                  "Great Weapon Master",
+                  "",
+                  "You’ve learned to put the weight of a weapon to your advantage, letting its momentum empower your strikes. You gain the following benefits:\n• On your turn, when you score a critical hit with a melee weapon or reduce a creature to 0 hit points with one, you can make one melee weapon attack as a bonus action.\n• Before you make a melee attack with a heavy weapon that you are proficient with, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add a 1d6 to the attack’s damage. This damage increases when you reach 5th Level (1d10), 11th level (2d10) and 17th level (3d10)."
+                ]
+              ]
             }
           ]
         },
@@ -26,7 +51,7 @@
                 [  
                   "Erudite Scholar",
                   "Intelligence 13",
-                  "Increase your Intelligence score by 1, to a maximum of 20.\n\nYou have trained to recall information in great detail. Whenever you would roll an Arcana, History, Religion, or Nature check, you can choose to instead forego the roll and use 10 + the modifiers of the skill check as the result.\n\nAdditionally, you gain the Encode Thoughts cantrip and can cast the spell Identify once per long rest without expending a spell slot or material components."
+                  "Increase your Intelligence score by 1, to a maximum of 20.\nYou have trained to recall information in great detail. Whenever you would roll an Arcana, History, Religion, or Nature check, you can choose to instead forego the roll and use 10 + the modifiers of the skill check as the result.\nAdditionally, you gain the Encode Thoughts cantrip and can cast the spell Identify once per long rest without expending a spell slot or material components."
                 ]
               ]
             }

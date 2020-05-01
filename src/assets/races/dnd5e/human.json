@@ -24,12 +24,35 @@
             },
             {
               "name": "Using Human Subraces",
-              "body": "These are variations to the human race that exist in Dekatreis. You may choose these in addition to the variant human listed in the PHB and the normal human race in the PHB. All of the abilities listed here replace the \"Ability Score Increase\" trait that humans get by default."
+              "body": "These are variations to the human race that exist in Dekatreis. When you choose these, you take the default human statistics. All of the abilities listed here replace the \"Ability Score Increase\" trait that humans get by default."
+            }
+          ]
+        },
+        {
+          "name": "Variant",
+          "book": "Subrace",
+          "body": [
+            {
+              "name": "Background",
+              "body": "Widely adaptable and varied in skill, this is the default human subrace if you don't choose one of the below subraces."
+            },
+            {
+              "name": "Ability Score Increase",
+              "body": "Two ability scores of your choice increase by 1."
+            },
+            {
+              "name": "Skilled",
+              "body": "Widely travelled, you gain proficiency in one additional skill as well as one additional language."
+            },
+            {
+              "name": "Feat",
+              "body": "You gain one feat of your choice."
             }
           ]
         },
         {
           "name": "Petona",
+          "book": "Subrace",
           "body": [
             {
               "name": "Background",
@@ -47,6 +70,7 @@
         },
         {
           "name": "Magia",
+          "book": "Subrace",
           "body": [
             {
               "name": "Background",
@@ -64,6 +88,7 @@
         },
         {
           "name": "Kathari",
+          "book": "Subrace",
           "body": [
             {
               "name": "Restricted",
@@ -93,10 +118,15 @@
         },
         {
           "name": "Nekomimi",
+          "book": "Subrace",
           "body": [
             {
               "name": "Background",
               "body": "Unlike the Petona, Magia, and Kathari, the Nekomimi weren't an experiment but a recreation of the cat-like races from the old world. With sensitive, cat-like ears and tails to enhance their balance, they quickly became the hunting masters of the human race."
+            },
+            {
+              "name": "Ability Score Increase",
+              "body": "Your Dexterity increases by 2, and your Charisma or Wisdom score increases by 1."
             },
             {
               "name": "Darkvision",
