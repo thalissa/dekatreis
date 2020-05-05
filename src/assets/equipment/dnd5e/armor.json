@@ -2,7 +2,7 @@
   "name": "Armor",
   "description": [
     "Armor increases your character’s defenses, but some medium or heavy armor can hamper movement. If you want to increase your character’s defense beyond the protection your armor provides, they can use a shield. Armor protects your character only while they’re wearing it.",
-    "**Unarmored:** Items with the Unarmored trait can be worn on top of existing armor and still provide their bonus."
+    "**Unarmored:** Items with the Unarmored trait can be worn on top of existing armor and still provide their bonus, but do not add on top of shield bonuses."
   ],
   "equipment": [
     {
