@@ -1,0 +1,17 @@
+{
+  "celestialbodies": [
+    {
+      "name": "Celestial Bodies",
+      "sections": [
+        {
+          "name": "The Three Moons",
+          "body": "Dekatreis is a world with three moons that rotate around the planet. One moon is sapphire, giving the land a light-blue tint when the moon is above the land. A second moon is white, giving it its natural colour. The last moon is scarlet red, casting the same look as the sapphire moon except with a red tint on the world instead of blue. Many worshipers of Selune believe these three colours as representing the soul (blue), the purity (white), and the love (red) of Selune herself.\n\nMany cultures have differing interpretations, but universally the red moon is seen as a time of fear. When and where the superstition came from, not many are sure.\n\nIt's accepted among most elves that they should Trance during the red moon in order to protect their minds from the evil of the world.\n\nSome cultures of elves and humans are hyperaware during the red moon in order to guard against changeling and fey, fearing that the red moon is the time that they steal children in order for changelings to take their place or for fey to take them to the Feywild.\n\nSimilarly to the above, orcs believe that during the red moon, their children are stolen and turned into goblins by fey.\n\nGnomes commonly place mirrors over their windows, in order to prevent the red light from entering their dwelling."
+        },
+        {
+          "name": "Comet of the Gods",
+          "body": "Every 50 years, the Comet of the Gods--a bright, multicoloured comet that can be seen from Dekatreis--appears in the sky for one hour before becoming too faint to make out. During this time, Divine casters have remarked feeling a greater surge of power and rituals of a divine sense are much more potent. The Queen declared her rule during the appearance of this comet, enabling the first Comet of the Gods to be on \"0 QY.\" As of the year 950 QY, there have been 19 such comets. The first sighting of the Comet of the Gods was said to be during the first hundred years of the Demigods arriving, though initial documentation of the comet was scarce until its recurrence was observed."
+        }
+      ]
+    }
+  ]
+}

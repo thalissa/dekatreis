@@ -1,0 +1,61 @@
+{
+  "name": "Cleric",
+  "description": "When Dekatreis was made, it had no connection to the other gods. The only deities for the longest time were the Demigods and the stories they told of the deities from where they came from. Yet, with time, a pantheon began to form, and divine magic became easily granted from such higher powers as well as the Demigods. While Warlocks are granted power by making deals, Clerics often are granted powers through worship alone, serving for ideals rather than power.",
+  "sections": [
+    {
+      "name": "Dekatreis-Specific Changes",
+      "body": [
+        {
+          "name": "Ability Proficiencies (New)",
+          "level": "1",
+          "body": "In Dekatreis, Clerics attune to magic in many distinct ways due to the nature of deities within the world. Whether following a set of teachings or serving their faith through extensive teaching, Clerics can find ways to channel such higher powers without being gifted it.\n\nWhen you gain your 1st level in Cleric, you may choose Intelligence or Charisma, instead of Wisdom, to use for all your class abilities. In addition, the multiclass requirement changes from 13 Wisdom to whichever ability score you chose. Once this option has been chosen, it cannot be changed at later levels."
+        }
+      ]
+    }
+  ],
+  "additionalContent": [
+    {
+      "name": "Cleric Domains",
+      "style": "subclass",
+      "items": [
+        {
+          "name": "Antimage Domain",
+          "sections": [
+            {
+              "name": "The Antimage",
+              "body": "Popularized by Fyrra Kelrae, the Demigod who wielded the Rapier of Dispelling, the domain of Antimages derives from a distinct hatred of magic and all things that attempt to bend the Weave. Whether it be a perverted sense of righteousness in the belief that the Weave shouldn't be accessed directly by mortals, or like Fyrra Kelrae herself having a particular hatred of the goddess of magic herself, those who channel these powers can rebuke such offenders with ease."
+            },
+            {
+              "name": "Antimage Domain Spells",
+              "body": "The following are Domain Spells for you, granted at the levels listed. Once you gain a domain spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.\n\n1st Level: Detect Magic, Shield\n3rd Level: Nystul's Magic Aura, Silence\n5th Level: Counterspell, Dispel Magic\n7th Level: Death Ward, Confusion\n9th Level: Hold Monster, Circle of Power"
+            },
+            {
+              "name": "Bonus Proficiencies",
+              "body": "At 1st level, you gain proficiency with martial weapons and heavy armor."
+            },
+            {
+              "name": "Magical Inquisitor",
+              "body": "At 1st level, you can innately sense magic. Opening your senses as an action, you open your awareness and detect any spellcasters, magical effects, or spells being cast within 120 feet for the next 10 minutes. You learn the exact location of any of those listed. If you detect spellcasters, for each creature you also know whether they practice Divine Magic, Arcane Magic, or Primal Magic. If you detect magical effects, you learn whether they are harmful in nature. If you detect spells being cast, you can use an Arcana check as a reaction to figure out the spell being cast, with the DC being 15 + the spell's level.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest."
+            },
+            {
+              "name": "Channel Divinity: Weavebreaker",
+              "body": "Starting at 2nd level, you use your Channel Divinity to create a magic-destroying weapon. For 1 minute, you conjure this weapon and it takes the form of your choosing, but in any case is a melee weapon with 10 foot reach and deals 1d8 Psychic damage on a hit. It uses your Wisdom modifier for the attack and damage rolls.\n\nWhenever a creature casts a spell within your reach while you have this weapon held in hand, you may make an opportunity attack against them without spending a reaction."
+            },
+            {
+              "name": "Shattering Force",
+              "body": "Starting at 6th level, you gain advanage on the ability check to Counterspell or Dispell Magic a spell of 4th level or higher. Additionally, whenever you successfully Counterspell a creature or cancel an effect with Dispel Magic, the source of the spell or effect takes Psychic damage equal to your Cleric level."
+            },
+            {
+              "name": "Deadly Strike",
+              "body": "At 8th level, you gain the ability to infuse your weapon strikes with deadly energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an additional 1d8 Psychic damage. When you reach 14th level, this increases to 2d8 Psychic damage."
+            },
+            {
+              "name": "Shroud of Antimagic",
+              "body": "At 17th level, your body becomes covered in a shroud that protects you from magic. You have advantage on saving throws from spells, you gain resistance to damage originating from spells, and you resistance to magical weapon attacks."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

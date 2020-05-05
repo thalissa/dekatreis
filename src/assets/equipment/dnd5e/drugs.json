@@ -1,11 +1,14 @@
 {
   "name": "Drugs",
-  "description": ["Substances that usually have ill effects."],
+  "description": [
+    "Substances that usually have ill effects.",
+    "Drugs will usually have an onset, or how long until the initial effect occurs. Before then, there are no signs that the target has taken said substance. Then, the effects come in stages, usually listed with a duration before the next stage sets in. With each new stage, the target makes a new saving throw, and suffers the effects of that stage on a failed save. If the target succeeds, they must make a new saving throw after the previous stage's duration passes again. The target retains all effects of the previous stages until the duration ends."
+  ],
   "equipment": [
     {
       "name": "Shinomizu",
       "price": "2 gp",
-      "body": "Famous in Shinomizu for its devastating effects, Shinomizu is able to give the recipient an intense high following a sharp knockback masquerading death itself.\n\nSaving Throw: Fortitude DC 16; Onset: 1 minute; Maximum Duration: 8 hours; Stage 1: Doomed 1 and a +2 item bonus to Will saves (one minute); Stage 2: Doomed 2 and immunity to Death effects (1 hour); Stage 3: Doomed 3 and knocked unconscious for the remainder of the duration. While unconscious, you cannot be woken up while the drug is still in effect. A new saving throw can be made at the end of each hour that passes to become conscious and end the effects."
+      "body": "Famous in the city of Shinomizu for which it is named due to its unnatural effects, Shinomizu is able to give the recipient an intense high following a sharp knockback masquerading death itself.\n\nSaving Throw: Constitution DC 14; Onset: 1 minute; Maximum Duration: 8 hours; Stage 1: Doomed 1 and advantage on Wisdom saving throws (one minute); Stage 2: Doomed 2 and upon being targeted by an effect that would outright kill you, you instead drop to 1 hitpoint (one hour); Stage 3: Knocked unconscious for the remainder of the duration. While unconscious, you cannot be woken up while the drug is still in effect. A new saving throw can be made at the end of each hour that passes to become conscious and end the effects."
     }
   ]
 }

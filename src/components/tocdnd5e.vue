@@ -6,20 +6,20 @@
     ul.toc
       <!-- Rules ToC -->
       li.tocHeader
-        h3 Houserules
+        h3 Rules
         
         <!-- Render content -->
         ul.section
           template(v-for="rule in rules")
             li.subsection
               template(v-if="rule.sections")
-                router-link(:to="{ path: '/rule/dnd5e/' + rule.name.replace(/[^a-z0-9]/gi,'') }" tag="a" ) {{ rule.name }}
+                router-link(:to="{ path: '/rule/dnd5e/' + rule.replace(/[^a-z0-9]/gi,'') }" tag="a" ) {{ rule }}
                   .book(v-if="rule.book") {{ rule.book }}
                 ul.sublist(v-for="section in rule.sections")
                   li {{ section.name }}
                     .book(v-if="section.book") {{ section.book }}
               template(v-else)
-                router-link(:to="{ path: '/rule/dnd5e/' + rule.name.replace(/[^a-z0-9]/gi,'') }" tag="a" ) {{ rule.name }}
+                router-link(:to="{ path: '/rule/dnd5e/' + rule.replace(/[^a-z0-9]/gi,'') }" tag="a" ) {{ rule }}
                   .book(v-if="rule.book") {{ rule.book }}
       
       <!-- Race ToC -->

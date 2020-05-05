@@ -6,6 +6,11 @@
       "name": "Dekatreis-Specific Changes",
       "body": [
         {
+          "name": "Ability Proficiencies (New)",
+          "level": "1",
+          "body": "Sorcerous origins can be found throughout Dekatreis in plentiful ways, through unlocking their true potential after mixing their flesh with that of a stronger creature's or being granted a boon by an ancient being.\n\nWhen you gain your 1st level in Sorcerer, you may choose Intelligence or Wisdom, instead of Charisma, to use for all your class abilities. In addition, the multiclass requirement changes from 13 Charisma to whichever ability score you chose. Once this option has been chosen, it cannot be changed at later levels."
+        },
+        {
           "name": "Self Focus (New)",
           "level": "1",
           "body": "When you cast spells that require a material component, you can ignore that component unless it has a value or the used components are consumed with the casting of the spell, in which case the materials for the spell are required."
@@ -31,7 +36,7 @@
   "additionalContent": [
     {
       "name": "Sorcerous Origins",
-      "style": "details",
+      "style": "subclass",
       "items": [
         {
           "name": "Eclipse Bloodline",
@@ -46,7 +51,7 @@
             },
             {
               "name": "Unnatural Blessing",
-              "body": "Your powers have manifested in such a way that you gain great amounts of untapped power quickly. At 1st level, depending on your birthmark, you gain either the Blessing of the Sun (Solar Eclipse) or the Blessing of the Moon (Lunar Eclipse) as described below.\n\nBlessing of the Sun: As the sun takes departure behind the moon, you gain a feeling of weariness that proceeds to surge you with the darkness that overcomes the lands. When you gain access to this feature, you gain Eclipse Spells, as presented below. These come directly from the celestial event itself, meaning you do not need to learn these yourself. They are automatically added to your spells known list at the levels listed below, and do not count against the total number of spells you may learn.\nEclipse Spells\n1st: Dissonant Whispers, Armor of Agathys\n5th: Hunger of Hadar, Nondetection\n9th: Contact Other Plane, Legend Lore\n13th: Plane Shift, Simulacrum\n\nBlessing of the Moon: Given access to the raw power that the lunar eclipse gives, you gain the ability to harness the power of the moon and create a protective barrier around yourself. Whenever you finish a short or long rest, you gain temporary hitpoints equal to your Charisma modifier + half your Sorcerer level (rounded down, minimum of 1). These temporary hitpoints refill upon using any metamagic option."
+              "body": "Your powers have manifested in such a way that you gain great amounts of untapped power quickly. At 1st level, depending on your birthmark, you gain either the Blessing of the Sun (Solar Eclipse) or the Blessing of the Moon (Lunar Eclipse) as described below.\n\nBlessing of the Sun: As the sun takes departure behind the moon, you gain a feeling of weariness that proceeds to surge you with the darkness that overcomes the lands. When you gain access to this feature, you gain Eclipse Spells, as presented below. These come directly from the celestial event itself, meaning you do not need to learn these yourself. They are automatically added to your spells known list at the levels listed below, and do not count against the total number of spells you may learn.\nEclipse Spells\n1st: Dissonant Whispers, Armor of Agathys\n5th: Hunger of Hadar, Nondetection\n9th: Contact Other Plane, Legend Lore\n13th: Plane Shift, Simulacrum\n\nBlessing of the Moon: Given access to the raw power that the lunar eclipse gives, you gain the ability to harness the power of the moon and create a protective barrier around yourself. Whenever you finish a short or long rest, you gain temporary hitpoints equal to your Charisma modifier. Additionally, whenever you expend sorcery points, you gain temporary hitpoints equal to twice the amount used. If you already have temporary hitpoints from this feature, they add together."
             },
             {
               "name": "Star's Guidance",

@@ -1,0 +1,17 @@
+{
+  "thefates": [
+    {
+      "name": "The Fates",
+      "sections": [
+        {
+          "name": "General Knowledge",
+          "body": "Much is unknown of The Three Fates, but they have gained popularity amongst the people of Dekatreis in part due to their popularized influence among the people of the world, the most notable of which is Fate of the Cards, who offers those who she sees has potential to draw from her deck of cards in order to add something into their fate. The other two are more passive in their influence, but gain respect nonetheless due to their fields of power."
+        },
+        {
+          "name": "List of Fates",
+          "body": "Fate of the Stars. Her blessings are said to create new life.\nFate of the Cards. She can change and add sections to a person's life.\nFate of the Eyes. She can see the end of every creature's life."
+        }
+      ]
+    }
+  ]
+}

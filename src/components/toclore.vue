@@ -54,10 +54,10 @@
             // Define the contents of each new section we're adding
             let subsection = { }
             // These represent the attributes of the subsection
-            let sectionID = section.name.replace(/[^a-z0-9]/gi,'').toLowerCase()
+            let sectionID = section.replace(/[^a-z0-9]/gi,'').toLowerCase()
             let sectionBody = require("../assets/lore/" + sectionID + ".json")[sectionID][0].sections
             // These insert the data to the subsection's variable
-            subsection.name = section.name
+            subsection.name = section
             subsection.body = sectionBody
             // Push subsection's variable to the new section being made
             sectionNew.push(subsection)

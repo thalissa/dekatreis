@@ -16,7 +16,6 @@
               
               <!-- Render each subsection -->
               div(v-for="subsection in section.body")
-                
                 <!-- Render tables -->
                 template(v-if="subsection.style == 'table'")
                   summary
@@ -32,7 +31,7 @@
                 template(v-else)
                   h4.displayHeading {{ subsection.name }}
                     .book {{ subsection.book }}
-                  .displayText {{ subsection.body }}
+                  display.markdownRender {{ subsection.body }}
     
     <!-- Error template -->
     template(v-else)

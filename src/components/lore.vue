@@ -12,7 +12,7 @@
             <!-- Go through each section -->
             template(v-for="section in lore.sections")
               h3.displayHeading {{ section.name }}
-              .displayText {{ section.body }}
+              display.displayText(:breaks="false") {{ section.body }}
               
     <!-- Error template -->
     template(v-else)

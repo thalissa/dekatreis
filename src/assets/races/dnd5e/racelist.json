@@ -16,6 +16,25 @@
           "name": "Nekomimi"
         }
       ]
+    },
+    {
+      "name": "Vampire",
+      "subraces": [
+        {
+          "name": "Daywalker"
+        },
+        {
+          "name": "Nightwalker"
+        }
+      ]
+    },
+    {
+      "name": "Elf",
+      "subraces": [
+        {
+          "name": "Dark Elf"
+        }
+      ]
     }
   ]
 }

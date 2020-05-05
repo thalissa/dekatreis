@@ -1,0 +1,17 @@
+{
+  "majordeities": [
+    {
+      "name": "Major Deities",
+      "sections": [
+        {
+          "name": "General Knowledge",
+          "body": "Many deities are well-known across Dekatreis, from the great three dragon deities to Mystra herself. Whether worshipped out of fear or respect, each one has a place throughout the world, their influence enabling them to encourage their followers to seek out their ideals and manipulate the world from their respective planes."
+        },
+        {
+          "name": "List of Major Deities",
+          "body": "Minerva, Goddess of Crafts and Wisdom (LG)\nSelune, Goddess of the Moons (CG)\nLathander, God of Renewal (NG)\nEldath, Goddess of Peace (NG)\nMystra, Goddess of Magic (NG)\nSilvanus, God of Wild Nature (N)\nUmberlee, Goddess of the Sea (CE)\nEilistraee, Goddess of Redemption (CG)\nKalos, Patron of Good-Aligned Dragons (NG)\nOudeteros, Patron of Neutral-Aligned Dragons (N)\nKako, Patron of Evil-Aligned Dragons (NE)"
+        }
+      ]
+    }
+  ]
+}

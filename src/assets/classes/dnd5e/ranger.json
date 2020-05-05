@@ -26,7 +26,7 @@
   "additionalContent": [
     {
       "name": "Ranger Conclaves",
-      "style": "details",
+      "style": "subclass",
       "items": [
         {
           "name": "Beastmaster (Altered)",

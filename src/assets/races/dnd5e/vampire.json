@@ -13,73 +13,67 @@
           ]
         },
         {
-          "name": "Daywalker Traits",
-          "book": "[Universal] [Heritage] [Vampire] [Daywalker] [Undead]",
+          "name": "Vampire Traits",
           "body": [
             {
-              "name": "Daywalker Vampire Heritage",
-              "body": "Manipulated flesh and negative energy has allowed special breeds of vampires to roam the worlds of Dekatreis. Daywalkers gain an additional two ability boosts, only one of which must be Dexterity or Charisma.\n\nDaywalkers may march through the daylight, though they take 1d8 positive damage that cannot be negated by any means each time they start their turn in unobstructed moonlight.\n\nThese kinds of vampires rebuke many usual myths of traditional vampiric creatures. However, they must feed at least once a week on at least 2 pints of blood, or else they suffer 1 level of the fatigued condition that cannot be reduced except by drinking at least 2 pints of blood. The creature the blood originates from does not matter, only that they feast from a living creature."
+              "name": "Age",
+              "body": "As undead, vampires are ageless, though some vampires are born and reach physical maturity at the same age as humans. Vampires who were turned later in life remain at the age they were turned until they are killed."
             },
             {
-              "name": "Vampire Ancestry Feats",
-              "body": "Additionally, you may choose Ancestry feats from your ancestry or the list of Vampire feats."
+              "name": "Alignment",
+              "body": "Contrary to popular myth, vampires come in all variations of alignment, though the spite tossed their way often influences many to the side of evil. Those who grew up in Sarille, however, where intelligent undead are widely accepted, often are raised to be blessings to their community."
+            },
+            {
+              "name": "Size",
+              "body": "Vampires are well-proportioned like their humanoid counterparts. Your size is Medium."
+            },
+            {
+              "name": "Languages",
+              "body": "You can speak, read, and write Common and one other language of your choice."
+            },
+            {
+              "name": "The Walking Dead",
+              "body": "Your creature type is Undead, rather than Humanoid. In addition, spells that have no effects on undead do not work on you, but healing potions and necrotic damage will heal you."
+            },
+            {
+              "name": "Ability Score Increase",
+              "body": "Increase either your Strength or Dexterity by 2, and increase your Constitution score by 1."
+            },
+            {
+              "name": "The Eternal Hunger",
+              "body": "Vampires need to drink at minimum 2 pints of blood per week, or else they gain 1 level of exhaustion that does not reduce until they consume their weekly intake of blood. The creature the blood originates from does not matter, only that they feast from a living creature. If they go multiple weeks without blood, the exhaustion levels increase for every week until death."
             },
             {
               "name": "Blood Bite",
-              "body": "As a two-action activity, you may bite into a living creature's neck and take blood from them. The creature must be either willing or unable to resist, such as through the Stunned, Grabbed, or other conditions that prevent a creature from moving. Vampires of this heritage only need drink two pints of blood per week, but may take more. In either case, the creature gains 1 level of the Drained condition."
+              "body": "As an action, you may bite into a living creature's neck and take blood from them. The creature must be either willing or unable to resist, such as through the Stunned, Grabbed, or other conditions that prevent a creature from moving. Vampires only need drink two pints of blood per week, but may take more. In either case, the creature gains 1 level of exhaustion, and you regain 1d6 hitpoints. This healing increases to 2d6 at 5th level, 3d6 at 11th level, and 4d6 at 17th level."
             }
           ]
         },
         {
-          "name": "Nightwalker Traits",
-          "book": "[Universal] [Heritage] [Vampire] [Nightwalker] [Undead]",
+          "name": "Daywalker Vampire",
+          "book": "Subrace",
           "body": [
             {
-              "name": "Nightwalker Vampire Heritage",
-              "body": "Manipulated flesh and negative energy has allowed special breeds of vampires to roam the worlds of Dekatreis. Nightwalkers gain an additional two ability boosts, only one of which must be Dexterity or Charisma.\n\nNightwalkers may march through the moonlight, though they take 1d8 positive damage that cannot be negated by any means each time they start their turn in unobstructed sunlight.\n\nThese kinds of vampires rebuke many usual myths of traditional vampiric creatures. However, they must feed at least once a week on at least 2 pints of blood, or else they suffer 1 level of the fatigued condition that cannot be reduced except by drinking at least 2 points of blood. The creature the blood originates from does not matter, only that they feast from a living creature."
+              "name": "Scorned of the Day",
+              "body": "Manipulated flesh and negative energy has allowed special breeds of vampires to roam the worlds of Dekatreis. Daywalkers may march through the daylight, though they take 1d8 radiant damage that cannot be negated by any means each time they start their turn in unobstructed moonlight."
             },
             {
-              "name": "Vampire Ancestry Feats",
-              "body": "Additionally, you may choose Ancestry feats from your ancestry or the list of Vampire feats."
-            },
-            {
-              "name": "Blood Bite",
-              "body": "As a two-action activity, you may bite into a living creature's neck and take blood from them. The creature must be either willing or unable to resist, such as through the Stunned, Grabbed, or other conditions that prevent a creature from moving. Vampires of this heritage only need drink two pints of blood per week, but may take more. In either case, the creature gains 1 level of the Drained condition."
+              "name": "Moroi Blood",
+              "body": "Daywalker blood has been studied to be innately magical, allowing them to conjure minor magical effects. Choose one cantrip from the Cleric spell list. You can use that cantrip at will. In addition, choose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again."
             }
           ]
         },
         {
-          "name": "Ancestry Feats",
+          "name": "Nightwalker Vampire",
+          "book": "Subrace",
           "body": [
             {
-              "name": "Ancestry Feats",
-              "body": "At 1st level, you gain one ancestry feat, and you gain an additional ancestry feat every 4 levels thereafter (at 5th, 9th, 13th, and 17th level). As a Race, you select from among the following ancestry feats, in additional to all usual Human ancestry feats."
+              "name": "Children of the Night",
+              "body": "Manipulated flesh and negative energy has allowed special breeds of vampires to roam the worlds of Dekatreis. Nightwalkers may march through the moonlight, though they take 1d8 radiant damage that cannot be negated by any means each time they start their turn in unobstructed sunlight."
             },
             {
-              "name": "Ancestry Feats Table",
-              "style": "table",
-              "body": [
-                [
-                  "Name",
-                  "Requirements",
-                  "Description"
-                ],
-                [
-                  "Vampiric Bite",
-                  "Vampire Heritage, Level 1",
-                  "Your fangs are specially adept at being used during combat. You gain the Bite action."
-                ],
-                [
-                  "Leech Life",
-                  "Vampire Heritage, Vampiric Bite feat, Level 5",
-                  "While fighting with your fangs, you've began to allow yourself to indulge on the blood of your enemies. As an additional action when you make a Bite attack and hit, you may deal an additional 2d6 Negative damage and heal for the damage dealt."
-                ]
-              ]
-            },
-            {
-              "name": "Bite",
-              "book": "1 Action",
-              "body": "Striking with your fangs, you deal 1d6 Piercing damage. This attack has the agile, finesse, and unarmed traits."
+              "name": "Darkvision",
+              "body": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
             }
           ]
         }

@@ -1,0 +1,58 @@
+{
+  "name": "Druid",
+  "description": "Whether from the city or born among nature itself, Druids can find a connection to the natural world in all that is on Dekatreis. As the embodiments of nature's resilience and fury, they are able to attune to nature and, under the training of their respective Druidic orders, can summon that raw energy in order to maintain balance.",
+  "sections": [
+    {
+      "name": "Dekatreis-Specific Changes",
+      "body": [
+        {
+          "name": "Armor (Altered)",
+          "level": "1",
+          "body": "Druids in Dekatreis have no issue with metal armor, though some Druidic orders may swear off on becoming too reliant on inorganic and industrial-made materials."
+        },
+        {
+          "name": "Wild Shape (Altered)",
+          "level": "2",
+          "body": "• All Druids can use Wild Shape as a bonus action, rather than an action.\n• Druids use their own proficiency bonus for all Wild Shape forms instead of the creature's proficiency bonus.\n• Upon using Wild Shape, the Druid retains their current hitpoints and hitdice and instead gains temporary hitpoints equal to their new form's hitpoints. When these temporary hitpoints run out, they revert to their normal form."
+        }
+      ]
+    }
+  ],
+  "additionalContent": [
+    {
+      "name": "Druidic Circles",
+      "style": "subclass",
+      "items": [
+        {
+          "name": "Circle of the Raven Queen",
+          "sections": [
+            {
+              "name": "The Raven Queen's Druids",
+              "body": "The Circle of the Raven Queen make up the small section of those who have embraced The Raven Queen's ways, realising death as a force of nature that can be connected with and channeled into. Many Druids come into worship of the Raven Queen for their similar ideals, such as their shared hatred of the unnatural and undead, as well as any who seek to overcome death, such as liches and death knights.\n\nThe circle's members, while uncommon, are known and respected as loyalists to The Raven Queen and their persuit of keeping the cycle of life and death in check. They protect the lands they inhabit from those who would seek to harm the natural forces, whether it be wild forests or a city's human population. They believe that every life is precious while it is on this world, but believe that no one should seek to extend their time through magical means, as liches do."
+            },
+            {
+              "name": "Raven Magic",
+              "body": "When you choose this circle at 2nd level, you learn the Chill Touch cantrip and it counts as a Druid spell for you. Additionally, you may cast the False Life spell at will without expending a spell slot or material components, as long as you are not transformed by your wild shape feature. You automatically lose any temporary hitpoints gained by False Life when you use your wild shape feature."
+            },
+            {
+              "name": "Image of the Raven",
+              "body": "At 2nd level, you gain the ability to transform into a raven using your wild shape feature, even if the Beast Shapes table does not give you a fly speed yet. You abide all other limitations of the Beast Shapes table for wild shapes besides the raven."
+            },
+            {
+              "name": "Shadowfell Blessing",
+              "body": "Starting at 6th level, you are able to channel the Raven Queen's energy to fuel your attacks. Whenever you attack in your wild shape form, you may add a bonus to your attack rolls equal to your Wisdom modifier.\n\nAdditionally, whether you are transformed by your wild shape feature or not, your attacks deal an additional necrotic damage equal to your Wisdom modifier."
+            },
+            {
+              "name": "Raven's Shield",
+              "body": "At 10th level, the Raven Queen imbues you with a magical energy that always protects you. You gain advantage on death saving throws, immunity to the charmed condition, and resistance to necrotic damage."
+            },
+            {
+              "name": "Warding Presence",
+              "body": "When you reach 14th level, undead creatures recognize the Raven Queen's power over you and they hesitate. When an undead creature attacks you for the first time in combat, they must make a Wisdom saving throw against your Druid spell save DC. On a failed save, the creature has disadvantage on all attacks against you, including the targeting attack, until the start of your next turn. On a successful save, the creature is immune to this effect for 24 hours.\n\nThe creature is aware of this effect before it makes its attack against you."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -10,6 +10,12 @@
       "price": "8 gp",
       "traits": ["Unarmored"],
       "body": "As you move, these beautiful Akiiran scarves flutter and flow, obscuring your shape and protecting against enemy attacks. Dancing scarves provide no benefit while you are standing still. Whenever you move on your turn, you gain a +2 to your AC until the start of your next turn. In addition, dancing scarves give you advantage on performance checks."
+    },
+    {
+      "name": "Sarillian Chestpiece",
+      "price": "450 gp",
+      "traits": ["Medium Armor", "AC: 14 + Dex (max 2)"],
+      "body": "A weave of Sarillian metals come together to form a solid chestpiece that is apt at protecting the user's vitals while allowing ease of movement."
     }
   ]
 }

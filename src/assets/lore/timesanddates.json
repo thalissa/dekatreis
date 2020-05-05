@@ -1,0 +1,17 @@
+{
+  "timesanddates": [
+    {
+      "name": "Time and Dates",
+      "sections": [
+        {
+          "name": "Time of Day",
+          "body": "Time of day is divided as such:\n\nHours 1 to 12 are Day\n1-4 are Dawn\n4-8 are \"Afterdawn\"\n8-12 are Dusk\n\nHours 12 to 24 are Night\n12-16 are Blue Moon\n16-20 are White Moon\n20-24 are Red Moon"
+        },
+        {
+          "name": "Dekatreis Calendar",
+          "body": "Dekatreis has a calendar system divided into 13 months, 30 days in each month. Each 10 days is a \"week,\" leaving 3 weeks in each month always.\n\nThe months themselves are named after the demigods, in such order:\n1. Order (Alethra)\n2. Aura (Aurae)\n3. Rebirth (Bequirel)\n4. Progress (Cecelia)\n5. Spite (Fyrra)\n6. Creation (Kavara)\n7. Protection (Kaylessa)\n8. Plotting (Keishara)\n9. Inspiration (Loriella)\n10. Storms (Nasir)\n11. Betrayal (Rauvel)\n12. Shadows (Tyrae)\n13. Fear (Vondal)\n\nThe people of Dekatreis interchange between using the number, the name, or the relative demigod to refer to the current month. It all means the same, though the more priestly will tend to use the name as they confer to the spirituality of the month and the demigod associated with it, while those in law will stick to the numbers and commoners are most likely to say the name of the demigod as \"The Month of X.\""
+        }
+      ]
+    }
+  ]
+}

@@ -6,6 +6,11 @@
       "name": "Dekatreis-Specific Changes",
       "body": [
         {
+          "name": "Ability Proficiencies (New)",
+          "level": "1",
+          "body": "Mighty Paladins can find their source of power through many routes, through vigorous teaching, attuning to the path of a deity, or through pure force of will to strike out and channel the divine power they wield.\n\nWhen you gain your 1st level in Paladin, you may choose Intelligence or Wisdom, instead of Charisma, to use for all your class abilities. In addition, the multiclass requirement changes from 13 Charisma to whichever ability score you chose. Once this option has been chosen, it cannot be changed at later levels."
+        },
+        {
           "name": "Lay on Hands (Altered)",
           "level": "1",
           "body": "Your blessed touch can heal wounds or rip apart the unholy. You have a pool of power that replenishes when you take a long rest, equal to 5 times your Paladin level.\n\nAs an action, you can touch a creature and draw power from the pool, up to half your maximum number of points. If the target creature is undead, roll a melee attack roll. On a hit, the target takes the amount of expended points in radiant damage. Otherwise, if the target is not undead, you restore a number of hitpoints to the creature equal to the expended number of points.\n\nAlternatively, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of Lay on Hands, expending hitpoints separately for each one.\n\nThis feature has no effect on nonliving constructs, but functions normally on living constructs, such as Warforged."
@@ -16,7 +21,7 @@
   "additionalContent": [
     {
       "name": "Paladin Oaths",
-      "style": "details",
+      "style": "subclass",
       "items": [
         {
           "name": "Oath of the Dreamers",
