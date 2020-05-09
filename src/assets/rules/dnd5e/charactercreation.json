@@ -16,7 +16,7 @@
             },
             {
               "name": "Stats",
-              "body": "I learned over the years that instead of making player characters feel more powerful, rolling for stats ended up making some players feel weaker than others. Instead, I use a custom point buy array, where the available number of points is equal to 30, the minimum attribute can be down to 7, and the maximum attribute can be up to 16. This grants characters a bigger amount of points than usual to spend, the option to have severe flaws in order to have higher stats in other directions, as well has potentially have an 18 at character creation if they so choose."
+              "body": "I've learned over the years that instead of making player characters in general feel more powerful, rolling for stats ended up making some players feel weaker than others. Instead, I use a custom point buy system, where the available number of points is equal to 30, the minimum attribute can be down to 7, and the maximum attribute can be up to 16. This grants characters a bigger amount of points than usual to spend, the option to have severe flaws in order to have higher stats in other directions, as well has potentially have an 18 at character creation if they so choose."
             },
             {
               "name": "Multiclassing Changes",
@@ -24,7 +24,7 @@
             },
             {
               "name": "Additional Material",
-              "body": "Since D&D 5e doesn't support a lot of features of Dekatreis very well, I openly allow people to use suppliment books like [Arcane Artillery](https://drive.google.com/file/d/1pXQiee-a-B38un_DgXKFGQLeJs5UG5t7/view?usp=sharing). Though not made by me, it's a very well-written book. I use the \"Firearms are prominent\" variant rules. Additionally, like Druids in Dekatreis can wear armour, Druids can wield guns, though some circles may forbid it. They get the same proficiencies as a Ranger. Barbarians get proficiency in the same firearms as Clerics."
+              "body": "Since D&D 5e doesn't support a lot of features of Dekatreis very well, I openly allow people to use suppliment books like [Arcane Artillery](https://drive.google.com/file/d/1pXQiee-a-B38un_DgXKFGQLeJs5UG5t7/view?usp=sharing). Though not made by me, it's a very well-written book. I use the \"Firearms are prominent\" variant rules.\n\nAdditionally, like Druids in Dekatreis can wear armour, Druids can wield guns, though some circles may forbid it. They get the same proficiencies as a Ranger.\n\nBarbarians get proficiency in the same firearms as Clerics."
             }
           ]
         }
