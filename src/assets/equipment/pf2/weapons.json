@@ -3,16 +3,15 @@
   "description": [
     "Most characters in Pathfinder carry weapons, ranging from mighty warhammers to graceful bows to even simple clubs. Full details on how you calculate the bonuses, modifiers, and penalties for attack rolls and damage rolls are given in Chapter 9 on page 446.",
     "**Aimed:** A weapon with the *Aimed* trait can be aimed as an action, increasing the weapon's range to the one listed.",
-    "**Reloading:** A weapon with the *Reloading* trait requires an the specified number of actions to reload before it can be fired again.",
     "**Penetrating:** An enemy who is attacked with a weapon that has the *Penetrating* trait is always treated as flat-footed against the attack."
   ],
   "equipment": [
     {
       "name": "Crystal Sniper",
       "level": 1,
-      "price": "5 gp",
-      "damage": "2d6 P",
-      "traits": ["Ranged (60 ft.)", "Aimed (300 ft.)", "Ammunition (Bullets)", "Deadly (1d12)", "Reloading (1)"],
+      "price": "50 gp",
+      "damage": "1d6 P",
+      "traits": ["Ranged (60 ft.)", "Aimed (300 ft.)", "Ammunition (Bullets)", "Deadly (1d12)"],
       "Bulk": "1",
       "body": "One of the oldest sniper rifles in Dekatreis, it has kept up prominance as a decent long-ranged option due to its ease of use and low-cost ammunition."
     }

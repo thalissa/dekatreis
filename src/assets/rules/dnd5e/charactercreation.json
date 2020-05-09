@@ -1,0 +1,34 @@
+{
+  "charactercreation": [
+    {
+      "name": "Character Creation",
+      "sections": [
+        {
+          "name": "Modifications",
+          "body": [
+            {
+              "name": "What are these for?",
+              "body": "Dekatreis as a setting is very high-fantasy and I make many campaigns based in it. These, essentially, are the general rules I use to have my players make characters. The purpose is to give the campaign a more high-fantasy feel, as well as smooth out some of the rough edges that D&D 5e has."
+            },
+            {
+              "name": "Variant rules for feats",
+              "body": "As detailed in the [feats](/#/rule/dnd5e/Feats) page, whenever your class grants you an ability score increase, you must take it, you cannot swap it out for a feat. However, your characters gain feats at level 1, 5, 9, 13, and 17."
+            },
+            {
+              "name": "Stats",
+              "body": "I learned over the years that instead of making player characters feel more powerful, rolling for stats ended up making some players feel weaker than others. Instead, I use a custom point buy array, where the available number of points is equal to 30, the minimum attribute can be down to 7, and the maximum attribute can be up to 16. This grants characters a bigger amount of points than usual to spend, the option to have severe flaws in order to have higher stats in other directions, as well has potentially have an 18 at character creation if they so choose."
+            },
+            {
+              "name": "Multiclassing Changes",
+              "body": "Characters cannot multiclass until they are at least level 5. This is to keep things balanced and to keep everyone on even ground, both to prevent people from being underpowered and to prevent people from being overpowered. After level 5, a character's base abilities have been set up properly and they can expand out to other directions that may customize their character better. This may go against what I commonly try to implore, that players should do whatever they like, but it's a necessary rule for those who go overboard without the restriction in place (Looking at you, Druid-Cleric and Warlock-Sorcerer-Paladin multiclasses.)"
+            },
+            {
+              "name": "Additional Material",
+              "body": "Since D&D 5e doesn't support a lot of features of Dekatreis very well, I openly allow people to use suppliment books like [Arcane Artillery](https://drive.google.com/file/d/1pXQiee-a-B38un_DgXKFGQLeJs5UG5t7/view?usp=sharing). Though not made by me, it's a very well-written book. I use the \"Firearms are prominent\" variant rules. Additionally, like Druids in Dekatreis can wear armour, Druids can wield guns, though some circles may forbid it. They get the same proficiencies as a Ranger. Barbarians get proficiency in the same firearms as Clerics."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

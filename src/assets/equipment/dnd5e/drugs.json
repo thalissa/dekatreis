@@ -7,7 +7,7 @@
   "equipment": [
     {
       "name": "Shinomizu",
-      "price": "2 gp",
+      "price": "20 gp",
       "body": "Famous in the city of Shinomizu for which it is named due to its unnatural effects, Shinomizu is able to give the recipient an intense high following a sharp knockback masquerading death itself.\n\nSaving Throw: Constitution DC 14; Onset: 1 minute; Maximum Duration: 8 hours; Stage 1: Doomed 1 and advantage on Wisdom saving throws (one minute); Stage 2: Doomed 2 and upon being targeted by an effect that would outright kill you, you instead drop to 1 hitpoint (one hour); Stage 3: Knocked unconscious for the remainder of the duration. While unconscious, you cannot be woken up while the drug is still in effect. A new saving throw can be made at the end of each hour that passes to become conscious and end the effects."
     }
   ]
