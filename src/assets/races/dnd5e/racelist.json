@@ -18,6 +18,17 @@
       ]
     },
     {
+      "name": "Elf",
+      "subraces": [
+        {
+          "name": "Dark Elf"
+        }
+      ]
+    },
+    {
+      "name": "Dragonborn"
+    },
+    {
       "name": "Vampire",
       "subraces": [
         {
@@ -25,14 +36,6 @@
         },
         {
           "name": "Nightwalker"
-        }
-      ]
-    },
-    {
-      "name": "Elf",
-      "subraces": [
-        {
-          "name": "Dark Elf"
         }
       ]
     }

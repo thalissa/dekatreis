@@ -21,10 +21,35 @@
             {
               "name": "A New Name",
               "body": "While the Demigods did try to classify their children close to how they were on Toril, the name \"Kanae\" actually came much later to differenciate the Dekatrian humans from their Toril counterparts. While each subrace had their own names, those without innate wings or magic were simply \"humans,\" until the name Kanae began to surface in Sarille under a law that established Kathari born outside of royalty would have their wings cut and their magic stifled, forcing them to appear and function the same as Kanae. This law, though very controversial, caused the name Kanae to become commonplace as reference to the Dekatrian humans without wings or innate magic."
+            }
+          ]
+        },
+        {
+          "name": "Kanae Traits",
+          "body": [
+            {
+              "name": "Age",
+              "body": "Humans reach adulthood in their late teens and live a little over 120 years."
             },
             {
-              "name": "Using Human Subraces",
-              "body": "These are variations to the human race that exist in Dekatreis. When you choose these, you take the default human statistics. All of the abilities listed here replace the \"Ability Score Increase\" trait that humans get by default."
+              "name": "Alignment",
+              "body": "Humans tend toward no particular alignment. The best and the worst are found among them."
+            },
+            {
+              "name": "Size",
+              "body": "Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
+            },
+            {
+              "name": "Speed",
+              "body": "Your base walking speed is 30 feet."
+            },
+            {
+              "name": "Languages",
+              "body": "You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects."
+            },
+            {
+              "name": "Subrace",
+              "body": "Choose one of the below subraces. These grant you an ability score increase as well as additional features."
             }
           ]
         },

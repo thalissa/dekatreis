@@ -16,6 +16,10 @@
           "name": "Vampire Traits",
           "body": [
             {
+              "name": "Ability Score Increase",
+              "body": "Increase either your Strength or Dexterity by 2, and increase your Constitution score by 1."
+            },
+            {
               "name": "Age",
               "body": "As undead, vampires are ageless, though some vampires are born and reach physical maturity at the same age as humans. Vampires who were turned later in life remain at the age they were turned until they are killed."
             },
@@ -28,16 +32,16 @@
               "body": "Vampires are well-proportioned like their humanoid counterparts. Your size is Medium."
             },
             {
+              "name": "Speed",
+              "body": "Your base walking speed is 30 feet."
+            },
+            {
               "name": "Languages",
               "body": "You can speak, read, and write Common and one other language of your choice."
             },
             {
               "name": "The Walking Dead",
               "body": "Your creature type is Undead, rather than Humanoid. In addition, spells that have no effects on undead do not work on you, but healing potions and necrotic damage will heal you."
-            },
-            {
-              "name": "Ability Score Increase",
-              "body": "Increase either your Strength or Dexterity by 2, and increase your Constitution score by 1."
             },
             {
               "name": "The Eternal Hunger",
