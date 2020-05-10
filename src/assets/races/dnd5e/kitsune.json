@@ -105,7 +105,7 @@
             },
             {
               "name": "Racial Disguise",
-              "body": "Choose a different humanoid race as well as an appearance for that race. The extent of the appearance is up to you. You magically take on this form and can maintain it indefinitely or until you dismiss it as an action. The changes hold up to physical inspection, but a creature can determine that you are magically disguised by spending 1 minute to inspect your appearance and succeed on an Intelligence (Investigation) check against a Charisma (Deception) check."
+              "body": "Choose a different humanoid race as well as an appearance for that race. The extent of the appearance is up to you. If your size would change as a result of this, it does so. You magically take on this form and can maintain it indefinitely, until you dismiss it as an action, or you die. The changes hold up to physical inspection, but a creature can determine that you are magically disguised by spending 1 minute to inspect your appearance and succeed on an Intelligence (Investigation) check against a Charisma (Deception) check."
             }
           ]
         },
