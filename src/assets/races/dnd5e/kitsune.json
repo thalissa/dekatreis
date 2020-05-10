@@ -1,0 +1,129 @@
+{
+  "kitsune": [
+    {
+      "name": "Kitsune",
+      "sections": [
+        {
+          "name": "Kitsune Background",
+          "body": [
+            {
+              "name": "Magical Beings",
+              "body": "Kitsune are strongly tied to the magic that lies within their blood and particularly their tails. Made by Kavara like all other races on Dekatreis, the Kitsune were once praised as the greatest spellcasters of the world, some even being believed to have a direct connection to the Weave itself. However, after the Demigods departed the world and societies began to grow more greedy, many other magically-inclined creatures began to hunt the Kitsune down to chop off their tails in use for various spells, potions, and powerful rituals. Despite the protections put up for the Kitsune in various kingdoms, the Kitsune Hunters that readily made profit off Kitsune tails overwhelmed the species until they began to use their magic to go into hiding. Kitsune children were taught at early ages how to appear fully human and hide their tails, and parents would make entire fake lives that would hide them safely within communities of other species, hoping that none would catch on to their true nature and lure Kitsune Hunters to their location."
+            }
+          ]
+        },
+        {
+          "name": "Kitsune Traits",
+          "body": [
+            {
+              "name": "Ability Score Increase",
+              "body": "Your Charisma score increases by 2 and your Dexterity score increases by 1."
+            },
+            {
+              "name": "Age",
+              "body": "Kitsune mature at the same rate as humans but live many years longer, their aging slowing down severely once they reach their young adult stage. Though their true maximum age is unknown, even the lifespan of elves can be dwarfed by intelligent and keenly aware kitsune."
+            },
+            {
+              "name": "Alignment",
+              "body": "Kitsune favor chaotic and free lives, rarely abiding by a code and enveloping themselves in the heat of the moment. There are good spirits and those with more ill intent in their lives, however."
+            },
+            {
+              "name": "Size",
+              "body": "Kitsune are the same size and build as human. Your size is Medium."
+            },
+            {
+              "name": "Speed",
+              "body": "Your base walking speed is 35 feet."
+            },
+            {
+              "name": "Languages",
+              "body": "Closely tied to primal magic, the Kitsune have adopted the language of faeries as their own. You can speak, read, and write Common and Sylvan."
+            },
+            {
+              "name": "Subrace",
+              "body": "Choose a Kitsune subrace. You gain additional features depending on your choice."
+            },
+            {
+              "name": "Magical Tails",
+              "body": "As a kitsune grows in age, so does their power. Much of this power is stored within their tails, which they can channel to release great feats of magic, usually to manipulate those around them. You begin with one tail and the ability to cast the Vicious Mockery spell at will.\nAdditionally, see the Magical Tails Spells table. and you gain those spells at their respective levels along with an additional tail. Charisma is your spellcasting ability for these spells. Spells of 1st level or higher gained from this feature can only be cast once per long rest."
+            },
+            {
+              "name": "Magical Tails Spells",
+              "style": "table",
+              "body": [
+                [
+                  "Character Level",
+                  "Spells Granted"
+                ],
+                [
+                  "1st",
+                  "Vicious Mockery"
+                ],
+                [
+                  "3rd",
+                  "Charm Person"
+                ],
+                [
+                  "5th",
+                  "Calm Emotions"
+                ],
+                [
+                  "7th",
+                  "Animal Messenger"
+                ],
+                [
+                  "9th",
+                  "Enemies Abound"
+                ],
+                [
+                  "11th",
+                  "Charm Person"
+                ],
+                [
+                  "13th",
+                  "Geas"
+                ],
+                [
+                  "15th",
+                  "Otto's Irresistable Dance"
+                ],
+                [
+                  "17th",
+                  "Antipathy / Sympathy"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Urban Kitsune",
+          "book": "Subrace",
+          "body": [
+            {
+              "name": "Urban Background",
+              "body": "Urban Kitsune grow up amongst another race, and adopt the customs as well as morph their form to their surroundings in order to blend in and keep themselves hidden from potential Kitsune Hunters."
+            },
+            {
+              "name": "Racial Disguise",
+              "body": "Choose a different humanoid race as well as an appearance for that race. The extent of the appearance is up to you. You magically take on this form and can maintain it indefinitely or until you dismiss it as an action. The changes hold up to physical inspection, but a creature can determine that you are magically disguised by spending 1 minute to inspect your appearance and succeed on an Intelligence (Investigation) check against a Charisma (Deception) check."
+            }
+          ]
+        },
+        {
+          "name": "Nature Kitsune",
+          "book": "Subrace",
+          "body": [
+            {
+              "name": "Nature Background",
+              "body": "Nature Kitsune are those who fled the cities and chose to live in the wild, whether it be forests, the desert, or ice plains. They are naturally more reclusive than their city-dwelling counterparts, but are still the charismatic beings once they find those they can trust."
+            },
+            {
+              "name": "Darkvision",
+              "body": "Thanks to your heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
