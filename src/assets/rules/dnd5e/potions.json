@@ -1,0 +1,22 @@
+{
+  "potions": [
+    {
+      "name": "Potions",
+      "sections": [
+        {
+          "name": "Basic Information",
+          "body": [
+            {
+              "name": "Healing Potions",
+              "body": "Drinking a healing potion for yourself is a bonus action. Giving a potion to someone within 5 feet of you is an action. Every other potion is an action as normal."
+            },
+            {
+              "name": "Throwing Potions",
+              "body": "Throwing a potion is treated as a ranged weapon attack with a range of 15/30. Alternatively, potions can be shot tied onto arrows or crossbow bolts to use the range of the weapon. On impact, potions apply their intended effects, even if they are normally ingested."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

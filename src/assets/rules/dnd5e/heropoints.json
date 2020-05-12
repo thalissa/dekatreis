@@ -12,7 +12,19 @@
             },
             {
               "name": "Using Hero Points",
-              "body": "Below are some options for using hero points. The game master may add additional options, or a player may ask to ues their points for something that hasn't been specified but falls within the spirit of the hero points. As always, the game master is always the decider on what the limit is.\n• Defy Death. You may spend one hero point point to automatically stabilize when you are at 0 hitpoints, or use it to stabilize another creature within 120 feet that is at 0 hitpoints. You or the creature you choose to stabilize also regains a number of hitpoints equal to your level.\n• Reroll. You may spend two hero points to reroll a d20 that you have just rolled. You choose whether to keep the new roll or use the old roll.\n• Spell Surge. You may spend hero points on your turn to regain expended spell slots. The combined levels of spell slots you regain may not equal more than the number of hero points you are spending. For example, with 3 hero points you could recover a 2nd level and 1st level spell slot, or a 3rd level spell slot.\n• Quick Moving. You may spend 2 hero points during any turn in combat in order to gain a second turn in combat yourself. You take this turn immediately after the current turn has ended."
+              "body": "Each session characters start the session with 1 Hero Point they may spend for a benefit at any time. Hero Points might also be awarded for particularly heroic and risky deeds or the completion of important events or adventures. A character may not have more than 3 Hero Points at any time, and all hero points that weren't spent are lost at the end of a session."
+            },
+            {
+              "name": "1 Hero Point",
+              "body": "• Gain advantage on attack, ability check or save.\n• Impose disadvantage on an enemy save against one your spells or abilities.\n• Impose disadvantage on an enemy attack or ability check used against you.\n• Any other effect in-line with these uses, at the GMs discretion.\n• Automatically stabilize or prevent Instant Death."
+            },
+            {
+              "name": "2 Hero Points",
+              "body": "• Regain the uses of one ability as though you had taken a short rest. You don’t gain any other benefits of a short rest.\n• Spend hitdice to regain hitpoints as if you had taken a short rest."
+            },
+            {
+              "name": "3 Hero Points",
+              "body": "• Take an additional turn.\n• Regain the uses of one ability as though you had taken a long rest. You don’t gain any other benefits of a long rest.\n• Regain a spell slot of 5th level or lower."
             }
           ]
         }

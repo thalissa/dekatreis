@@ -1,0 +1,40 @@
+{
+  "droppingto0hitpoints": [
+    {
+      "name": "Dropping to 0 Hitpoints",
+      "sections": [
+        {
+          "name": "Dying & Doomed",
+          "body": [
+            {
+              "name": "Dying",
+              "body": "As per normal, you are dropped to 0 hitpoints and fall prone, and you begin to make death saving throws. Instead of being knocked completely unconscious, you are still clinging to life, are semiconscious, and are aware of your surroundings unless you are knocked out by a nonlethal strike. You can verbally communicate to a degree and understand your surroundings, but as usual you cannot move, take reactions, or take actions."
+            },
+            {
+              "name": "Doomed",
+              "body": "When you recover hitpoints after being knocked to 0 hitpoints, you gain 1 stage of the Doomed condition, or increase it by 1 if you already Doomed 1. Upon being knocked down while under the Doomed condition, you automatically gain a number of failed Death Saving Throws equal to your Doomed condition level. This means that if you are Doomed 2 and get knocked to 0 hitpoints, you will automatically be set to 2 failed death saving throws, and one more will kill you outright.\n\nYou lose the Doomed condition at the end of a short rest."
+            }
+          ]
+        },
+        {
+          "name": "Stabilizing",
+          "body": [
+            {
+              "name": "Stabilizing A Creature",
+              "body": "The best way to save a creature with 0 Hit Points is to heal it. If healing is unavailable, the creature can at least be stabilized so that it isn’t killed by a failed death saving throw. You can use your action to administer first aid to an unconscious creature and attempt to stabilize it, which requires a successful DC 10 Wisdom (Medicine) or Intelligence (Medicine) check. A stable creature doesn’t make death saving throws, even though it has 0 Hit Points, but it does remain unconscious.\nThe creature stops being stable, and must start making death saving throws again, if it takes any damage.\nA stable creature that isn’t healed regains 1 hit point after 1 hour."
+            }
+          ]
+        },
+        {
+          "name": "Nonlethal Strikes",
+          "body": [
+            {
+              "name": "Attacking A Creature Nonlethally",
+              "body": "Sometimes an attacker wants to incapacitate a foe, rather than deal a killing blow. When an attacker reduces a creature to 0 Hit Points with an attack, the attacker can knock the creature out. The attacker can make this choice the instant the damage is dealt. The creature falls unconscious and is stable."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -2,6 +2,8 @@
   "rules": [
     "Character Creation",
     "Hero Points",
+    "Skill Checks",
+    "Dropping to 0 Hitpoints",
     "Feats"
   ]  
 }

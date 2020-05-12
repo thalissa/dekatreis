@@ -1,0 +1,26 @@
+{
+  "skillchecks": [
+    {
+      "name": "Skill Checks",
+      "sections": [
+        {
+          "name": "Basic Information",
+          "body": [
+            {
+              "name": "Alternative Ability Scores",
+              "body": "Many skills can be used with ability scores other than the ones listed. Intimidation (Strength) and Persuasion (Intelligence) are two common ones, but basically anything you can reasonably say can be used with another ability score, could be used. It's up to me depending on the scenario, but never be afraid to ask."
+            },
+            {
+              "name": "Assisting Skill Checks",
+              "body": "If someone wants to assist you on a skill check, they must be proficient in the skill as well. I will not allow someone to assist you on a check if they are not proficient in the skill you're trying to use. This includes familiars and other companions as well."
+            },
+            {
+              "name": "Re-Attempting Skill Checks",
+              "body": "If you have failed a skill check, it is representative of you having exhausted all avenues of means of success for yourself. If you can't perceive a hidden trap door in a room, you cannot attempt the check again as you have checked all avenues of it. However, some skill checks can be re-done, such as some social skill checks, if done in a different way or by altering the situation in some way. Re-attempting skill checks in these ways are situationally allowed by the game master."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
