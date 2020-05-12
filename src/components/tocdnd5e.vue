@@ -6,7 +6,7 @@
     ul.toc
       <!-- Rules ToC -->
       li.tocHeader
-        h3 Rules
+        h3 House Rules
         
         <!-- Render content -->
         ul.section
