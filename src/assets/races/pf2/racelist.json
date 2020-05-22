@@ -1,52 +1,13 @@
 {
   "races": [
     {
-      "name": "Human",
-      "subraces": [
-        {
-          "name": "Petona"
-        },
-        {
-          "name": "Magia"
-        },
-        {
-          "name": "Kathari"
-        },
-        {
-          "name": "Nekomimi"
-        }
-      ]
+      "name": "Human"
     },
     {
-      "name": "Dragonborn",
-      "subraces": [
-        {
-          "name": "Elemental Blooded"
-        },
-        {
-          "name": "Potent Blooded"
-        },
-        {
-          "name": "Winged"
-        }
-      ]
+      "name": "Dragonborn"
     },
     {
-      "name": "Kitsune",
-      "subraces": [
-        {
-          "name": "Skilled"
-        },
-        {
-          "name": "Desert"
-        },
-        {
-          "name": "Arctic"
-        },
-        {
-          "name": "Stone"
-        }
-      ]
+      "name": "Kitsune"
     },
     {
       "name": "Aasimar",

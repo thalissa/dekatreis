@@ -1,0 +1,38 @@
+{
+  "charactercreation": [
+    {
+      "name": "Character Creation",
+      "sections": [
+        {
+          "name": "Modifications",
+          "body": [
+            {
+              "name": "What are these for?",
+              "body": "Dekatreis as a setting is very high-fantasy and I make many campaigns based in it. These, essentially, are the general rules I use to have my players make characters. The purpose is to give the campaign a more high-fantasy feel, as well as smooth out some of the rough edges that D&D 5e has."
+            },
+            {
+              "name": "Variant rules for feats",
+              "body": "As detailed in the [feats](/#/rule/dnd5e/Feats) page, whenever your class grants you an ability score increase, you must take it, you cannot swap it out for a feat. However, your characters gain feats at level 1, 5, 9, 13, and 17."
+            },
+            {
+              "name": "Stats",
+              "body": "I've learned over the years that instead of making player characters in general feel more powerful, rolling for stats ended up making some players feel weaker than others. Instead, I use a custom point buy system, where the available number of points is equal to 30, the minimum attribute can be down to 7, and the maximum attribute can be up to 16. This grants characters a bigger amount of points than usual to spend, the option to have severe flaws in order to have higher stats in other directions, as well has potentially have an 18 at character creation if they so choose.\n[This](http://chicken-dinner.com/5e/5e-point-buy.html) is generally what I point people to in order to set up and track their point buy."
+            },
+            {
+              "name": "Multiclassing Changes",
+              "body": "Characters cannot multiclass until they are at least level 5. This is to keep things balanced, to keep everyone on even ground, to prevent people from being underpowered and to prevent people from being overpowered. After level 5, a character's base abilities have been set up properly and they can expand out to other directions that may customize their character better. This may go against what I commonly try to implore, that players should do whatever they like, but it's a necessary rule for those who go overboard without the restriction in place (Looking at you, Druid-Cleric and Warlock-Sorcerer-Paladin multiclasses.)"
+            },
+            {
+              "name": "Additional Material",
+              "body": "Since D&D 5e doesn't support a lot of features of Dekatreis very well, I openly allow people to use suppliment books like [Arcane Artillery](https://drive.google.com/file/d/1pXQiee-a-B38un_DgXKFGQLeJs5UG5t7/view?usp=sharing). Though not made by me, it's a very well-written book. I use the \"Firearms are prominent\" variant rules.\n\nAdditionally, like Druids in Dekatreis can wear armour, Druids can wield guns, though some circles may forbid it. They get the same proficiencies as a Ranger.\nBarbarians get proficiency in the same firearms as Clerics."
+            },
+            {
+              "name": "Allies, Enemies, and Goals",
+              "body": "To help people create their characters and give me things to work with, I normally ask people come up with at least one ally, at least one enemy, and a long-term campaign goal. Allies and enemies can be anything from one person in particular in your backstory, someone that will come up in the campaign, a faction, a creature, or anything else that comes to mind.\nLong-term campaign goals should be thought up as a guideline--something you want to work towards for your character, and that they deem as achievable. \"Killing a god\" isn't a reasonable campaign goal, nor is \"Killing the Queen,\" but something akin to \"Wanting to see this law passed\" or \"Getting revenge on X person\" work great! Any reason I can use to incorporate your character better into the story and give them motivation to keep going."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

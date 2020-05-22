@@ -5,7 +5,7 @@
     {
       "name": "Dancing Scarves",
       "level": 1,
-      "price": "8 gp",
+      "price": "80 gp",
       "bulk": "Light",
       "traits": ["Unarmored", "Comfort"],
       "body": "As you move, these beautiful Akiiran scarves flutter and flow, obscuring your shape and protecting against enemy attacks. Dancing scarves provide no benefit while you are standing still. Whenever you take the Stride action on your turn, you gain a +2 item bonus to your AC until the start of your next turn. In addition, dancing scarves provide a +2 circumstance bonus to Create a Diversion."

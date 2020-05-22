@@ -2,15 +2,15 @@
   "name": "Weapons",
   "description": [
     "**Aimed:** A weapon with the *Aimed* trait can be aimed as a bonus action, increasing the weapon's range to the one listed.",
-    "**Reloading:** A weapon with the *Reloading* trait requires a bonus action to be reloaded after a certain number of shots before it can be fired again.",
-    "**Penetrating:** An enemy who is attacked with a weapon that has the *Penetrating* trait has a -2 to their AC against the attack."
+    "**Penetrating:** An enemy who is attacked with a weapon that has the *Penetrating* trait has a -2 to their AC against the attack.",
+    "**Loading:** Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make."
   ],
   "equipment": [
     {
       "name": "Crystal Sniper",
-      "price": "5 gp",
-      "damage": "2d6 P",
-      "traits": ["Range: 60 ft.", "Aimed (300 ft.)", "Ammunition (Bullets)", "Reloading (1)"],
+      "price": "50 gp",
+      "damage": "1d10 P",
+      "traits": ["Longarm", "Range: 90 ft.", "Aimed (300 ft.)", "Ammunition (Bullets)", "Two-Handed", "Loading"],
       "body": "One of the oldest sniper rifles in Dekatreis, it has kept up prominance as a decent long-ranged option due to its ease of use and low-cost ammunition."
     }
   ]

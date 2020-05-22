@@ -5,7 +5,7 @@
     {
       "name": "Shinomizu",
       "level": 4,
-      "price": "2 gp",
+      "price": "20 gp",
       "traits": ["Consumable", "Ingested", "Drug", "Poison"],
       "usage": "1 action",
       "body": "Famous in the city of Shinomizu for which it is named due to its unnatural effects, Shinomizu is able to give the recipient an intense high following a sharp knockback masquerading death itself.\n\nSaving Throw: Fortitude DC 16; Onset: 1 minute; Maximum Duration: 8 hours; Stage 1: Doomed 1 and a +2 item bonus to Will saves (one minute); Stage 2: Doomed 2 and immunity to Death effects (1 hour); Stage 3: Doomed 3 and knocked unconscious for the remainder of the duration. While unconscious, you cannot be woken up while the drug is still in effect. A new saving throw can be made at the end of each hour that passes to become conscious and end the effects."
