@@ -52,6 +52,21 @@
                   "Erudite Scholar",
                   "Intelligence 13",
                   "Increase your Intelligence score by 1, to a maximum of 20.\nYou have trained to recall information in great detail. Whenever you would roll an Arcana, History, Religion, or Nature check, you can choose to instead forego the roll and use 10 + the modifiers of the skill check as the result.\nAdditionally, you gain the Encode Thoughts cantrip and can cast the spell Identify once per long rest without expending a spell slot or material components."
+                ],
+                [
+                  "Give Ground",
+                  "",
+                  "When you are the target of a melee attack, you can choose to use your reaction in order to be pushed 5 feet backwards but gain a +2 bonus to your AC against the triggering attack."
+                ],
+                [
+                  "Displaced Concentration",
+                  "Spellcasting and a Familiar or summoned mount",
+                  "When you cast a spell that normally requires your concentration, you can let your familiar or summoned mount concentrate on the spell for you if it is within 5 feet of you at the time of casting. It then obeys all usual rules for concentrating on a spell, and uses its own Constitution score to maintain concentration. Your familiar or mount must remain within 5 feet of you while concentrating to maintain your spell, otherwise the concentration is automatically broken and the spell ends. To maintain a certain spell, the familiar or mount must have an Intelligence score of 5 + the level of the spell or higher."
+                ],
+                [
+                  "Dragonkin",
+                  "Draconic as a known language",
+                  "You have formed a close bond with dragonkind. You have advantage on all Charisma-based skill checks to interact with dragons. Additionally, you learn how to raise dragon eggs as well as dragon hatchlings."
                 ]
               ]
             }

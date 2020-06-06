@@ -8,7 +8,7 @@
         {
           "name": "Hunter's Mark (New)",
           "level": "1",
-          "body": "Rangers can innately cast Hunter's Mark once per short rest, and the spell scaling is based on their Ranger level only.\n\nSpecial Note: Hunter's Mark has been removed from the Ranger spell list, making it inaccessable from feats such as Magic Initiate."
+          "body": "Rangers can innately cast Hunter's Mark once per short rest, and the spell scaling is based on their highest level spell slot gained from the Ranger class. You otherwise follow all the normal rules for casting the spell, such as casting time and concentration.\n\nSpecial Note: Hunter's Mark has been removed from the Ranger spell list, making it inaccessable from feats such as Magic Initiate."
         },
         {
           "name": "Favored Enemy (Altered)",

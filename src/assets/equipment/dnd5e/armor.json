@@ -16,6 +16,36 @@
       "price": "450 gp",
       "traits": ["Medium Armor", "AC: 14 + Dex (max 2)"],
       "body": "A weave of Sarillian metals come together to form a solid chestpiece that is apt at protecting the user's vitals while allowing ease of movement."
+    },
+    {
+      "name": "Azorian Gauntlet",
+      "price": "25gp",
+      "traits": ["Shield", "AC: +2"],
+      "body": "Made during the Azorian Civil Wars, this gauntlet can be donned and doffed as a bonus action."
+    },
+    {
+      "Akiiran Shield",
+      "price": "100gp",
+      "traits": ["Shield", "AC: +3"],
+      "body": "Forged by the Moon Elves long ago and with each of the three Dekatrian moons on its front, the craftsmanship enables it to deflect blows much better than typical shields."
+    },
+    {
+      "name": "Bladed Scarf",
+      "price": "15gp",
+      "traits": ["Unarmored"],
+      "body": "A piece of Totaran armoury that functions as a defensive weapon. While grappled by a creature, as a bonus action on your turn you can cause the scarves to lash out at the grappler. They must make a DC 14 Dexterity saving throw, taking 1d8 Slashing damage on a failed save or half as much on a successful save."
+    },
+    {
+      "name": "Silvered Bladed Scarf",
+      "price": "150gp",
+      "traits": ["Unarmored"],
+      "body": "A piece of Totaran armoury that functions as a defensive weapon. While grappled by a creature, as a bonus action on your turn you can cause the scarves to lash out at the grappler. They must make a DC 16 Dexterity saving throw, taking 2d8 Slashing damage on a failed save or half as much on a successful save."
+    },
+    {
+      "name": "Platinum Bladed Scarf",
+      "price": "300gp",
+      "traits": ["Unarmored"],
+      "body": "A piece of Totaran armoury that functions as a defensive weapon. While grappled by a creature, as a bonus action on your turn you can cause the scarves to lash out at the grappler. They must make a DC 18 Dexterity saving throw, taking 3d8 Slashing damage on a failed save or half as much on a successful save."
     }
   ]
 }
