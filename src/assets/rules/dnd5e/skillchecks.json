@@ -12,7 +12,7 @@
             },
             {
               "name": "Assisting Skill Checks",
-              "body": "If someone wants to assist you on a skill check, they must be proficient in the skill as well. I will not allow someone to assist you on a check if they are not proficient in the skill you're trying to use. This includes familiars and other companions as well."
+              "body": "If someone wants to assist a character on a skill check, the character assisting must be proficient in the skill. This includes familiars and other companions as well."
             },
             {
               "name": "Re-Attempting Skill Checks",

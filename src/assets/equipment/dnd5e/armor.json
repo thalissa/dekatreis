@@ -24,7 +24,7 @@
       "body": "Made during the Azorian Civil Wars, this gauntlet can be donned and doffed as a bonus action."
     },
     {
-      "Akiiran Shield",
+      "name": "Akiiran Shield",
       "price": "100gp",
       "traits": ["Shield", "AC: +3"],
       "body": "Forged by the Moon Elves long ago and with each of the three Dekatrian moons on its front, the craftsmanship enables it to deflect blows much better than typical shields."
