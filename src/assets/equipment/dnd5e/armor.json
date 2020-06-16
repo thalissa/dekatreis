@@ -1,27 +1,35 @@
 {
   "name": "Armor",
   "description": [
-    "Armor increases your character’s defenses, but some medium or heavy armor can hamper movement. If you want to increase your character’s defense beyond the protection your armor provides, they can use a shield. Armor protects your character only while they’re wearing it.",
-    "**Unarmored:** Items with the Unarmored trait can be worn on top of existing armor and still provide their bonus, but do not add on top of shield bonuses."
+    "Armor increases your character’s defenses, but some medium or heavy armor can hamper movement. If you want to increase your character’s defense beyond the protection your armor provides, they can use a shield. Armor and shields protect your character only while they’re wearing it.",
+    "**Unarmored:** Items with the Unarmored trait can be worn on top of existing armor and still provide their bonus, but do not add on top of shield bonuses.",
+    "**Shield:** You can benefit from up to as many shields as you have hands at a time. A shield can be donned or doffed as a free action once per round on your turn.",
+    "**Gauntlet:** All classes that have proficiency in shields have proficiency in gauntlets. These function the same as shields except that they allow for objects, but not weapons, to be wielded in the hand wearing the gauntlet."
   ],
   "equipment": [
     {
       "name": "Dancing Scarves",
-      "price": "80 gp",
+      "price": "80gp",
       "traits": ["Unarmored"],
       "body": "As you move, these beautiful Akiiran scarves flutter and flow, obscuring your shape and protecting against enemy attacks. Dancing scarves provide no benefit while you are standing still. Whenever you move on your turn, you gain a +2 to your AC until the start of your next turn. In addition, dancing scarves give you advantage on performance checks."
     },
     {
       "name": "Sarillian Chestpiece",
-      "price": "450 gp",
+      "price": "450gp",
       "traits": ["Medium Armor", "AC: 14 + Dex (max 2)"],
       "body": "A weave of Sarillian metals come together to form a solid chestpiece that is apt at protecting the user's vitals while allowing ease of movement."
     },
     {
+      "name": "Varys Armour",
+      "price": "2000gp",
+      "traits": ["Heavy Armor", "AC: 20"],
+      "body": "A solid set of metal plates covers the entire body, including gauntlets, a visored helmet, and thick layers of padding. Lightweight materials allow this armour to be more easily moved around in; despite this, it is still quite heavy. If the wearer has a Strength score lower than 15, their speed is reduced by 10 feet. While wearing this, you cannot benefit from gauntlets or shields."
+    },
+    {
       "name": "Azorian Gauntlet",
       "price": "25gp",
-      "traits": ["Shield", "AC: +2"],
-      "body": "Made during the Azorian Civil Wars, this gauntlet can be donned and doffed as a bonus action."
+      "traits": ["Gauntlet", "AC: +2"],
+      "body": "Made during the Azorian Civil Wars, this metal gauntlet is lightweight and can be used to deflect incoming blows. As a bonus action on your turn, you can raise your gauntlet as long as you are wielding nothing in that hand. While your gauntlet is raised, you gain +1 additional AC against the first attack made against you until the start of your next turn."
     },
     {
       "name": "Akiiran Shield",
