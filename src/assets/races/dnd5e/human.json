@@ -63,7 +63,7 @@
             },
             {
               "name": "Ability Score Increase",
-              "body": "Two ability scores of your choice increase by 1."
+              "body": "One ability score of your choice increases by 2, and three ability scores of your choice increase by 1."
             },
             {
               "name": "Skilled",
@@ -71,7 +71,7 @@
             },
             {
               "name": "Feat",
-              "body": "You gain one feat of your choice."
+              "body": "You gain one feat of your choice. If you are using the modified feat rules that already provides a feat at level 1, then your choice is not restricted to the starting feats list."
             }
           ]
         },
