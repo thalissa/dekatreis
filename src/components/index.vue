@@ -16,45 +16,24 @@
       br
       br
       | The next big thing is, as noted above, it's techno-fantasy. There is a central network that everyone can communicate through, using devices like phones and computers and even personal devices integrated with a person's body and mind. Due to the infrastructure and how cities were brought up, personal transportation vehicles are not common, but public transportation such as train networks and teleportation circles interlink all the cities. Most in-between travel that requires more care is solved through the use of animal carts, sometimes using live horses and other times using the benefit of the tireless, cheap services of the undead.
-    
-    h2.twit Thali's Twitter Feed
-    .twitterfeed#twitterElement
 </template>
 
 <style lang="stylus">
-  @import "../assets/styling/components/twitterfeed.styl"
+
 </style>
 
 <script>
-  import "../assets/twitterpostfetcher.js"
-  
   export default {
     data: function () {
       return {
-        configProfile: {
-          "profile": {
-            "screenName": "ThalissaRemnant"
-          },
-          "domId": "twitterElement",
-          "maxTweets": 4,
-          "enableLinks": true, 
-          "showUser": true,
-          "showTime": true,
-          "showImages": false,
-          "lang": "en",
-          "showRetweet": false,
-          "showInteraction": false,
-          "showUser": false
-        }
+
       }
     },
     mounted() {
-      this.fetchdata()
+
     },
     methods: {
-      fetchdata: function(){
-        twitterFetcher.fetch(this.configProfile)
-      }
+
     }
   }
 </script>

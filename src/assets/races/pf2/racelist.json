@@ -10,16 +10,8 @@
       "name": "Kitsune"
     },
     {
-      "name": "Aasimar",
-      "book": "Universal"
-    },
-    {
-      "name": "Tiefling",
-      "book": "Universal"
-    },
-    {
       "name": "Vampire",
-      "book": "Universal"
+      "book": "Versatile"
     }
   ]  
 }
